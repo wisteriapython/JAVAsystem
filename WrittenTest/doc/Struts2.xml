@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="407001" type="1">
+    <question>在控制器类中一般需要添加相应属性的___________和___________。(选择两项)</question>
+    <choice>
+      <option value="A">setter方法</option>
+      <option value="B">as方法</option>
+      <option value="C">getter方法</option>
+      <option value="D">is方法</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="407002" type="1">
+    <question>控制器需要在___________配置文件中进行配置。(选择一项)</question>
+    <choice>
+      <option value="A">web.xml</option>
+      <option value="B">struts.xml</option>
+      <option value="C">struts2.xml</option>
+      <option value="D">webwork.xml</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407003" type="1">
+    <question>不属于Struts 2表单标签库的是___________(选择一项)</question>
+    <choice>
+      <option value="A">&lt;s: textfield &gt;</option>
+      <option value="B">&lt;s: textarea &gt;</option>
+      <option value="C">&lt;s: submit &gt;</option>
+      <option value="D">&lt;select&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407004" type="1">
+    <question>资源文件的后缀名为___________。(选择一项)</question>
+    <choice>
+      <option value="A">txt</option>
+      <option value="B">doc</option>
+      <option value="C">property</option>
+      <option value="D">Properties</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407005" type="1">
+    <question>以下关于struts的描述中，不正确的是（）(选择一项)</question>
+    <choice>
+      <option value="A">struts 是一个基于JAVA EE的MVC</option>
+      <option value="B">struts2的框架配置文件是struts-config.xml</option>
+      <option value="C">struts2的控制组建核心包括核心控制和业务控制器</option>
+      <option value="D">在struts中解决中文乱码可以通过修改struts。I18n。encoding的值为GBK来实现</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407006" type="1">
+    <question>不属于Struts2的动作类的常量返回值的是()(选择一项)</question>
+    <choice>
+      <option value="A">success</option>
+      <option value="B">input</option>
+      <option value="C">never</option>
+      <option value="D">login</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407007" type="1">
+    <question>以下不属于Struts2动作执行的结果类型是（）(选择一项)</question>
+    <choice>
+      <option value="A">action</option>
+      <option value="B">redirect</option>
+      <option value="C">redirectAction</option>
+      <option value="D">dispatcher</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407008" type="1">
+    <question>在struts.xml中。假如在一个package中没有配置namespace，那么在其中配置一个Action名字叫做login，它的result是这样配置的&lt;result&gt;/login.jsp&lt;/result&gt;,已知在此配置文件中还有另一个name为user的package其中也有一个Action名字为login，它的result是这样配置的&lt;result&gt;/loginUser.jsp&lt;/result&gt;那么在以下什么情况下将能访问到login.jsp（）(选择一项)</question>
+    <choice>
+      <option value="A">在根路径后输入/login</option>
+      <option value="B">在根路径后输入/user/login</option>
+      <option value="C">在根路径后输入/login/user</option>
+      <option value="D">在根路径后输入/abc/login</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407009" type="1">
+    <question>正规开发中，在使用struts2时定义Action使用哪种方式。（）(选择一项)</question>
+    <choice>
+      <option value="A">直接定义Action类。</option>
+      <option value="B">从ActionSupport继承。</option>
+      <option value="C">从Action继承。</option>
+      <option value="D">实现Action接口。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407010" type="1">
+    <question>不同的线程在调用Action时创建几个Action实例。（）(选择一项)</question>
+    <choice>
+      <option value="A">1个</option>
+      <option value="B">2个</option>
+      <option value="C">每个线程创建1个。</option>
+      <option value="D">可以自定义配置。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407011" type="1">
+    <question>struts提供了Action接口定义了5个标准字符串常量，不包括的有（）(选择一项)</question>
+    <choice>
+      <option value="A">SUCCESS</option>
+      <option value="B">NONE</option>
+      <option value="C">REG</option>
+      <option value="D">LOGIN</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407012" type="1">
+    <question>下列描述中哪个不是Struts2的优势（选择一项）</question>
+    <choice>
+      <option value="A">无侵入式设计</option>
+      <option value="B">侵入式设计</option>
+      <option value="C">提供了拦截器</option>
+      <option value="D">提供了类型转换器</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407013" type="1">
+    <question>下列不属于MVC设计模式的是（选择一项）</question>
+    <choice>
+      <option value="A">模型层</option>
+      <option value="B">控制层</option>
+      <option value="C">数据层</option>
+      <option value="D">视图层</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407014" type="1">
+    <question>Struts2框架的核心类库是：（选择一项）</question>
+    <choice>
+      <option value="A">xwork-core-.jar</option>
+      <option value="B">ognl-.jar</option>
+      <option value="C">freemarker-.jar</option>
+      <option value="D">struts2-core-.jar</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407015" type="1">
+    <question>StrutsPrepareAndExecuteFilter过滤器应该在哪个文件中部署（选择一项）</question>
+    <choice>
+      <option value="A">validators.xml</option>
+      <option value="B">struts.xml</option>
+      <option value="C">web.xml</option>
+      <option value="D">index.jsp</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407016" type="1">
+    <question>struts2核心Jar包需拷贝到哪个目录（选择一项）</question>
+    <choice>
+      <option value="A">WEB-INF/lib</option>
+      <option value="B">WEB-INF</option>
+      <option value="C">WebRoot</option>
+      <option value="D">以上说法都不正确</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407017" type="1">
+    <question>假设在session中存在名为username的属性，通过OGNL访问该属性，正确的代码是（选择一项）</question>
+    <choice>
+      <option value="A">#username</option>
+      <option value="B">#session.username</option>
+      <option value="C">username</option>
+      <option value="D">$username</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407018" type="1">
+    <question>如下代码说法正确的是(选择一项) &lt;s:iterator id="book" value="#arr.booklist" status="st"&gt; &lt;s:if test="st.odd"&gt; &lt;tr bgcolor="yellow"&gt;&lt;/tr&gt; &lt;s:if&gt; &lt;s:else&gt; &lt;tr bgcolor="red"&gt;&lt;/tr&gt; &lt;/s:else&gt; &lt;/s:iterator&gt;</question>
+    <choice>
+      <option value="A">奇数行为黄色</option>
+      <option value="B">奇数行为红色</option>
+      <option value="C">偶数行为黄色</option>
+      <option value="D">偶数行为蓝色</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407019" type="1">
+    <question>以下不属于开发struts2的业务控制器Action的方法的是（选择一项）</question>
+    <choice>
+      <option value="A">POJO</option>
+      <option value="B">实现Action接口</option>
+      <option value="C">继承ActionSupport类</option>
+      <option value="D">实现Validator接口</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407020" type="1">
+    <question>为了实现基于模型的驱动，Action组件必须实现ModelDriver接口，同时实现ModelDriver接口中的(选择一项)方法</question>
+    <choice>
+      <option value="A">getUser</option>
+      <option value="B">getModel</option>
+      <option value="C">execute</option>
+      <option value="D">setUser</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407021" type="1">
+    <question>若要在Action中访问session的信息需要实现（）接口（选择一项）</question>
+    <choice>
+      <option value="A">RequestAware</option>
+      <option value="B">ApplicationAware</option>
+      <option value="C">ParameterAware</option>
+      <option value="D">SessionAware</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407022" type="1">
+    <question>全局视图是通过()标记来定义（选择一项）</question>
+    <choice>
+      <option value="A">&lt;result&gt;</option>
+      <option value="B">&lt;global-results&gt;</option>
+      <option value="C">&lt;action&gt;</option>
+      <option value="D">&lt;interceptor&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407023" type="1">
+    <question>以下属于struts2的控制器组件是（选择一项）</question>
+    <choice>
+      <option value="A">Action</option>
+      <option value="B">ActionForm</option>
+      <option value="C">ActionServlet</option>
+      <option value="D">dispatchAction</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407024" type="1">
+    <question>以下属于struts2的体系结构的是（选择两项）</question>
+    <choice>
+      <option value="A">struts2控制器组件</option>
+      <option value="B">struts2配置文件</option>
+      <option value="C">FilterDispathcer</option>
+      <option value="D">Action</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="407025" type="1">
+    <question>以下属于struts2配置文件中的配置元素是（选择两项）</question>
+    <choice>
+      <option value="A">&lt;package&gt;</option>
+      <option value="B">&lt;action&gt;</option>
+      <option value="C">&lt;form-beans&gt;</option>
+      <option value="D">&lt;action-mappings&gt;</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="407026" type="1">
+    <question>关于struts1和struts2对比的说法正确的是（选择一项）</question>
+    <choice>
+      <option value="A">struts1要求Action类继承struts1框架中的Action父类，struts2中则不一定需要继承，可以是POJO类</option>
+      <option value="B">struts1中的Action不是线程安全的，而struts2中的Action是线程安全的</option>
+      <option value="C">struts1和struts2中都使用ActionForm对象封装用户的请求数据</option>
+      <option value="D">struts1使用OGNL表达式语言来支持页面效果，struts2通过ValueStack技术使标签库访问值</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407027" type="1">
+    <question>以下关于ValueStack说法正确的是（选择三项）</question>
+    <choice>
+      <option value="A">每个Action对象实例拥有一个ValueStack对象</option>
+      <option value="B">每个Action对象实例拥有多个ValueStack对象</option>
+      <option value="C">Action中封装了需要传入下一个页面的值，这些值封装在ValueStack对象中</option>
+      <option value="D">ValueStack会在请求开始时被创建，请求结束时消亡</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="407028" type="1">
+    <question>关于struts2配置文件说法正确的是（选择一项）</question>
+    <choice>
+      <option value="A">必须在WEB-INF/classes目录下</option>
+      <option value="B">名字必须为struts.xml</option>
+      <option value="C">配置Action时，必须配置包信息</option>
+      <option value="D">使用&lt;forward&gt;元素配置转发</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407029" type="1">
+    <question>在struts2配置中用（）元素来配置常量（选择一项）</question>
+    <choice>
+      <option value="A">&lt;const&gt;</option>
+      <option value="B">&lt;constants&gt;</option>
+      <option value="C">&lt;constant&gt;</option>
+      <option value="D">&lt;constant-mapping&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407030" type="1">
+    <question>关于struts2包的说法正确的是（选择三项）</question>
+    <choice>
+      <option value="A">struts2框架使用包来管理常量</option>
+      <option value="B">struts2框架定义包时必须指定name属性</option>
+      <option value="C">struts2框架中配置包时，必须继承自struts-default包，否则会报错</option>
+      <option value="D">struts2框架中使用包来管理Action</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="407031" type="1">
+    <question>struts2中获取Servlet API的方法正确的是（选择两项）</question>
+    <choice>
+      <option value="A">使用ActionContext对象以解耦合的方法访问Servlet API</option>
+      <option value="B">使用ServletActionContext对象以解耦合的方式访问Servlet API</option>
+      <option value="C">使用ActionContext对象以耦合的方式访问Servlet API</option>
+      <option value="D">使用ServletActionContext对象以耦合的方式访问Servlet API</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="407032" type="1">
+    <question>struts2动态调用的格式为（选择一项）</question>
+    <choice>
+      <option value="A">ActionName?methodName.action</option>
+      <option value="B">ActionName! methodName.action</option>
+      <option value="C">ActionName*methodName.action</option>
+      <option value="D">ActionName@mathodName.action</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407033" type="1">
+    <question>如果要实现struts2的数据校验功能（选择一项）</question>
+    <choice>
+      <option value="A">普通Action类可以实现</option>
+      <option value="B">继承自Action接口可以实现</option>
+      <option value="C">继承自ActionSupport类可以实现</option>
+      <option value="D">继承自ActionValidate类可以实现</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407034" type="1">
+    <question>如果要实现自定义处理结果，需继承那个类（选择一项）</question>
+    <choice>
+      <option value="A">Dispathcer</option>
+      <option value="B">StrutsResultSupport</option>
+      <option value="C">Support</option>
+      <option value="D">Action</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407035" type="1">
+    <question>用于实现国际化的struts2标签是（选择一项）</question>
+    <choice>
+      <option value="A">&lt;s:text&gt;</option>
+      <option value="B">&lt;s:message&gt;</option>
+      <option value="C">&lt;s:textfield&gt;</option>
+      <option value="D">&lt;s:resource&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407036" type="1">
+    <question>struts2默认的处理结果类型是（选择一项）</question>
+    <choice>
+      <option value="A">dispatcher</option>
+      <option value="B">redirect</option>
+      <option value="C">chain</option>
+      <option value="D">forward</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407037" type="1">
+    <question>自定义转换器继承的抽象类是（选择一项）</question>
+    <choice>
+      <option value="A">Converter</option>
+      <option value="B">TypeConverter</option>
+      <option value="C">StrutsTypeConverter</option>
+      <option value="D">converts</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407038" type="1">
+    <question>自定义转换器的注册方式有（选择一项）</question>
+    <choice>
+      <option value="A">只有全局注册方式</option>
+      <option value="B">只有局部注册方式</option>
+      <option value="C">只有全局和局部注册方式</option>
+      <option value="D">以上说法都不对</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407039" type="1">
+    <question>自定义拦截器类的方式有（选择两项）</question>
+    <choice>
+      <option value="A">实现Interceptor接口</option>
+      <option value="B">实现AbstractInterceptor接口</option>
+      <option value="C">继承Interceptor类</option>
+      <option value="D">继承AbstractInterceptor类</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="407040" type="1">
+    <question>在struts.xml文件中，使用（）元素定义拦截器（选择一项）</question>
+    <choice>
+      <option value="A">&lt;interceptor-ref&gt;</option>
+      <option value="B">&lt;interceptor&gt;</option>
+      <option value="C">&lt;intercep&gt;</option>
+      <option value="D">&lt;default-interceptor-ref&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407041" type="1">
+    <question>在OGNL中？操作符的作用是（选择一项）</question>
+    <choice>
+      <option value="A">取出符合选择逻辑的第一个元素</option>
+      <option value="B">取出符合选择逻辑的最后一个元素</option>
+      <option value="C">取出符合选择逻辑的所有元素</option>
+      <option value="D">以上说法都不对</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407042" type="1">
+    <question>以下属于struts2标签的是（选择两项）</question>
+    <choice>
+      <option value="A">Ajax标签</option>
+      <option value="B">数据访问标签</option>
+      <option value="C">logic标签</option>
+      <option value="D">bean标签</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="407043" type="1">
+    <question>以下哪个标签是struts2中的用于循环迭代（选择一项）</question>
+    <choice>
+      <option value="A">&lt;s:property&gt;</option>
+      <option value="B">&lt;s:iterator&gt;</option>
+      <option value="C">&lt;s:logic&gt;</option>
+      <option value="D">&lt;s:foreach&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407044" type="1">
+    <question>Struts2主要核心功能是由（ ）实现（选择一项）</question>
+    <choice>
+      <option value="A">过滤器</option>
+      <option value="B">拦截器</option>
+      <option value="C">类型转换器</option>
+      <option value="D">配置文件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407045" type="1">
+    <question>Struts中的ActionServlet属于MVC模式（ ）（选择一项）</question>
+    <choice>
+      <option value="A">视图</option>
+      <option value="B">模型</option>
+      <option value="C">控制器</option>
+      <option value="D">业务层</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407046" type="1">
+    <question>Struts2框架由（ ）和（ ）框架发展而来的（选择二项）</question>
+    <choice>
+      <option value="A">Hibernate</option>
+      <option value="B">Struts</option>
+      <option value="C">Spring</option>
+      <option value="D">WebWork</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="407047" type="1">
+    <question>Struts2以（B）为核心，采用（ ）的机制处理用户请求（选择一项）</question>
+    <choice>
+      <option value="A">Struts</option>
+      <option value="B">WebWork</option>
+      <option value="C">拦截器</option>
+      <option value="D">jar包</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407048" type="1">
+    <question>struts2中，不属于Action接口中定义的字符串常量的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">SUCCESS</option>
+      <option value="B">FAILURE</option>
+      <option value="C">ERROR</option>
+      <option value="D">INPUT</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407049" type="1">
+    <question>struts2在控制器类中一般需要添加相应属性的（ ）和（ ）（选择二项）</question>
+    <choice>
+      <option value="A">setter方法</option>
+      <option value="B">as方法</option>
+      <option value="C">getter方法</option>
+      <option value="D">is方法</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="407050" type="1">
+    <question>struts2控制器需要在（ ）配置文件中进行配置（选择一项）</question>
+    <choice>
+      <option value="A">web.xml</option>
+      <option value="B">struts.xml</option>
+      <option value="C">application.porperties</option>
+      <option value="D">webwork.xml</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407051" type="1">
+    <question>不属于struts2标签库的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">&lt;s:textfield&gt;</option>
+      <option value="B">&lt;s:textarea&gt;</option>
+      <option value="C">&lt;s:submit&gt;</option>
+      <option value="D">&lt;select&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407052" type="1">
+    <question>在JSP页面中可以通过Struts2提供的（ ）标签来输出国际化信息（选择一项）</question>
+    <choice>
+      <option value="A">&lt;s:input&gt;</option>
+      <option value="B">&lt;s:messages&gt;</option>
+      <option value="C">&lt;s:submit&gt;</option>
+      <option value="D">&lt;s:text&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407053" type="1">
+    <question>资源文件的后缀名为（ ）（选择一项）</question>
+    <choice>
+      <option value="A">txt</option>
+      <option value="B">doc</option>
+      <option value="C">property</option>
+      <option value="D">properties</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="407054" type="1">
+    <question>struts2自定义类型转换器必须实现的接口是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">Convert</option>
+      <option value="B">TypeConverter</option>
+      <option value="C">StrutsTypeConverter</option>
+      <option value="D">StrutsConvert</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407055" type="1">
+    <question>struts2关于注册全局类型转换器的说法正确的是（ ）（选择二项）</question>
+    <choice>
+      <option value="A">必须提供xwork-conversion.properties文件</option>
+      <option value="B">注册文件的格式为：复合类型=对应类型转换器</option>
+      <option value="C">注册文件的格式为：对应类型转换器=复合类型</option>
+      <option value="D">以上说法都不正确</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="407056" type="1">
+    <question>struts2自定义拦截器中的“return invocation.invoke”代码表示（ ）（选择二项）</question>
+    <choice>
+      <option value="A">不执行目标Action的方法，直接返回</option>
+      <option value="B">执行目标Action的方法，直接返回逻辑视图名称</option>
+      <option value="C">在自定义拦截器中，该代码是必需的</option>
+      <option value="D">在自定义拦截器中，该代码是可选的</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="407057" type="1">
+    <question>struts2中，以下配置文件上传拦截器只允许上传bmp图片文件的代码，正确的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">&lt;param name=”allowedTypes”&gt;image/bmp&lt;/param&gt;</option>
+      <option value="B">&lt;param name=”allowedTypes”&gt;*.bmp&lt;/param&gt;</option>
+      <option value="C">&lt;param name=”allowedTypes”&gt;bmp&lt;/param&gt;</option>
+      <option value="D">&lt;param name=”allowedTypes”&gt;image/*.bmp&lt;/param&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407058" type="1">
+    <question>以下关于OGNL的说法正确的是（ ）（选择二项）</question>
+    <choice>
+      <option value="A">ActionContext是OGNL的上下文环境</option>
+      <option value="B">StackContext是OGNL的上下文环境</option>
+      <option value="C">ValueStack是OGNL的根</option>
+      <option value="D">ActionContext是OGNL的根</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="407059" type="1">
+    <question>假设在Session中存在名为uid属性，通过OGNL访问该属性，正确的代码是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">#uid</option>
+      <option value="B">#session.uid</option>
+      <option value="C">uid</option>
+      <option value="D">${session.uid}</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407060" type="1">
+    <question>关于“#session.persions.{? #this.age&gt;20}”OGNL代码所表示的意义说法正确的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">从persons集合中取出第一个年龄＞20的Person对象</option>
+      <option value="B">从persons集合中取出所有年龄＞20的Person对象子集</option>
+      <option value="C">从persons集合中取出最后一个年龄＞20的Person对象</option>
+      <option value="D">该代码不符合OGNL的语法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="407061" type="1">
+    <question>假设在某JSP页面中存在”&lt;s:property&gt;”代码，则以下说法正确的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">编译JSP页面时会出现错误</option>
+      <option value="B">编译JSP页面时不会出现错误，但页面不会显示任何内容</option>
+      <option value="C">该代码用于输出位于ValueStack（值栈）栈顶的对象</option>
+      <option value="D">以上说法都不正确</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407062" type="1">
+    <question>struts2默认的处理结果类型是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">dispatcher</option>
+      <option value="B">redirect</option>
+      <option value="C">chain</option>
+      <option value="D">以上说法都不正确</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="407063" type="1">
+    <question>下列选项中，关于Struts2配置文件说法正确的是（ ）（选择一项）</question>
+    <choice>
+      <option value="A">必须置于WEB-INF/classes目录下</option>
+      <option value="B">必须为Struts.xml</option>
+      <option value="C">配置Action时必须配置包信息</option>
+      <option value="D">使用&lt;forward&gt;元素配置转发</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="407064" type="1">
+    <question>下列选项中，关于Struts2的Action说法正确的是（ ）（选择二项）</question>
+    <choice>
+      <option value="A">struts2会为每一个请求创建一个对应的Action实例</option>
+      <option value="B">struts2在请求处理过程中，只有一个Action实例</option>
+      <option value="C">struts2通过属性来封装用户请求参数</option>
+      <option value="D">在struts2中定义的属性都用于封装用户请求参数</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="407065" type="1">
+    <question>struts2中动态方法调用的格式为（ ）（选择一项）</question>
+    <choice>
+      <option value="A">ActionName_methodName.do</option>
+      <option value="B">ActionName!methodName.do</option>
+      <option value="C">ActionName_methodName.action</option>
+      <option value="D">ActionName!methodName.action</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

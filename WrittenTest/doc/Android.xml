@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="401001" type="1">
+    <question>下面关于Android dvm的进程和Linux的进程,应用程序的进程说法正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,不一定拥有一个独立的Dalvik虚拟机实例.而每一个DVM都是在Linux中的一个进程,所以说可以认为是同一个概念.</option>
+      <option value="B">DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,不一定拥有一个独立的Dalvik虚拟机实例.而每一个DVM不一定都是在Linux中的一个进程,所以说不是一个概念.</option>
+      <option value="C">DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,都拥有一个独立的Dalvik虚拟机实例.而每一个DVM 不一定都是在Linux 中的一个进程,所以说不是一个概念.</option>
+      <option value="D">DVM指dalivk的虚拟机.每一个Android应用程序都在它自己的进程中运行,都拥有一个独立的 Dalvik虚拟机实例.而每一个DVM都是在Linux 中的一个进程,所以说可以认为是同一个概念.</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401002" type="1">
+    <question>下列选项哪个不是Activity启动的方法？（选择一项）</question>
+    <choice>
+      <option value="A">goToActivity</option>
+      <option value="B">startActivity</option>
+      <option value="C">startActivityFromChild</option>
+      <option value="D">startActivityForResult</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401003" type="1">
+    <question>解析 xml 的方式有（）(选择两项)</question>
+    <choice>
+      <option value="A">字符器类型</option>
+      <option value="B">流方式</option>
+      <option value="C">dom</option>
+      <option value="D">SAX</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="401004" type="1">
+    <question>下列哪一个不属于Activity的生命周期方法(选择一项)</question>
+    <choice>
+      <option value="A">onInit</option>
+      <option value="B">onStart</option>
+      <option value="C">onStop</option>
+      <option value="D">onPause</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401005" type="1">
+    <question>对于XML布局文件中的视图控件，layout_width属性的属性值不可以是什么？(选择一项)</question>
+    <choice>
+      <option value="A">match_parent</option>
+      <option value="B">fill_parent</option>
+      <option value="C">wrap_content</option>
+      <option value="D">match_content</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401006" type="1">
+    <question>对一些资源以及状态的操作保存，最好是保存在Activity生命周期的哪个函数中进行？(选择一项)</question>
+    <choice>
+      <option value="A">onStart</option>
+      <option value="B">onPause</option>
+      <option value="C">onCreate</option>
+      <option value="D">onResume</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401007" type="1">
+    <question>关于视图控件的常用事件描述中，不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">Click事件只能使用在按钮上，表示按钮的点击动作</option>
+      <option value="B">当TextView类视图控件失去焦点或获得焦点时，将触发FocusChange事件</option>
+      <option value="C">当单选框中某一选项被选择时，将触发CheckedChange事件</option>
+      <option value="D">当多选框中某一选项被选择时，将触发CheckedChange事件 题目8</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401008" type="1">
+    <question>以下关于Android应用程序的目录结构描述中，不正确的是(选择一项)</question>
+    <choice>
+      <option value="A">src目录是应用程序的主要目录，由Java类文件文件组成</option>
+      <option value="B">assets目录是原始资源目录，该目录中的内容将不会被R类所引用</option>
+      <option value="C">res目录是应用资源目录，该目录中的所有资源内容都会被R类所索引</option>
+      <option value="D">AndroidManifest.xml文件是应用程序目录清单文件，该文件由ADT自动生成，不需要程序员手动修改</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401009" type="1">
+    <question>下列关于XML布局文件在Java代码中被引用的说明中，不正确的是(选择一项)</question>
+    <choice>
+      <option value="A">在Activity中，可以使用findViewById( )方法，通过资源id，获得指定视图元素</option>
+      <option value="B">在Activity中，可以使用R.drawable-system.***方式引用Android系统所提供的图片资源</option>
+      <option value="C">在Activity中，可以使用setContentView( )方法，确定加载哪一个布局文件</option>
+      <option value="D">可以使用View类的findViewById( )方法，获得当前View对象中的某一个视图元素</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401010" type="1">
+    <question>下列关于Android布局文件常用的长度/大小单位的描述中，不正确的是(选择一项)</question>
+    <choice>
+      <option value="A">dp是设备独立像素，不依赖于设备，是最常用的长度单位</option>
+      <option value="B">sp代表放大像素，主要用于字体大小的显示</option>
+      <option value="C">px是像素单位，在不同的设备上显示效果相同，因此推荐在布局中使用该单位</option>
+      <option value="D">在设置空间长度等相对距离时，推荐使用dp单位，该单位随设备密度的变化而变化</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401011" type="1">
+    <question>下列哪一个选项不属于Android中预定义的布局方式(选择一项)</question>
+    <choice>
+      <option value="A">TabLayout</option>
+      <option value="B">RelativeLayout</option>
+      <option value="C">AbsoluteLayout</option>
+      <option value="D">LinearLayout</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401012" type="1">
+    <question>下列哪一个选项不属于AdapterView类的子选项？Gallery ListView Spinner GridView(选择一项)</question>
+    <choice>
+      <option value="A">ListView</option>
+      <option value="B">Spinner</option>
+      <option value="C">GridView</option>
+      <option value="D">ScrollView</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401013" type="1">
+    <question>下列哪一款移动设备搭载的是Android平台？(选择一项)</question>
+    <choice>
+      <option value="A">NOKIA手机</option>
+      <option value="B">小米手机</option>
+      <option value="C">iPhone手机</option>
+      <option value="D">iPad</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401014" type="1">
+    <question>下列关于ListView使用的描述中，不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">要使用ListView，必须为该ListView使用Adpater方式传递数据</option>
+      <option value="B">要使用ListView，该布局文件对应的Activity必须继承ListActivity</option>
+      <option value="C">ListView中每一项的视图布局既可以使用内置的布局，也可以使用自定义的布局方式</option>
+      <option value="D">ListView中每一项被选中时，将会触发ListView对象的ItemClick事件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401015" type="1">
+    <question>下列属于SAX解析xml文件的优点的是？(选择一项)</question>
+    <choice>
+      <option value="A">将整个文档树存储在内存中，便于操作，支持删除，修改，重新排列等多种功能</option>
+      <option value="B">指网页元素的位置，距离右边框和下边框的距离</option>
+      <option value="C">整个文档调入内存，浪费时间和空间</option>
+      <option value="D">不是长久驻留在内存，数据不是持久的，事件过后，若没有保存数据，数据就会消失</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401016" type="1">
+    <question>在android 中使用Menu 时可能需要重写的方法有？(选择两项)</question>
+    <choice>
+      <option value="A">onOptionsItemSelected()</option>
+      <option value="B">onCreateOptionsMenu()</option>
+      <option value="C">onItemSelected()</option>
+      <option value="D">onCreateMenu()</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="401017" type="1">
+    <question>下列关于内存回收的说明，哪个是正确的？(选择一项)</question>
+    <choice>
+      <option value="A">程序员必须创建一个线程来释放内存</option>
+      <option value="B">内存回收程序允许程序员直接释放内存</option>
+      <option value="C">内存回收程序负责释放无用内存</option>
+      <option value="D">内存回收程序可以在指定的时间释放内存对象</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401018" type="1">
+    <question>Math.round(11.5)等于多少(). Math.round(-11.5)等于多少？(选择一项)</question>
+    <choice>
+      <option value="A">11 ,-11</option>
+      <option value="B">11 ,-12</option>
+      <option value="C">12 ,-11</option>
+      <option value="D">12 ,-12</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401019" type="1">
+    <question>下列程序段：void complicatedexpression_r(){int x=20, y=30;boolean b;b=x&gt;50&amp;&amp;y&gt;60||x&gt;50&amp;&amp;y60||x(选择一项)</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">0</option>
+      <option value="C">TRUE</option>
+      <option value="D">FALSE</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401020" type="1">
+    <question>在android中使用SQLiteOpenHelper这个辅助类时，可以生成一个数据库，并可以对数据库版本进行管理的方法可以是？(选择两项)</question>
+    <choice>
+      <option value="A">getDatabase()</option>
+      <option value="B">getWriteableDatabase()</option>
+      <option value="C">getReadableDatabase()</option>
+      <option value="D">getAbleDatabase()</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="401021" type="1">
+    <question>android 关于service生命周期的onCreate()和onStart()说法正确的是？(选择两项)</question>
+    <choice>
+      <option value="A">如果service已经启动，将先后调用onCreate()和onStart()方法</option>
+      <option value="B">当第一次启动的时候先后调用onCreate()和onStart()方法</option>
+      <option value="C">当第一次启动的时候只会调用onCreate()方法</option>
+      <option value="D">如果service已经启动，只会执行onStart()方法，不再执行onCreate()方法</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="401022" type="1">
+    <question>下列选项中不属于GLSurFaceView特性的是？(选择一项)</question>
+    <choice>
+      <option value="A">管理一个surface，这个surface就是一块特殊的内存，能直接排版到android的视图view上。</option>
+      <option value="B">管理一个EGL display，它能让opengl把内容渲染到上述的surface上。</option>
+      <option value="C">让渲染器在独立的线程里运作，和UI线程分离。</option>
+      <option value="D">可以直接从内存或者DMA等硬件接口取得图像数据</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401023" type="1">
+    <question>Intent传递数据时，下列的哪种类型数据不可以被传递？(选择一项)</question>
+    <choice>
+      <option value="A">Serializable</option>
+      <option value="B">JSON对象</option>
+      <option value="C">Bundle</option>
+      <option value="D">charsequence</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401024" type="1">
+    <question>关于ContenValues类说法正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">他和Hashtable比较类似，也是负责存储一些名值对，但是他存储的名值对当中的名是String类型，而值都是基本类型</option>
+      <option value="B">他和Hashtable比较类似，也是负责存储一些名值对，但是他存储的名值对当中的名是任意类型，而值都是基本类型</option>
+      <option value="C">他和Hashtable比较类似，也是负责存储一些名值对，但是他存储的名值对当中的名，可以为空，而值都是String类型</option>
+      <option value="D">他和Hashtable比较类似，也是负责存储一些名值对，但是他存储的名值对当中的名是String类型，而值也是String类型</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401025" type="1">
+    <question>我们都知道Hanlder是线程与Activity通信的桥梁,如果线程处理不当，你的机器就会变得越慢，那么线程销毁的方法是？(选择一项)</question>
+    <choice>
+      <option value="A">onDestroy()</option>
+      <option value="B">onClear()</option>
+      <option value="C">onFinish()</option>
+      <option value="D">onStop()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401026" type="1">
+    <question>下列哪个是 AbsoluteLayout(绝对布局) 中特有的属性？(选择一项)</question>
+    <choice>
+      <option value="A">android:layout_height</option>
+      <option value="B">android:layout_x</option>
+      <option value="C">android:layout_above</option>
+      <option value="D">android:layout_toRightOf</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401027" type="1">
+    <question>RatingBar 组件中不能用属性直接设置的是？ 选择一项：(选择一项)</question>
+    <choice>
+      <option value="A">五角星个数</option>
+      <option value="B">当前分数</option>
+      <option value="C">分数的增量</option>
+      <option value="D">五角星的色彩</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401028" type="1">
+    <question>在手机开发中常用的数据库是？(选择一项)</question>
+    <choice>
+      <option value="A">SQLite</option>
+      <option value="B">Oracle</option>
+      <option value="C">Sql Server</option>
+      <option value="D">MySQL</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401029" type="1">
+    <question>android 下的单元测试要配置,以下说法不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">需要在 manifest.xml 清单文件 application 节点下配置instrumentation</option>
+      <option value="B">需要在 manifest.xml 清单文件 manifest 节点下配置instrumentation</option>
+      <option value="C">需要在 manifest.xml 清单文件 application 节点下配置 uses-library</option>
+      <option value="D">需要让测试类继承 AndroidTestCase 类</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401030" type="1">
+    <question>在 android 中使用 SQLiteOpenHelper 这个辅助类时，哪些操作可能生成一个数据库？(选择两项)</question>
+    <choice>
+      <option value="A">getReadableDatabase()</option>
+      <option value="B">getWriteableDatabase()</option>
+      <option value="C">getAbleDatabase()</option>
+      <option value="D">getDatabase()</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="401031" type="1">
+    <question>android 是如何组织 Activity 的？(选择一项)</question>
+    <choice>
+      <option value="A">以栈的方式组式 Activity</option>
+      <option value="B">以队列的方式组织 Activity</option>
+      <option value="C">以树形方式组织 Activity</option>
+      <option value="D">以链式方式组织 Activity</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401032" type="1">
+    <question>android 中下列属于Intent的作用的是？(选择一项)</question>
+    <choice>
+      <option value="A">处理一个应用程序整体性的工作</option>
+      <option value="B">是一段长的生命周期，没有用户界面的程序，可以保持应用在后台运行，而不会因为切换页面而消失</option>
+      <option value="C">实现应用程序间的数据共享</option>
+      <option value="D">可以实现界面间的切换，可以包含动作和动作数据，连接四大组件的纽带</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401033" type="1">
+    <question>onPause 什么时候调用？(选择一项)</question>
+    <choice>
+      <option value="A">当界面启动时</option>
+      <option value="B">当 onCreate 方法被执行之后</option>
+      <option value="C">当界面被隐藏时</option>
+      <option value="D">当界面重新显示时</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401034" type="1">
+    <question>在 Activity 中，如何获取 service 对象？(选择一项)</question>
+    <choice>
+      <option value="A">可以通过直接实例化得到。</option>
+      <option value="B">可以通过绑定得到。</option>
+      <option value="C">通过 startService()</option>
+      <option value="D">通过 getService()获取</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401035" type="1">
+    <question>在表格布局中，android:collapseColumns="1,2"的含义是？(选择一项)</question>
+    <choice>
+      <option value="A">在屏幕中，当表格的列能显示完时，显示 1，2 列</option>
+      <option value="B">在屏幕中，当表格的列显示不完时，折叠</option>
+      <option value="C">在屏幕中，不管是否能都显示完，折叠 1、2 列</option>
+      <option value="D">在屏幕中,动态决定是否显示表格</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401036" type="1">
+    <question>绝对布局中，android:layout_x 的含义是？ 选择一项：</question>
+    <choice>
+      <option value="A">以手机左下为原点，组件显示到屏幕中的横向坐标值。</option>
+      <option value="B">以手机左上为原点，组件显示到屏幕中的横向坐标值。</option>
+      <option value="C">以手机右下为原点，组件显示到屏幕中的横向坐标值。</option>
+      <option value="D">以手机右上为原点，组件显示到屏幕中的横向坐标值。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401037" type="1">
+    <question>在使用 SQLiteOpenHelper 这个类时，它的哪一个方法是用来实现版本升级之用的？ 选择一项：</question>
+    <choice>
+      <option value="A">onCreate()</option>
+      <option value="B">onCreade()</option>
+      <option value="C">onUpdate()</option>
+      <option value="D">onUpgrade()</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401038" type="1">
+    <question>ScrollView 中，可以直接包含多少个组件？(选择一项)</question>
+    <choice>
+      <option value="A">3个</option>
+      <option value="B">2个</option>
+      <option value="C">1个</option>
+      <option value="D">无数个</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401039" type="1">
+    <question>TabHost.newTabSpec("tab1")的作用是？(选择一项)</question>
+    <choice>
+      <option value="A">为 tab 页创建标题为 tab1</option>
+      <option value="B">为 tab 页创建 ID 为 tab1</option>
+      <option value="C">为 tab 页创建内容</option>
+      <option value="D">为 tab 页创建新空格</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401040" type="1">
+    <question>关于适配器的说法正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">它主要是用来存储数据</option>
+      <option value="B">它主要用来把数据绑定到组件上</option>
+      <option value="C">它主要用来解析数据</option>
+      <option value="D">它主要用来存储 xml 数据</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401041" type="1">
+    <question>Matrix 类的作用是？(选择一项)</question>
+    <choice>
+      <option value="A">可以存储缩小或放大比列</option>
+      <option value="B">存储文件中的图片信息</option>
+      <option value="C">存储资源中的图片信息</option>
+      <option value="D">存储内存中的图片信息</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401042" type="1">
+    <question>android:completionThreshold=1 是哪个组件的属性？(选择一项)</question>
+    <choice>
+      <option value="A">ImageButton</option>
+      <option value="B">EditText</option>
+      <option value="C">TextView</option>
+      <option value="D">AutoCompleteTextView</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401043" type="1">
+    <question>下面退出Activity错误的方法是？(选择一项)</question>
+    <choice>
+      <option value="A">finish()</option>
+      <option value="B">System.exit()</option>
+      <option value="C">onStop()</option>
+      <option value="D">抛异常强制退出</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401044" type="1">
+    <question>下列说法正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">每个进程都运行于自己的 java 虚拟机(VM)中。</option>
+      <option value="B">默认情况下，每个应用程序中均运行于自己的进程中，而且此进程不会被消毁。</option>
+      <option value="C">每个应用程序会被赋予一个唯一的 linux 用户 ID，从而使得该应用程序下的文件， 其它用户也可以访问。</option>
+      <option value="D">一个应用程序数据，可以随意被其它应用程序所访问。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401045" type="1">
+    <question>关于 Activity 说的法不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">通过把当前 actvity 对象传递给 service 对象。</option>
+      <option value="B">通过向 Activity 发送广播。</option>
+      <option value="C">通过 Context 对象更改 Act]ivity 界面元素</option>
+      <option value="D">可以在 service 中，调用 Activity 的方法实现更改界面元素。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401046" type="1">
+    <question>关于 android 进程，说法不正确的是？ 选择一项：</question>
+    <choice>
+      <option value="A">组件运行所在的进程，是由 androidmanifest.xml 决定，它可以指定该组件运行于 哪个进程。</option>
+      <option value="B">当急需内存时，android 会决定优先关闭那些空闲的进程</option>
+      <option value="C">背景进程是不为用户所见的 Activity，但是还会有可能被用户看到，所以它不能 被杀死</option>
+      <option value="D">可视进程一般不会不被系统所杀死</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401047" type="1">
+    <question>表单的onsubmit事件的作用是？(选择一项)</question>
+    <choice>
+      <option value="A">当表单中的一个按钮被点击时，执行的JavaScript事件。</option>
+      <option value="B">当用户提交一个表单时，执行的JavaScript事件。</option>
+      <option value="C">当表单创建时，执行的JavaScript事件。</option>
+      <option value="D">当页面加载完成时，执行的JavaScript事件。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401048" type="1">
+    <question>在 Activity 的生命周期中，当它从可见状态转向半透明状态时，它的哪个方法必须被调用？(选择一项)</question>
+    <choice>
+      <option value="A">onStop（）</option>
+      <option value="B">onPause（）</option>
+      <option value="C">onRestart（）</option>
+      <option value="D">onStart（）</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401049" type="1">
+    <question>关于 BroadcastReceiver 的说法不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">是用来接收广播 Intent 的</option>
+      <option value="B">一个广播 Intent 只能被一个订阅了此广播的 BroadcastReceiver 所接收</option>
+      <option value="C">对有序广播，系统会根据接收者声明的优先级别按顺序逐个执行接收者</option>
+      <option value="D">接收者声明的优先级别在的 android:priority 属性中声明，数值越大 优先级别越高</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401050" type="1">
+    <question>使用 MediaPlayer 播放保存在 sdcard 上的 mp3 文件时，（）？(选择一项)</question>
+    <choice>
+      <option value="A">需要使用 MediaPlayer.create 方法创建 MediaPlayer</option>
+      <option value="B">直接 newMediaPlayer 即可</option>
+      <option value="C">需要调用 setDataSource 方法设置文件源</option>
+      <option value="D">直接调用 start 方法，无需设置文件源</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401051" type="1">
+    <question>在 android 中使用 RadioButton 时，要想实现互斥的选择需要用的组件是 ？(选择一项)</question>
+    <choice>
+      <option value="A">ButtonGroup</option>
+      <option value="B">RadioButtons</option>
+      <option value="C">CheckBox</option>
+      <option value="D">RadioGroup</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401052" type="1">
+    <question>在多个应用中读取共享存储数据时， 需要用到哪个对象的 query 方法？(选择一项)</question>
+    <choice>
+      <option value="A">ContentResolver</option>
+      <option value="B">ContentProvider</option>
+      <option value="C">Cursor</option>
+      <option value="D">SQLiteHelper</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401053" type="1">
+    <question>DDMS 中 Log 信息分为几个级别？(选择一项)</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">4</option>
+      <option value="C">5</option>
+      <option value="D">7</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401054" type="1">
+    <question>下面哪一项不属于android的动画类型？ 选择一项：(选择一项)</question>
+    <choice>
+      <option value="A">Tween</option>
+      <option value="B">Alpha</option>
+      <option value="C">Frame</option>
+      <option value="D">Animation</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401055" type="1">
+    <question>创建子菜单的方法是？(选择一项)</question>
+    <choice>
+      <option value="A">add</option>
+      <option value="B">addSubMenu</option>
+      <option value="C">createSubMenu</option>
+      <option value="D">createMenu</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401056" type="1">
+    <question>MediaPlayer 播放资源前，需要调用哪个方法完成准备工作？(选择一项)</question>
+    <choice>
+      <option value="A">setDataSource</option>
+      <option value="B">prepare</option>
+      <option value="C">begin</option>
+      <option value="D">pause</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401057" type="1">
+    <question>处理菜单项单击事件的方法不包含？(选择一项)</question>
+    <choice>
+      <option value="A">使用onOptionsItemSelected(MenuItem item)响应</option>
+      <option value="B">使用onMenuItemSelected(int featureId ,MenuItem item)响应</option>
+      <option value="C">使用onMenuItemClick(MenuItem item)响应</option>
+      <option value="D">使用 onCreateOptionsMenu(Menu menu)响应</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401058" type="1">
+    <question>使用 AIDL 完成远程 service 方法调用下列说法不正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">aidl 对应的接口名称不能与 aidl 文件名相同</option>
+      <option value="B">aidl 的文件的内容类似 java 代码</option>
+      <option value="C">创建一个 Service（服务），在服务的 onBind(Intent intent)方法中返回实现了 aidl 接口的对象</option>
+      <option value="D">aidl 对应的接口的方法前面不能加访问权限修饰符</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401059" type="1">
+    <question>"android 中文件操作模式中表示只能被本应用使用， 写入文件会覆 盖的是？"(选择一项)</question>
+    <choice>
+      <option value="A">MODE_APPEND</option>
+      <option value="B">MODE_WORLD_READABLE</option>
+      <option value="C">MODE_WORLD_WRITEABLE</option>
+      <option value="D">MODE_PRIVATE</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401060" type="1">
+    <question>进度条中哪个属性是设置进度条大小格式的？</question>
+    <choice>
+      <option value="A">android:secondaryProgress</option>
+      <option value="B">android:progress</option>
+      <option value="C">android:max</option>
+      <option value="D">style</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401061" type="1">
+    <question>下列用以显示一系列图像的是？(选择一项)</question>
+    <choice>
+      <option value="A">ImageView</option>
+      <option value="B">Gallery</option>
+      <option value="C">ImageSwitcher</option>
+      <option value="D">GridView</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401062" type="1">
+    <question>下列说法错误的是？(选择一项)</question>
+    <choice>
+      <option value="A">Button 是普通按钮组件，除此外还有其他的按钮组件</option>
+      <option value="B">TextView 是显示文本的组件，TextView 是 EditText 的父类</option>
+      <option value="C">EditText 是编辑文本的组件，可以使用 EditText 输入特定的字符</option>
+      <option value="D">ImageView 是显示图片的组件，可以通过设置显示局部图片</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401063" type="1">
+    <question>下列关于如何使用 Notification，不正确的是？ (选择一项)</question>
+    <choice>
+      <option value="A">notification 需要NotificatinManager 来管理</option>
+      <option value="B">使用 NotificationManager 的 notify 方法显示 notification 消息</option>
+      <option value="C">在显示 Notification 时可以设置通知时的默认发声，震动等</option>
+      <option value="D">Notification 中存在可以清除消息的方法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401064" type="1">
+    <question>关于隐式 Intent 正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">android 中使用 IntentFilter 来寻找与隐式 Intent 相关的对象</option>
+      <option value="B">通过组件的名称寻找与 intent 相关联的对象</option>
+      <option value="C">隐式 Intent 更多用于在应用程序内部传递消息</option>
+      <option value="D">一个声明了 IntentFilter 的组件只能响应隐式 Intent 请求</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401065" type="1">
+    <question>Android项目工程下面的assets目录的作用是什么？(选择一项)</question>
+    <choice>
+      <option value="A">主要放置多媒体等数据文件</option>
+      <option value="B">放置字符串，颜色，数组等常量数据</option>
+      <option value="C">放置一些与UI相应的布局文件，都是xml文件</option>
+      <option value="D">旋转应用程序所使用的图片资源</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401066" type="1">
+    <question>Java是从（）语言改进重新设计(选择一项)</question>
+    <choice>
+      <option value="A">Ada</option>
+      <option value="B">C++</option>
+      <option value="C">Pascal</option>
+      <option value="D">BASIC</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401067" type="1">
+    <question>下列语句哪一个正确() (选择一项)</question>
+    <choice>
+      <option value="A">Java程序经编译后会产生machine code</option>
+      <option value="B">Java程序经编译后会产生byte code</option>
+      <option value="C">Java程序经编译后会产生DLL</option>
+      <option value="D">以上都不正确</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401068" type="1">
+    <question>下列说法正确的有（） (选择一项)</question>
+    <choice>
+      <option value="A">class中的constructor不可省略</option>
+      <option value="B">constructor必须与class同名，但方法不能与class同名</option>
+      <option value="C">constructor在一个对象被new时执行</option>
+      <option value="D">一个class只能定义一个constructor</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401069" type="1">
+    <question>提取Java存取数据库能力的包是（）(选择一项)</question>
+    <choice>
+      <option value="A">java.sql</option>
+      <option value="B">java.awt</option>
+      <option value="C">java.lang</option>
+      <option value="D">java.swing</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401070" type="1">
+    <question>下列运算符合法的是（）(选择一项)</question>
+    <choice>
+      <option value="A">&amp;&amp;</option>
+      <option value="B">&lt;&gt;</option>
+      <option value="C">if</option>
+      <option value="D">:=</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401071" type="1">
+    <question>"执行如下程序代码 a=0;c=0; do{ --c; a=a-1; }while(a&gt;0); 后，C的值是（）"(选择一项)</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">-1</option>
+      <option value="D">死循环</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401072" type="1">
+    <question>下列哪一种叙述是正确的（）</question>
+    <choice>
+      <option value="A">abstract修饰符可修饰字段、方法和类</option>
+      <option value="B">抽象方法的body部分必须用一对大括号{}包住</option>
+      <option value="C">声明抽象方法，大括号可有可无</option>
+      <option value="D">声明抽象方法不可写出大括号</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401073" type="1">
+    <question>下列语句正确的是（） (选择一项)</question>
+    <choice>
+      <option value="A">形式参数可被视为local variable</option>
+      <option value="B">形式参数可被字段修饰符修饰</option>
+      <option value="C">形式参数为方法被调用时，真正被传递的参数</option>
+      <option value="D">形式参数不可以是对象</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401074" type="1">
+    <question>下列哪种说法是正确的（）(选择一项)</question>
+    <choice>
+      <option value="A">实例方法可直接调用超类的实例方法</option>
+      <option value="B">实例方法可直接调用超类的类方法</option>
+      <option value="C">实例方法可直接调用其他类的实例方法</option>
+      <option value="D">实例方法可直接调用本类的类方法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401075" type="1">
+    <question>Java程序的种类有（） (选择三项)</question>
+    <choice>
+      <option value="A">Servlet</option>
+      <option value="B">Applet</option>
+      <option value="C">Application</option>
+      <option value="D">类（Class）</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="401076" type="1">
+    <question>关于res/raw目录说法正确的是？(选择一项)</question>
+    <choice>
+      <option value="A">这里的文件是原封不动的存储到设备上会转换为二进制的格式</option>
+      <option value="B">这里的文件最终以二进制的格式存储到指定的包中</option>
+      <option value="C">这里的文件是原封不动的存储到设备上不会转换为二进制的格式</option>
+      <option value="D">这里的文件最终不会以二进制的格式存储到指定的包中</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401077" type="1">
+    <question>下列说法正确的有（） (选择三项)</question>
+    <choice>
+      <option value="A">javac.exe 能指定编译结果要置于哪个目录（directory）</option>
+      <option value="B">在编译程序时，所能指定的环境变量不包括class path</option>
+      <option value="C">javac 一次可同时编译数个java 源文件</option>
+      <option value="D">环境变量可在编译source code时指定</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="401078" type="1">
+    <question>下列标识符不合法的有（）(选择三项)</question>
+    <choice>
+      <option value="A">$Usdollars</option>
+      <option value="B">new</option>
+      <option value="C">1234</option>
+      <option value="D">car.taxi</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="401079" type="1">
+    <question>下列说法错误的有（）(选择三项)</question>
+    <choice>
+      <option value="A">int number=[]={31,23,33,43,35,63}</option>
+      <option value="B">数组的大小可以任意改变</option>
+      <option value="C">数组是一种对象</option>
+      <option value="D">数组属于一种原生类</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="401080" type="1">
+    <question>不能用来修饰interface 的有（）(选择三项)</question>
+    <choice>
+      <option value="A">protected</option>
+      <option value="B">private</option>
+      <option value="C">static</option>
+      <option value="D">public</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="401081" type="1">
+    <question>下列正确的有（）(选择三项)</question>
+    <choice>
+      <option value="A">call by reference不能改变实际参数的参考地址</option>
+      <option value="B">call by reference能改变实际参数的参考地址</option>
+      <option value="C">call by reference能改变实际参数的内容</option>
+      <option value="D">call by value不会改变实际参数的数值</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="401082" type="1">
+    <question>下列说法错误的有（）(选择两项)</question>
+    <choice>
+      <option value="A">在类方法中绝对不能调用实例方法</option>
+      <option value="B">在类方法中只能调用本类中的类方法</option>
+      <option value="C">在类方法中可用this来调用本类的类方法</option>
+      <option value="D">在类方法中调用本类的类方法时可直接调用</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="401083" type="1">
+    <question>下列说法错误的有（）(选择三项)</question>
+    <choice>
+      <option value="A">Java语言中的方法必定隶属于某一类（对象），调用方法与过程或函数相同</option>
+      <option value="B">Java面向对象语言容许单独的过程和函数存在</option>
+      <option value="C">Java面向对象语言容许单独的方法存在</option>
+      <option value="D">Java语言中的方法属于类的成员（member）</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="401084" type="1">
+    <question>下列说法错误的有（）(选择三项)</question>
+    <choice>
+      <option value="A">J2SDK就是Java API</option>
+      <option value="B">Appletviewer.exe可利用jar 选项运行.jar 文件</option>
+      <option value="C">能被java.exe 成功运行的java.class 文件必须有main()方法</option>
+      <option value="D">能被Appletviewer成功运行的java.class 文件必须有main()方法</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="401085" type="1">
+    <question>关于线程说法不正确的是()(选择一项)</question>
+    <choice>
+      <option value="A">在 android 中，我们可以在主线程中，创建一个新的线程</option>
+      <option value="B">在创建的新线程中，它可以操作 UI 组件</option>
+      <option value="C">新线程可以和 Handler 共同使用</option>
+      <option value="D">创建的 Handler 对象，它隶属于创建它的线程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401086" type="1">
+    <question>当 Activity 被消毁时，如何保存它原来的状态（）(选择一项)</question>
+    <choice>
+      <option value="A">实现 Activity 的 onSaveInstanceState（）方法</option>
+      <option value="B">实现 Activity 的 onSaveInstance（）方法</option>
+      <option value="C">实现 Activity 的 onInstanceState（）方法</option>
+      <option value="D">实现 Activity 的 onSaveState（）方法</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401087" type="1">
+    <question>下列不是手机操作系统的？(选择一项)</question>
+    <choice>
+      <option value="A">Android</option>
+      <option value="B">iPhone</option>
+      <option value="C">Ubuntu</option>
+      <option value="D">Windows Phone</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="401088" type="1">
+    <question>关于 Intent 对象说法错误的是（）(选择一项)</question>
+    <choice>
+      <option value="A">在 android 中，Intent对象是用来传递信息的</option>
+      <option value="B">Intent 对象可以把值传递给广播或 Activity</option>
+      <option value="C">利用 Intent 传值时，可以传递一部分值类型</option>
+      <option value="D">利用 Intent 传值时，它的 key 值可以是对象</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401089" type="1">
+    <question>在 android 中，ArrayAdapter 类是用于（）(选择一项)</question>
+    <choice>
+      <option value="A">用于把数据绑定到组件上</option>
+      <option value="B">它能把数据显示到 Activity 上</option>
+      <option value="C">它能把数据传递给广播</option>
+      <option value="D">它能把数据传递给服务</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401090" type="1">
+    <question>使进度条变横向的系统样式是（）(选择一项)</question>
+    <choice>
+      <option value="A">android:style/Widget.ProgressBar.Horizontal</option>
+      <option value="B">android:style/ProgressBar.Horizontal</option>
+      <option value="C">style/Widget.ProgressBar.Horizontal</option>
+      <option value="D">style/ProgressBar.Horizontal</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="401091" type="1">
+    <question>能提供内容补全的组件是（）(选择一项)</question>
+    <choice>
+      <option value="A">EditText</option>
+      <option value="B">DatePicker</option>
+      <option value="C">TimePicker</option>
+      <option value="D">TimePicker</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="401092" type="1">
+    <question>下列属于 Activity 的状态是()(选择三项)</question>
+    <choice>
+      <option value="A">暂停状态</option>
+      <option value="B">运行状态</option>
+      <option value="C">睡眠状态</option>
+      <option value="D">停止状态</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="401093" type="1">
+    <question>关于 Handler 的说话正确的是(）(选择一项)</question>
+    <choice>
+      <option value="A">它实现不同线程间通信的一种机制</option>
+      <option value="B">它避免了新线程操作 UI 组件</option>
+      <option value="C">它采用栈的方式来组织任务的</option>
+      <option value="D">它可以属于一个新的线程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="401094" type="1">
+    <question>关于广播的作用，正确的说法是（）(选择两项)</question>
+    <choice>
+      <option value="A">它是用接收系统发布的一些消息的</option>
+      <option value="B">它可以帮助 service修改用户界面</option>
+      <option value="C">它可以启动一个 Service</option>
+      <option value="D">它可以启动一个 Activity</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="401095" type="1">
+    <question>下面属于 View 的子类的是（）(选择两项)</question>
+    <choice>
+      <option value="A">ViewGroup</option>
+      <option value="B">TextView</option>
+      <option value="C">Activity</option>
+      <option value="D">Service</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="401096" type="1">
+    <question>在 main.xml 中，定义一个组件时，有两个属性必须写（）(选择两项)</question>
+    <choice>
+      <option value="A">android:text</option>
+      <option value="B">android:layout_height</option>
+      <option value="C">android:id="@+id/start"</option>
+      <option value="D">android:layout_width</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="401097" type="1">
+    <question>关于 Sqlite 数据库，不正确的说法是（）(选择一项)</question>
+    <choice>
+      <option value="A">SqliteOpenHelper类主要是用来创建数据库和更新数据库</option>
+      <option value="B">SqliteDatabase 类是用来操作数据库的</option>
+      <option value="C">在 每 次 调 用 SqliteDatabase 的getWritableDatabase() 方 法 时 ， 会 执 行 SqliteOpenHelper 的onCreate 方法。</option>
+      <option value="D">当数据库版本发生变化时，可以自动更新数据库结构</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

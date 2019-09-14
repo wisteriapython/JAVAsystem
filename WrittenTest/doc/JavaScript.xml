@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="206001" type="1">
+    <question>（ ）对象表示浏览器窗口，并可用于检索关于该窗口状态的信息（选一项）</question>
+    <choice>
+      <option value="A">document</option>
+      <option value="B">window</option>
+      <option value="C">frames</option>
+      <option value="D">navigator</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206002" type="1">
+    <question>___对象表示给定浏览器窗口中的html文档，用于检索关于文档的信息（选一项）</question>
+    <choice>
+      <option value="A">document</option>
+      <option value="B">window</option>
+      <option value="C">screen</option>
+      <option value="D">history</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206003" type="1">
+    <question>___事件处理程序可用于在用户单击按钮时执行函数。（选一项）</question>
+    <choice>
+      <option value="A">onSubmit</option>
+      <option value="B">onClick</option>
+      <option value="C">onChange</option>
+      <option value="D">onExit</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206004" type="1">
+    <question>___语句用于为调用函数的语句返回一个值。（选一项）</question>
+    <choice>
+      <option value="A">return</option>
+      <option value="B">send</option>
+      <option value="C">invoke</option>
+      <option value="D">return false</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206005" type="1">
+    <question>__JavaScript方法将参数四舍五入到最接近的整数。（选一项）</question>
+    <choice>
+      <option value="A">round()</option>
+      <option value="B">ceil()</option>
+      <option value="C">sin()</option>
+      <option value="D">min()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206006" type="1">
+    <question>__方法要求窗口显示刚刚访问的前一个窗口。（选一项）</question>
+    <choice>
+      <option value="A">back()</option>
+      <option value="B">go()</option>
+      <option value="C">display()</option>
+      <option value="D">view()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206007" type="1">
+    <question>__类型的数据在进行决策或比较数据时很有用。（选一项）</question>
+    <choice>
+      <option value="A">字符串</option>
+      <option value="B">空型</option>
+      <option value="C">布尔型</option>
+      <option value="D">整数</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206008" type="1">
+    <question>__属性用于将外部JavaScript文件链接到HTML文档。（选一项）</question>
+    <choice>
+      <option value="A">prompt</option>
+      <option value="B">script</option>
+      <option value="C">src</option>
+      <option value="D">language</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206009" type="1">
+    <question>&lt;input name="v1" type="text" value="5+3*4"&gt; &lt;input name="v2" type="text" value="3+4*5"&gt; v1.value+v2.value的值为（选一项）</question>
+    <choice>
+      <option value="A">17+23</option>
+      <option value="B">40</option>
+      <option value="C">5+3*43+4*5</option>
+      <option value="D">5+3*4+3+4*5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206010" type="1">
+    <question>Date对象将日期存储为自1970年1月1日00:00:00起所经过的___数。（选一项）</question>
+    <choice>
+      <option value="A">天</option>
+      <option value="B">毫秒</option>
+      <option value="C">秒</option>
+      <option value="D">分钟</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206011" type="1">
+    <question>eval(5+3*4)+eval(3+4*5)的值为（选一项）</question>
+    <choice>
+      <option value="A">17＋23</option>
+      <option value="B">40</option>
+      <option value="C">5+3*43+4*5</option>
+      <option value="D">5+3*4＋3+4*5</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206012" type="1">
+    <question>isNaN("abc")的返回值为（选一项）</question>
+    <choice>
+      <option value="A">underfined</option>
+      <option value="B">null</option>
+      <option value="C">true</option>
+      <option value="D">false</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206013" type="1">
+    <question>JavaScript代码通常是用__标记嵌入到HTML文档的。（选一项）</question>
+    <choice>
+      <option value="A">JavaScript</option>
+      <option value="B">Language</option>
+      <option value="C">alert</option>
+      <option value="D">script</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206014" type="1">
+    <question>JavaScript语言的特点，下面描述哪些不正确（选一项）</question>
+    <choice>
+      <option value="A">客户端脚本语言</option>
+      <option value="B">由客户端解释执行</option>
+      <option value="C">编译后可由IE来执行</option>
+      <option value="D">基于对象的语言</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206015" type="1">
+    <question>JavaScript中__方法可将数组元素组合成一个字符串。（选一项）</question>
+    <choice>
+      <option value="A">join</option>
+      <option value="B">sort</option>
+      <option value="C">reverse</option>
+      <option value="D">push</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206016" type="1">
+    <question>var a = new Array(1,20,12,30); alert(a.reverse()); 弹出的值为（选一项）</question>
+    <choice>
+      <option value="A">1,20,12,30</option>
+      <option value="B">1,12,20,30</option>
+      <option value="C">30,20,12,1</option>
+      <option value="D">30,12,20,1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206017" type="1">
+    <question>var a=1.6; result=parseInt(a)+parseFloat(a); 下面描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">result的值为3.2</option>
+      <option value="B">result的值为3.6</option>
+      <option value="C">result的值为2.6</option>
+      <option value="D">页面出错</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206018" type="1">
+    <question>var d=new Date();获取当前月份的语句是（选一项）</question>
+    <choice>
+      <option value="A">d.getDate()</option>
+      <option value="B">d.getMonth()</option>
+      <option value="C">d.getMonth()+1</option>
+      <option value="D">d.getMonth()-1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206019" type="1">
+    <question>var result1,result2; result1 = 5 + "8"; result2 = 5/8; 下面描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">result1的值为13</option>
+      <option value="B">result1的值为58</option>
+      <option value="C">result2的值为1</option>
+      <option value="D">result2的值为0.625</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="206020" type="1">
+    <question>var str="hello world"; document.write(str.indexOf("llo")); 输出结果为（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206021" type="1">
+    <question>var str="hello world"; document.write(str.substr(3,5)); document.write("&lt;br&gt;"); document.write(str.substring(3,5)); 输出结果为（选一项）</question>
+    <choice>
+      <option value="A">lo wo lo</option>
+      <option value="B">lo lo wo</option>
+      <option value="C">llo llo</option>
+      <option value="D">lowo lo</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206022" type="1">
+    <question>表单元素的onblur事件表示（选一项）</question>
+    <choice>
+      <option value="A">获取焦点</option>
+      <option value="B">失去焦点</option>
+      <option value="C">提交表单</option>
+      <option value="D">按下鼠标左键</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206023" type="1">
+    <question>创建一个数组，下面哪项不正确（选一项）</question>
+    <choice>
+      <option value="A">var a = new Array(3);</option>
+      <option value="B">a = new Array(1, 2, 3, "hello");</option>
+      <option value="C">var a = [true, 3.14159];</option>
+      <option value="D">Array d = new Array(1,2,3);</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206024" type="1">
+    <question>当表单各项填写完毕，鼠标单击提交按钮时可以触发表单元素的（ ）事件（选一项）</question>
+    <choice>
+      <option value="A">onEnter</option>
+      <option value="B">onSubmit</option>
+      <option value="C">onMouseDrag</option>
+      <option value="D">onMouseOver</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206025" type="1">
+    <question>分析如下的JavaScript代码段，则运行后在页面上输出（选一项） var c="10",d=10; document.write(c + d);</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">20</option>
+      <option value="C">1010</option>
+      <option value="D">页面报错</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206026" type="1">
+    <question>分析如下的JavaScript代码段，运行后以下描述正确的是（选一项） eval("a=1;b=2;alert(a+b)");</question>
+    <choice>
+      <option value="A">弹出窗口显示3</option>
+      <option value="B">弹出窗口显示undefined</option>
+      <option value="C">a的值为undefined</option>
+      <option value="D">b的值为null</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206027" type="1">
+    <question>分析如下的JavaScript代码片段, b的值为（选一项） var a = 1.5,b; b=parseInt(a);</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">0.5</option>
+      <option value="C">1</option>
+      <option value="D">1.5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206028" type="1">
+    <question>分析下面的JavaScript代码，输出结果是（选一项） var a=15.49; document.write(Math.round(a));</question>
+    <choice>
+      <option value="A">15</option>
+      <option value="B">16</option>
+      <option value="C">15.5</option>
+      <option value="D">15.4</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206029" type="1">
+    <question>分析下面的JavaScript代码： var today = new Date(); document.write("现在时间是:" + today.getHours() + ":" + today.getMinutes());加入现实网页时，下列输出格式正确的是（选一项）</question>
+    <choice>
+      <option value="A">现在时间是：2008-02-20-15:54</option>
+      <option value="B">现在时间是：15:54</option>
+      <option value="C">00:00</option>
+      <option value="D">现在时间是：+15+: +54</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206030" type="1">
+    <question>分析下面的JavaScript代码： x = 11; y = "number"; m = x +y ; m的值为（选一项）</question>
+    <choice>
+      <option value="A">11number</option>
+      <option value="B">number</option>
+      <option value="C">11</option>
+      <option value="D">程序报错</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206031" type="1">
+    <question>分析下面的JavaScript代码：&lt;SCRIPT LANGUAGE="JavaScript"&gt;confirm("远看山 有色，近听水无声");&lt;/SCRIPT&gt;输出结果为（选一项）</question>
+    <choice>
+      <option value="A">在网页上显示文字信息：远看山有色，近听水无声</option>
+      <option value="B">弹出一个确认对话框（含有“确定”和“取消”按钮），显示消息：远看山有色，近听水无声</option>
+      <option value="C">打开另一个浏览器窗口，显示文字信息：远看山有色，近听水无声</option>
+      <option value="D">弹出一个对话框（只含有“确定”按钮），显示信息：远看山有色，近听水无声</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206032" type="1">
+    <question>分析下面的Javascript代码：x=11；y="number"；m=x+y；m的值为（选一项）</question>
+    <choice>
+      <option value="A">11number</option>
+      <option value="B">number</option>
+      <option value="C">11</option>
+      <option value="D">程序报错</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206033" type="1">
+    <question>分析下面的JavaScript代码段 a = new Array(2,3,4,5,6); sum = 0; for(i=1;i&lt;a.length;i++) sum += a[i]; document.write(sum); 输出结果是（选一项）</question>
+    <choice>
+      <option value="A">20</option>
+      <option value="B">18</option>
+      <option value="C">14</option>
+      <option value="D">12</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206034" type="1">
+    <question>分析下面的JavaScript代码段 Emp = new Array(5); Emp[1] = 1; Emp[2] = 2; document.write(emp.length); 输出的结果是（选一项）</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">3</option>
+      <option value="C">4</option>
+      <option value="D">5</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206035" type="1">
+    <question>分析下面的JavaScript代码段 var x = "15"; str = x + 5; a = parseFloat(str); document.write(a); 执行后的输出结果是（选一项）</question>
+    <choice>
+      <option value="A">20</option>
+      <option value="B">155</option>
+      <option value="C">NaN</option>
+      <option value="D">报错</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206036" type="1">
+    <question>分析下面的JavaScript代码段，输出正确的是（选一项） a = eval("3 + 6 + 7"); document.write(a);</question>
+    <choice>
+      <option value="A">367</option>
+      <option value="B">16</option>
+      <option value="C">0</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206037" type="1">
+    <question>分析下面的JavaScript代码段，下面正确的是（选两项） &lt;FORM&gt; &lt;INPUT TYPE="text" name="Text1" value="Text1"&gt; &lt;INPUT TYPE="text" name="Text2" value="Text2" onFocus=alert("我是焦点") onBlur=alert("我不是焦点！")&gt; &lt;/FORM&gt;</question>
+    <choice>
+      <option value="A">当用鼠标选中Text2时，弹出”我是焦点”消息框，再用鼠标选中Text1文本框时，弹出”我不是焦点”消息框</option>
+      <option value="B">当用鼠标选中Text1时，弹出”我是焦点”消息框，再用鼠标选中Text2文本框时，弹出”我不是焦点”消息框</option>
+      <option value="C">假如现在输入光标在Text1上，用鼠标单击页面上除Text2以外的其他部分时，弹出”我不是焦点”消息框</option>
+      <option value="D">假如输入光标在Text2上，用鼠标单击页面上的其他部分时，弹出”我不是焦点”消息框</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="206038" type="1">
+    <question>分析下面的JavaScript代码段： a = new Array("100","2111","41111"); for(var i = 0;i &lt; a.length;i++ ){ document.write(a[i] + " "); } 输出结果是（选一项）</question>
+    <choice>
+      <option value="A">100 2111 41111</option>
+      <option value="B">1 2 3</option>
+      <option value="C">0 1 2</option>
+      <option value="D">1 2 4</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206039" type="1">
+    <question>分析下面的JavaScript代码段： function employee(name,code) { this.name="wangli"; this.code="A001"; } newemp=new employee("zhangming",'A002'); document.write("雇员姓名:" + newemp.name + "&lt;br&gt;"); document.write("雇员代号:" + newemp.code + "&lt;br&gt;"); 输出的结果是（选一项）</question>
+    <choice>
+      <option value="A">雇员姓名:wangli 雇员代码:A001</option>
+      <option value="B">雇员姓名：zhangming 雇员代码：A002</option>
+      <option value="C">雇员姓名：null, 雇员代码：null</option>
+      <option value="D">代码有错误，无输出结果</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206040" type="1">
+    <question>分析下面的JavaScript代码段：输出结果是（选一项） var s1=15; var s2="string"; if(isNaN(s1)) document.writeln(s1); if(isNaN(s2)) document.writeln(s2);</question>
+    <choice>
+      <option value="A">15</option>
+      <option value="B">string</option>
+      <option value="C">15string</option>
+      <option value="D">不打印任何信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206041" type="1">
+    <question>分析下面的JavaScript语句： str = "This apple costs " + 50.5; 执行后str的结果是（选一项）</question>
+    <choice>
+      <option value="A">This apple costs 50.5</option>
+      <option value="B">This apple costs 5.5</option>
+      <option value="C">"This apple costs" 50.5</option>
+      <option value="D">"This apple costs "5.5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206042" type="1">
+    <question>复选框失去焦点时触发的事件处理程序是（选一项）</question>
+    <choice>
+      <option value="A">onClick</option>
+      <option value="B">onFocus</option>
+      <option value="C">onSelect</option>
+      <option value="D">onBlur</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206043" type="1">
+    <question>假设今天是2006年5月8日星期一,请问下列JavaScript代码在页面上的输出结果是（选一项） var time = new Date(); document.write(time.getDay());</question>
+    <choice>
+      <option value="A">2006</option>
+      <option value="B">8</option>
+      <option value="C">5</option>
+      <option value="D">1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206044" type="1">
+    <question>某网页开发员想在MainForm.htm页面上的一个名为SystemTime的文本框中显示系统的当前时间,编写了如下JavaScript函数,为了使显示的时间每隔几分钟刷新一次,请问在空白出1因该补充的代码是（选一项） &lt;script language="javascript"&gt; function displaytime() { var time = new Date(); var hour = time.getHours(); var minute = time.getMinutes(); document.mainform.systemtime.value=hour+"点"+minute+"分"; ____________________; } &lt;/script&gt;</question>
+    <choice>
+      <option value="A">setTimeout("displaytime()",60000);</option>
+      <option value="B">setTimeout("displaytime()",6000);</option>
+      <option value="C">setTimeout("displaytime()",60);</option>
+      <option value="D">setTimeout("displaytime()",1);</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206045" type="1">
+    <question>哪种方法不是history对象的方法（选一项）</question>
+    <choice>
+      <option value="A">forword()</option>
+      <option value="B">back()</option>
+      <option value="C">go()</option>
+      <option value="D">jump()</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206046" type="1">
+    <question>能使网页中出现弹出确认和取消对话框的javascript代码是（选一项）</question>
+    <choice>
+      <option value="A">alert("您一共消费了："+100+'元');</option>
+      <option value="B">prompt("请输入：");</option>
+      <option value="C">pop("error");</option>
+      <option value="D">confirm("继续？");</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206047" type="1">
+    <question>如果要在网页上显示”20060816”,空格处因该填写的JavaScript代码是（选一项） var year = 2006; var month = 8; var date = 16; document.write( ________ );此处填写代码</question>
+    <choice>
+      <option value="A">year+month+date</option>
+      <option value="B">year+0+month+date</option>
+      <option value="C">year+"0"+month+date</option>
+      <option value="D">year+" "+month+" "+date</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206048" type="1">
+    <question>通过修改&lt;input&gt;元素的type属性，命令按钮可作为”提交”按钮和”重置”按钮，单击“提交”按钮时触发的表单事件是（选一项）</question>
+    <choice>
+      <option value="A">onBlur</option>
+      <option value="B">onChange</option>
+      <option value="C">onSubmit</option>
+      <option value="D">onMouseDown</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206049" type="1">
+    <question>网页编程中，运行下面的JavaScript代码： &lt;script language="JavaScript"&gt; x=3; y=2; z=(x + 2)/y; alert(z); &lt;/script&gt; 则提示框中显示（选一项）</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">2.5</option>
+      <option value="C">32/2</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206050" type="1">
+    <question>为了提取当前日期的小时数，并且判断如果当前的小时数小于12则在页面中显示“上午好!”,否则显示“下午好！”。下列JavaScript 代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">var todays_date=new Date(); var seconds=todays_date.getSeconds(); var str=(seconds&gt;12)?"上午好!":"下午好!"; document.write(str);</option>
+      <option value="B">var todays_date=new Date(); var hours=todays_date.getHours(); var str=(hours&lt;12)?"上午好!":"下午好!"; document.write(str);</option>
+      <option value="C">var todays_date=new Date(); var seconds=todays_date.getSeconds(); var str=(seconds&lt;12)?"上午好!":"下午好!"; document.write(str);</option>
+      <option value="D">var todays_date=new Date(); var hours=todays_date.getHours(); var str=(hours&gt;12)?"上午好! ":"下午好! "; document.write(str);</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206051" type="1">
+    <question>下列JavaScript语句中，（）能实现单击一个按钮时弹出一个消息框。（选一项）</question>
+    <choice>
+      <option value="A">&lt;BUTTON VALUE ="鼠标响应" onClick=alert("确定")&gt;&lt;/BUTTON&gt;</option>
+      <option value="B">&lt;INPUT TYPE="BUTTON" VALUE ="鼠标响应" onClick=alert("确定")&gt;</option>
+      <option value="C">&lt;INPUT TYPE="BUTTON" VALUE ="鼠标响应" onChange=alert("确定")&gt;</option>
+      <option value="D">&lt;BUTTON VALUE ="鼠标响应" onChange=alert("确定")&gt;&lt;/BUTTON&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206052" type="1">
+    <question>下列哪个属性可以获得打开当前窗口的window对象（选一项）</question>
+    <choice>
+      <option value="A">opener</option>
+      <option value="B">parent</option>
+      <option value="C">self</option>
+      <option value="D">top</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206053" type="1">
+    <question>下面JavaScript自定义函数正确的是（选一项）</question>
+    <choice>
+      <option value="A">int function sum(int a,int b){ return a+b; }</option>
+      <option value="B">function sum(var a,var b){ return a+b; }</option>
+      <option value="C">var function sum(a,b){ return a+b; }</option>
+      <option value="D">function sum(a,b){ return a+b; }</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206054" type="1">
+    <question>下面对于JavaScript中的单选按钮（Radio）的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">点击单选按钮后，checked属性将变为True</option>
+      <option value="B">在同一个页面中，在某个时刻，只能有一个Radio按钮被选中</option>
+      <option value="C">如果单选按钮被选中则checked属性为True</option>
+      <option value="D">如果单选按钮被选中则，value属性为True</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206055" type="1">
+    <question>下面对于JavaScript中的单选按扭（Radio）的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">单选按钮可以通过单击“选种”和“未选中”选项来进行切换</option>
+      <option value="B">单选按钮没有checked属性</option>
+      <option value="C">单选按钮支持onClick事件</option>
+      <option value="D">单选按钮组的length属性返回一个选项组中单选项的个数</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="206056" type="1">
+    <question>下面哪些语句不能够弹出提示框，或在页面输出内容（选一项）</question>
+    <choice>
+      <option value="A">alert(Hello World)</option>
+      <option value="B">prompt("Hello World","")</option>
+      <option value="C">document.write("Hello World")</option>
+      <option value="D">document.writeln("Hello World")</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206057" type="1">
+    <question>现在有这样一段代码， &lt;script language="javascript"&gt; var a = "18"; var b = 10 ; document.write((a+b)+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"); document.write(a-b); &lt;/script&gt; 请选择下面打印输出的结果：（选一项）</question>
+    <choice>
+      <option value="A">28 0</option>
+      <option value="B">28 8</option>
+      <option value="C">1810 8</option>
+      <option value="D">1810 0</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206058" type="1">
+    <question>要求用JavaScript实现下面的功能：在一个文本框中内容发生改变后，单击页面的其他部分将弹出一个消息框显示文本框中的内容，下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;input type="text" onChange="alert(this.value)"&gt;</option>
+      <option value="B">&lt;input type="text" onClick="alert(this.value)"&gt;</option>
+      <option value="C">&lt;input type="text" onChange="alert(text.value)"&gt;</option>
+      <option value="D">&lt;input type="text" onClick="alert(value)"&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206059" type="1">
+    <question>以下为JavaScript声明变量的语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">dim x；</option>
+      <option value="B">int x；</option>
+      <option value="C">var x；</option>
+      <option value="D">x；</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206060" type="1">
+    <question>以下都属于浏览器对象，除了（选一项）</question>
+    <choice>
+      <option value="A">window</option>
+      <option value="B">document</option>
+      <option value="C">location</option>
+      <option value="D">session</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206061" type="1">
+    <question>用JavaScript设置页面背景色为蓝色，正确的代码是（选一项）</question>
+    <choice>
+      <option value="A">document.bgcolor=blue;</option>
+      <option value="B">document.BgColor="blue";</option>
+      <option value="C">document.bgColor="blue";</option>
+      <option value="D">document.bgColor=blue;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206062" type="1">
+    <question>用户更改表单的select元素中的值时，就会调用__事件处理。（选一项）</question>
+    <choice>
+      <option value="A">onClick</option>
+      <option value="B">onFoucs</option>
+      <option value="C">onMouseOver</option>
+      <option value="D">onChange</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206063" type="1">
+    <question>在date对象的方法组中，关于getMonth()方法的使用时 整数__代表一年中的7月。（选一项）</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">6</option>
+      <option value="C">7</option>
+      <option value="D">8</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206064" type="1">
+    <question>在HTML页面中，下面关于Window对象的说法不正确的是（选一项）</question>
+    <choice>
+      <option value="A">Window对象表示浏览器的窗口，可用于检索有关窗口状态的信息</option>
+      <option value="B">Window对象是浏览器所有内容的主容器</option>
+      <option value="C">浏览器打开HTML文档时，通常会创建一个Window对象</option>
+      <option value="D">如果文档定义了多个框架，浏览器只为原始文档创建一个Window对象，无须为每个框架创建Window对象</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206065" type="1">
+    <question>在HTML页面中，下面有关的Document对象的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">Document对象用于检查和修改HTML元素和文档中的文本</option>
+      <option value="B">Document对象用于检索浏览器窗口中的HTML文挡的信息</option>
+      <option value="C">Document对象提供客户最近访问的URL的列表</option>
+      <option value="D">Document对象的location属性包含有关当前URL的信息</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206066" type="1">
+    <question>在HTML页面中使用外部JavaScript文件的正确语法是（选一项）</question>
+    <choice>
+      <option value="A">&lt;language="JavaScript" src="scriptfile.js"&gt;</option>
+      <option value="B">&lt;script language="JavaScript" src="scriptfile.js"&gt;&lt;/script&gt;</option>
+      <option value="C">&lt;script language="JavaScript" =scriptfile.js&gt;&lt;/script&gt;</option>
+      <option value="D">&lt; language src="scriptfile.js"&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206067" type="1">
+    <question>在HTML中，Location对象的()属性用于设置或检索URL的端口号。（选一项）</question>
+    <choice>
+      <option value="A">hostname</option>
+      <option value="B">host</option>
+      <option value="C">port</option>
+      <option value="D">href</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206068" type="1">
+    <question>在HTML中，为了在页面中输出当前页面的URL的地址，下面Javascript语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">document.write(document.location);</option>
+      <option value="B">document.write(document.title);</option>
+      <option value="C">document.write(document.body);</option>
+      <option value="D">document.write(document.links);</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206069" type="1">
+    <question>在HTML中，下列JavaScript语句的运行结果是（）。（选一项） var s = window.confirm("是否显示广告"); if(s==true){ showAdviesment(); } function showAdviesment(){ window.open("广告.htm","广告","menubar=1,toolbar=0,status=yes,resizable=1"); } &lt;/script&gt;</question>
+    <choice>
+      <option value="A">首先弹出一个包含确定与取消按钮的对话框，当用户点击确定按钮后，显示“广告.htm”页面，该页面没有工具栏</option>
+      <option value="B">首先弹出一个只包含确定按钮的对话框，当用户点击确定按钮后，显示“广告.htm”页面，该页面没有工具栏</option>
+      <option value="C">首先弹出一个包含确定与取消按钮的对话框，当用户点击确定按钮后，显示“广告.htm”页面，该页面没有菜单栏</option>
+      <option value="D">弹出一个包含确定与取消按钮的对话框，不管当用户点击确定按钮或者取消按钮后，均不会显示“广告.htm”页面</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206070" type="1">
+    <question>在HTML中，以下JavaScript语句弹出的对话框中显示的值是（选一项） &lt;script language="JavaScript"&gt; var a=10; var b=5; var c=10/5; if(c==0 || a&gt;5) confirm(c+"很好"); else if(c&gt;0 &amp;&amp; a&lt;5) confirm(c+"一般"); else confirm(c+"很差"); &lt; /script&gt;</question>
+    <choice>
+      <option value="A">2很好</option>
+      <option value="B">0很好</option>
+      <option value="C">2一般</option>
+      <option value="D">2很差</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206071" type="1">
+    <question>在JavaScript 中，可以使用Date对象的（）方法返回该对象的日期。（选一项）</question>
+    <choice>
+      <option value="A">getDate</option>
+      <option value="B">getYear</option>
+      <option value="C">getMonth</option>
+      <option value="D">gerTime</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206072" type="1">
+    <question>在JavaScript的某些情况下（）语句可以代替多重if语句（选一项）</question>
+    <choice>
+      <option value="A">if…else</option>
+      <option value="B">for</option>
+      <option value="C">while</option>
+      <option value="D">switch…..case</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206073" type="1">
+    <question>在JavaScript中,("12.3" + 1.2)的计算结果是（选一项）</question>
+    <choice>
+      <option value="A">12.3</option>
+      <option value="B">13.5</option>
+      <option value="C">13</option>
+      <option value="D">12.31.2</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206074" type="1">
+    <question>在JavaScript中，__属性可返回字符串中的字符数（选一项）</question>
+    <choice>
+      <option value="A">blink</option>
+      <option value="B">PI</option>
+      <option value="C">length</option>
+      <option value="D">max()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206075" type="1">
+    <question>在JavaScript中,表单文本框(Text)不支持的事件包括（选一项）</question>
+    <choice>
+      <option value="A">onBlur</option>
+      <option value="B">onLostFocused</option>
+      <option value="C">onFocus</option>
+      <option value="D">onChange</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206076" type="1">
+    <question>在JavaScript中，电话号码010-88669696验证下列正确的是（选一项）</question>
+    <choice>
+      <option value="A">//\d{3}-\d{8}</option>
+      <option value="B">/\d{3}-\d{8}/</option>
+      <option value="C">/^\d{3}-\d{8}$/</option>
+      <option value="D">/^0d{3}-d8{}$/</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206077" type="1">
+    <question>在JavaScript中,命令按纽(Button)支持的事件包括（选一项）</question>
+    <choice>
+      <option value="A">onClick</option>
+      <option value="B">onChange</option>
+      <option value="C">onSelect</option>
+      <option value="D">onSubmit</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206078" type="1">
+    <question>在JavaScript中，下列定义数组的方法正确的是（选一项）</question>
+    <choice>
+      <option value="A">emp = new Array[3];</option>
+      <option value="B">emp = new Array(3);</option>
+      <option value="C">emp = new() Array;</option>
+      <option value="D">emp = new Array[];</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="206079" type="1">
+    <question>在JavaScript中定义变量，哪些不正确（选一项）</question>
+    <choice>
+      <option value="A">var count</option>
+      <option value="B">var city = 'wuhan'</option>
+      <option value="C">result = true</option>
+      <option value="D">int i</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="206080" type="1">
+    <question>在JavaScript中排序的函数是（选一项）</question>
+    <choice>
+      <option value="A">Sort()</option>
+      <option value="B">Reverse()</option>
+      <option value="C">Join()</option>
+      <option value="D">Age()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206081" type="1">
+    <question>在当前页面的同一目录下有一名为show.js的文件, 下列( )代码可以正确访问该件。（选一项）</question>
+    <choice>
+      <option value="A">&lt;script language= "show.js"&gt;&lt;/script&gt;</option>
+      <option value="B">&lt;script type="show.js"&gt;&lt;/script&gt;</option>
+      <option value="C">&lt;script language="JavaScript" src="show.js"&gt;&lt;/script&gt;</option>
+      <option value="D">&lt;script runat="show.js"&gt;&lt;/script&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="206082" type="1">
+    <question>在某一页面下载时，要自动显示出另一页面，可通过在&lt;body&gt;中使用下边的哪一事件来完成（选一项）</question>
+    <choice>
+      <option value="A">onload</option>
+      <option value="B">onunload</option>
+      <option value="C">onclick</option>
+      <option value="D">onchange</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="206083" type="1">
+    <question>在页面中使用JavaScript有哪些方法，不正确的是（选一项）</question>
+    <choice>
+      <option value="A">使用&lt;script&gt; 标签将JavaScript 代码嵌入到网页中</option>
+      <option value="B">放置在由&lt;style&gt; 标记的href 属性指定的外部文件中</option>
+      <option value="C">放置在HTML标签以on开头的属性即事件处理程序中</option>
+      <option value="D">放置在由&lt;script&gt; 标记的src 属性指定的外部文件中</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

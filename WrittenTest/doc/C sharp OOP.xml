@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="203001" type="1">
+    <question>"^(abc)|(def)"不能匹配的是（选一项）</question>
+    <choice>
+      <option value="A">"abcdef"</option>
+      <option value="B">"abcd"</option>
+      <option value="C">"abc"</option>
+      <option value="D">"cdef"</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203002" type="1">
+    <question>( )关键字用于在C#中从派生类中访问基类的成员。（选一项）</question>
+    <choice>
+      <option value="A">new</option>
+      <option value="B">super</option>
+      <option value="C">this</option>
+      <option value="D">base</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203003" type="1">
+    <question>abstract class BaseClass{ public virtual void MethodA() { Console.WriteLine("BaseClass"); } public virtual void MethodB(){} } class Class1:BaseClass{ public void MethodA() { Console.WriteLine("Class1");} public virtual void MethodB(){} } class Class2:Class1{ public void MethodB(){} } class MainClass{ public static void Main(string[] args){ Class2 c = new Class2(); c.MethodA(); } }请问,此程序输出的结果是（选一项）</question>
+    <choice>
+      <option value="A">BaseClass</option>
+      <option value="B">BaseClass Class1</option>
+      <option value="C">Class1</option>
+      <option value="D">Class1 BaseClass</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203004" type="1">
+    <question>C#程序可以依据（ ）来进行方法重载。（选一项）</question>
+    <choice>
+      <option value="A">不同的参数个数</option>
+      <option value="B">不同的参数名称</option>
+      <option value="C">不同的返回值</option>
+      <option value="D">不同的方法名称</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203005" type="1">
+    <question>C#程序中的类 myClass 中的成员变量var1如下 public class MyClass{...private int var1;...} 则可以访问var1的有（选一项）</question>
+    <choice>
+      <option value="A">MyClass中包含的类</option>
+      <option value="B">MyClass的继承类</option>
+      <option value="C">MyClass的父类</option>
+      <option value="D">和MyClass在同一命名空间下的类</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203006" type="1">
+    <question>C#类Regex的（ ）方法可以测试字符串是否匹配某个正则表达式模式。（选一项）</question>
+    <choice>
+      <option value="A">IsMatch( )</option>
+      <option value="B">IsMatchs( )</option>
+      <option value="C">Split( )</option>
+      <option value="D">Test()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203007" type="1">
+    <question>C#中，下列关于索引器的说法，正确的是（选一项）</question>
+    <choice>
+      <option value="A">索引器没有返回类型</option>
+      <option value="B">索引器一般用来访问类中的数组元素或集合元素</option>
+      <option value="C">索引器的参数类型必须是int的类型</option>
+      <option value="D">索引器的声明可以使用类名或this关键字</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203008" type="1">
+    <question>C#中的方法重写使用关键字（选一项）</question>
+    <choice>
+      <option value="A">override</option>
+      <option value="B">overload</option>
+      <option value="C">static</option>
+      <option value="D">inherit</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203009" type="1">
+    <question>C#中的事件处理有3个步骤：1、订阅事件2、定义事件3、发生事件时通知订阅者，正确的顺序是（选一项）</question>
+    <choice>
+      <option value="A">123</option>
+      <option value="B">321</option>
+      <option value="C">132</option>
+      <option value="D">213</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203010" type="1">
+    <question>C#中关于委托，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">委托是一种类的成员</option>
+      <option value="B">委托必须定义在类中</option>
+      <option value="C">定义委托需要使用delegate关键字</option>
+      <option value="D">委托是一种数据类型</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203011" type="1">
+    <question>class Class1{ public static int Count = 0; static Class1() { Count++; } public Class1() { Count++; } } Class1 c1 = new Class1(); Class1 c2 = new Class1(); 请问,Class1.Count的值是多少（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203012" type="1">
+    <question>CLR为.NET提供下方面的功能或者服务,除了（选一项）</question>
+    <choice>
+      <option value="A">垃圾回收</option>
+      <option value="B">代码验证和类型安全</option>
+      <option value="C">代码访问安全</option>
+      <option value="D">自动消除程序中的语法错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203013" type="1">
+    <question>System.String类的（ ）方法不能删除字符串中的空格。（选一项）</question>
+    <choice>
+      <option value="A">Replace()</option>
+      <option value="B">Trim()</option>
+      <option value="C">Remove()</option>
+      <option value="D">EndsWith()</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203014" type="1">
+    <question>关于IComparable接口，下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">实现了该接口的对象，意味着能进行比较</option>
+      <option value="B">一个类可以实现多个IComparable接口</option>
+      <option value="C">IComparable接口包含一个没有实现的方法CompareTo()</option>
+      <option value="D">实现了该接口的类，在集合中该类的对象就可以进行排序了</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203015" type="1">
+    <question>关于List&lt;T&gt;和Dictionary&lt;K,V&gt;说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">List&lt;T&gt;和Dictionary&lt;K,V&gt;都能循环遍历所有元素对象</option>
+      <option value="B">获取元素时，List&lt;T&gt;需要进行类型转换，Dictionary&lt;K,V&gt;则不需要</option>
+      <option value="C">List&lt;T&gt;通过索引访问元素，Dictionary&lt;K,V&gt;通过Key访问集合元素</option>
+      <option value="D">在List&lt;T&gt;和Dictionary&lt;K,V&gt;中，都可以存储不同类型的元素</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203016" type="1">
+    <question>关于抽象类下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">抽象类可以包含非抽象方法</option>
+      <option value="B">含有抽象方法的类一定是抽象类</option>
+      <option value="C">抽象类不能被实例化</option>
+      <option value="D">抽象类可以是密封类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203017" type="1">
+    <question>关于泛型集合List&lt;T&gt;说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">List&lt;T&gt;在获取元素时需要进行类型转换</option>
+      <option value="B">List&lt;T&gt;是通过索引访问集合中的元素</option>
+      <option value="C">List&lt;T&gt;可以根据索引删除元素，还可以根据元素名称删除</option>
+      <option value="D">定义List&lt;T&gt;对象需要实例化</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203018" type="1">
+    <question>关于接口的使用，说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">接口可以作为参数进行传递</option>
+      <option value="B">接口可以作为方法的返回值</option>
+      <option value="C">接口可以实例化</option>
+      <option value="D">同时实现多个接口是变相实现了多重继承</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203019" type="1">
+    <question>关于序列化说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">序列化是将对象格式化为一种存储介质的过程</option>
+      <option value="B">序列化后的存储介质只能是二进制文件</option>
+      <option value="C">标识一个类可被序列化要使用[Serializable]关键字</option>
+      <option value="D">一个类可以序列化，它的子类和包含的其他类也必须可被序列化</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203020" type="1">
+    <question>声明一个委托public delegate int myCallBack(int x);则用该委托产生的回调的原形应该是（选一项）</question>
+    <choice>
+      <option value="A">void myCallBack(int x)</option>
+      <option value="B">int receive(int x)</option>
+      <option value="C">string receive(int x)</option>
+      <option value="D">不确定的</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203021" type="1">
+    <question>下列泛型集合声明正确的是（选一项）</question>
+    <choice>
+      <option value="A">List&lt;int&gt; f = new List&lt;int&gt;()</option>
+      <option value="B">List&lt;int&gt; f = new List()</option>
+      <option value="C">List f = new List()</option>
+      <option value="D">List&lt;int&gt; f = new List&lt;int&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203022" type="1">
+    <question>下列关于C#索引器理解正确的是（选一项）</question>
+    <choice>
+      <option value="A">索引器的参数必须是两个或两个以上</option>
+      <option value="B">索引器的参数类型必须是整数型</option>
+      <option value="C">索引器没有名字</option>
+      <option value="D">以上皆是</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203023" type="1">
+    <question>已知C#某接口中有一个Show( )方法，下面对该方法原型的定义正确的是（选一项）</question>
+    <choice>
+      <option value="A">public void Show( )</option>
+      <option value="B">public virtual void Show( )</option>
+      <option value="C">void Show( )</option>
+      <option value="D">virtual void Show( )</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203024" type="1">
+    <question>已知WinForm窗体中有一个Timer控件，Interval属性设置为4分钟，当控件计时1分钟后，调用了控件的Stop方法，再过1分钟后，重新调用控件的strat方法， 则自该次调用Strar方法后，第一次触发控件的Tick 事件的时间间隔是（ ）分钟。（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203025" type="1">
+    <question>以下c#代码： using System.Threading; class App { public static void Main() { Timer timer = new Timer(new TimerCallback(CheckSatus), null, 0, 2000); Console.Read(); } static void CheckSatus(Object state) { Console.WriteLine("正在进行检查..."); } } 在使用代码创建定时器对象的时候，同时指定了定时器的事件，运行时将每隔两秒打印一行“正在运行检查...”，因此，TimerCallback是一个（选一项）</question>
+    <choice>
+      <option value="A">变量</option>
+      <option value="B">委托</option>
+      <option value="C">结构</option>
+      <option value="D">函数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203026" type="1">
+    <question>以下的C#程序： public class A{} public class B:A{} public class Test { public static void Main() { A myA = new A (); B myB = new B (); A myC = myB; Console.WriteLine(myC.GetType()); } }运行时将输出（选一项）</question>
+    <choice>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">object</option>
+      <option value="D">将报告错误信息，提示无效的类型转换</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203027" type="1">
+    <question>以下的C#程序： public static void Main() { int[] A = new int[5]{1,2,3,4,5}; Object[] B = new Object[5] {6,7,8,9,10}; Array.Copy(A,B,2); } 运行后数组A中的数值为（选一项）</question>
+    <choice>
+      <option value="A">1、2、3、4、5</option>
+      <option value="B">1、2、8、9、10</option>
+      <option value="C">1、2、3、9、10</option>
+      <option value="D">6、7、8、9、10</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203028" type="1">
+    <question>以下的C#程序： using System; using System．Cillections; public class SamplesHashtable { public static void Main() { Hashtable myHT = new Hashtable(); myHT．Add("A","AA"); myHT．Add("B","BB"); myHT．Add("C","CC"); Console．WriteLine(myHT．Count); myHT．Remove("BB"); Console．WriteLine(myHT．Count); } }运行输出为（选一项）</question>
+    <choice>
+      <option value="A">3 3</option>
+      <option value="B">3 2</option>
+      <option value="C">2 2</option>
+      <option value="D">运行时错误，提示无效的键值</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203029" type="1">
+    <question>以下的C#代码段： public struct Person { string Name； int Age； } public static void Main() { Hasbtable A； Person B； } 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">A为引用类型的变量，B为值类型的变量</option>
+      <option value="B">A为值类型的变量，B为引用类型的变量</option>
+      <option value="C">A和B都是值类型的变量</option>
+      <option value="D">A和 B都是引用类型的变量</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203030" type="1">
+    <question>以下定义雇员类的代码： class Employee { private string id; public string Id { _________//请填写正确的代码行 { return id; } set { if(id．Length&gt;2) id = value; } } }应填写的正确的代码为（选一项）</question>
+    <choice>
+      <option value="A">let</option>
+      <option value="B">set</option>
+      <option value="C">get</option>
+      <option value="D">put</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203031" type="1">
+    <question>以下关于C#中方法重载的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">如两个方法名字不同，而参数的数量不同，那么它们可以构成方法重载</option>
+      <option value="B">如两个方法名字相同，而返回值的数据类型不同，那么它们可以构成方法重载</option>
+      <option value="C">如两个方法名字相同，而参数的数据类型不同，那么它们可以构成方法重载</option>
+      <option value="D">如两个方法名字相同，而参数的数量不同，那么它们可以构成方法重载</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="203032" type="1">
+    <question>有如下C#代码，其中定义了一个哈希表存放学生的学号和成绩，现在，为了避免输入时出现学号重复的现象，若出现重复现象，并让用户继续输入正确的学号，则在两处划横线的地方分别加入的代码是（选一项） class Class1{ static void Main(string[]args){ Hashtable scores = new Hashtable(); string sid; int score; do{ Console.Write("输入学生学号："); sid = Console.ReadLine(); score=int.Parse(Sonsole.ReadLine()); if(__________)//在此处填写代码 { Console.WriteLine("学号输入重复了！请重新输入。"); __________//此处填写代码 } else { score.Add(sid,score); } }while(sid!="xxxx"); Console.WriteLine("输入完毕"); } }</question>
+    <choice>
+      <option value="A">score.ContainsValue(sid)和continue;</option>
+      <option value="B">scores.ContainKey(sid)和continue;</option>
+      <option value="C">scores.ContainKey(sid)和break;</option>
+      <option value="D">scores.Contains(sid)和continue;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203033" type="1">
+    <question>阅读以下的C#代码： class A { public A( ) { Console.WriteLine("A"); } } class B:A { public B() { Console.WriteLine("B"); } } class Program { public static void Main() { B b = new B(); Console.ReadLine(); } } 上述代码运行后，将在控制台窗口输出（选一项）</question>
+    <choice>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">A B</option>
+      <option value="D">B A</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203034" type="1">
+    <question>在.NET 中,下列关于即时编译(JIT)的描述,正确的是（选一项）</question>
+    <choice>
+      <option value="A">即时编译是解释式</option>
+      <option value="B">即时编译是将源程序编译成本机代码的过程</option>
+      <option value="C">在.NET框架中,各种语言的源程序先经过依次编译形成中间语言,再由中间语言编译成本机代码,我们把由中间语言编译成本机代码的过程称为即时编译的过程</option>
+      <option value="D">在.NET 框架中以运行库为目标的代码为托管代码,不以运行库为目标的代码为非托管代码,不管是托管代码还是非托管代码,要编译成本机代码都必须经过即时编译器的过程</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203035" type="1">
+    <question>在．NET框架类库中，所有与多线程机制应用相关的类都放在( )命名空间中。（选一项）</question>
+    <choice>
+      <option value="A">System.SysThread</option>
+      <option value="B">System.Thread</option>
+      <option value="C">System.Threading</option>
+      <option value="D">NetException</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203036" type="1">
+    <question>在.Net中，ArrayList对象位于（）命名空间内。（选一项）</question>
+    <choice>
+      <option value="A">System.Array</option>
+      <option value="B">System.IO</option>
+      <option value="C">System.Collections</option>
+      <option value="D">System.RunTime</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203037" type="1">
+    <question>在.NET中，Hashtable类所在的命名空间是（选一项）</question>
+    <choice>
+      <option value="A">System.Threadint</option>
+      <option value="B">System.IO</option>
+      <option value="C">System.Collections</option>
+      <option value="D">System</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203038" type="1">
+    <question>在.NET中,IL是指（选一项）</question>
+    <choice>
+      <option value="A">接口限制</option>
+      <option value="B">中间语言</option>
+      <option value="C">核心代码</option>
+      <option value="D">借口类库</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203039" type="1">
+    <question>在.NET中，从属性的读写特性上来进行分类，可以划分为以下三种，除了（选一项）</question>
+    <choice>
+      <option value="A">只读属性</option>
+      <option value="B">只写属性</option>
+      <option value="C">读写属性</option>
+      <option value="D">不可读不可写的属性</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203040" type="1">
+    <question>在.Net中，关于CLR和IL，以处描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">应用程序在CLR环境被编译成IL,IL将能够被任何计算机指令集成</option>
+      <option value="B">应用程序被编译两次，第一次生成IL,IL在运行时候被CLR快速编译</option>
+      <option value="C">应用程序被编译两次,但是第二次CLR编辑比第一次慢</option>
+      <option value="D">借取CLR,IL被编译成机器代码并且能够在不同的计算机指令集下被执行</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203041" type="1">
+    <question>在.NET中，下列关于事件处理程序说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">事件处理的顺序是定义事件、订阅事件、引发事件</option>
+      <option value="B">定义事件使用evnet关键字</option>
+      <option value="C">C#中的事件借助于委托来实现</option>
+      <option value="D">定义事件使用delegate关键字</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203042" type="1">
+    <question>在.NET中，一些数据类型为引用类型，当引用类型的值为( )时，表明没有引用任何对象。（选一项）</question>
+    <choice>
+      <option value="A">Empty</option>
+      <option value="B">null</option>
+      <option value="C">Nothing</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203043" type="1">
+    <question>在C#语法中，在派生类中对基类的虚函数进行重写，要求在声明中使用关键字（选一项）</question>
+    <choice>
+      <option value="A">override</option>
+      <option value="B">new</option>
+      <option value="C">static</option>
+      <option value="D">virtual</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203044" type="1">
+    <question>在C#语言中，下列关于属性的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">属性系是以public关键字修饰的字段，以public关键字修饰的字段也可称为属性</option>
+      <option value="B">属性是访问字段值的一种灵活机制，属性更好地实现了数据的封装和隐藏</option>
+      <option value="C">要定义只读属性只需在属性名前加上readonly关键字</option>
+      <option value="D">在C#的类中不能自定义属性</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203045" type="1">
+    <question>在C#中，( )访问修饰符修饰的变量只能由当前程序集访问。（选一项）</question>
+    <choice>
+      <option value="A">public</option>
+      <option value="B">protected</option>
+      <option value="C">internal</option>
+      <option value="D">private</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203046" type="1">
+    <question>在C#中，关于Array和ArrayList的维数，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Array可以有多维，而ArrayList只能是一维</option>
+      <option value="B">Array只能是一维，而 ArrayList可以有多维</option>
+      <option value="C">Array和 ArrayList 都只能是一维</option>
+      <option value="D">Array和ArrayList都可以是多维</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203047" type="1">
+    <question>在C#中，关于继承和接口，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">C#允许多接口实现，也允许多重继承</option>
+      <option value="B">C#允许多接口实现，但不允许多重继承</option>
+      <option value="C">C#不允许多接口实现，但允许多重继承</option>
+      <option value="D">C#不允许多接口实现，也不允许多重继承</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203048" type="1">
+    <question>在C#中，关于以下C#代码的说法正确的是（选一项） namespace Microsoft { class Student { string type=" 美国硅谷学员"; internal string name="李明"; } public class Test { static viod Main() { Student stu = new Student(); //1 Console.WriteLine(stu.type); //2 Console.WriteLine(stu.name); //3 } } }</question>
+    <choice>
+      <option value="A">代码1错误</option>
+      <option value="B">代码2错误</option>
+      <option value="C">代码3错误</option>
+      <option value="D">代码都错误</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203049" type="1">
+    <question>在C#中，关于属性的说话错误的是（选一项）</question>
+    <choice>
+      <option value="A">属性可以是只读的</option>
+      <option value="B">属性可以是只写的</option>
+      <option value="C">属性可以是可读可写的</option>
+      <option value="D">属性不能只是可写的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203050" type="1">
+    <question>在C#中，接口与抽象基类的区别在于（选一项）</question>
+    <choice>
+      <option value="A">抽象基类可以包含非抽象方法，而接口只能包含抽象方法</option>
+      <option value="B">抽象基类可以被实例化，而接口不能被实例化</option>
+      <option value="C">抽象基类不能被实例化，而接口可以被实例化</option>
+      <option value="D">抽象基类能够被继承，而接口不能被继承</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203051" type="1">
+    <question>在C#中,如果要将数组做为一个方法的参数,则传递的是（选一项）</question>
+    <choice>
+      <option value="A">数组中的所有元素</option>
+      <option value="B">数组的第一个元素</option>
+      <option value="C">对象的引用</option>
+      <option value="D">以上皆非</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="203052" type="1">
+    <question>在C#中，如果要在文件file1.txt中写入字母d（其ASCII码为100）,则横线处可以填写的代码是（选一项） class Class1{ static void Main(string[] args){ string path = @"D:\file1.txt"; FileStream fs=new FileStream(path,FileMode.Create,FileAccess.Write); ________在此处填之代码 fs.Close(); } }</question>
+    <choice>
+      <option value="A">fs.WriteLine("d");</option>
+      <option value="B">fs.Write(new byte[]{50,10,150},1,1);</option>
+      <option value="C">fs.WriteByte(100);</option>
+      <option value="D">fs.Write('d');</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203053" type="1">
+    <question>在C#中，通过调用Thread 类的Sleep(int x)方法来实现禁止线程运行，其中x代表（选一项）</question>
+    <choice>
+      <option value="A">禁止线程运行的微秒数</option>
+      <option value="B">禁止线程运行的毫秒数</option>
+      <option value="C">禁止线程运行的秒数</option>
+      <option value="D">禁止线程以内性的CPU时间数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203054" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） Hashtable hsStu = new Hashtable(); hsStu.Add(3,"A"); hsStu.Add(2,"B"); hsStu.Add(1,"C"); hsStu.Remove(1); Console.WriteLine(hsStu[2])</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">B</option>
+      <option value="C">1</option>
+      <option value="D">C</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203055" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） int []num = new int[]{3,4,5,3,8}; int index = Array.IndexOf(num,3); Console.WriteLine(index);</question>
+    <choice>
+      <option value="A">-1</option>
+      <option value="B">0</option>
+      <option value="C">1</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203056" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） int[] age = new int[]{16,18,14,22}; foreach(int i in age){ if(i&gt;18) continue; Console.Write(i.ToString()+" "); }</question>
+    <choice>
+      <option value="A">16 18 20 14 22</option>
+      <option value="B">16 18 14 22</option>
+      <option value="C">16 18 14</option>
+      <option value="D">16 18</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203057" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） int[] num = new int[]{1,3,5}; ArrayList arr = new ArrayList(); for(int i=0;i&lt;num.Length;i++) { arr.Add(num[i]); } arr.Insert(1,4); console.Write(arr[2]);</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">3</option>
+      <option value="C">4</option>
+      <option value="D">5</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203058" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） int[] num = new int[5]{1,3,2,0,0}; Array.Reverse(num); foreach(int i in num) { Console.Write(i); }</question>
+    <choice>
+      <option value="A">00123</option>
+      <option value="B">12300</option>
+      <option value="C">00132</option>
+      <option value="D">00231</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203059" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） static void main() { int[] num1 = new int[]{1,2,3,4,5}; int[] num2 = new int[5]{6,7,8,9,10}; Array.Copy(num1,num2,1); foreach(int i in num2) { Console.Write(i); } }</question>
+    <choice>
+      <option value="A">62345</option>
+      <option value="B">678910</option>
+      <option value="C">12346</option>
+      <option value="D">178910</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203060" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） struct Student { public int age; public string name; public Student(int age,string name) { this.sge = sge; this.name = name; } } public class Test { static void Main() { Student stu1 = new Student(18,"小芳"); Student stu2 = new Student(24,"小刚"); stu2 = stu1; stu1.age = 30; stu1.name = "小燕"; Console.WriteLine(stu2.age); Console.WriteLine(stu2.name); } }</question>
+    <choice>
+      <option value="A">18 小芳</option>
+      <option value="B">18 小燕</option>
+      <option value="C">30 小燕</option>
+      <option value="D">30 小芳</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203061" type="1">
+    <question>在C#中，下列代码运行结果是（选一项） Hashtable hsStu = new Hashtable(); hsStu.Add(3,"甲"); hsStu.Add(2,"乙"); hsStu.Add(1,"丙"); Console.WriteLine(hsStu[3]);</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">甲</option>
+      <option value="C">1</option>
+      <option value="D">丙</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203062" type="1">
+    <question>在C#中,下列结构或者类定义正确的是（选一项）</question>
+    <choice>
+      <option value="A">public struct Person{ string name; int age; public void ShowName(){ Console.WriteLine(name); }}</option>
+      <option value="B">public struct Person{ string name; int age; public Person(){ Conssole.WriteLine(name); }}</option>
+      <option value="C">public class Person{ string name; int age; public Person(){ Conssole.WriteLine(name); }}</option>
+      <option value="D">public class Person{ string name; int age; public Person(string name){ Conssole.WriteLine(name); }}</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="203063" type="1">
+    <question>在C#中，一个类（选一项）</question>
+    <choice>
+      <option value="A">可以继承多个类</option>
+      <option value="B">可以实现多个接口</option>
+      <option value="C">在一个程序中只能有一个子类</option>
+      <option value="D">只能实现一个接口</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203064" type="1">
+    <question>在C#中现实线程同步的关键字是（选一项）</question>
+    <choice>
+      <option value="A">synchronize</option>
+      <option value="B">lock</option>
+      <option value="C">Monitor</option>
+      <option value="D">delay</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203065" type="1">
+    <question>在Net中,（）接口定义了释放非托管资源的方法，Dispose方法与垃圾回收器一起使用来释放非托管资源。（选一项）</question>
+    <choice>
+      <option value="A">IRelease</option>
+      <option value="B">IDispose</option>
+      <option value="C">IDisposable</option>
+      <option value="D">IDispatch</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="203066" type="1">
+    <question>在属性的set块的实现内，用于访问传递给该属性的内置参数的是（选一项）</question>
+    <choice>
+      <option value="A">this</option>
+      <option value="B">value</option>
+      <option value="C">args</option>
+      <option value="D">property</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203067" type="1">
+    <question>针对下面的C#代码： class Teststring { public static void Main() { String strOriginal; strOriginal = Console.ReadLine(); bool A = strOriginal.Equals("A"); Console.WriteLine(A.ToString()); int B = strOriginal.Length; Console.WriteLine(B.ToString()); Console.ReadLine(); } } 程序运行时．输入“ AAAAA”(五个A的前面有三个空格)则程序输出为（选一项）</question>
+    <choice>
+      <option value="A">0 8</option>
+      <option value="B">False 8</option>
+      <option value="C">－1 8</option>
+      <option value="D">False 5</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="203068" type="1">
+    <question>针对下面的C#代码： using System; delegate void D(int i); class P { public static void Main() { V(new D(R)); } public static void R(int t) { V(21); } public static void V(int i) { Console.WriteLine(i.ToString()); Console.ReadLine(); } } 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">代码中存在错误，delegate voidD(int i);不能定义在名称空间或者类之外</option>
+      <option value="B">代码中存在错误，代码行V(new D(R))；使用委托错误</option>
+      <option value="C">程序正常运行，输出为0</option>
+      <option value="D">程序正常运行，输出为21</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

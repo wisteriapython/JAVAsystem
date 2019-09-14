@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="315001" type="1">
+    <question>&lt;set&gt;元素有一个cascade属性，如果希望Hibernate级联保存集合中的对象，casecade属性应该取什么值（选一项）</question>
+    <choice>
+      <option value="A">none</option>
+      <option value="B">save</option>
+      <option value="C">delete</option>
+      <option value="D">save-update</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315002" type="1">
+    <question>Customer类中有一个Set类型的orders属性，用来存放Order订单对象，在Customer.hbm.xml文件中，用哪个元素映射orders属性（选一项）</question>
+    <choice>
+      <option value="A">&lt;set&gt;</option>
+      <option value="B">&lt;one-to-many&gt;</option>
+      <option value="C">&lt;many-to-one&gt;</option>
+      <option value="D">&lt;property&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315003" type="1">
+    <question>from Cat as cat,不仅仅返回( )的实例，而且还返回( )的实例（选两项）</question>
+    <choice>
+      <option value="A">Cat</option>
+      <option value="B">Cat父类</option>
+      <option value="C">Cat子类</option>
+      <option value="D">Cat实现接口</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="315004" type="1">
+    <question>hibernate.cfg.xml配置文件中，不包含下面的（选一项）</question>
+    <choice>
+      <option value="A">“对象-关系映射”信息</option>
+      <option value="B">实体间关联的配置</option>
+      <option value="C">show_sql等参数的配置</option>
+      <option value="D">数据库连接信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315005" type="1">
+    <question>HQL不支持聚合函数有（选一项）</question>
+    <choice>
+      <option value="A">count(*)</option>
+      <option value="B">avg(…)</option>
+      <option value="C">count(…)</option>
+      <option value="D">count(?)</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315006" type="1">
+    <question>ORM是（选一项）</question>
+    <choice>
+      <option value="A">对象实体映射</option>
+      <option value="B">对象关系映射</option>
+      <option value="C">数据传递对象</option>
+      <option value="D">数据访问对象</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315007" type="1">
+    <question>ORM有什么好处（选一项）</question>
+    <choice>
+      <option value="A">能进行关系对象的映射</option>
+      <option value="B">具有控制器能力</option>
+      <option value="C">能在服务器端保存客户端状态</option>
+      <option value="D">像DTO一样传递数据</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315008" type="1">
+    <question>POJO的作用是（选一项）</question>
+    <choice>
+      <option value="A">普通的JavaBean对象映射数据库的字段</option>
+      <option value="B">数据访问</option>
+      <option value="C">对象的赋值</option>
+      <option value="D">保存客户端对象</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315009" type="1">
+    <question>POJO的全称是（选一项）</question>
+    <choice>
+      <option value="A">Plain Old Java Object</option>
+      <option value="B">Programming Object Java Object</option>
+      <option value="C">Page Old Java Object</option>
+      <option value="D">Plain Object Java Old</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315010" type="1">
+    <question>常见的实体对象是（选一项）</question>
+    <choice>
+      <option value="A">主体域对象(EJB)</option>
+      <option value="B">JAVABEAN对象(也可以称为POJO)</option>
+      <option value="C">控制器对象</option>
+      <option value="D">ActionForm对象</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315011" type="1">
+    <question>持久化状态前进行合法性检查，需要实现的接口是（选一项）</question>
+    <choice>
+      <option value="A">ActionListerner</option>
+      <option value="B">Lifecycle</option>
+      <option value="C">HttpServletReequest</option>
+      <option value="D">持久化状态合法检查不需要实现接口</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315012" type="1">
+    <question>对象（实体的实例）对一个特定的Session来说，要么是一个( )对象，要么是( )对象（选两项）</question>
+    <choice>
+      <option value="A">瞬时</option>
+      <option value="B">持久化</option>
+      <option value="C">控制器</option>
+      <option value="D">数据传输对象</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="315013" type="1">
+    <question>对于以下程序，Customer对象在第几行变为持久化状态（选一项） Customer customer=new Customer(); customer.setName(\"Tom\"); Session session1=sessionFactory.openSession(); Transaction tx1 = session1.beginTransaction(); //line1 session1.save(customer); //line2 tx1.commit(); //line3 session1.close(); //line4</question>
+    <choice>
+      <option value="A">line1</option>
+      <option value="B">line2</option>
+      <option value="C">line3</option>
+      <option value="D">line4</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315014" type="1">
+    <question>对于以下程序，Customer对象在第几行变为游离状态（选一项） Customer customer=new Customer(); customer.setName(\"Tom\"); Session session1=sessionFactory.openSession(); Transaction tx1 = session1.beginTransaction(); //line1 session1.save(customer); //line2 tx1.commit(); //line3 session1.close(); //line4</question>
+    <choice>
+      <option value="A">line1</option>
+      <option value="B">line2</option>
+      <option value="C">line3</option>
+      <option value="D">line4</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315015" type="1">
+    <question>对原生SQL查询执行的控制是通过( )接口进行的。（选一项）</question>
+    <choice>
+      <option value="A">Query</option>
+      <option value="B">Criteria</option>
+      <option value="C">SQLQuery</option>
+      <option value="D">List</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315016" type="1">
+    <question>过程域对象在Hibernate中代表（选一项）</question>
+    <choice>
+      <option value="A">业务逻辑操作</option>
+      <option value="B">应用层操作</option>
+      <option value="C">数据库层操作</option>
+      <option value="D">组件对象操作</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315017" type="1">
+    <question>假设对Customer类的orders集合采用延迟检索策略，编译或运行以下程序，会出现什么情况（选一项） Session session=sessionFactory.openSession(); tx = session.beginTransaction(); Customer customer=(Customer)session.get(Customer.class,new Long(1)); tx.commit(); session.close(); Iterator orderIterator=customer.getOrders().iterator();</question>
+    <choice>
+      <option value="A">编译出错</option>
+      <option value="B">编译通过，正常运行，不显示任何信息</option>
+      <option value="C">编译通过，正常运行，并显示出结果</option>
+      <option value="D">编译通过，但运行时抛出异常</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315018" type="1">
+    <question>如果你不能确定你要寻找的对象的持久化标识符,那么您需要使用查询。可以使用下面的那种方法（选一项）</question>
+    <choice>
+      <option value="A">query()</option>
+      <option value="B">queryAll()</option>
+      <option value="C">createQuery()</option>
+      <option value="D">load()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315019" type="1">
+    <question>实现equals()和hashCode()最显而易见的作用是（选一项）</question>
+    <choice>
+      <option value="A">比较两个对象标识符的值</option>
+      <option value="B">比较数据库的两条数据</option>
+      <option value="C">比较两个数组是否部署在同一个服务器上</option>
+      <option value="D">对象与字段的映射</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315020" type="1">
+    <question>使用Hibernate的QBC查询，要使用SQL中的类似select count(*) from tablename方法求出记录数，必须使用哪一个类。（选一项）</question>
+    <choice>
+      <option value="A">Restrictions</option>
+      <option value="B">Projections</option>
+      <option value="C">Criteria</option>
+      <option value="D">Criteron</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315021" type="1">
+    <question>使用Session的( )会把对象的状态从数据库中移除。（选一项）</question>
+    <choice>
+      <option value="A">delete()</option>
+      <option value="B">query()</option>
+      <option value="C">queryAll()</option>
+      <option value="D">query()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315022" type="1">
+    <question>所有的Hibernate 对象，除了( )，都支持空(null)语义。（选一项）</question>
+    <choice>
+      <option value="A">collection</option>
+      <option value="B">Element</option>
+      <option value="C">Entity</option>
+      <option value="D">NodeList</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315023" type="1">
+    <question>下列不属于多对一关系的是（选一项）</question>
+    <choice>
+      <option value="A">书和作者</option>
+      <option value="B">手机和生产厂家</option>
+      <option value="C">用户和发布的出租信息</option>
+      <option value="D">士兵和班长</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315024" type="1">
+    <question>下面不是Hibernate映射文件中包含的内容。（选一项）</question>
+    <choice>
+      <option value="A">数据库连接信息</option>
+      <option value="B">Hibernate属性参数</option>
+      <option value="C">主键生成策略</option>
+      <option value="D">属性数据类型</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315025" type="1">
+    <question>下面创建Criteria对象的语句中正确的是（选一项）</question>
+    <choice>
+      <option value="A">Criteria c = query.createCriteria();</option>
+      <option value="B">Criteria c = query.addCriteria();</option>
+      <option value="C">Criteria c = session.createCriteria();</option>
+      <option value="D">Criteria c = session.createCriteria(User.class);</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315026" type="1">
+    <question>下面的程序执行后没有报错，但数据总保存不到数据库，最可能的原因是（选一项） public static void imain(String[] args){ SessionFactory sf=new Configration().configure().buildSessionFactory(); Session session=sf.openSession(); Medal medal = new Medal(); medal.setOwner("totong"); medal.setType("Gold medal"); session.save(user); session.close(); }</question>
+    <choice>
+      <option value="A">配置文件配置有误</option>
+      <option value="B">没有在配置文件中包含对映射文件的声明</option>
+      <option value="C">没有对持久化操作捕捉异常</option>
+      <option value="D">没有开启事务</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315027" type="1">
+    <question>下面关于Hibernate的说法，错误的是（选一项）</question>
+    <choice>
+      <option value="A">Hibernate是一个“对象-关系映射”的实现</option>
+      <option value="B">Hibernate是一种数据持久化技术</option>
+      <option value="C">Hibernate是JDBC的替代技术</option>
+      <option value="D">使用Hibernate可以简化持久化层的编码</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315028" type="1">
+    <question>下面关于数据持久化概念的描述，错误的是（选一项）</question>
+    <choice>
+      <option value="A">保存在内存中数据的状态是瞬时状态</option>
+      <option value="B">持久状态的数据在关机后数据依然存在</option>
+      <option value="C">数据可以由持久状态转换为瞬时状态</option>
+      <option value="D">将数据转换为持久状态的机制称为数据持久化</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315029" type="1">
+    <question>下面那几种是持久化对象的状态（选三项）</question>
+    <choice>
+      <option value="A">瞬时状态</option>
+      <option value="B">离线状态</option>
+      <option value="C">持久化状态</option>
+      <option value="D">脱管状态</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="315030" type="1">
+    <question>下面一对多关联的配置中，存在哪些错误（选两项） &lt;set name="orders" inverse="false" cascade="true"&gt; &lt;one-to-many class="com.xdsvse.entity.Order" column="customer_id" /&gt; &lt;/set&gt;</question>
+    <choice>
+      <option value="A">inverse属性不可以设置为false</option>
+      <option value="B">cascade属性不可设置为true</option>
+      <option value="C">class="com.xdsvse.entity.Order"应为type="com.xdsvse.entity.Order"</option>
+      <option value="D">column属性不可再&lt;one-to-many&gt;节点内设置</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="315031" type="1">
+    <question>下面属于持久化的是（选一项）</question>
+    <choice>
+      <option value="A">把对象转换称字符串的形式通过网络传输，在另一端接收到这个字符串后能把对象还原出来</option>
+      <option value="B">把程序数据从数据库中读出来</option>
+      <option value="C">从XML配置文件中读取程序的配置信息</option>
+      <option value="D">把程序数据保存为文件</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315032" type="1">
+    <question>一般情况下，关系数据模型与对象模型之间有哪些匹配关系（选三项）</question>
+    <choice>
+      <option value="A">表对应类</option>
+      <option value="B">记录对应对象</option>
+      <option value="C">表的字段对应类的属性</option>
+      <option value="D">表之间的参考关系对应类之间的依赖关系</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="315033" type="1">
+    <question>已知grid.getItem().size()的值是1。要想使执行session.update(wage)时自动执行session.update(grid.getItems().get(0))，必须配置（选一项）</question>
+    <choice>
+      <option value="A">&lt;set name="items" inverse="true" cascade="none"&gt;…&lt;/set&gt;</option>
+      <option value="B">&lt;set name="items" inverse="false" cascade="none"&gt;…&lt;/set&gt;</option>
+      <option value="C">&lt;set name="items" inverse="true" cascade="all"&gt;…&lt;/set&gt;</option>
+      <option value="D">&lt;set name="items" inverse="false" cascade="save-update"&gt;…&lt;/set&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315034" type="1">
+    <question>以下程序代码对Customer的name属性修改了两次： tx = session.beginTransaction(); Customer customer=(Customer)session.load(Customer.class,new Long(1)); customer.setName(\"Jack\"); customer.setName(\"Mike\"); tx.commit(); 执行以上程序，Hibernate需要向数据库提交几条update语句（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315035" type="1">
+    <question>以下程序的打印结果是什么？ tx = session.beginTransaction(); Customer c1=(Customer)session.load(Customer.class,new Long(1)); Customer c2=(Customer)session.load(Customer.class,new Long(1)); System.out.println(c1==c2); tx.commit(); session.close();（选一项）</question>
+    <choice>
+      <option value="A">运行出错，抛出异常</option>
+      <option value="B">打印false</option>
+      <option value="C">打印true</option>
+      <option value="D">编译出错</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="315036" type="1">
+    <question>以下关于SessionFactory的说法哪些正确（选两项）</question>
+    <choice>
+      <option value="A">对于每个数据库事务，应该创建一个SessionFactory对象</option>
+      <option value="B">一个SessionFactory对象对应一个数据库存储源。</option>
+      <option value="C">SessionFactory是重量级的对象，不应该随意创建。如果系统中只有一个数据库存储源，只需要创建一个。</option>
+      <option value="D">SessionFactory的load()方法用于加载持久化对象</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="315037" type="1">
+    <question>以下哪个Hibernate主键生成策略是实现主键按数值顺序递增的（选一项）</question>
+    <choice>
+      <option value="A">increment</option>
+      <option value="B">identity</option>
+      <option value="C">sequence</option>
+      <option value="D">native</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315038" type="1">
+    <question>以下哪些属于Session的方法（选三项）</question>
+    <choice>
+      <option value="A">load()</option>
+      <option value="B">save()</option>
+      <option value="C">update()</option>
+      <option value="D">open()</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="315039" type="1">
+    <question>以下哪一种检索策略利用了外连结查询（选两项）</question>
+    <choice>
+      <option value="A">立即检索</option>
+      <option value="B">延迟检索</option>
+      <option value="C">迫切左外连结检索</option>
+      <option value="D">迫切右外连结检索</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="315040" type="1">
+    <question>域模型包括以下哪些（选两项）</question>
+    <choice>
+      <option value="A">实体域对象</option>
+      <option value="B">文件域对象</option>
+      <option value="C">过程域对象</option>
+      <option value="D">事件域对象</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="315041" type="1">
+    <question>元素把子对象的一些元素与父类对应的表的一些字段映射起来（选一项）</question>
+    <choice>
+      <option value="A">Component</option>
+      <option value="B">Element</option>
+      <option value="C">Attribute</option>
+      <option value="D">ActionForm</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="315042" type="1">
+    <question>在Hibernate关系映射配置中，inverse属性的含义是（选一项）</question>
+    <choice>
+      <option value="A">定义在&lt;one-to-many&gt;节点上，声明要负责关联的维护</option>
+      <option value="B">声明在&lt;set&gt;节点上，声明要对方负责关联的维护</option>
+      <option value="C">定义在&lt;one-to-many&gt;节点上，声明对方要负责关联的维护</option>
+      <option value="D">声明在&lt;set&gt;节点上，声明要负责关联的维护</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315043" type="1">
+    <question>在Hibernate中，关于数据库的方言，下面哪个说法是正确的（选一项）</question>
+    <choice>
+      <option value="A">可以不写数据库方言</option>
+      <option value="B">数据库方言没有作用，可以随便写</option>
+      <option value="C">有通用的数据库方言可以使用</option>
+      <option value="D">数据方言对应于每个数据库，主要用于产生SQL语句</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="315044" type="1">
+    <question>在三层结构中，数据访问层承担的责任是（选一项）</question>
+    <choice>
+      <option value="A">定义实体类</option>
+      <option value="B">数据的增删改查操作</option>
+      <option value="C">业务逻辑的描述</option>
+      <option value="D">页面展示和控制转发</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315045" type="1">
+    <question>在使用了Hibernate的系统中，要想在删除某个客户数据的同时删除该客户对应的所有订单数据，下面方法可行的是（选一项）</question>
+    <choice>
+      <option value="A">配置客户和订单关联的cascade属性为save-update</option>
+      <option value="B">配置客户和订单关联的cascade属性为all</option>
+      <option value="C">设置多对一关联的inverse属性为true</option>
+      <option value="D">设置多对一关联的inverse属性为false</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="315046" type="1">
+    <question>执行下面的hql查询，关于返回值的说法，正确的是（选一项） select u.username,u.userid from com.x.entity.User u where u is not null</question>
+    <choice>
+      <option value="A">语法错误，不能执行</option>
+      <option value="B">返回一个类型为List的实例</option>
+      <option value="C">返回一个数组</option>
+      <option value="D">当返回结果只有一条时，返回一个数组</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

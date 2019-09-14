@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<record> 
+  <TestResult stuName="l" testCourse="mysql." testDate="2015-06-04 08:20:29" useTime="3" examNum="69" succPercent="0" okPercent="0"/>  
+  <TestResult stuName="dd" testCourse="生产制造." testDate="2017-05-19 11:44:05" useTime="11" examNum="31" succPercent="3.23" okPercent="3.23"/>  
+  <TestResult stuName="hhh" testCourse="ASP Net制作." testDate="2017-05-19 12:05:41" useTime="8" examNum="162" succPercent="0" okPercent="0"/>  
+  <TestResult stuName="aad" testCourse="C#OOP." testDate="2017-05-19 12:19:15" useTime="7" examNum="68" succPercent="0" okPercent="0"/>  
+  <TestResult stuName="ddd" testCourse="JavaBase.HTML.SQLBase.JavaOOP.Android." testDate="2017-06-21 02:55:35" useTime="10" examNum="563" succPercent="0.36" okPercent="0.18"/>  
+  <TestResult stuName="滚滚滚" testCourse="JavaOOP." testDate="2018-11-12 08:58:29" useTime="79" examNum="79" succPercent="2.53" okPercent="2.53"/>  
+  <TestResult stuName="aaaa" testCourse="JavaBase." testDate="2018-11-12 10:18:10" useTime="70" examNum="156" succPercent="1.28" okPercent="0.64"/>
+</record>

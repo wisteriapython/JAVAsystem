@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="303001" type="1">
+    <question>在UML提供的图中，可以采用( )对逻辑数据库模式建模。</question>
+    <choice>
+      <option value="A">用例图</option>
+      <option value="B">活动图</option>
+      <option value="C">时序图</option>
+      <option value="D">类图</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303002" type="1">
+    <question>( )用于系统的功能建模，并强调对象的控制流。</question>
+    <choice>
+      <option value="A">状态图</option>
+      <option value="B">用例图</option>
+      <option value="C">活动图</option>
+      <option value="D">类图</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303003" type="1">
+    <question>OOAD（面向对象分析与设计）是软件工程醒目中首先必须做的工作，下面有关OOAD说法中，正确的是（ ）。</question>
+    <choice>
+      <option value="A">在OOA中，依据对应的现实世界对象来模型化问题</option>
+      <option value="B">OOA着眼于OOD的细化</option>
+      <option value="C">OOD阶段不考虑按对象的协作集合组织解决方案</option>
+      <option value="D">OOD阶段还需要设计数据库，并应用规范化方法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303004" type="1">
+    <question>UML的（）重点说明对象之间交互的顺序。</question>
+    <choice>
+      <option value="A">时序图</option>
+      <option value="B">类图</option>
+      <option value="C">状态图</option>
+      <option value="D">部署图</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303005" type="1">
+    <question>部署模型的主要元素为（）及其连接。</question>
+    <choice>
+      <option value="A">类和对象</option>
+      <option value="B">模块</option>
+      <option value="C">节点</option>
+      <option value="D">组件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303006" type="1">
+    <question>当一个类与它自己发生关联的时候，我们称其为（）。</question>
+    <choice>
+      <option value="A">递归关联</option>
+      <option value="B">关联</option>
+      <option value="C">限定关联</option>
+      <option value="D">单向关联</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303007" type="1">
+    <question>关于类图下列说法错误的是( )。</question>
+    <choice>
+      <option value="A">类图包含类名</option>
+      <option value="B">类图中的属性需要赋值</option>
+      <option value="C">类图中的属性不需要赋值</option>
+      <option value="D">类图包含操作</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303008" type="1">
+    <question>关于用例图中的参与者，以下说法错误的是( )。</question>
+    <choice>
+      <option value="A">可以是系统用户</option>
+      <option value="B">可以是其它的系统</option>
+      <option value="C">可以是一些进程</option>
+      <option value="D">以上都是错的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303009" type="1">
+    <question>绘制用例图的步骤不包含( )。</question>
+    <choice>
+      <option value="A">定义系统边界</option>
+      <option value="B">标识参与者</option>
+      <option value="C">标识各个用例</option>
+      <option value="D">标识参与者间的关系</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303010" type="1">
+    <question>建模的目标，下面那种说法是错误的( )。</question>
+    <choice>
+      <option value="A">便于开发人员展示系统</option>
+      <option value="B">允许开发人员指定系统的结构和行为</option>
+      <option value="C">建模就等于写文档</option>
+      <option value="D">记录开发人员的决策</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303011" type="1">
+    <question>类图中操作的可见性不包括( )。</question>
+    <choice>
+      <option value="A">Public</option>
+      <option value="B">Friend</option>
+      <option value="C">Private</option>
+      <option value="D">Package</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303012" type="1">
+    <question>类之间的( )关系的部分整体依赖最强。</question>
+    <choice>
+      <option value="A">聚合</option>
+      <option value="B">组合</option>
+      <option value="C">依赖</option>
+      <option value="D">泛化</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303013" type="1">
+    <question>类之间的关联关系不包含下列哪个元素( )。</question>
+    <choice>
+      <option value="A">名称</option>
+      <option value="B">权限</option>
+      <option value="C">导航</option>
+      <option value="D">多重性</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303014" type="1">
+    <question>面向对象的分析与设计中，UML的类的图标是一个包括三个部分的（ ）。</question>
+    <choice>
+      <option value="A">椭圆</option>
+      <option value="B">三角形</option>
+      <option value="C">矩形</option>
+      <option value="D">五角形</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303015" type="1">
+    <question>某一银行业务系统的设计中，有一个取款的用例，还有验证密码、划出现金、打印取款凭证等用例。请问取款用例和打印取款凭证用例之间的关系是（）。</question>
+    <choice>
+      <option value="A">扩展</option>
+      <option value="B">包含</option>
+      <option value="C">泛化</option>
+      <option value="D">使用</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303016" type="1">
+    <question>如图是一个UML类图，请问图 中所示的类之间的关系是（ ）。</question>
+    <choice>
+      <option value="A">关联</option>
+      <option value="B">依赖</option>
+      <option value="C">聚合</option>
+      <option value="D">泛化</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303017" type="1">
+    <question>如图是一个UML类图，请问图中所示类的公有属性是（ ）。</question>
+    <choice>
+      <option value="A">Name</option>
+      <option value="B">Salary</option>
+      <option value="C">teach</option>
+      <option value="D">GetSalaey</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303018" type="1">
+    <question>如图所示是一个UML图，请问该图属于（）。</question>
+    <choice>
+      <option value="A">用例图</option>
+      <option value="B">类图</option>
+      <option value="C">时序图</option>
+      <option value="D">协作图</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303019" type="1">
+    <question>时序图不包含下列哪个元素( )。</question>
+    <choice>
+      <option value="A">生命线</option>
+      <option value="B">消息</option>
+      <option value="C">激活</option>
+      <option value="D">链</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303020" type="1">
+    <question>时序图与( )图包含的信息相同，可以相互转换。</question>
+    <choice>
+      <option value="A">用例</option>
+      <option value="B">状态</option>
+      <option value="C">活动</option>
+      <option value="D">协作</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303021" type="1">
+    <question>时序图中的纵坐标表示的是( )。</question>
+    <choice>
+      <option value="A">链</option>
+      <option value="B">消息</option>
+      <option value="C">时间</option>
+      <option value="D">事件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303022" type="1">
+    <question>下列关于UML图的说法，错误的是（ ）。</question>
+    <choice>
+      <option value="A">UML图所使用的图形符号可展示和表达系统的概观</option>
+      <option value="B">UML图可为规划中的系统精密且准确的建模</option>
+      <option value="C">UML图与特定语言相关</option>
+      <option value="D">UML图可以帮助完成从软件项目开始至交付过程中的所有文档</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303023" type="1">
+    <question>下列哪一项不是UML中的动态图形( )。</question>
+    <choice>
+      <option value="A">类图</option>
+      <option value="B">活动图</option>
+      <option value="C">时序图</option>
+      <option value="D">状态图</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303024" type="1">
+    <question>下列那种关系属于类关系中的组合关系( )。</question>
+    <choice>
+      <option value="A">汽车和司机</option>
+      <option value="B">经理和员工</option>
+      <option value="C">电视机和遥控器</option>
+      <option value="D">书和纸</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303025" type="1">
+    <question>下列任务中，不属于软件工程需求分析阶段的是( )。</question>
+    <choice>
+      <option value="A">分析软件系统的数据要求</option>
+      <option value="B">确定软件系统的功能要求</option>
+      <option value="C">确定软件系统的性能要求</option>
+      <option value="D">确定软件系统的运行平台</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303026" type="1">
+    <question>下面那种关系不是用例间的关系( )。</question>
+    <choice>
+      <option value="A">关联关系</option>
+      <option value="B">聚合关系</option>
+      <option value="C">扩展关系</option>
+      <option value="D">包含关系</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303027" type="1">
+    <question>验证DOM树，采用方法( )。</question>
+    <choice>
+      <option value="A">javax.xml.validation.Validator的validate方法</option>
+      <option value="B">javax.xml.parsers.DocumentBuilderFactory的setValidating的方法</option>
+      <option value="C">javax.xml.parsers.DocumentBuilderFactory的setNamespaceAware的方法</option>
+      <option value="D">java.xml.validation.Validator的validate方法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303028" type="1">
+    <question>以下代码创建了两个类, 请问两个类之间的关系是 ( )。 Public class Teacher{ private Glasses glasses ; //眼镜 } public class Glasses{ public void Watch(){} }</question>
+    <choice>
+      <option value="A">关联</option>
+      <option value="B">泛化</option>
+      <option value="C">依赖</option>
+      <option value="D">组合</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303029" type="1">
+    <question>以下代码创建了两个类，分别为计算机类，鼠标类，请问两个类之间的关系是（ ） Public class Computer { Private Mouse gdMouse; } Public class Mouse { }(选择一项)</question>
+    <choice>
+      <option value="A">关联</option>
+      <option value="B">依赖</option>
+      <option value="C">聚合</option>
+      <option value="D">组合</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303030" type="1">
+    <question>应该在( )阶段制定系统测试计划。</question>
+    <choice>
+      <option value="A">需求分析</option>
+      <option value="B">概要设计</option>
+      <option value="C">详细设计</option>
+      <option value="D">系统测试</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303031" type="1">
+    <question>用例图可以用于软件开发的( )阶段。</question>
+    <choice>
+      <option value="A">需求分析和测试</option>
+      <option value="B">设计</option>
+      <option value="C">编码</option>
+      <option value="D">部署</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303032" type="1">
+    <question>有关UML的应用，以下说法错误的是（）。</question>
+    <choice>
+      <option value="A">UML 是一种建模语言，可以用来形象化的绘制软件蓝图</option>
+      <option value="B">UML 可以应用在嵌入式系统中</option>
+      <option value="C">使用UML 构建的模型只能应用于面向对象语言</option>
+      <option value="D">UML可以应用在针对操作系统的开发领域</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303033" type="1">
+    <question>在OOAD中, 下图所示的活动图中的元素表示的是 ( )。</question>
+    <choice>
+      <option value="A">活动</option>
+      <option value="B">分叉</option>
+      <option value="C">判定</option>
+      <option value="D">终止</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303034" type="1">
+    <question>在OOD的状态力中，下图所示的符号表示的是对象的（ ）状态。</question>
+    <choice>
+      <option value="A">初始</option>
+      <option value="B">终止</option>
+      <option value="C">活动</option>
+      <option value="D">转换</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303035" type="1">
+    <question>在活动图中，针对并发的控制流建模，需要采用( )。</question>
+    <choice>
+      <option value="A">分支与合并</option>
+      <option value="B">分支与汇合</option>
+      <option value="C">分叉与合并</option>
+      <option value="D">分叉与汇合</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303036" type="1">
+    <question>在面向对象的分析和设计中，下列关于活动图的说法，正确的是（ ）。</question>
+    <choice>
+      <option value="A">活动图可显示有条件的或平行的活动。</option>
+      <option value="B">活动图体现对象的协作方式</option>
+      <option value="C">活动图可以捕获动作的结果，而不能捕获动作</option>
+      <option value="D">活动图可以捕获动作，而不能捕获动作的结果</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303037" type="1">
+    <question>在面向对象的分析与设计中，UML通过（ ）来捕获客户的需求。</question>
+    <choice>
+      <option value="A">用例图</option>
+      <option value="B">类图</option>
+      <option value="C">状态图</option>
+      <option value="D">时序图</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303038" type="1">
+    <question>在面向对象的分析与设计中，关于接口与实现说法错误的是( )。</question>
+    <choice>
+      <option value="A">一个类只能实现一个接口</option>
+      <option value="B">一个接口可以被多个类实现</option>
+      <option value="C">类和接口之间的关系称为实现</option>
+      <option value="D">接口是用于指定类或组件服务的操作的集合</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303039" type="1">
+    <question>在面向对象的分析与设计中，关于用Rational XDE绘制时序图的说法正确的是( )。</question>
+    <choice>
+      <option value="A">事件事由水平线描述的</option>
+      <option value="B">对象是由垂直线描述的</option>
+      <option value="C">从下到上的事件发生顺序来描述事件</option>
+      <option value="D">时间是从顶部开始沿垂直分析描述的</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303040" type="1">
+    <question>在面向对象的分析与设计中，使用用例图分析业务系统时，不包括的任务是（ ）。</question>
+    <choice>
+      <option value="A">定义问题</option>
+      <option value="B">定义对象之间交互的时间序列</option>
+      <option value="C">定义问题边界</option>
+      <option value="D">理解与问题领域相关的词汇</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303041" type="1">
+    <question>在面向对象的分析与设计中，下列( )不属于UML的应用开发领域。</question>
+    <choice>
+      <option value="A">信息系统</option>
+      <option value="B">技术系统</option>
+      <option value="C">业务系统</option>
+      <option value="D">导弹系统</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303042" type="1">
+    <question>在面向对象的分析与设计中，下列( )不属于UML图。</question>
+    <choice>
+      <option value="A">用例图</option>
+      <option value="B">类图</option>
+      <option value="C">时序图</option>
+      <option value="D">活动图</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303043" type="1">
+    <question>在面向对象的分析与设计中，下列( )不属于标识候选类的方式。</question>
+    <choice>
+      <option value="A">排除冗余类</option>
+      <option value="B">去除无关类</option>
+      <option value="C">排除模糊类</option>
+      <option value="D">排除抽象类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303044" type="1">
+    <question>在面向对象的分析与设计中，下列( )不属于类之间的关系。</question>
+    <choice>
+      <option value="A">关联</option>
+      <option value="B">泛化</option>
+      <option value="C">依赖</option>
+      <option value="D">多态</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303045" type="1">
+    <question>在面向对象的分析与设计中，下列（ ）不属于UML图。</question>
+    <choice>
+      <option value="A">类图</option>
+      <option value="B">时序图</option>
+      <option value="C">活动图</option>
+      <option value="D">视图</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303046" type="1">
+    <question>在面向对象的分析与设计中，下列（ ）不属于类之间的关系。</question>
+    <choice>
+      <option value="A">关联</option>
+      <option value="B">泛化</option>
+      <option value="C">依赖</option>
+      <option value="D">多态</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303047" type="1">
+    <question>在面向对象的分析与设计中，下列不属于动态模型的是（ ）。</question>
+    <choice>
+      <option value="A">类图</option>
+      <option value="B">时序图</option>
+      <option value="C">协作图</option>
+      <option value="D">活动图</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="303048" type="1">
+    <question>在面向对象的分析与设计中，下列关于OOA与OOD说法错误的是( )。</question>
+    <choice>
+      <option value="A">OOA是指依照用户理解的真实世界中的对象和概念，发现和分析对象的内部构成和外部关系</option>
+      <option value="B">OOA着眼于OOD的技术细化</option>
+      <option value="C">OOD是指根据以建立的系统对象模型，运用面向对象技术，进行软件设计</option>
+      <option value="D">OOA、OOD有助于处理软件开发的复杂性</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303049" type="1">
+    <question>在面向对象的分析与设计中，下列关于UML图的优点说法不正确的是( )。</question>
+    <choice>
+      <option value="A">图形符号可以展示和表达系统的概观</option>
+      <option value="B">为规划中的系统精密且明确的建模</option>
+      <option value="C">使用UML构建的模型与语言相关</option>
+      <option value="D">帮助完成从软件项目开始至交付过程中的所有归档</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303050" type="1">
+    <question>在面向对象的分析与设计中，下列关于各种UML图，说法正确的是( )。</question>
+    <choice>
+      <option value="A">借助时序图、状态图、活动图可以描述系统的动态模型</option>
+      <option value="B">时序图显示对象在生命周期内响应外部事件和消息时所经历的状态序列</option>
+      <option value="C">状态图着重于多个事物的描述</option>
+      <option value="D">活动图是按时间顺序模拟控制流程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303051" type="1">
+    <question>在面向对象的分析与设计中，下列关于关键抽象的说法，错误的是( )。</question>
+    <choice>
+      <option value="A">关键抽象强调与系统设计有关的实体</option>
+      <option value="B">关键抽象的抽象层次越高越好</option>
+      <option value="C">关键抽象排除系统外部多于地实体</option>
+      <option value="D">关键抽象将成为分析模型中的类</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303052" type="1">
+    <question>在面向对象的分析与设计中，下列关于建模的必要性，说法错误的是( )。</question>
+    <choice>
+      <option value="A">模型有助于指定系统的结构或行为</option>
+      <option value="B">模型可以记录已经作出的决策</option>
+      <option value="C">模型有助于实现系统更改，从而增强功能和得到认可</option>
+      <option value="D">小型系统不需要建模</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303053" type="1">
+    <question>在面向对象的分析与设计中，下列关于建模的原则，说法正确的是( )。</question>
+    <choice>
+      <option value="A">选择什么样的模型与要解决的问题没有关系</option>
+      <option value="B">一般情况下，单个模型都能满足要求</option>
+      <option value="C">最佳模型与显示情况是紧密相连的</option>
+      <option value="D">每一种模型都有特定的精度级别</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303054" type="1">
+    <question>在面向对象的分析与设计中，下列关于类之间的泛化关系，说法正确的是( )。</question>
+    <choice>
+      <option value="A">泛化是类之间的一种连接，泛化总是双向的</option>
+      <option value="B">面向对象中的继承关系在UML中称为泛化</option>
+      <option value="C">泛化是指从抽象类得到子类</option>
+      <option value="D">被泛化的类称为子类，得到的类称为超类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303055" type="1">
+    <question>在面向对象的分析与设计中，下列关于类之间的聚合与组合关系，说法正确的是( )。</question>
+    <choice>
+      <option value="A">聚合标明一种长期关系，限制条件事某个对象是另一个对象的组成部分</option>
+      <option value="B">在组合关系中，没有整体，部分也没有存在地价值</option>
+      <option value="C">在聚合关系中，没有整体，部分也没有存在地价值</option>
+      <option value="D">组合是关联的一种特殊形式</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="303056" type="1">
+    <question>在面向对象的分析与设计中,下列关于时序图,说法正确的是( )。</question>
+    <choice>
+      <option value="A">时序图是一种静态模型</option>
+      <option value="B">时序图重点说明对象间的交互顺序</option>
+      <option value="C">在时序图中，包括对象之间的交互顺序以及对象间的关系</option>
+      <option value="D">在时序图中，水平坐标轴表示时间</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303057" type="1">
+    <question>在面向对象的分析与设计中，下列关于时序图的说法，不正确的是（ ）。</question>
+    <choice>
+      <option value="A">它反映了随时间变化发生的对象间的交互</option>
+      <option value="B">对象由于水平线描述的</option>
+      <option value="C">事件由水平线描述</option>
+      <option value="D">时间从顶部开始从上而下垂直绘制</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303058" type="1">
+    <question>在面向对象的分析与设计中，下列关于用例图的说法，错误的是( )。</question>
+    <choice>
+      <option value="A">用例图有助于将重点放在系统可能的用户上</option>
+      <option value="B">用例图有助于确定用户与系统交互时扮演的角色</option>
+      <option value="C">在用例图中，用圆形表示系统边界</option>
+      <option value="D">用例之间的关系包括扩展关系，包含关系</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303059" type="1">
+    <question>在面向对象的分析与设计中，下列关于用例图的说法，正确的有（ ）。</question>
+    <choice>
+      <option value="A">用例模型中的系统就是一个真正的软件系统</option>
+      <option value="B">用例图不能描述系统提供给用户的服务</option>
+      <option value="C">在用例中，矩形框用于表示系统的边界</option>
+      <option value="D">为系统定义的用例是整个开发过程的基础</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303060" type="1">
+    <question>在面向对象的分析与设计中，下列有关UML的说法，不正确的是（ ）。</question>
+    <choice>
+      <option value="A">它主要是图形符号，用面向对象的方法描述系统设计</option>
+      <option value="B">已经在小的模型中而不是复杂系统中证明成功</option>
+      <option value="C">它可在用户、分析者、设计者和软件开发者之间建立良好的沟通</option>
+      <option value="D">它用于可视化、具体化、结构化和文档化软件内在系统的不同方面</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303061" type="1">
+    <question>在面向对象的分析与设计中，用例图中使用（ ）表示系统的边界。</question>
+    <choice>
+      <option value="A">椭圆</option>
+      <option value="B">三角形</option>
+      <option value="C">矩形</option>
+      <option value="D">虚线框</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="303062" type="1">
+    <question>在使用面向对象的思想进行软件研发过程中，一般在（ ）阶段创建类图。</question>
+    <choice>
+      <option value="A">OOA</option>
+      <option value="B">OOD</option>
+      <option value="C">OOP</option>
+      <option value="D">测试</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="303063" type="1">
+    <question>在一个银行的项目设计中，有很多用例，其中取款用例使用了密码校验用例，则取款用例和密码校验用例之间的关系是（）。（选择一项）</question>
+    <choice>
+      <option value="A">包含</option>
+      <option value="B">扩展</option>
+      <option value="C">泛化</option>
+      <option value="D">关联</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

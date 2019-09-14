@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="202001" type="1">
+    <question>.给定两个java程序,如下:Text.java的编译运行结果是（选一项） pubilc interface Face{ int count = 40; } pubilc class Text implements Face{ private static int counter; pubilc static void main(String[]args){ System.out.println( counter ); } }</question>
+    <choice>
+      <option value="A">40</option>
+      <option value="B">41</option>
+      <option value="C">0</option>
+      <option value="D">1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202002" type="1">
+    <question>Java程序中读入用户输入的一个值，要求创建一个自定义的异常，如果输入值大于10，使用throw语句显式地引发异常，异常输出信息为“something’s wrong！”，语句为（选一项）</question>
+    <choice>
+      <option value="A">if (I&gt;10) throw Exception("something’s wrong！");</option>
+      <option value="B">if (I&gt;10) throw Exception e ("something’s wrong！");</option>
+      <option value="C">if (I&gt;10) throw new Exception("something’s wrong！");</option>
+      <option value="D">if (I&gt;10) throw new Exception e ("something’s wrong！");</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202003" type="1">
+    <question>Java程序中类的定义如下： class Demo { private int[] count; public Demo(){ count=new int[10]; } public void setCount(int ct,int n){ count[n]=ct; } public int getCount(int n){ return count[n]; } public void showCount(int n){ System.out.println("Count is "+count[n]); } } 在创建Demo类的实例后，通过调用showCount(9)方法得到的显示结果是（选一项）</question>
+    <choice>
+      <option value="A">Count is 0</option>
+      <option value="B">Count is null</option>
+      <option value="C">编译错误</option>
+      <option value="D">运行时错误</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202004" type="1">
+    <question>java程序中有如下代码： DataInputStream din = new DataInputStream （ new BufferedInputStream(new FileInputStream("employee.dat") )); 假设在employee.dat文件中只有如下一段字符：abcdefg。则：System.out.println(din.read())在屏幕上打印（选一项）</question>
+    <choice>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">97</option>
+      <option value="D">98</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202005" type="1">
+    <question>java语言中，下列处理输出操作的所有类的基础的是（选一项）</question>
+    <choice>
+      <option value="A">DataOutput</option>
+      <option value="B">OutputStream</option>
+      <option value="C">BufferedOutputStream</option>
+      <option value="D">IOStream</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202006" type="1">
+    <question>Java中，使用（）修饰符时，一个类能被同一包或不同包中的其他类访问。（选一项）</question>
+    <choice>
+      <option value="A">private</option>
+      <option value="B">protected</option>
+      <option value="C">public</option>
+      <option value="D">friendly</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202007" type="1">
+    <question>public class MyClass1{ public static void main (String argv[]){} _____ class MyInner {} } 在以上java代码中的横线上，不可放置（）修饰符。（选一项）</question>
+    <choice>
+      <option value="A">public</option>
+      <option value="B">private</option>
+      <option value="C">static</option>
+      <option value="D">friend</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202008" type="1">
+    <question>public class Test { public static void main(String args[]){ EqTest e = new EqTest(); e.show(); } } class EqTest{ String s = "Java"; String s2 = "java"; public void show(){ //在这儿放置测试代码 {System.out.println("相等");} else {System.out.println("不相等");} } } 在上面的Java代码的注释行位置，放置（）测试代码能输出“相等”结果。（选一项）</question>
+    <choice>
+      <option value="A">if(s==s2)</option>
+      <option value="B">if(s.equals(s2))</option>
+      <option value="C">if(s.equalsIgnoreCase(s2))</option>
+      <option value="D">if(s.noCaseMatch(s2))</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202009" type="1">
+    <question>包pack1的类class1中有成员方法： protected void method_1(){…}， private void method_2(){…}, public void method_3(){…}和void method_4(){…},在包pack2中的类class2是class1的子类，你在class2中可以调用方法（选两项）</question>
+    <choice>
+      <option value="A">method_1</option>
+      <option value="B">method_2</option>
+      <option value="C">method_3</option>
+      <option value="D">method_4</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202010" type="1">
+    <question>编译并运行下面的Java程序: class A{ int var1=1; int var2; public static void main(String[] args){ int var3=3; A a = new A(); System.out.println(a.var1+a.var2+var3); } } 将产生( )结果。（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">4</option>
+      <option value="C">3</option>
+      <option value="D">代码无法编译，因为var2根本没有被初始化</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202011" type="1">
+    <question>编译并运行下面的Java代码段 char c = 'a'; switch (c) { case 'a': System.out.println("a"); default: System.out.println("default"); } 输出结果是（选一项）</question>
+    <choice>
+      <option value="A">代码无法编译，因为switch语句没有一个合法的表达式</option>
+      <option value="B">a default</option>
+      <option value="C">a</option>
+      <option value="D">default</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202012" type="1">
+    <question>分析下列Java代码： class A{ public static void main(String[] args){ method(); } static void method(){ try{ System.out.println("Hello"); } finally{ System.out.println("good-bye"); } } } 编译运行后，输出结果是（选一项）</question>
+    <choice>
+      <option value="A">“Hello”</option>
+      <option value="B">“good-bye”</option>
+      <option value="C">“Hello good-bye”</option>
+      <option value="D">代码不能编译</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202013" type="1">
+    <question>分析下面的Java程序： public class ExceptionTest { public static void main(String[] args) throws Exception { try { throw new Exception(); } catch(Exception e){ System.out.println("Caught in main()"); } System.out.println("nothing"); } } 输出结果为（选一项）</question>
+    <choice>
+      <option value="A">Caught in main() nothing</option>
+      <option value="B">Caught in main()</option>
+      <option value="C">nothing</option>
+      <option value="D">没有任何输出</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202014" type="1">
+    <question>给定 Java 代码如下 , 要打印出list中存储的内容,以下语句正确的是（选两项） ArrayList list= new ArrayList(); list.add("a"); list.add("b");</question>
+    <choice>
+      <option value="A">System.out.print(list);</option>
+      <option value="B">System.out.print(list.toArray());</option>
+      <option value="C">System.out.print(list.toString());</option>
+      <option value="D">System-out-print(list.get(0));</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202015" type="1">
+    <question>给定Java代码，如下： abstract class Shape{ abstract void draw(); } 要创建Shape类的子类Circle，以下代码正确的是（选两项）</question>
+    <choice>
+      <option value="A">class Circle extends Shape{ int draw(){} }</option>
+      <option value="B">abstract class Circle extends Shape{ }</option>
+      <option value="C">class Circle extends Shape{ void draw(); }</option>
+      <option value="D">class Circle extends Shape{ void draw(){}; }</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="202016" type="1">
+    <question>给定java代码，如下：编译运行，结果是（选一项） public static void main(String[] args) { String s; System.out.println( "s=" + s); }</question>
+    <choice>
+      <option value="A">编译错误</option>
+      <option value="B">编译通过，但出现运行时错误</option>
+      <option value="C">正常运行，输出s=null</option>
+      <option value="D">正常运行，输出s=</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202017" type="1">
+    <question>给定java代码，如下：运行时，会产生（）类型的异常。（选一项） String s = null; s.concat("abc");</question>
+    <choice>
+      <option value="A">AritthmeticException</option>
+      <option value="B">NullpointerException</option>
+      <option value="C">IOException</option>
+      <option value="D">EOFException</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202018" type="1">
+    <question>给定java代码片段，如下： Integer a = new Integer(3); Integer b = new Integer(3); System.out.println(a==b); 运行后，这段代码将输出（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">0</option>
+      <option value="C">true</option>
+      <option value="D">false</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202019" type="1">
+    <question>给定java代码如下,d的取值范围是（选一项） double d = Math.random();</question>
+    <choice>
+      <option value="A">d&gt;=1.0</option>
+      <option value="B">d&gt;=0.0,并且d&lt;1.0</option>
+      <option value="C">d&gt;=0.0,并且d&lt;Double.MAX_VALUE</option>
+      <option value="D">d&gt;=1.0,并且d&lt;Double.MAX_VALUE</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202020" type="1">
+    <question>给定Java代码如下，运行时，会产生( )类型的异常。（选一项） String s = null; s.concat("abc");</question>
+    <choice>
+      <option value="A">ArithmeticException</option>
+      <option value="B">NullPointerException</option>
+      <option value="C">IOException</option>
+      <option value="D">EOFException</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202021" type="1">
+    <question>给定某Java程序的main方法如下，该程序编译运行的结果是（选一项） public static void main(String[]args){ String str = null; str.concat("abc"); str.concat("def"); System.out.println(str); }</question>
+    <choice>
+      <option value="A">null</option>
+      <option value="B">abcdef</option>
+      <option value="C">编译错误</option>
+      <option value="D">运行时出现异常</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202022" type="1">
+    <question>给定如下JAVA 程序片断: class A{ public A(){ system.out.println("A"); } } class B extends A{ public B(){ System.out.println("B"); } public static void main(String[] args){ B b = new B(); } } 上述程序将（选一项）</question>
+    <choice>
+      <option value="A">不能通过编译</option>
+      <option value="B">通过编译,输出为: A B</option>
+      <option value="C">通过编译,输出为: B</option>
+      <option value="D">通过编译,输出为: A</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202023" type="1">
+    <question>给定如下Java代码，编译时会在( )出现错误。（选一项） class Parent{ } class Child extends Parent{ public static void main(String args[]){ Parent p1 = new Child(); //第一行 Parent p2 = new Parent(); //第二行 Child c1 = new Child(); //第三行 Child c2 = new Parent(); //第四行 } }</question>
+    <choice>
+      <option value="A">第一行</option>
+      <option value="B">第二行</option>
+      <option value="C">第三行</option>
+      <option value="D">第四行</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202024" type="1">
+    <question>给定如下Java代码，编译运行时，以下( )语句的值是true。（选两项） String s = "hello"; String t = "hello"; String e = new String("hello"); char[] c = {'h','e','l','l','o'};</question>
+    <choice>
+      <option value="A">s.equals( t )</option>
+      <option value="B">t.equals( c )</option>
+      <option value="C">t.equals( e )</option>
+      <option value="D">t==c</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202025" type="1">
+    <question>给定一个Java程序代码，如下：运行编译后，输出结果是（选一项） pubilc class Test{ int count = 9; pubilc void count1(){ int count = 10; System.out.println("count1" + count); } pubilc void count2(){ System.out.println("count2" + count); } pubilc static void main(String args[]){ Test t = new Twst(); t.count1(); t.count2(); } }</question>
+    <choice>
+      <option value="A">count1=9 count2=9</option>
+      <option value="B">count1=10 count2=9</option>
+      <option value="C">count1=10 count2=10</option>
+      <option value="D">count1=9 count2=10</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202026" type="1">
+    <question>给定一个Java程序的代码片断如下，运行后，正确的输出结果是（选一项） String s="hello,world"; s.replace(","," "); System.out.println(s);</question>
+    <choice>
+      <option value="A">hello world;</option>
+      <option value="B">hello, world</option>
+      <option value="C">HELLO WORLD;</option>
+      <option value="D">HELLO ,WORLD;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202027" type="1">
+    <question>给定一个java程序的方法结构，如下： public Integer change(String s){ } 以下方法体实现语句正确的是（选两项）</question>
+    <choice>
+      <option value="A">return new Integer(s);</option>
+      <option value="B">return s;</option>
+      <option value="C">Integer t = Integer.valueOf(s);return t;</option>
+      <option value="D">return s.getInteger();</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202028" type="1">
+    <question>接口的定义如下： interface A { int method1(int i); int method2(int j); } 类B实现了接口A，以下( )是正确的。（选一项）</question>
+    <choice>
+      <option value="A">class B implements A { int method1() { } int method2() { } }</option>
+      <option value="B">class B { int method1(int i) { } int method2(int j) { } }</option>
+      <option value="C">class B implements A { int method1(int i) { } int method2(int j) { } }</option>
+      <option value="D">class B extends A { int method1(int i) { } int method2(int j) { } }</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202029" type="1">
+    <question>类 Java.util.HashMap 实现了( )接口。（选一项）</question>
+    <choice>
+      <option value="A">collection</option>
+      <option value="B">Set</option>
+      <option value="C">Map</option>
+      <option value="D">List</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202030" type="1">
+    <question>如下Java代码段，体现了（）概念。（选一项） public void aMethod(String s){....} public void aMethod(int i){.........} public void aMethod(int i,float f){.....}</question>
+    <choice>
+      <option value="A">多继承</option>
+      <option value="B">重载</option>
+      <option value="C">重写　</option>
+      <option value="D">多态</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202031" type="1">
+    <question>为了判断两个字符串s1和s2是否相等，应当使用（选一项）</question>
+    <choice>
+      <option value="A">if (s1==s2)</option>
+      <option value="B">if (s1=s2)</option>
+      <option value="C">if (strcpy(s1，s2))</option>
+      <option value="D">if (s1.equals(s2))</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202032" type="1">
+    <question>下列关于类中的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">类是拥有相同特征、共同的行为和共同的关系的一组对象</option>
+      <option value="B">类是对象在现实世界的具体表现形式</option>
+      <option value="C">类似的对象归为一个类，每个类描述一组独立的对象</option>
+      <option value="D">对象是类的实例，类结构是对象抽象的实用形式</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202033" type="1">
+    <question>下面程序的输出是（选一项） class A2 extends A1 { A2(){ System.out.println("A2"); } public static void main(String args[]){ new A2(); } } class A1{ A1(){ System.out.println("A1"); } }</question>
+    <choice>
+      <option value="A">A1</option>
+      <option value="B">A2</option>
+      <option value="C">A1A2</option>
+      <option value="D">A2A1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202034" type="1">
+    <question>下面是Java程序中的一些声明，选项中能够通过编译的一项是（选一项） String s1 = new String("Hello"); String s2 = new String("there"); String s3 = new String();</question>
+    <choice>
+      <option value="A">s3 = s1 + s2</option>
+      <option value="B">s3 = s1 ＆ s2</option>
+      <option value="C">s3 = s1 || s2</option>
+      <option value="D">s3 = s1 - s2</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202035" type="1">
+    <question>研究下面的Java代码： public class testException{ public static void main(String args[]){ int n[]={0,1,2,3,4}; int sum=0; try { for(int i=1;i&lt;6;i++) sum=sum+ n[i]; System.out.println("sum="+sum); } catch(ArrayIndexOutOfBoundsExpception e) { System.out.println("数组越界"); } finally{ System.out.println("程序结束"); } } } 输出结果将是（选一项）</question>
+    <choice>
+      <option value="A">10 数组越界 程序结束</option>
+      <option value="B">10 程序结束</option>
+      <option value="C">数组越界 程序结束</option>
+      <option value="D">程序结束</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202036" type="1">
+    <question>要使用Java创建一个新目录，你可用如下（）类的实例。（选一项）</question>
+    <choice>
+      <option value="A">File</option>
+      <option value="B">FileoutputStream</option>
+      <option value="C">Printwriter</option>
+      <option value="D">BufferedReader</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202037" type="1">
+    <question>要使用流类和整个输入输出流，则必须导入（）包。（选一项）</question>
+    <choice>
+      <option value="A">java.lang</option>
+      <option value="B">java.stream</option>
+      <option value="C">java.net</option>
+      <option value="D">java.io</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202038" type="1">
+    <question>以下Java语句中，( )可以构造一个DataOutputStream对象。（选一项）</question>
+    <choice>
+      <option value="A">new DataOutputStream(new FileOutputStream("abc.txt"));</option>
+      <option value="B">new DataOutputStream(new OutputStream("abc.txt"));</option>
+      <option value="C">new DataOutputStream(new FileWriter("abc.txt"));</option>
+      <option value="D">new DataOutputStream(new FileInputStream("abc.txt"));</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202039" type="1">
+    <question>在J2EE中，下面的代码中出现编译错误的是（选一项）</question>
+    <choice>
+      <option value="A">File f = new File("/","autoexec.bat");</option>
+      <option value="B">DataInputStream din = new DataInputStream(new FileInputStream("autoexec.bat"));</option>
+      <option value="C">InputStreamReader in = new InputStreamReader(System.in);</option>
+      <option value="D">OutputStreamWriter out = new OutputStreamWriter(System.in);</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202040" type="1">
+    <question>在J2SE中，下列元素经过排序的集合类是（选一项）</question>
+    <choice>
+      <option value="A">LinkedList</option>
+      <option value="B">Stack</option>
+      <option value="C">Hashtable</option>
+      <option value="D">TreeSet</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202041" type="1">
+    <question>在Java.lang包的Math类中，求最大值的方法为（选一项）</question>
+    <choice>
+      <option value="A">Max()</option>
+      <option value="B">Min()</option>
+      <option value="C">Abs()</option>
+      <option value="D">Ceil()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202042" type="1">
+    <question>在java的异常处理中，能单独与finally语句一起使用的块是（选一项）</question>
+    <choice>
+      <option value="A">try</option>
+      <option value="B">catch</option>
+      <option value="C">throw</option>
+      <option value="D">throws</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202043" type="1">
+    <question>在Java语言中，当一个类的某个变量声明为protected时下列说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">只有同一类中的成员才能访问它</option>
+      <option value="B">不同包中的任何其他类都能够访问它</option>
+      <option value="C">同包中的任何其他类能够访问它</option>
+      <option value="D">不同包中的子类可以访问该变量</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="202044" type="1">
+    <question>在Java语言中，如果你有下面的类定义： abstract class Shape{ abstract void draw(); } Class Square extends Shape{} 如果你试图编译上面的代码会发生（选一项）</question>
+    <choice>
+      <option value="A">一切成功编译</option>
+      <option value="B">Shape可以编译,Square不能编译</option>
+      <option value="C">Square可以编译，Shape不能编译</option>
+      <option value="D">Shape，Square都不能编译</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202045" type="1">
+    <question>在Java语言中，小明在他的包mypackage中定义了类My_Class，在mypackage的子包mysubpackage中也有个类My_Class。小明用.import mypackage：引入包，执行其中的语句：My_Class NewClass=New My_Class();时，将发生（选一项）</question>
+    <choice>
+      <option value="A">创建一个类mypackage.My_Class对象</option>
+      <option value="B">创建一个类mypackage. Mysubpackage.My_Class的对象</option>
+      <option value="C">该语句是错误的</option>
+      <option value="D">创建一个类mypackage.My_Class的对象和一个类mypackage. Mysubpackage.My_Class的对象</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202046" type="1">
+    <question>在Java语言中，小明在他的类SquareRoot中定义了方法method_A，其中包含语句： double my_result=Math.sqrt(1000)；他需要导入（选一项）</question>
+    <choice>
+      <option value="A">Java.awt.*</option>
+      <option value="B">Java.Math.*</option>
+      <option value="C">Java.util.Math.*</option>
+      <option value="D">以上皆非</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202047" type="1">
+    <question>在Java中，( )对象可以使用键/值的形式保存数据。（选一项）</question>
+    <choice>
+      <option value="A">ArrayList</option>
+      <option value="B">HashSet</option>
+      <option value="C">HashMap</option>
+      <option value="D">LinkedList</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202048" type="1">
+    <question>在Java中,()接口位于集合框架的顶层。（选一项）</question>
+    <choice>
+      <option value="A">Map</option>
+      <option value="B">Collection</option>
+      <option value="C">Set</option>
+      <option value="D">List</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202049" type="1">
+    <question>在JAVA中，com包中某类的方法使用下列（）访问修饰符修饰后，可以被com.db包中的子类访问，但不能被com.db中其他类访问。（选一项）</question>
+    <choice>
+      <option value="A">private</option>
+      <option value="B">protected</option>
+      <option value="C">public</option>
+      <option value="D">friendly</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202050" type="1">
+    <question>在Java中，调用Math.random() 方法可能返回的结果是（）。（选一项）</question>
+    <choice>
+      <option value="A">132.34</option>
+      <option value="B">0.342</option>
+      <option value="C">29.34E10</option>
+      <option value="D">1.0009</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202051" type="1">
+    <question>在Java中，调用Math.random() 方法可能返回的结果是（选一项）</question>
+    <choice>
+      <option value="A">132.34</option>
+      <option value="B">0.342</option>
+      <option value="C">29.34E10</option>
+      <option value="D">1.0009</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202052" type="1">
+    <question>在java中，定义接口的关键字是（选一项）</question>
+    <choice>
+      <option value="A">class</option>
+      <option value="B">interface</option>
+      <option value="C">extends</option>
+      <option value="D">implements</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202053" type="1">
+    <question>在Java中，根据你的理解，下列方法( )不可能是类Orange的构造方法。（选一项）</question>
+    <choice>
+      <option value="A">Orange(){…}</option>
+      <option value="B">Orange(…)｛…｝</option>
+      <option value="C">public void Orange(){…}</option>
+      <option value="D">public Orange(){…}</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202054" type="1">
+    <question>在Java中，关健字（）使类不能派生出子类。（选一项）</question>
+    <choice>
+      <option value="A">final</option>
+      <option value="B">public</option>
+      <option value="C">private</option>
+      <option value="D">volatile</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202055" type="1">
+    <question>在Java中，关于CLASSPATH环境变量的说法不正确的是（选一项）</question>
+    <choice>
+      <option value="A">CLASSPATH一旦设置之后不可修改，但可以将目录添加到该环境变量中</option>
+      <option value="B">编译器用它来搜索各自的类文件</option>
+      <option value="C">CLASSPATH是一个目录列表</option>
+      <option value="D">解释器用它来搜索各自的类文件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202056" type="1">
+    <question>在Java中，关于final关键字的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">如果修饰变量，则一旦赋了值，就等同一个常量</option>
+      <option value="B">如果修饰类，则该类只能被一个子类继承</option>
+      <option value="C">如果修饰方法，则该方法不能在子类中被覆盖</option>
+      <option value="D">如果修饰方法，则该方法所在的类不能被继承</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202057" type="1">
+    <question>在JAVA中，类Animal中的方法PrintA()定义如下： public void printA(){ int a=10; int result=10%3; System.out.println(result); } 在类Dog中方法printA()定义如下： public void printA(){ int a=10; system.out.println(a/3); } Dog类的定义如下： class Dog extends animal{…} 若有语句： Animal animal = new Dog(); Animal.printA(); 则这段代码输出为（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">3.3333</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202058" type="1">
+    <question>在Java中，如果父类中的某些方法不包含任何逻辑，并且需要由子类重写，应该使用( )关键字来声明父类的这些方法。（选一项）</question>
+    <choice>
+      <option value="A">final</option>
+      <option value="B">static</option>
+      <option value="C">abstract</option>
+      <option value="D">void</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202059" type="1">
+    <question>在JAVA中，如果要在字符串类型对象S＝"java"，中找出字母'v'出现的位置（即位置2），可使用（选一项）</question>
+    <choice>
+      <option value="A">mid（2，s）</option>
+      <option value="B">charAt（2）</option>
+      <option value="C">s.indexOf（'v'）</option>
+      <option value="D">indexOf（s,'v'）</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202060" type="1">
+    <question>在Java中，下列( )做法可以得到Connection对象和Statement对象。（选一项）</question>
+    <choice>
+      <option value="A">使用Class的getConnection方法可以得到Connection对象，使用Connection对象的createStatement方法可以获得Statement对象</option>
+      <option value="B">使用Class的getConnection方法可以得到Connection对象，使用DriverManager对象的createStatement方法可以获得Statement对象</option>
+      <option value="C">使用DriverManager的getConnection方法可以得到Connection对象，使用Connection对象的createStatement方法可以获得Statement对象</option>
+      <option value="D">使用DriverManager的getConnection方法可以得到Connection对象，使用Statement对象的createStatement方法可以获得Statement对象</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202061" type="1">
+    <question>在java中，下列赋值语句正确的是（选两项）</question>
+    <choice>
+      <option value="A">char c='a';</option>
+      <option value="B">char c="a";</option>
+      <option value="C">char c=97;</option>
+      <option value="D">char c=new Character('a');</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="202062" type="1">
+    <question>在Java中，下列关于抽象类的描述正确的是( )。（选一项）</question>
+    <choice>
+      <option value="A">抽象类可以被实例化</option>
+      <option value="B">如果一个类中有一个方法被声明为抽象的，那么这个类必须是抽象类</option>
+      <option value="C">抽象类中的方法必须都是抽象的</option>
+      <option value="D">抽象类不能含有构造方法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202063" type="1">
+    <question>在Java中,下列选项表示字符'a'值的是（选一项）</question>
+    <choice>
+      <option value="A">'a'</option>
+      <option value="B">"a"</option>
+      <option value="C">new Character(a)</option>
+      <option value="D">\000a</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202064" type="1">
+    <question>在Java中，下面关于包的陈述中正确的是（选两项）</question>
+    <choice>
+      <option value="A">包的声明必须是源文件的第一句代码</option>
+      <option value="B">包的声明必须紧跟在import语句的后面</option>
+      <option value="C">只有公共类才能放在包中</option>
+      <option value="D">可以将多个源文件中的类放在同一个包中</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="202065" type="1">
+    <question>在Java中，下面关于包的陈述中正确的是（选一项）</question>
+    <choice>
+      <option value="A">包的声明必须是源文件的第一句代码</option>
+      <option value="B">包的声明必须紧跟在import语句的后面</option>
+      <option value="C">只有公共类才能放在包中</option>
+      <option value="D">多个源文件中的类不可以放在同一个包中</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202066" type="1">
+    <question>在Java中，下面关于构造函数的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">类必须有显式构造函数</option>
+      <option value="B">它的返回类型是void</option>
+      <option value="C">它和类有相同的名称，但它不能带任何参数</option>
+      <option value="D">以上皆非</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202067" type="1">
+    <question>在Java中，下面描述正确的是（）。（选一项）</question>
+    <choice>
+      <option value="A">try块中可以有嵌套try块</option>
+      <option value="B">try块后最多可以跟随3个catch块</option>
+      <option value="C">try块可以单独存在</option>
+      <option value="D">finally块可以单独存在</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202068" type="1">
+    <question>在Java中，要想使只有定义该类所在的包内的类可以访问该类，应该用( )关键字。（选一项）</question>
+    <choice>
+      <option value="A">不需要任何关键字</option>
+      <option value="B">private</option>
+      <option value="C">final</option>
+      <option value="D">protected</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202069" type="1">
+    <question>在Java中，已定义两个接口B和C，要定义一个实现这两个接口的类，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">interface A extends B,C</option>
+      <option value="B">interface A implements B,C</option>
+      <option value="C">class A implements B,C</option>
+      <option value="D">class A implements B, implements C</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202070" type="1">
+    <question>在java中，以下代码（）正确地创建了一个InputStreamReader类型的对象（选一项）</question>
+    <choice>
+      <option value="A">new InputStreamReader(new FileInputStream("1.dat"));</option>
+      <option value="B">new InputStreamReader(new FileReader("1.dat"));</option>
+      <option value="C">new InputStreamReader(new BufferedReader("1.dat"));</option>
+      <option value="D">new InputStreamReader("1.dat");</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202071" type="1">
+    <question>在java中，运行时发生的错误称为（ ）。（选一项）</question>
+    <choice>
+      <option value="A">异常</option>
+      <option value="B">暂停</option>
+      <option value="C">消息</option>
+      <option value="D">服务</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202072" type="1">
+    <question>在Java中，在单一文件中import、class 和package的正确出现顺序是（选一项）</question>
+    <choice>
+      <option value="A">class,import, package</option>
+      <option value="B">package, import, class</option>
+      <option value="C">import, package, class</option>
+      <option value="D">package, class, import</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="202073" type="1">
+    <question>在java中，在方法前使用（）关键字，可以表示此方法为类方法，无需创建对象即可访问。（选一项）</question>
+    <choice>
+      <option value="A">void</option>
+      <option value="B">final</option>
+      <option value="C">public</option>
+      <option value="D">static</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202074" type="1">
+    <question>在Java中，在使用JDBC时，对于多次调用同一条SQL语句的情况，使用( )通常会提高效率。（选一项）</question>
+    <choice>
+      <option value="A">Statement</option>
+      <option value="B">CallableStatement</option>
+      <option value="C">PrepareStatement</option>
+      <option value="D">ParameterStatement</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202075" type="1">
+    <question>在Java中，执行下面的语句后，c的值为（选一项） String s = "Jessica "; char c = s.charAt(6);</question>
+    <choice>
+      <option value="A">null</option>
+      <option value="B">' '</option>
+      <option value="C">'c '</option>
+      <option value="D">'a'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="202076" type="1">
+    <question>在Java中已获得默认类型的 Resultset 对象 rs, 要获取结果集中的数据 , 必须执行的语句是（选一项）</question>
+    <choice>
+      <option value="A">rs.next()</option>
+      <option value="B">rs.previous()</option>
+      <option value="C">rs.getNext()</option>
+      <option value="D">rs.getPrevious()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="202077" type="1">
+    <question>在jave中，类Worker是类Person的子类，Worker的构造方法中有一句”super()”, 该语句 （选一项）</question>
+    <choice>
+      <option value="A">调用类Worker 中定义的super()方法</option>
+      <option value="B">调用类Person中定义的super()方法</option>
+      <option value="C">调用类Person的构造函数</option>
+      <option value="D">句法错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202078" type="1">
+    <question>在JDK1.5及以上版本中，如果你试图编译和运行下面代码会发生什么？（选一项） Integer ten=new Integer(10); Long nine=new Long (9); System.out.println(ten + nine); int i=1; System.out.println(i + ten);</question>
+    <choice>
+      <option value="A">19 然后是20</option>
+      <option value="B">19 然后是11</option>
+      <option value="C">编译错误</option>
+      <option value="D">10然后是1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="202079" type="1">
+    <question>在类的说明符中，被指定为私有的数据可以被以下（）访问。（选一项）</question>
+    <choice>
+      <option value="A">程序中的任何函数</option>
+      <option value="B">其他类的成员函数</option>
+      <option value="C">类中的成员函数</option>
+      <option value="D">派生类中的成员函数</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="102001" type="1">
+    <question>&lt;A href="#"&gt;所表示的意义是（选一项）</question>
+    <choice>
+      <option value="A">表示从当前页面跳转到名为 #的页面</option>
+      <option value="B">表示从当前页面跳转到当前页面中名为 #的锚点</option>
+      <option value="C">表示把当前位置命名为“#”</option>
+      <option value="D">表示空链接，不做任何跳转</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102002" type="1">
+    <question>&lt;form&gt;标签中用来指定表单需要提交的地址，需要设置属性（选一项）</question>
+    <choice>
+      <option value="A">name</option>
+      <option value="B">method</option>
+      <option value="C">action</option>
+      <option value="D">onsubmit</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102003" type="1">
+    <question>&lt;img&gt;标签要显示图片必须要设置的属性是（选一项）</question>
+    <choice>
+      <option value="A">href</option>
+      <option value="B">background</option>
+      <option value="C">rel</option>
+      <option value="D">src</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102004" type="1">
+    <question>&lt;marquee&gt;标签中设置滚动的次数用到的属性是（选一项）</question>
+    <choice>
+      <option value="A">behavior</option>
+      <option value="B">scrollamount</option>
+      <option value="C">loop</option>
+      <option value="D">direction</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102005" type="1">
+    <question>html文档是一种文本文件，具有（ ）扩展名（选一项）</question>
+    <choice>
+      <option value="A">html 或者 .htm</option>
+      <option value="B">.js</option>
+      <option value="C">.doc</option>
+      <option value="D">.gif</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102006" type="1">
+    <question>html文档由哪几部分组成？（选一项）</question>
+    <choice>
+      <option value="A">html部分，头部分,正文部分。</option>
+      <option value="B">html部分，头部分,title部分</option>
+      <option value="C">html部分，head部分</option>
+      <option value="D">title 部分，html部分，p部分</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102007" type="1">
+    <question>Iframe框架的属性src表示（选一项）</question>
+    <choice>
+      <option value="A">源文件</option>
+      <option value="B">框架要加载的页面地址</option>
+      <option value="C">框架是否允许被滚动</option>
+      <option value="D">框架的边框</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102008" type="1">
+    <question>WWW上的所有信息都是以（）的形式提供的。（选一项）</question>
+    <choice>
+      <option value="A">DOC</option>
+      <option value="B">TXT</option>
+      <option value="C">HTML</option>
+      <option value="D">EXE</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102009" type="1">
+    <question>标记用于以预定义的格式显示文本，即文本在浏览器中显示时遵循在HTML源文档中定义的格式（选一项）</question>
+    <choice>
+      <option value="A">&lt;ADDRESS&gt;</option>
+      <option value="B">&lt;BLOCKQUOTE&gt;</option>
+      <option value="C">&lt;PRE&gt;</option>
+      <option value="D">&lt;SPAN&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102010" type="1">
+    <question>表格边框厚度设为（ ），在浏览器中显示时就没有边框了。（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">null</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102011" type="1">
+    <question>表格最基本的单元是（选一项）</question>
+    <choice>
+      <option value="A">行</option>
+      <option value="B">列</option>
+      <option value="C">单元格</option>
+      <option value="D">行和列</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102012" type="1">
+    <question>创建一个样式, 可以设置当前页面中ID为compact 元素的内容的字体为斜体. 下列能实现该功能的代码是（选一项）</question>
+    <choice>
+      <option value="A">&lt;STYLE TYPE="text/css"&gt; compact{font-style:italic;}&lt;/STYLE&gt;</option>
+      <option value="B">&lt;STYLE TYPE="text/css"&gt; @compact{font-style:italic;}&lt;/STYLE&gt;</option>
+      <option value="C">&lt;STYLE TYPE="text/css"&gt; .compact{font-style:italic;}&lt;/STYLE&gt;</option>
+      <option value="D">&lt;STYLE TYPE="text/css"&gt; #compact{font-style:italic;}&lt;/STYLE&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102013" type="1">
+    <question>对于Internet Explorer 浏览器，可以使用（ ）标记将声音添加到网页上。（选两项）</question>
+    <choice>
+      <option value="A">&lt;BGSOUND&gt;</option>
+      <option value="B">&lt;EMBED&gt;</option>
+      <option value="C">&lt;SOUND&gt;</option>
+      <option value="D">&lt;EMBEDSOUND&gt;</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="102014" type="1">
+    <question>对于下拉列表选项，下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">可以设置成单选</option>
+      <option value="B">可以设置成多选</option>
+      <option value="C">下拉框中size的值默认为0时，则说明一次只能看见一个选项值</option>
+      <option value="D">在&lt;select multiple="multiple" id="aa"&gt;&lt;/select&gt;中，multiple表明这个下拉列表为多选</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102015" type="1">
+    <question>分析下面HTML语句： &lt;EMBED SRC ="firework.avi" WIDTH = "250" HEIGHT = "150" AUTOSTATR = "TRUE"&gt; 下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">该语句实现在网页上添加声音文件firework.avi</option>
+      <option value="B">该文件不会自动播放</option>
+      <option value="C">可以通过添加LOOP属性指定播放的次数</option>
+      <option value="D">WIDTH 和 HEIGHT 属性指定页面的尺寸</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102016" type="1">
+    <question>分析下面使用的META元素的语句： &lt;META name="DESCRIPTION" Content="the page of zhangming"&gt; &lt;META name="KEYWORDS" Content="zhang,ming"&gt; 下面选项说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">该页面的基本描述是"the page of zhangming"</option>
+      <option value="B">该页面的基本关键字为"zhang,ming"</option>
+      <option value="C">该页面的作者为"zhangming"</option>
+      <option value="D">该页面的主题为"the page of zhangming"</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="102017" type="1">
+    <question>给页面添加背景色，需要设置属性的标签是（选一项）</question>
+    <choice>
+      <option value="A">&lt;html&gt;</option>
+      <option value="B">&lt;head&gt;</option>
+      <option value="C">&lt;tilte&gt;</option>
+      <option value="D">&lt;body&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102018" type="1">
+    <question>根据以下的HTML代码片段： ... &lt;h1 style ="font-style:italic;color:limegreen;font-size=30"&gt; hello!Nice to meet you ! &lt;/h1&gt; &lt;h1&gt; this is the default display of an h1 element &lt;/h1&gt; ... 以下描述不正确是（选一项）</question>
+    <choice>
+      <option value="A">第一个h1设置了特定的样式</option>
+      <option value="B">第二个h1用了系统默认的样式</option>
+      <option value="C">"hello!Nice to meet you !"的字体颜色是浅绿色(limegreen)</option>
+      <option value="D">"this is the default displayof an h1 element"的字体大小为30</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102019" type="1">
+    <question>关于超链接，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">超链接的标记符号是&lt;A&gt;,如果要引入锚点，则是使用它的name属性来完成。</option>
+      <option value="B">超链接需要使用src属性指明链接目标的URL。</option>
+      <option value="C">超链接目标不可以是本站点内网页的某一部分。</option>
+      <option value="D">超链接的目标页面不可以是另一个网页。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102020" type="1">
+    <question>关于文本对齐，源代码设置不正确的一项是（选一项）</question>
+    <choice>
+      <option value="A">居中对齐：&lt;div align="middle"&gt;…&lt;/div&gt;</option>
+      <option value="B">居右对齐：&lt;div align="right"&gt;…&lt;/div&gt;</option>
+      <option value="C">居左对齐：&lt;div align="left"&gt;…&lt;/div&gt;</option>
+      <option value="D">两端对齐：&lt;div align="justify"&gt;…&lt;/div&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102021" type="1">
+    <question>关于样式表，下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">大括号将选择器和整个属性序列都包括在内，定义CSS样式。</option>
+      <option value="B">冒号将属性名称与它的值分开。</option>
+      <option value="C">分号表示一个属性定义的结束。</option>
+      <option value="D">类选择器使用HTML元素的class属性。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102022" type="1">
+    <question>关于样式表的说法，错误的是（选一项）</question>
+    <choice>
+      <option value="A">外部样式表是样式表的一种表现形式。</option>
+      <option value="B">链接外部样式表文件，只能用Link标记导入。</option>
+      <option value="C">样式可以嵌入到&lt;HEAD&gt;和&lt;/HEAD&gt;标记之间。</option>
+      <option value="D">可对具体的某个网页元素应用样式。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102023" type="1">
+    <question>合并单元格3列为1列，下面设置正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;td colspan=3&gt;&lt;/td&gt;</option>
+      <option value="B">&lt;td rowspan=3&gt;&lt;/td&gt;</option>
+      <option value="C">&lt;td cols=3&gt;&lt;/td&gt;</option>
+      <option value="D">&lt;td rows=3&gt;&lt;/td&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102024" type="1">
+    <question>己知services.html与text.html在同一服务器上，但不在同一文件夹中。假如文档services.html在文件夹information 中，proposals段落在文档services.html中。现要求在text.html文档中编写一个超链接，链接到文档services.html的proposals段落。下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;A HREF = "services.html#proposals"&gt;Link&lt;/A&gt;</option>
+      <option value="B">&lt;A HREF = "information/services.html#proposals"&gt;Link&lt;/A&gt;</option>
+      <option value="C">&lt;A HREF = "#proposals"&gt;Link&lt;/A&gt;</option>
+      <option value="D">&lt;A HREF = "information#proposals"&gt;Link&lt;/A&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102025" type="1">
+    <question>假如要在网页中显示下列内容： 我们是SVSE的学员 并要求将"SVSE" 四个字用25号字体显示 下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;p&gt;我们是&lt;DIV STYLE="font-size:25"&gt;svse&lt;/DIV&gt;的学员</option>
+      <option value="B">&lt;P&gt;我们是&lt; DIV FONT ="font-size:25"&gt;svse&lt;/SPAN&gt;的学员</option>
+      <option value="C">&lt;P&gt;我们是&lt;SPAN FONT="font-size:25"&gt;svse&lt;/SPAN&gt;的学员</option>
+      <option value="D">&lt;P&gt;我们是&lt;SPAN STYLE="font-size:25"&gt;svse&lt;/SPAN&gt;的学员</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102026" type="1">
+    <question>假使要将图片文件asrlogo.jpg插入页面，并为该图片设置替代文字"ASR Outfitters Logo".为下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;IMG SRC =asrlogo.jpg&gt; ASR Outfitters Logo&lt;/IMG&gt;</option>
+      <option value="B">&lt;IMG SRC=asrlogo.jpg ALT="ASR Outfitters Logo"&gt;</option>
+      <option value="C">&lt;IMG SRC=asrlogo.jpg&gt; ALT="ASR Outfitters Logo"&gt;</option>
+      <option value="D">&lt;IMG SRC=asrlogo ALT="ASR Outfitters Logo"&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102027" type="1">
+    <question>可以浮动于页面之上任意位置的标签是（选一项）</question>
+    <choice>
+      <option value="A">&lt;div&gt;</option>
+      <option value="B">&lt;span&gt;</option>
+      <option value="C">&lt;talbe&gt;</option>
+      <option value="D">&lt;frameset&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102028" type="1">
+    <question>框架网页中的每个框架窗口，显示的是（选一项）</question>
+    <choice>
+      <option value="A">单独的网页</option>
+      <option value="B">网页的一部分</option>
+      <option value="C">一个图片</option>
+      <option value="D">一段文字</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102029" type="1">
+    <question>李明在使用OutLook Express发送邮件时，发送不能成功，你认为他的收件人应该改为（选一项）</question>
+    <choice>
+      <option value="A">xiaoming$sohu.com</option>
+      <option value="B">xiaoming@sohu.com</option>
+      <option value="C">xiaoming#sohu.com</option>
+      <option value="D">xiaoming.sohu.com</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102030" type="1">
+    <question>浏览器与Web服务器之间进行相互通信的协议是（选一项）</question>
+    <choice>
+      <option value="A">FTP</option>
+      <option value="B">IPX/SPX</option>
+      <option value="C">TCP/IP</option>
+      <option value="D">HTTP</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102031" type="1">
+    <question>锚链接的创建和链接需要用到的属性分别是（选一项）</question>
+    <choice>
+      <option value="A">src name</option>
+      <option value="B">name href</option>
+      <option value="C">href src</option>
+      <option value="D">href name</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102032" type="1">
+    <question>默认情况下，在HTML文档中使用（）标记绘制水平线。（选一项）</question>
+    <choice>
+      <option value="A">&lt;LEN&gt;</option>
+      <option value="B">&lt;LINE&gt;</option>
+      <option value="C">&lt;HR&gt;</option>
+      <option value="D">&lt;P&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102033" type="1">
+    <question>能够提交表单的按钮，type属性的值应该为（选一项）</question>
+    <choice>
+      <option value="A">button</option>
+      <option value="B">reset</option>
+      <option value="C">submit</option>
+      <option value="D">hidden</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102034" type="1">
+    <question>请选出不属于&lt;font&gt;标记属性的一项（选一项）</question>
+    <choice>
+      <option value="A">size</option>
+      <option value="B">align</option>
+      <option value="C">color</option>
+      <option value="D">face</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102035" type="1">
+    <question>如果每一个框架中嵌入一个文件，则一个有3个框架的网页保存后有（ ）个文件。（选一项）</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">4</option>
+      <option value="C">5</option>
+      <option value="D">6</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102036" type="1">
+    <question>如果要使一幅图像在网页中居中显示，应使用以下语句（选一项）</question>
+    <choice>
+      <option value="A">&lt;DIV align="center"&gt;&lt;IMG src=image.gif&gt;&lt;/DIV&gt;</option>
+      <option value="B">&lt;IMG src=image.gif align="center"&gt;</option>
+      <option value="C">&lt;IMG src=image.gif align="middle"&gt;</option>
+      <option value="D">&lt;IMG src=image.gif valign="middle"&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102037" type="1">
+    <question>如果要为网页链接一个外部样式表文件，应使用以下（ ）标记符。（选一项）</question>
+    <choice>
+      <option value="A">A</option>
+      <option value="B">LINK</option>
+      <option value="C">STYLE</option>
+      <option value="D">CSS</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102038" type="1">
+    <question>若干个单选按钮radio一次只能选择一个，则需要设置成相同值的属性是（选一项）</question>
+    <choice>
+      <option value="A">type</option>
+      <option value="B">name</option>
+      <option value="C">value</option>
+      <option value="D">checked</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102039" type="1">
+    <question>设置文字滚动方向，需要设置&lt;marquee&gt;标签的哪个属性（选一项）</question>
+    <choice>
+      <option value="A">dir</option>
+      <option value="B">direction</option>
+      <option value="C">scrollamount</option>
+      <option value="D">scrolldelay</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102040" type="1">
+    <question>添加密码输入框，需要设置&lt;input&gt;标签的type属性为（选一项）</question>
+    <choice>
+      <option value="A">button</option>
+      <option value="B">password</option>
+      <option value="C">text</option>
+      <option value="D">radio</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102041" type="1">
+    <question>外部样式表的文件扩展名是（选一项）</question>
+    <choice>
+      <option value="A">.OSS</option>
+      <option value="B">.DSS</option>
+      <option value="C">.CSS</option>
+      <option value="D">.asa</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102042" type="1">
+    <question>万维网(WWW)使用的协议是（选一项）</question>
+    <choice>
+      <option value="A">web</option>
+      <option value="B">浏览器</option>
+      <option value="C">HTML</option>
+      <option value="D">超文本传输协议</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102043" type="1">
+    <question>网页标题通常显示在浏览器的（选一项）</question>
+    <choice>
+      <option value="A">状态栏</option>
+      <option value="B">地址栏</option>
+      <option value="C">标题栏</option>
+      <option value="D">菜单栏</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102044" type="1">
+    <question>为了给页面所有&lt;H1&gt;标题创建样式规则,指定将所有的&lt;H1&gt;标题显示为蓝色,字体显示为Arial. 下列操作正确的是（选两项）</question>
+    <choice>
+      <option value="A">&lt;STYLE TYPE="text/css"&gt;H1{color:blue}H1{font-family:Arial}&gt;/STYLE&gt;</option>
+      <option value="B">B&lt;STYLE TYPE="text/css"&gt;H1{color:blue;fontface:Arial}&gt;/STYLE&gt;</option>
+      <option value="C">&lt;STYLE TYPE="text/css"&gt;H1{color:blue;font-family:Arial}&gt;/STYLE&gt;</option>
+      <option value="D">&lt;STYLE TYPE="text/css"&gt;H1{color:blue}H1{fontface:Arial}&gt;/STYLE&gt;</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="102045" type="1">
+    <question>为了在网页上分别用粗体和斜体显示“清明时节雨纷纷，路上行人欲断魂”，“借问酒家何处有？牧童遥指杏花村。”，下列代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;B&gt;清明时节雨纷纷，路上行人欲断魂。&lt;/B&gt;&lt;I&gt;借问酒家何处有？牧童遥指杏花村&lt;/I&gt;</option>
+      <option value="B">&lt;i&gt;清明时节雨纷纷，路上行人欲断魂。&lt;/i&gt;&lt;b&gt;借问酒家何处有？牧童遥指杏花村&lt;/b&gt;</option>
+      <option value="C">&lt;i&gt;清明时节雨纷纷，路上行人欲断魂。&lt;/i&gt;&lt;u&gt;借问酒家何处有？牧童遥指杏花村&lt;/u&gt;</option>
+      <option value="D">&lt;b&gt;清明时节雨纷纷，路上行人欲断魂。&lt;/b&gt;&lt;u&gt;借问酒家何处有？牧童遥指杏花村&lt;/u&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102046" type="1">
+    <question>下列（ ）项不属于表格属性的对齐方式（选一项）</question>
+    <choice>
+      <option value="A">左对齐</option>
+      <option value="B">右对齐</option>
+      <option value="C">居中</option>
+      <option value="D">基线</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102047" type="1">
+    <question>下列哪些标记符属性为布尔属性（即只需要指定属性的存在，而不用指定其值的标记符属性）（选两项）</question>
+    <choice>
+      <option value="A">noshade</option>
+      <option value="B">width</option>
+      <option value="C">selected</option>
+      <option value="D">size</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="102048" type="1">
+    <question>下列（）扩展名的资源不能用IMG标记符直接插入的网页中。（选一项）</question>
+    <choice>
+      <option value="A">PNG</option>
+      <option value="B">JPG</option>
+      <option value="C">SWF</option>
+      <option value="D">GIF</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102049" type="1">
+    <question>下列HTML代码段某页面的样式设置 &lt;STYLE TYPE ="text/css"&gt; .bule{color:bule} .red{color:red} &lt;/STYLE&gt; 现要求将页面中的"第一个标题"设置成红色,"第一个段落"设置为蓝色.下列代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;H1 id=red&gt; 第一个标题&lt;/H1&gt; &lt;P id=bule&gt;第一个段落</option>
+      <option value="B">&lt;H1 color=red&gt;第一个标题&lt;/H1&gt; &lt;P color=blue&gt;第一个段落</option>
+      <option value="C">&lt;H1 class=red &gt;第一个标题 &lt;/H1&gt; &lt;P class=bule&gt;第一个段落</option>
+      <option value="D">&lt;H2 class=red&gt;第一个段落&lt;/H1&gt; &lt;P class=bule&gt;第一个段落</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102050" type="1">
+    <question>下列关于各表单域的描述不正确的一项是（选一项）</question>
+    <choice>
+      <option value="A">单选按钮一般以两个或者两个以上的形式出现</option>
+      <option value="B">复选框在表单中一般都不是单独出现的，都是多个复选框同时使用</option>
+      <option value="C">图片域可以用来代替提交按钮的作用</option>
+      <option value="D">我们不可以在表单域中插入图片。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102051" type="1">
+    <question>下列能够正确的在一个html页面中导入在同一目录下的"StyleSheet1.css"样式表的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;style&gt;@import StyleSheet1.css&lt;/style&gt;</option>
+      <option value="B">&lt;link rel="stylesheet" type="text/css" href="StyleSheet1.css"&gt;</option>
+      <option value="C">&lt;link rel="stylesheet1.css" type="text/css"&gt;</option>
+      <option value="D">&lt;link rel="stylesheet" type="text/javascript" href="../htm/StyleSheet1.css"&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102052" type="1">
+    <question>下面标记中，（ ）在标记的位置添加一个换行符。（选一项）</question>
+    <choice>
+      <option value="A">&lt;H1&gt;</option>
+      <option value="B">&lt;ENTER&gt;</option>
+      <option value="C">&lt;BR&gt;</option>
+      <option value="D">&lt;HR&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102053" type="1">
+    <question>下面标签中，没有type属性的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;ul&gt;</option>
+      <option value="B">&lt;ol&gt;</option>
+      <option value="C">&lt;font&gt;</option>
+      <option value="D">&lt;input&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102054" type="1">
+    <question>下面标签中的文字，哪个字体最大（选一项）</question>
+    <choice>
+      <option value="A">h1</option>
+      <option value="B">h2</option>
+      <option value="C">h3</option>
+      <option value="D">h4</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102055" type="1">
+    <question>下面的标签中不能起到换行作用的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;p&gt;</option>
+      <option value="B">&lt;br&gt;</option>
+      <option value="C">&lt;h1&gt;</option>
+      <option value="D">&lt;b&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102056" type="1">
+    <question>下面解释不正确的是（选一项）</question>
+    <choice>
+      <option value="A">HTML 超文本标记语言</option>
+      <option value="B">WWW 万维网</option>
+      <option value="C">HTTP 文件传输协议</option>
+      <option value="D">URL 统一资源定位器</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102057" type="1">
+    <question>下面哪个属性不是&lt;select&gt;标签的属性（选一项）</question>
+    <choice>
+      <option value="A">Name</option>
+      <option value="B">Size</option>
+      <option value="C">Multiple</option>
+      <option value="D">Selected</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102058" type="1">
+    <question>下面哪一项选择不是URL的组成部分（选一项）</question>
+    <choice>
+      <option value="A">浏览器名称</option>
+      <option value="B">IP地址或者域名</option>
+      <option value="C">HTTP通信协议</option>
+      <option value="D">文件夹及文件名称</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102059" type="1">
+    <question>下面语句中，( )将HTML页面的标题设置为“HTML练习”。（选一项）</question>
+    <choice>
+      <option value="A">&lt;HEAD&gt;HTML练习&lt;/HEAD&gt;</option>
+      <option value="B">&lt;TITLE&gt;HTML练习&lt;/TITLE&gt;</option>
+      <option value="C">&lt;H&gt;HTML练习&lt;/H&gt;</option>
+      <option value="D">&lt;T&gt;HTML练习&lt;/T&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102060" type="1">
+    <question>下面属性中不属于&lt;td&gt;标签的有（选一项）</question>
+    <choice>
+      <option value="A">colspan</option>
+      <option value="B">rowspan</option>
+      <option value="C">align</option>
+      <option value="D">border</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102061" type="1">
+    <question>行与单元格的关系是（选一项）</question>
+    <choice>
+      <option value="A">包含</option>
+      <option value="B">相同</option>
+      <option value="C">被包含</option>
+      <option value="D">无关</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102062" type="1">
+    <question>要创建一个1行2列的表格，下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;TABLE&gt; &lt;TD&gt; &lt;TR&gt;单元格1&lt;/TR&gt; &lt;TR&gt;单元格2&lt;/TR&gt; &lt;/TD&gt; &lt;/TABLE&gt;</option>
+      <option value="B">&lt;TABLE&gt; &lt;TR&gt; &lt;TD&gt;单元格1&lt;/TD&gt; &lt;TD&gt;单元格2&lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt;</option>
+      <option value="C">&lt;TABLE&gt; &lt;TR&gt; &lt;TD&gt;单元格1&lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt;单元格2&lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt;</option>
+      <option value="D">&lt;TABLE&gt; &lt;TD&gt; &lt;T1&gt;单元格1&lt;/T1&gt; &lt;T2&gt;单元格2&lt;/T2&gt; &lt;/TD&gt; &lt;/TABLE&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102063" type="1">
+    <question>要将页面的背景色设置为红色，下面语句正确的是（选两项）</question>
+    <choice>
+      <option value="A">&lt;BODY BGCOLOR=RED&gt;&lt;/BODY&gt;</option>
+      <option value="B">&lt;BODY BGCOLOR=FFOOOO&gt;&lt;/BODY&gt;</option>
+      <option value="C">&lt;BODY BGCOLOR=#FFOOOO&gt;&lt;/BODY&gt;</option>
+      <option value="D">&lt;BODY BGCOLOR="FFOOOO"&gt;&lt;/BODY&gt;</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="102064" type="1">
+    <question>要实现以下功能: 在网页中插入一个图片 joke11.gif, 使用者通过单击该图片 , 连接 到joke11.htm上去。下面的HTML代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;A HREF="joke11.htm " IMG:SRC= "images/joke11.gif"&gt;&lt;/A&gt;</option>
+      <option value="B">&lt;A HREF="joke11.htm" SRC="images/joke11.gif"&gt;&lt;/A&gt;</option>
+      <option value="C">&lt;A HREF= "jokell.htm"&gt;&lt;IMG SRC="images/joke11.gif"&gt;&lt;/A&gt;</option>
+      <option value="D">&lt;A HREF="images/joke11.gir"&gt;&lt;/A&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102065" type="1">
+    <question>要在表单中创建一个多行输入文本框，初始值：这是一个多行文本框，下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;TEXTAREA NAME="texr1" VALUE="这是一个多行文本框"&gt;&lt;/TEXTAREA&gt;</option>
+      <option value="B">&lt;INPUT TYPE =text VALUE="这是一个多行文本框" NAME="text1"&gt;</option>
+      <option value="C">&lt;INPUT TYPE =textarea NAME="text1" VALUE="这是一个多行文本框" &gt;</option>
+      <option value="D">&lt;TEXTAREA NAME="text1" COLS=20 ROWS=5&gt; 这是一个多行文本框&lt;/TEXTAREA&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102066" type="1">
+    <question>要在网页中显示“欢迎访问我的主页！”，要求字体为隶书、字体大小为6。下列语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;P&gt;&lt;FONT SIZE=6 TYPE="隶书"&gt;欢迎访问我的主页！&lt;/FONT&gt;</option>
+      <option value="B">&lt;P&gt;&lt;FONT SIZE=+2 FACE="隶书"&gt;欢迎访问我的主页！&lt;/FONT&gt;</option>
+      <option value="C">&lt;P&gt;&lt;FONT SIZE=6 FACE="隶书"&gt;欢迎访问我的主页！&lt;/FONT&gt;</option>
+      <option value="D">&lt;P&gt;&lt;FONT SIZE=+3 STYLE="隶书"&gt;欢迎访问我的主页！&lt;/FONT&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102067" type="1">
+    <question>要在网页中显示下列的内容: 售票员说：“定价：￥68”； 下面的语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;p&gt;售票员说： 定价：&amp;yuan; 68 &amp;quot; &lt;/p&gt;</option>
+      <option value="B">&lt;p&gt;售票员说： &amp;quot; 定价：&amp;yen; 68 &lt;/p&gt;</option>
+      <option value="C">&lt;p&gt;售票员说： &amp;quot; 定价：&amp;yuan; 68 &amp;quot; &lt;/p&gt;</option>
+      <option value="D">&lt;p&gt;售票员说： &amp;quot; 定价：&amp;yen; 68 &amp;quot; &lt;/p&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102068" type="1">
+    <question>要在网页中显示下面的列表： .苹果 .芒果 .橘子 下列语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;UL&gt; &lt;LI&gt;苹果 &lt;LI&gt;芒果 &lt;LI&gt; 橘子 &lt;/UL&gt;</option>
+      <option value="B">&lt;OL&gt; &lt;LI&gt;苹果 &lt;LI&gt;芒果 &lt;LI&gt;橘子 &lt;/OL&gt;</option>
+      <option value="C">&lt;UL&gt; &lt;UI&gt;苹果 &lt;UI&gt;芒果 &lt;UI&gt;橘子 &lt;/UL&gt;</option>
+      <option value="D">&lt;OL TYPE=A&gt; &lt;LI&gt;苹果 &lt;LI&gt;芒果 &lt;LI&gt;橘子 &lt;/OL&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102069" type="1">
+    <question>下面哪些不是水平线具有的属性（选一项）</question>
+    <choice>
+      <option value="A">align</option>
+      <option value="B">size</option>
+      <option value="C">valign</option>
+      <option value="D">noshade</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102070" type="1">
+    <question>已定义好一个外部样式表文件c.css,要在网页中链接此外部样式表，正确的作法是（选一项）</question>
+    <choice>
+      <option value="A">&lt;html&gt;&lt;head&gt;&lt;style&gt;&lt;link rel=c.css /&gt;&lt;/style&gt;&lt;/head&gt;&lt;/html&gt;</option>
+      <option value="B">&lt;html&gt;&lt;head&gt;&lt;style&gt;&lt;link href=c.css /&gt;&lt;/style&gt;&lt;/head&gt;&lt;/html&gt;</option>
+      <option value="C">&lt;html&gt;&lt;head&gt;&lt;link rel=c.css /&gt;&lt;/head&gt;&lt;/html&gt;</option>
+      <option value="D">&lt;html&gt;&lt;head&gt;&lt;link href=c.css /&gt;&lt;/head&gt;&lt;/html&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102071" type="1">
+    <question>以下标记中，（ ）是上标标记符号。（选一项）</question>
+    <choice>
+      <option value="A">u标记</option>
+      <option value="B">sub标记</option>
+      <option value="C">th标记</option>
+      <option value="D">sup标记</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102072" type="1">
+    <question>以下是书签超链接（锚点）的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;a href="1.htm#a1"&gt;第一届&lt;/a&gt;</option>
+      <option value="B">&lt;a href="1.htm"&gt;第一届&lt;/a&gt;</option>
+      <option value="C">&lt;a href="mailto: 2000@163.com "&gt;评价&lt;/a&gt;</option>
+      <option value="D">&lt;a href="1.htm*a"&gt;第一届&lt;/a&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102073" type="1">
+    <question>以下说法中，错误的是（选一项）</question>
+    <choice>
+      <option value="A">获取WWW服务时，需要使用浏览器作为客户端程序</option>
+      <option value="B">WWW服务和电子邮件服务是Internet提供的最常用的两种服务</option>
+      <option value="C">网站就是一系列逻辑上可以视为一个整体的页面的集合</option>
+      <option value="D">所有网页的扩展名都是 .htm</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102074" type="1">
+    <question>用来限制文本框中输入的字符数，需要设置&lt;input&gt;的属性（选一项）</question>
+    <choice>
+      <option value="A">value</option>
+      <option value="B">type</option>
+      <option value="C">size</option>
+      <option value="D">maxlength</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102075" type="1">
+    <question>有下面HTML语句，下列说法错误的是（选一项） &lt;input type="radio" value="v1" checked name="R1" &gt;男</question>
+    <choice>
+      <option value="A">这条语句将产生一个单选框。</option>
+      <option value="B">该语句产生的选项处于已选中状态。</option>
+      <option value="C">该选项的value值可要不可要，因为它对设置单选按钮的界面没有影响。</option>
+      <option value="D">该标记的name属性值可要不可要，因为它对单选按钮的功能设计不产生任何影响。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102076" type="1">
+    <question>有下面HTML语句，下列说法错误的是（选一项） &lt;textarea name="S1" rows="2" cols="20"&gt; &lt;/textarea&gt;</question>
+    <choice>
+      <option value="A">name表示文本区的名称。</option>
+      <option value="B">rows 表示文本区的行数。</option>
+      <option value="C">当要改变该文本区的行和列时，主要是调用了name属性的值。</option>
+      <option value="D">该文本域在输入文本时，能自动换行</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102077" type="1">
+    <question>有下面一段HTML标记： &lt;table border="1" width="150"&gt; &lt;tr&gt; &lt;td&gt;　&lt;/td&gt; &lt;td&gt;　&lt;/td&gt; &lt;td rowspan="2"&gt;　&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;　&lt;/td&gt; &lt;td&gt;　&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="2"&gt;　&lt;/td&gt; &lt;td&gt;　&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; 请问下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">这是一个3行3列的表格。</option>
+      <option value="B">这个表格的边框宽度为“1”。</option>
+      <option value="C">这个表格的第3行有两个单元格。</option>
+      <option value="D">这个表格的第3列有3个单元格。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102078" type="1">
+    <question>与test.htm页面同一目录下有一个pic文件夹，pic文件夹中有一张图片bg.jpg，现在要把bg.jpg图片设置为test.htm页面的背景图片，下面写法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Background="bg.jpg"</option>
+      <option value="B">Bgcolor="bg.jpg"</option>
+      <option value="C">Background="pic/bg.jpg"</option>
+      <option value="D">Background="../pic/bg.jpg"</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102079" type="1">
+    <question>在BODY标记属性中，用于设置网页背景颜色的属性是（选一项）</question>
+    <choice>
+      <option value="A">bgcolor</option>
+      <option value="B">background</option>
+      <option value="C">text</option>
+      <option value="D">align</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102080" type="1">
+    <question>在HTML文档中, 下列标记用于为网页上的内容提供标题（选一项）</question>
+    <choice>
+      <option value="A">&lt;body&gt;</option>
+      <option value="B">&lt;head&gt;</option>
+      <option value="C">&lt;h1&gt;</option>
+      <option value="D">&lt;pre&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102081" type="1">
+    <question>在HTML文档中，&lt;TD&gt;标记的（ ）属性可以创建跨越多个行的单元格。（选一项）</question>
+    <choice>
+      <option value="A">COLSPAN</option>
+      <option value="B">ROW</option>
+      <option value="C">ROWSPAN</option>
+      <option value="D">SPAN</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102082" type="1">
+    <question>在HTML文档中，使用（ ）标记定义的文本在浏览器中显示时，将遵循在HTML源文档中定义的格式。（选一项）</question>
+    <choice>
+      <option value="A">&lt;P&gt;</option>
+      <option value="B">&lt;BR&gt;</option>
+      <option value="C">&lt;PRE&gt;</option>
+      <option value="D">&lt;A&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102083" type="1">
+    <question>在HTML页面中，()标记用于为表格中的一列指定一个标题（选一项）</question>
+    <choice>
+      <option value="A">&lt;TR&gt;</option>
+      <option value="B">&lt;TD&gt;</option>
+      <option value="C">&lt;TH&gt;</option>
+      <option value="D">&lt;TT&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102084" type="1">
+    <question>在HTML语言中，定义级联样式表CSS的类选择器是以（ ）符号开头。（选一项）</question>
+    <choice>
+      <option value="A">#(井号)</option>
+      <option value="B">.（点号）</option>
+      <option value="C">!（叹号）</option>
+      <option value="D">%（百分号）</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102085" type="1">
+    <question>在HTML语言中，向网页插入图片的标记是（选一项）</question>
+    <choice>
+      <option value="A">P标记</option>
+      <option value="B">A标记</option>
+      <option value="C">H标记</option>
+      <option value="D">IMG标记</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102086" type="1">
+    <question>在HTML语言中，有序列表的标记是（选一项）</question>
+    <choice>
+      <option value="A">ul</option>
+      <option value="B">li</option>
+      <option value="C">ol</option>
+      <option value="D">dl</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102087" type="1">
+    <question>在HTML中，（ ）可以在网页上通过链接直接打开客户端的发送邮件的工具发送电子邮件。（选一项）</question>
+    <choice>
+      <option value="A">&lt;A HREF="telnet:zhangming@svse.com"&gt;发送反馈信息&lt;/A&gt;</option>
+      <option value="B">&lt;A HREF="mail:zhangming@svse.com"&gt;发送反馈信息&lt;/A&gt;</option>
+      <option value="C">&lt;A HREF="ftp:zhangming@svse.com"&gt;发送反馈信息&lt;/A&gt;</option>
+      <option value="D">&lt;A HREF="mailto:zhangming@svse.com"&gt;发送反馈信息&lt;/A&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102088" type="1">
+    <question>在HTML中，INPUT元素的TYPE属性用于指定表单元素的类型，下列不可用的类型有（选一项）</question>
+    <choice>
+      <option value="A">IMAGE</option>
+      <option value="B">TEXTAREA</option>
+      <option value="C">SELECT</option>
+      <option value="D">HIDDEN</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102089" type="1">
+    <question>在HTML中，表单中的INPUT元素的（）属性用于指定表单元素的名称。（选一项）</question>
+    <choice>
+      <option value="A">VALUE</option>
+      <option value="B">NAME</option>
+      <option value="C">TYPE</option>
+      <option value="D">CAPTION</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102090" type="1">
+    <question>在HTML中，可以使用（ ）标记向网页中插入GIF动画文件。（选一项）</question>
+    <choice>
+      <option value="A">&lt;SOUND&gt;</option>
+      <option value="B">&lt;GIF&gt;</option>
+      <option value="C">&lt;TABLE&gt;</option>
+      <option value="D">&lt;IMG&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102091" type="1">
+    <question>在HTML中，下列代码（）可以实现每隔60秒自动刷新页面的功能。（选一项）</question>
+    <choice>
+      <option value="A">&lt;meta http-equiv="refresh" content="1"&gt;</option>
+      <option value="B">&lt;meta http-equiv="refresh" content="60"&gt;</option>
+      <option value="C">&lt;meta http-equiv="expires" content="1"&gt;</option>
+      <option value="D">&lt;meta http-equiv="expires" content="60"&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="102092" type="1">
+    <question>在HTML中，下列几条关于样式表优点的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">样式表可以改变浏览器的默认显示风格</option>
+      <option value="B">样式表可以使页面内容和显示样式分离</option>
+      <option value="C">样式表可以重用，并且样式表更改后，使用该样式表的文档会做相应的修改</option>
+      <option value="D">一个样式表对应一个HTML文档</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="102093" type="1">
+    <question>在HTML中，下面（ ）标记用于定义表的单元格。（选一项）</question>
+    <choice>
+      <option value="A">&lt;TABLE&gt;</option>
+      <option value="B">&lt;TH&gt;</option>
+      <option value="C">&lt;TD&gt;</option>
+      <option value="D">&lt;TR&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102094" type="1">
+    <question>在HTML中，下面（ ）标记可将所修饰的文本显示为下标。（选一项）</question>
+    <choice>
+      <option value="A">&lt;SUB&gt;</option>
+      <option value="B">&lt;B&gt;</option>
+      <option value="C">&lt;FONT&gt;</option>
+      <option value="D">&lt;BR&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102095" type="1">
+    <question>在HTML中，下面（）语句可以将标题的颜色设置成绿色。（选一项）</question>
+    <choice>
+      <option value="A">&lt;H1 color:green&gt;</option>
+      <option value="B">&lt;H1 FONT = green&gt;</option>
+      <option value="C">&lt;H1 STYLE = "color:green;"&gt;</option>
+      <option value="D">&lt;H1 STYLE : green&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102096" type="1">
+    <question>在HTML中，要创建一个表单（form1），要向服务器发送数据的方式为post, 提交表单服务器的地址为process.asp。下面创建表单正确的代码（选一项）</question>
+    <choice>
+      <option value="A">&lt;form name="form1" method="post" submit="process.asp"&gt;&lt;/form&gt;</option>
+      <option value="B">&lt;form name="form1" method="post" submitSrc="process.asp"&gt;&lt;/form&gt;</option>
+      <option value="C">&lt;form name="form1" method="post" action="process.asp"&gt;&lt;/form&gt;</option>
+      <option value="D">&lt;form name="form1" method="post" src="process.asp"&gt;&lt;/form&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102097" type="1">
+    <question>在HTML文档中，（ ）元素在头部可以为搜索引擎定义文档的关键字。（选一项）</question>
+    <choice>
+      <option value="A">&lt;META&gt;</option>
+      <option value="B">&lt;P&gt;</option>
+      <option value="C">&lt;BODY&gt;</option>
+      <option value="D">&lt;H1&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102098" type="1">
+    <question>在框架页面中，要让目标链接在框架中的某一部分出现，需要设置&lt;a&gt;的哪个属性（选一项）</question>
+    <choice>
+      <option value="A">href</option>
+      <option value="B">src</option>
+      <option value="C">target</option>
+      <option value="D">direction</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102099" type="1">
+    <question>在网页上，表单中的input元素的TYPE属性为（）时，用于创建重置按钮（选一项）</question>
+    <choice>
+      <option value="A">RESET</option>
+      <option value="B">SET</option>
+      <option value="C">BUTTON</option>
+      <option value="D">IMAGE</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102100" type="1">
+    <question>在文档对象模型（DOM）中，所有的对象都继承自（选一项）</question>
+    <choice>
+      <option value="A">window对象</option>
+      <option value="B">math对象</option>
+      <option value="C">history对象</option>
+      <option value="D">frame对象</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="102101" type="1">
+    <question>在样式表中，用于设置网页背景颜色的属性是（选一项）</question>
+    <choice>
+      <option value="A">bgcolor</option>
+      <option value="B">background</option>
+      <option value="C">background-color</option>
+      <option value="D">becolor</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102102" type="1">
+    <question>在样式表中要设置文本的字体为"Arial",下列语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;p style="font-style:arial"&gt;</option>
+      <option value="B">&lt;p style="text-style;arial"&gt;</option>
+      <option value="C">&lt;p style="font-family:arial"&gt;</option>
+      <option value="D">&lt;p style="text-family:arial"&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="102103" type="1">
+    <question>在以下的HTML代码片段中,以下()是正确的判断（选一项） &lt;table border=1&gt; &lt;caption&gt;文具&lt;/caption&gt; &lt;tr&gt; &lt;th&gt;铅笔&lt;/th&gt; &lt;th&gt;圆珠笔&lt;/th&gt; &lt;th&gt;水笔&lt;/th&gt; &lt;/tr&gt; …….</question>
+    <choice>
+      <option value="A">铅笔一定位于首行中的第一列</option>
+      <option value="B">圆珠笔一定位于首行中的第一列</option>
+      <option value="C">文具应位于首列首行</option>
+      <option value="D">水笔与圆珠笔在不同的行</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

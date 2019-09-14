@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="412001" type="1">
+    <question>商家要开展电子商务活动，应该用( )作为其主要的生意平台(选择一项)</question>
+    <choice>
+      <option value="A">BBS</option>
+      <option value="B">电子邮件</option>
+      <option value="C">在线商店</option>
+      <option value="D">电话定购</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412002" type="1">
+    <question>中国网络购物的主流人群是( )(选择一项)</question>
+    <choice>
+      <option value="A">18岁以下的青少年</option>
+      <option value="B">18-30岁的年轻人</option>
+      <option value="C">30-40岁的白领人士</option>
+      <option value="D">40岁以上的中老年人</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412003" type="1">
+    <question>淘宝网创办于哪年( )(选择一项)</question>
+    <choice>
+      <option value="A">2002年</option>
+      <option value="B">2003年</option>
+      <option value="C">2004年</option>
+      <option value="D">2005年</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412004" type="1">
+    <question>以下哪个是淘宝网工作人员的特定称呼？( )(选择一项)</question>
+    <choice>
+      <option value="A">帮主</option>
+      <option value="B">掌门</option>
+      <option value="C">护法</option>
+      <option value="D">小二</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="412005" type="1">
+    <question>网络零售的范围包括( )(选择二项)</question>
+    <choice>
+      <option value="A">C2C</option>
+      <option value="B">B2B</option>
+      <option value="C">B2C</option>
+      <option value="D">C2B</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="412006" type="1">
+    <question>网络零售的特点是( )(选择三项)</question>
+    <choice>
+      <option value="A">参与者众多</option>
+      <option value="B">覆盖面广</option>
+      <option value="C">产品种类单一</option>
+      <option value="D">交易方式灵活</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="412007" type="1">
+    <question>新的商业生态系统的支柱是( )(选择三项)</question>
+    <choice>
+      <option value="A">网店</option>
+      <option value="B">网商</option>
+      <option value="C">网货</option>
+      <option value="D">网规</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="412008" type="1">
+    <question>下列属于网络零售优势的是( )(选择三项)</question>
+    <choice>
+      <option value="A">口碑优势</option>
+      <option value="B">工具优势</option>
+      <option value="C">购物体验优势</option>
+      <option value="D">沟通优势</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="412009" type="1">
+    <question>在淘宝“我的收藏”里顾客不能收藏哪些内容？( )(选择一项)</question>
+    <choice>
+      <option value="A">收藏宝贝</option>
+      <option value="B">收藏好友</option>
+      <option value="C">收藏店铺</option>
+      <option value="D"></option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412010" type="1">
+    <question>2004年5月，淘宝推出了“你敢付，我敢赔”的什么服务？( )(选择一项)</question>
+    <choice>
+      <option value="A">推荐物流</option>
+      <option value="B">支付宝</option>
+      <option value="C">消费者保障计划</option>
+      <option value="D">品牌商城</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412011" type="1">
+    <question>店铺名称的长度限制在多少个汉字？( )(选择一项)</question>
+    <choice>
+      <option value="A">10个汉字</option>
+      <option value="B">20个汉字</option>
+      <option value="C">30个汉字</option>
+      <option value="D">40个汉字</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412012" type="1">
+    <question>如果一件宝贝是以拍卖的形式发布的，则运费由谁承担？( )(选择一项)</question>
+    <choice>
+      <option value="A">买家</option>
+      <option value="B">卖家</option>
+      <option value="C">快递公司</option>
+      <option value="D">淘宝网</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412013" type="1">
+    <question>关于会员名注册的要求哪个是正确的？( )(选择一项)</question>
+    <choice>
+      <option value="A">会员名由6-25 个字符组成</option>
+      <option value="B">会员名可以使用小写字母数字下划线中文</option>
+      <option value="C">会员名可以使用两个中文字组成</option>
+      <option value="D">会员名是淘宝帐号唯一登陆方式</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412014" type="1">
+    <question>淘宝网的帐户密码是由多少个字符组成？( )(选择一项)</question>
+    <choice>
+      <option value="A">6-16个字符</option>
+      <option value="B">5-15个字符</option>
+      <option value="C">8-16个字符</option>
+      <option value="D">6-16个字符</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412015" type="1">
+    <question>宝贝三要素是指哪三个？( )(选择一项)</question>
+    <choice>
+      <option value="A">标题图片描述</option>
+      <option value="B">旺旺支付宝描述</option>
+      <option value="C">图片支付宝旺旺</option>
+      <option value="D">标题支付宝描述</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412016" type="1">
+    <question>一个店铺有几个人气类目？( )(选择一项)</question>
+    <choice>
+      <option value="A">1个</option>
+      <option value="B">5个</option>
+      <option value="C">10个</option>
+      <option value="D">不限</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412017" type="1">
+    <question>淘宝网的评价是怎么计分的？( )(选择一项)</question>
+    <choice>
+      <option value="A">一个好计1分，中评不计分，差评扣1分</option>
+      <option value="B">一个好计1分，中评扣1分，差评扣2分</option>
+      <option value="C">一个好计2分，中评1分，差评计零分</option>
+      <option value="D">一个好计1分，中评不计分，差评扣2分</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412018" type="1">
+    <question>交易结束后，一方做出了好评，如果有效评价期内另一方未做出好评，则( )(选择一项)</question>
+    <choice>
+      <option value="A">系统默认为中评</option>
+      <option value="B">系统不做出任何评价</option>
+      <option value="C">系统将取消这次交易所有评价</option>
+      <option value="D">系统默认为好评</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412019" type="1">
+    <question>以下属于消费者保障服务的是( )(选择三项)</question>
+    <choice>
+      <option value="A">如实描述</option>
+      <option value="B">7天无理由退换货</option>
+      <option value="C">虚拟物品闪电发货</option>
+      <option value="D">退货运费险</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="412020" type="1">
+    <question>淘宝网在发布商品时，提供了哪几种发布方式供卖家选择（ ）(选择二项)</question>
+    <choice>
+      <option value="A">定时发布</option>
+      <option value="B">一口价发布</option>
+      <option value="C">随机发布</option>
+      <option value="D">拍卖发布</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="412021" type="1">
+    <question>下列属于交易状态的是( )(选择三项)</question>
+    <choice>
+      <option value="A">买家已付款等待卖家发货</option>
+      <option value="B">等待买家付款</option>
+      <option value="C">卖家已发货</option>
+      <option value="D">买家未付款</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="412022" type="1">
+    <question>网络骗子经常采取哪些方式来行骗？( )(选择三项)</question>
+    <choice>
+      <option value="A">发送带有木马的图片</option>
+      <option value="B">发送钓鱼网站链接</option>
+      <option value="C">使用相似账号来行骗</option>
+      <option value="D">要求使用支付宝进行交易</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="412023" type="1">
+    <question>关于退货程序哪个描述是错误的？（ ）(选择二项)</question>
+    <choice>
+      <option value="A">买家如需退货，必须在收到货后在支付宝规定的时间内提出申请。</option>
+      <option value="B">逾期申请退货且卖家拒绝接受退货，则支付宝会将争议货款支付给买家</option>
+      <option value="C">整个退货流程与正常的交易流程相反</option>
+      <option value="D">为确保安全，买家可以要求卖家先退款再退货</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="412024" type="1">
+    <question>淘宝网提供哪些方式来方便买家进行搜索( )(选择三项)</question>
+    <choice>
+      <option value="A">搜索宝贝关键字</option>
+      <option value="B">搜索店铺名或店铺关键字</option>
+      <option value="C">搜索宝贝所在地</option>
+      <option value="D">搜索掌柜名</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="412025" type="1">
+    <question>支付宝认证分为个人认证和商家认证这两种，商家认证需要提交以下哪些信息？( )(选择二项)</question>
+    <choice>
+      <option value="A">身份证</option>
+      <option value="B">营业执照</option>
+      <option value="C">公司账号</option>
+      <option value="D">税务登记证</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="412026" type="1">
+    <question>支付宝公司从建立开始，以什么作为产品和服务的核心？( )(选择一项)</question>
+    <choice>
+      <option value="A">安全</option>
+      <option value="B">信任</option>
+      <option value="C">简单</option>
+      <option value="D">高效</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412027" type="1">
+    <question>修改评价的入口在哪里？( )(选择一项)</question>
+    <choice>
+      <option value="A">评价管理</option>
+      <option value="B">维权管理</option>
+      <option value="C">钱掌柜</option>
+      <option value="D">交易管理</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412028" type="1">
+    <question>以下评价哪些是可以修改的？( )(选择二项)</question>
+    <choice>
+      <option value="A">双方相互好评</option>
+      <option value="B">仅一方作出“中评”</option>
+      <option value="C">一方作出“差评”</option>
+      <option value="D">“差评”评价超过6个月</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="412029" type="1">
+    <question>旺铺的店招最大尺寸是多少？( )(选择一项)</question>
+    <choice>
+      <option value="A">950*150</option>
+      <option value="B">750*120</option>
+      <option value="C">860*135</option>
+      <option value="D">850*150</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412030" type="1">
+    <question>卖家确认退款输入的密码是哪一个？( )(选择一项)</question>
+    <choice>
+      <option value="A">支付宝登录密码</option>
+      <option value="B">支付宝支付密码</option>
+      <option value="C">淘宝会员登录密码</option>
+      <option value="D">网银密码</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412031" type="1">
+    <question>“满就送”服务是淘宝的哪一类工具？( )(选择一项)</question>
+    <choice>
+      <option value="A">管理工具</option>
+      <option value="B">支付工具</option>
+      <option value="C">营销工具</option>
+      <option value="D">沟通工具</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412032" type="1">
+    <question>关于支付宝的说法正确的是( )(选择三项)</question>
+    <choice>
+      <option value="A">支付宝可以保证资金的安全，并且不需要手续费</option>
+      <option value="B">买家使用支付宝时最好申请口令卡以保证账户资金安全</option>
+      <option value="C">买家使用支付宝进行购物不需要通过任何认证手续</option>
+      <option value="D">支付宝是第三方代收款平台，目前在淘宝购物时使用支付宝付款是免费的</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="412033" type="1">
+    <question>支付宝账号是以什么来命名？( )(选择二项)</question>
+    <choice>
+      <option value="A">数字加英文</option>
+      <option value="B">中文</option>
+      <option value="C">电子邮箱</option>
+      <option value="D">手机号码</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="412034" type="1">
+    <question>支付宝是淘宝唯一的在线付款方式，它采用哪些手段来确保账户的安全性？( )(选择三项)</question>
+    <choice>
+      <option value="A">数字证书</option>
+      <option value="B">口令卡</option>
+      <option value="C">支付盾</option>
+      <option value="D">手机动态口令</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="412035" type="1">
+    <question>每家银行的移动数字证书都有自己的名称，其中，工商银行提供的移动数字证书叫什么？( )(选择一项)</question>
+    <choice>
+      <option value="A">支付盾</option>
+      <option value="B">K宝</option>
+      <option value="C">优KEY</option>
+      <option value="D">U盾</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="412036" type="1">
+    <question>下面哪些是对抵价券使用规则的错误理解？( )(选择二项)</question>
+    <choice>
+      <option value="A">抵价券必须使用于支持相应面额抵价券的商品上</option>
+      <option value="B">抵价券不能与其他优惠同时使用</option>
+      <option value="C">一笔交易里抵价券可以累加使用</option>
+      <option value="D">抵价券如果过期了可以申请补发</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="412037" type="1">
+    <question>以下哪个工具能够让我们在室外拍摄时更加得心应手，提高照片的质量( )(选择一项)</question>
+    <choice>
+      <option value="A">摄影棚</option>
+      <option value="B">反光板</option>
+      <option value="C">背景布</option>
+      <option value="D">以上都是</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412038" type="1">
+    <question>三脚架在拍摄商品照片时，最大的作用是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">解放双手，轻松上阵</option>
+      <option value="B">加强稳定性，防止照片模糊</option>
+      <option value="C">可以让照片更漂亮</option>
+      <option value="D">可以拍出专业级别的照片</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412039" type="1">
+    <question>为了防止我们的图片被盗用，同时为了增强图片的美观度和权威性，我们可以( )</question>
+    <choice>
+      <option value="A">添加图片边框</option>
+      <option value="B">商品旁边放置装饰物</option>
+      <option value="C">图片添加水印</option>
+      <option value="D">图片名取名为店名</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412040" type="1">
+    <question>直通车的收费方式是什么？( )</question>
+    <choice>
+      <option value="A">以展示时间收费</option>
+      <option value="B">按展示位置收费</option>
+      <option value="C">按实际点击收费</option>
+      <option value="D">按展示次数收费</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412041" type="1">
+    <question>站内推广工具—直通车，每个商品可以设置最多几个关键词？( )</question>
+    <choice>
+      <option value="A">100个</option>
+      <option value="B">200个</option>
+      <option value="C">300个</option>
+      <option value="D">400个</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412042" type="1">
+    <question>先成交后付费的是淘宝的什么推广模式？( )</question>
+    <choice>
+      <option value="A">论坛广告位</option>
+      <option value="B">直通车</option>
+      <option value="C">淘宝客</option>
+      <option value="D">钻石展位</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412043" type="1">
+    <question>推广和营销是两个不同的商业词汇，简单来说，网店的“推广”和“营销”分别能对顾客起到什么作用？( )(选择一项)</question>
+    <choice>
+      <option value="A">知道我们；选择我们</option>
+      <option value="B">选择我们；知道我们</option>
+      <option value="C">吸引人气；规避纠纷</option>
+      <option value="D">选择我们；理解我们</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="412044" type="1">
+    <question>直通车可以设置以下哪些内容？（ ）(选择三项)</question>
+    <choice>
+      <option value="A">投放时间</option>
+      <option value="B">投放区域</option>
+      <option value="C">日消耗金额</option>
+      <option value="D">日访问量</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="412045" type="1">
+    <question>不属于加入消费者保障服务项目的条件的是( )(选择二项)</question>
+    <choice>
+      <option value="A">淘宝网注册用户</option>
+      <option value="B">不在其他平台开设店铺</option>
+      <option value="C">店铺信用必须在一钻以上</option>
+      <option value="D">用户卖家好评率在97%以上（包括97%）</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="412046" type="1">
+    <question>下列送货方式中采用门对门送货的是( )(选择一项)</question>
+    <choice>
+      <option value="A">邮局</option>
+      <option value="B">快递</option>
+      <option value="C">铁路货运</option>
+      <option value="D">国际货运</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="412047" type="1">
+    <question>如果我们是出售液晶电视的，应该选择以下哪个包装？( )(选择一项)</question>
+    <choice>
+      <option value="A">纸箱</option>
+      <option value="B">快递袋</option>
+      <option value="C">木板箱</option>
+      <option value="D">铁皮箱</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="412048" type="1">
+    <question>有关运费模板的描述中错误的是( )(选择一项)</question>
+    <choice>
+      <option value="A">可以按照城市设置邮费</option>
+      <option value="B">可以按照地域设置邮费</option>
+      <option value="C">可以按照物流方式设置邮费</option>
+      <option value="D">能够帮助卖家节约时间</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="412049" type="1">
+    <question>具备下列哪项资质可以申请入驻商城？( )(选择二项)</question>
+    <choice>
+      <option value="A">品牌商或厂商</option>
+      <option value="B">个体商户</option>
+      <option value="C">代理商</option>
+      <option value="D"></option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="412050" type="1">
+    <question>下列哪种店铺类型不是淘宝网的商城店铺？( )(选择一项)</question>
+    <choice>
+      <option value="A">品牌旗舰店</option>
+      <option value="B">品牌专营店</option>
+      <option value="C">品牌直销店</option>
+      <option value="D">品牌专卖店</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

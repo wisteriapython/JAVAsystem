@@ -1,0 +1,1 @@
+javaw -jar WrittenTest.jar

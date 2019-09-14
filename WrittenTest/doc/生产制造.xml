@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="411001" type="1">
+    <question>以下关于付款票据的说法哪些是错误的 （单选）</question>
+    <choice>
+      <option value="A">票况为“出票”时，才可更改供应商</option>
+      <option value="B">异动功能钮中的结算功能为商业汇票专用</option>
+      <option value="C">付款票据结算后可再进行其他处理</option>
+      <option value="D">结算的票据不可以再作废，如果一定要作废时，可利用取消处理功能将票据调整为出票状态</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="411002" type="1">
+    <question>在本系统中哪些票据不是作为即期票处理 （单选）</question>
+    <choice>
+      <option value="A">支票</option>
+      <option value="B">电汇</option>
+      <option value="C">商业汇票</option>
+      <option value="D">银行汇票</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="411003" type="1">
+    <question>一种单据（非会计凭证）是否需要审核在哪个作业里进行设置？ （单选）</question>
+    <choice>
+      <option value="A">表尾签核</option>
+      <option value="B">表尾页脚</option>
+      <option value="C">单据设置</option>
+      <option value="D">用户录入/权限</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="411004" type="1">
+    <question>仓库信息这个作业里面的“仓库名称”这个栏位最多可以支持多少码？（单选）</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">12</option>
+      <option value="C">14</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="411005" type="1">
+    <question>生产入库单单身的耗用仓库的仓库性质是什么？（单选）</question>
+    <choice>
+      <option value="A">委外仓</option>
+      <option value="B">现场仓</option>
+      <option value="C">存货仓</option>
+      <option value="D">非存货仓</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="411006" type="1">
+    <question>工单单头的实际开工日是由什么来决定的？（单选）</question>
+    <choice>
+      <option value="A">第1张领料单审核日</option>
+      <option value="B">工单审核日</option>
+      <option value="C">第1张生产入库单审核日</option>
+      <option value="D">当实际生产数量大于或等于工单的生产数量时</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="411007" type="1">
+    <question>是在哪里设置工单的用料展开方式？（单选）</question>
+    <choice>
+      <option value="A">工单单头</option>
+      <option value="B">共用参数</option>
+      <option value="C">生管参数</option>
+      <option value="D">物料需求计算</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="411008" type="1">
+    <question>工艺入库单中的移入类别包括下面哪些？（单选）</question>
+    <choice>
+      <option value="A">工作中心</option>
+      <option value="B">部门</option>
+      <option value="C">仓库</option>
+      <option value="D">供应商</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="411009" type="1">
+    <question>“客户问题”作业里面的“反映人”指的是？（单选）</question>
+    <choice>
+      <option value="A">客户的人员</option>
+      <option value="B">公司内部的服务人员</option>
+      <option value="C">以上都是</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="411010" type="1">
+    <question>“客户问题”作业里面的“纳入服务知识库”在什么时候被标示？（单选）</question>
+    <choice>
+      <option value="A">在“处理”以后</option>
+      <option value="B">在“结束”以后</option>
+      <option value="C">在“归档”以后</option>
+      <option value="D">在“知识库”以后</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="411011" type="1">
+    <question>“人员信息”这只作业的“身份证号”栏位会对几位的身份证号码进行校验？（单选）</question>
+    <choice>
+      <option value="A">15</option>
+      <option value="B">16</option>
+      <option value="C">17</option>
+      <option value="D">18</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="411012" type="1">
+    <question>在“工资项目计算公式”作业里面，计算公式以何种方式显示？（单选）</question>
+    <choice>
+      <option value="A">符号方式显示</option>
+      <option value="B">中文名称显示</option>
+      <option value="C">以上都可以</option>
+      <option value="D">以上都不可</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="411013" type="1">
+    <question>“资产类别”可以层级最大支持几级？（单选）</question>
+    <choice>
+      <option value="A">4</option>
+      <option value="B">5</option>
+      <option value="C">8</option>
+      <option value="D">10</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="411014" type="1">
+    <question>关于固定资产的“本月工作量”保存时，以下哪种情况可以进行保存？ （单选）</question>
+    <choice>
+      <option value="A">“预计工作总量”≥“已用工作量”+“本月工作量”</option>
+      <option value="B">“预计工作总量” = “已用工作量”+“本月工作量”</option>
+      <option value="C">“预计工作总量”﹤“已用工作量”+“本月工作量”</option>
+      <option value="D">D. 以上都错误</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="411015" type="1">
+    <question>下面哪个单据是红字采购发票的取单来源？ （选择两项）</question>
+    <choice>
+      <option value="A">进货单</option>
+      <option value="B">退货单</option>
+      <option value="C">委外进货单</option>
+      <option value="D">委外退货单</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="411016" type="1">
+    <question>收款单的凭证字段上可以记录？（选择三项）</question>
+    <choice>
+      <option value="A">未抛转</option>
+      <option value="B">不须抛转</option>
+      <option value="C">已抛转</option>
+      <option value="D">凭证号码</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="411017" type="1">
+    <question>“商品信息”中提供的商品来源有哪些？（选择两项）</question>
+    <choice>
+      <option value="A">采购件</option>
+      <option value="B">委外生产件</option>
+      <option value="C">虚设件</option>
+      <option value="D">厂内生产件</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="411018" type="1">
+    <question>打印单据的时候，可以把文档保存为哪几种格式？（选择三项）</question>
+    <choice>
+      <option value="A">图形格式</option>
+      <option value="B">EXCEL</option>
+      <option value="C">RTF</option>
+      <option value="D">WORD</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="411019" type="1">
+    <question>进销存各种单据中可以更新价格的单据有哪些？ （选择两项）</question>
+    <choice>
+      <option value="A">销货单</option>
+      <option value="B">销退单</option>
+      <option value="C">进货单</option>
+      <option value="D">收料单</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="411020" type="1">
+    <question>采购单的取单来源有哪些？ （选择三项）</question>
+    <choice>
+      <option value="A">请购单</option>
+      <option value="B">订单</option>
+      <option value="C">询价单</option>
+      <option value="D">采购底稿</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="411021" type="1">
+    <question>易助的生产成本计算中人工制费分摊跟哪些因素有关？（选择三项）</question>
+    <choice>
+      <option value="A">工单的生产数量</option>
+      <option value="B">商品信息的人工分摊权数</option>
+      <option value="C">商品信息的制费分摊权数</option>
+      <option value="D">人工制费科目</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="411022" type="1">
+    <question>物料需求计算中发放采购计划时，其采购日期可按下面哪些方式来生成？（选择两项）</question>
+    <choice>
+      <option value="A">与采购底稿的生成日期一致</option>
+      <option value="B">系统日期</option>
+      <option value="C">可以从日期表中选定日期</option>
+      <option value="D">下单日期</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="411023" type="1">
+    <question>产品结构的子件信息中包含？（选择两项）</question>
+    <choice>
+      <option value="A">仓库</option>
+      <option value="B">损耗率</option>
+      <option value="C">单价</option>
+      <option value="D">选配代号</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="411024" type="1">
+    <question>移转单中的移出类别包括下面哪些？（选择两项）</question>
+    <choice>
+      <option value="A">工作中心</option>
+      <option value="B">部门</option>
+      <option value="C">仓库</option>
+      <option value="D">供应商</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="411025" type="1">
+    <question>人工制费科目是对哪几类来设置其对应的会计科目？（选择两项）</question>
+    <choice>
+      <option value="A">材料成本</option>
+      <option value="B">人工成本</option>
+      <option value="C">制造费用</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="411026" type="1">
+    <question>录入人工制费科目成本中输入的年月的限制有哪些？（单选）</question>
+    <choice>
+      <option value="A">必须大于会计月份</option>
+      <option value="B">必须大于进销存参数设置的关账年月</option>
+      <option value="C">不可大于进销存参数设置的结账年月</option>
+      <option value="D">可以任意输入</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="411027" type="1">
+    <question>以下对产品结构描述正确的是？（选择两项）</question>
+    <choice>
+      <option value="A">可以插入主件的照片</option>
+      <option value="B">同一主件可存在两个BOM结构</option>
+      <option value="C">可采用复制方式来新建类似的BOM</option>
+      <option value="D">主件可与子件为同一品号</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="411028" type="1">
+    <question>以下哪些作业里面可以输入“客户产品需求”（选择三项）</question>
+    <choice>
+      <option value="A">商品信息</option>
+      <option value="B">客户信息</option>
+      <option value="C">业务活动纪录</option>
+      <option value="D">业务活动计划</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="411029" type="1">
+    <question>以下哪些作业里面可以输入“竞争对手”这个作业？（选择两项）</question>
+    <choice>
+      <option value="A">潜在客户信息</option>
+      <option value="B">客户信息</option>
+      <option value="C">业务活动纪录</option>
+      <option value="D">业务活动计划</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="411030" type="1">
+    <question>在 “银行信息”作业里面的“字符补位符”栏位，包括了以下哪些选项？ （选择两项）</question>
+    <choice>
+      <option value="A">无</option>
+      <option value="B">0</option>
+      <option value="C">左补位</option>
+      <option value="D">右补位</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="411031" type="1">
+    <question>以下哪些内容可以在“固定资产参数”作业里面进行设置？ （多选）</question>
+    <choice>
+      <option value="A">资产类别</option>
+      <option value="B">主要折旧方法</option>
+      <option value="C">增加方式</option>
+      <option value="D">净残值率</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+</root>

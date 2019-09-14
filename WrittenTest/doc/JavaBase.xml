@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="101001" type="1">
+    <question>(10*(2-8)+10)/(5-5*2)在JAVA语言中，上面的表达式计算结果为（选一项）</question>
+    <choice>
+      <option value="A">-10</option>
+      <option value="B">10</option>
+      <option value="C">30</option>
+      <option value="D">-32</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101002" type="1">
+    <question>阅读下面的Java代码 int[] arr; int n = 5; n = n * 2 +1; arr = new int[n]; System.out.println(arr.length); 程序输出的结果是（选一项）</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">8</option>
+      <option value="C">10</option>
+      <option value="D">11</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101003" type="1">
+    <question>在 Java 语言中 , 下面 ( ) 转义序列表示换行。（选一项）</question>
+    <choice>
+      <option value="A">\a</option>
+      <option value="B">\n</option>
+      <option value="C">\r</option>
+      <option value="D">\f</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101004" type="1">
+    <question>在 JAVA编程中，Java编译器会将Java源代码程序转换为（选一项）</question>
+    <choice>
+      <option value="A">字节码</option>
+      <option value="B">可执行代码</option>
+      <option value="C">机器代码</option>
+      <option value="D">以上所有选项都不正确</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101005" type="1">
+    <question>在 Java语言中，下列代码片段的输出结果是（选一项） float a = 50; int b = 4; float c = a/b; System.out.println(c);</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">12</option>
+      <option value="C">12.0</option>
+      <option value="D">12.5</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101006" type="1">
+    <question>在Java 语言中，下列代码的输出结果是（选一项） public static void main(String[] args) { int i=5, j=10; do { if(i&gt;j) { break; } j--; i++; }while(j!=i); System.out.println( i + "," + j); }</question>
+    <choice>
+      <option value="A">8,7</option>
+      <option value="B">9,6</option>
+      <option value="C">7,6</option>
+      <option value="D">7,8</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101007" type="1">
+    <question>在Java 语言中定义了如下变量：double x=10.0; y=3.0;int z=2;下面强制转换符都发生了作用，除了（选一项）</question>
+    <choice>
+      <option value="A">(int)(x+y/z);</option>
+      <option value="B">(double)(x/y);</option>
+      <option value="C">(int)x;</option>
+      <option value="D">(int)(y+z);</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101008" type="1">
+    <question>在JAVA编程中，源代码文件的扩展名为（选一项）</question>
+    <choice>
+      <option value="A">.class</option>
+      <option value="B">.java</option>
+      <option value="C">.com</option>
+      <option value="D">以上所有选项都不正确</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101009" type="1">
+    <question>在JAVA语言中 描述A：‘8’与8是相同的 描述B：‘￥’的数据类型是char 下面的选项( )是正确的（选一项）</question>
+    <choice>
+      <option value="A">两个描述都是正确的</option>
+      <option value="B">只有描述A是正确的</option>
+      <option value="C">两个描述都是错误的</option>
+      <option value="D">只有描述B是正确的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101010" type="1">
+    <question>在JAVA语言中, 下列代码的运行结果是（选一项） public static void showInfo(int a,int b){ a++; b++; } public static void main(String[] args) { int a = 5; int b = 10; System.out.println(a + "," + b); showInfo(a,b); System.out.println(a + "," + b); }</question>
+    <choice>
+      <option value="A">5,10 5,10</option>
+      <option value="B">5,10 6,11</option>
+      <option value="C">5,10 4,11</option>
+      <option value="D">5,10 5,11</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101011" type="1">
+    <question>在JAVA语言中，( )语句可以结束本次循环而不会结束整个循环。（选一项）</question>
+    <choice>
+      <option value="A">next</option>
+      <option value="B">continue</option>
+      <option value="C">switch</option>
+      <option value="D">break</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101012" type="1">
+    <question>在JAVA语言中，3/5的值是（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">0</option>
+      <option value="C">2</option>
+      <option value="D">0.6</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101013" type="1">
+    <question>在Java语言中，5/3的值是（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">–1</option>
+      <option value="C">2</option>
+      <option value="D">1.67</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101014" type="1">
+    <question>在Java语言中，假设以下所有变量均为整型，则下列代码执行后c的值是（选一项） a=2;b=5;b++;c=a+b;</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">6</option>
+      <option value="C">7</option>
+      <option value="D">8</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101015" type="1">
+    <question>在Java语言中，经过如下运算后，num的值为（选一项） int num = 0; num = 2&gt;3?0:1;</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101016" type="1">
+    <question>在JAVA语言中，静态变量用（ ）修饰的。（选一项）</question>
+    <choice>
+      <option value="A">static</option>
+      <option value="B">final</option>
+      <option value="C">abstract</option>
+      <option value="D">interface</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101017" type="1">
+    <question>在Java语言中，能正确表示a和b同时为正或同时为负的表达式是（选一项）</question>
+    <choice>
+      <option value="A">(a &gt;=0 || b &gt;= 0) &amp;&amp; (a &lt; 0 || b &lt; 0)</option>
+      <option value="B">a * b &gt; 0</option>
+      <option value="C">(a + b &gt; 0) &amp;&amp; (a + b &lt;= 0)</option>
+      <option value="D">(a &gt;= 0 &amp;&amp; b &gt;= 0) &amp;&amp; (a &lt; 0 &amp;&amp; b &lt; 0)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101018" type="1">
+    <question>在Java语言中，下列（ ）是合法的标示符（选两项）</question>
+    <choice>
+      <option value="A">$95</option>
+      <option value="B">_wii</option>
+      <option value="C">3psp</option>
+      <option value="D">break;</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="101019" type="1">
+    <question>在JAVA语言中，下列( )是合法的标示符（选两项）</question>
+    <choice>
+      <option value="A">Main</option>
+      <option value="B">p234</option>
+      <option value="C">4x</option>
+      <option value="D">short</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="101020" type="1">
+    <question>在JAVA语言中,下列JAVA语言代码的循环体执行的次数是（选一项） int n=2; while(n == 0){ System.out.println(n); n--; }</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101021" type="1">
+    <question>在Java语言中，下列变量定义和赋值错误的是（选一项）</question>
+    <choice>
+      <option value="A">short i=5; int j=i;</option>
+      <option value="B">char c = "c"; int j=c;</option>
+      <option value="C">float f = 'c'+1;</option>
+      <option value="D">float i=5; double d=i;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101022" type="1">
+    <question>在Java语言中，下列表达式的运算的结果是（选一项） 10/2 +5%10；</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">7</option>
+      <option value="C">10</option>
+      <option value="D">12</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101023" type="1">
+    <question>在Java语言中，下列代码的输出结果是（选一项） public static void main(String[] args) { int[] num={10,20,51,40,50}; System.out.println(num[2]); }</question>
+    <choice>
+      <option value="A">40</option>
+      <option value="B">50</option>
+      <option value="C">51</option>
+      <option value="D">60</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101024" type="1">
+    <question>在JAVA语言中,下列代码的输出结果是（选一项） public static void main(String args[]){ int i,j=0; for(i=1;i&lt;10;i++){ if(i%4==0) continue; j =i; } System.out.println(i + "," + j); }</question>
+    <choice>
+      <option value="A">10,9</option>
+      <option value="B">3,6</option>
+      <option value="C">10,8</option>
+      <option value="D">4,10</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101025" type="1">
+    <question>在Java语言中，下列代码的运行结果是（选一项） int a = 1, sum = 0; while (a&lt; 3){ sum = sum + a; a++; } System.out.println(sum);</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">3</option>
+      <option value="C">4</option>
+      <option value="D">以上都不对</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101026" type="1">
+    <question>在JAVA语言中,下列代码的运行结果是（选一项） public static void main(String args[]) { int stuAge[] = {18,22,26}; int i, avgAge = 0; for(i = 0; i &lt; 3; i++){ avgAge += stuAge[i] / 3; } System.out.println( avgAge ); }</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">9</option>
+      <option value="C">11</option>
+      <option value="D">21</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101027" type="1">
+    <question>在JAVA语言中，下列代码运行的结果是（选一项） int a=1,b=3,c=5; if(a&gt;b) if(b&gt;c) c=a+b; else c=a*b; System.out.println( a + "\t" + b + "\t" + c);</question>
+    <choice>
+      <option value="A">1 3 5</option>
+      <option value="B">1 3 4</option>
+      <option value="C">1 3 6</option>
+      <option value="D">1 3 3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101028" type="1">
+    <question>在Java语言中，下列对于字符数组的定义并赋值正确的是（选一项）</question>
+    <choice>
+      <option value="A">char[ ] name = new char[4];</option>
+      <option value="B">char[ ] name = {'S','V','S','E'};</option>
+      <option value="C">char[4] name = "SVSE";</option>
+      <option value="D">char[4] name = {'S','V','S','E'};</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101029" type="1">
+    <question>在Java语言中，下列关于方法的优点，说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">通过使用方法，可以提供程序开发的效率</option>
+      <option value="B">通过使用方法，可以提高代码的重用性</option>
+      <option value="C">通过使用方法，使得程序的维护变得复杂</option>
+      <option value="D">通过使用方法，使得程序的变得简短和清晰</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101030" type="1">
+    <question>(5 &gt; 10) &amp;&amp; (3 &lt; 8)的结果为（选一项）</question>
+    <choice>
+      <option value="A">非0</option>
+      <option value="B">true</option>
+      <option value="C">0</option>
+      <option value="D">false</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101031" type="1">
+    <question>double x,y; x = 2; y = x + 3 / 2; System.out.println(y); 输出结果应该为（选一项）</question>
+    <choice>
+      <option value="A">3.5</option>
+      <option value="B">3.0</option>
+      <option value="C">2.0</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101032" type="1">
+    <question>if(条件){语名}和if(条件)语句的区别是（选一项）</question>
+    <choice>
+      <option value="A">没有区别</option>
+      <option value="B">一个可以执行多条语句，另一个可以执行一条语句</option>
+      <option value="C">可以执行多条语句</option>
+      <option value="D">不可以执行多条语句</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101033" type="1">
+    <question>if语句的控制条件（选一项）</question>
+    <choice>
+      <option value="A">只能用关系表达式</option>
+      <option value="B">只能用关系表达式或逻辑表达式</option>
+      <option value="C">只能用逻辑表达式</option>
+      <option value="D">可以用任何表达式</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101034" type="1">
+    <question>int a, b; int count=0; for(a=2,b=5;a&lt;b;a+=2,b++) count++ ; 以上JAVA程序运行后count的值为（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">3</option>
+      <option value="C">2</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101035" type="1">
+    <question>int a[] = {3,9,5,6,4}; System.out.println(a[4]) ; 以上JAVA程序段的输出结果为（选一项）</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">5</option>
+      <option value="C">4</option>
+      <option value="D">6</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101036" type="1">
+    <question>int a=0 ; if(a&gt;5&amp;&amp;a&lt;5){ System.out.println("ok"); }输出结果是（选一项）</question>
+    <choice>
+      <option value="A">ok</option>
+      <option value="B">false</option>
+      <option value="C">没有输出</option>
+      <option value="D">true</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101037" type="1">
+    <question>int i = 0, x = 0; do { if (i % 5 == 0) x++; } while (i &lt; 20); System.out.println(x); 输出结果是（选一项）</question>
+    <choice>
+      <option value="A">4</option>
+      <option value="B">10</option>
+      <option value="C">0</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101038" type="1">
+    <question>Java 语言中某程序员编写了如下 while 循环代码 , 请问该循环执行 ( )遍。（选一项） int a=5,b=15; while(a&lt;b) { System.out.println(b-a); a++; b--; }</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">5</option>
+      <option value="C">10</option>
+      <option value="D">无数遍</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101039" type="1">
+    <question>Java 语言中有如下代码,下列x的定义中,可以使上段代码输出 100 的有（选两项） switch(x){ case 100:System.out.println("100");break; case 110:System.out.println("110");break; }</question>
+    <choice>
+      <option value="A">byte x=100;</option>
+      <option value="B">float x=100;</option>
+      <option value="C">char x='d';</option>
+      <option value="D">long x=100;</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="101040" type="1">
+    <question>Java 中，byte数据类型的取值范围是（选一项）</question>
+    <choice>
+      <option value="A">-256 至 255</option>
+      <option value="B">-255 至 255</option>
+      <option value="C">-128 至 127</option>
+      <option value="D">-127 至 128</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101041" type="1">
+    <question>Java 中，byte数据类型的取值范围是（选一项）</question>
+    <choice>
+      <option value="A">-256 至 255</option>
+      <option value="B">-255 至 255</option>
+      <option value="C">-128 至 127</option>
+      <option value="D">-127 至 128</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101042" type="1">
+    <question>Java程序中，main方法的格式正确的是（选一项）</question>
+    <choice>
+      <option value="A">static void main(String[] args)</option>
+      <option value="B">public void main(String[] args)</option>
+      <option value="C">public static void main(String[] s)</option>
+      <option value="D">public static void main(String args)</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101043" type="1">
+    <question>Java的字面常量不包括（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">true</option>
+      <option value="C">false</option>
+      <option value="D">null</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101044" type="1">
+    <question>JAVA语言中，若有说明int a[10];则对a数组元素的正确的引用是（选一项）</question>
+    <choice>
+      <option value="A">a[10]</option>
+      <option value="B">a[3+1]</option>
+      <option value="C">a(5)</option>
+      <option value="D">a(0)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101045" type="1">
+    <question>JAVA语言中函数返回值的类型由( )决定的（选一项）</question>
+    <choice>
+      <option value="A">return语句中的表达式类型</option>
+      <option value="B">调用该函数的主调函数的类型</option>
+      <option value="C">调用函数时临时决定</option>
+      <option value="D">定义函数时所指定的返回值类型</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101046" type="1">
+    <question>Java语言中命名一个变量的规则包括（选两项）</question>
+    <choice>
+      <option value="A">变量的第一个字母必须是字母或下划线或$</option>
+      <option value="B">变量名必须以字母或下划线或数字开头</option>
+      <option value="C">变量名不区分大小写</option>
+      <option value="D">第一个字符后可以是字母，数字和下划线组成的序列</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="101047" type="1">
+    <question>public static void main(String args[]) { double x,y; x = 2; y = x + 3/2; System.out.println(y); } 编译运行以上Java语言中，输出结果应该为（选一项）</question>
+    <choice>
+      <option value="A">3.5</option>
+      <option value="B">3</option>
+      <option value="C">2.0</option>
+      <option value="D">3.0</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101048" type="1">
+    <question>编译并运行下面的Java代码段： char c = 'a'; switch (c) { case 'a': System.out.println("a"); default: System.out.println("default"); }输出结果是（选一项）</question>
+    <choice>
+      <option value="A">代码无法编译，因为switch语句没有一个合法的表达式</option>
+      <option value="B">a default</option>
+      <option value="C">a</option>
+      <option value="D">default</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101049" type="1">
+    <question>表示关系X&lt;=Y&lt;=Z的JAVA语言表达式为（选一项）</question>
+    <choice>
+      <option value="A">(X&lt;=Y)&amp;&amp;(Y&lt;=Z)</option>
+      <option value="B">(X&lt;=Y)AND(Y&lt;=Z)</option>
+      <option value="C">(X&lt;=Y&lt;=Z)</option>
+      <option value="D">(X&lt;=Y)＆(Y&lt;=Z)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101050" type="1">
+    <question>定如下java代码, 编译运行之后, 将会输出（选一项） public class Test { public static void main(String args[]){ int a = 5; System.out.println((a % 2 ==1)?(a+1)/2:a/2); }}</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">2.5</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101051" type="1">
+    <question>定义了一个方法如下 public static void main( String[] args ){ int[] arr = {5，1，3，6，4，5，6，7，8，9}; changeValue( arr ); System.out.println( arr[2] ); } public static void changeValue(int[] arr){ arr[2] = 5; } 程序运行后输出结果为（选一项）</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101052" type="1">
+    <question>方法pr声明为 public static void pr ( float[] scores， int n ){ } 声明了三个变量 int[] ary = new[10]; int m=5; int n = 10; 那么下面正确调用pr方法的是（选一项）</question>
+    <choice>
+      <option value="A">pr (ary);</option>
+      <option value="B">pr (ary,m);</option>
+      <option value="C">n = pr (ary,m);</option>
+      <option value="D">都不正确</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101053" type="1">
+    <question>分析如下Java代码片段，输出结果为（选一项） int price = 10, number = 0, monney = 0; for (int i = 0;i&lt;2;i++){ number++; --price; monney += number * price; } System.out.println(monney);</question>
+    <choice>
+      <option value="A">25</option>
+      <option value="B">28</option>
+      <option value="C">31</option>
+      <option value="D">20</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101054" type="1">
+    <question>分析如下Java语言代码段，x、y均为int数据类型，下列说法正确的是（选一项） if(x&gt;y){ x+=y; ++y; } else{ y+=x; x++; } System.out.println( x + "," + y);</question>
+    <choice>
+      <option value="A">若x=2, y=0，则输出为1，1</option>
+      <option value="B">若x=0, y=1，则输出为1，0</option>
+      <option value="C">若x=1, y=1，则输出为2，2</option>
+      <option value="D">若x=2, y=3，则输出为3，4</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101055" type="1">
+    <question>分析如下JAVA语言代码片断 int i=6,j=4; System.out.println(i%j); 输出结果为（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">2</option>
+      <option value="C">1.5</option>
+      <option value="D">1</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101056" type="1">
+    <question>分析下面的JAVA程序： public static void main(String args[]) { int num =0; while(num&lt;=2){ num++; System.out.println(num); } }输出结果是（选一项）</question>
+    <choice>
+      <option value="A">123</option>
+      <option value="B">012</option>
+      <option value="C">23</option>
+      <option value="D">12</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101057" type="1">
+    <question>分析下面的Java程序： public static void main(String args[]) { int num = 0; while(num &lt;= 2){ num++; System.out.print(num); } }输出结果是（选一项）</question>
+    <choice>
+      <option value="A">13</option>
+      <option value="B">12</option>
+      <option value="C">023</option>
+      <option value="D">123</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101058" type="1">
+    <question>分析下面的程序： void fun(int a ,int b,int c) { a=456; b=567; c=678; } public static void main(String args[]){ int x=10,y=20,z=30; fun(x,y,z); System.out.println(z,y,x); } 输出结果是（选一项）</question>
+    <choice>
+      <option value="A">30，20，10</option>
+      <option value="B">10，20，30</option>
+      <option value="C">456，567，678</option>
+      <option value="D">678，567，456</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101059" type="1">
+    <question>给定Java代码，如下： public byte count(byte b1,byte b2){ return______; } 要使这段代码能够编译成功，横线处可以填入（选一项）</question>
+    <choice>
+      <option value="A">(byte)(b1-b2)</option>
+      <option value="B">(byte)b1-b2</option>
+      <option value="C">b1-b2</option>
+      <option value="D">(byte)b1/b2</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101060" type="1">
+    <question>给定java代码片段，如下： int i=0,j=-1; switch(i){ case 0,1:j=1; case 2:j=2; } System.out.print("j="+j); 编译运行，正确的是（选一项）</question>
+    <choice>
+      <option value="A">程序编译出错</option>
+      <option value="B">j=1</option>
+      <option value="C">j=2</option>
+      <option value="D">j=0</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101061" type="1">
+    <question>给定java代码如下，编译运行，结果是（选一项） public static void main(String[] args){ int i; System.out.println("i=" + i); }</question>
+    <choice>
+      <option value="A">编译错误</option>
+      <option value="B">运行时出现例外</option>
+      <option value="C">正常运行，输出i=-1</option>
+      <option value="D">正常运行，输出i=0</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101062" type="1">
+    <question>给定java代码如下：要使用这段代码能够编译成功，横线处可以填入（选两项） public int count(char c,int i,double d){ return______; }</question>
+    <choice>
+      <option value="A">c*i</option>
+      <option value="B">c*(int)d</option>
+      <option value="C">(int)c*d</option>
+      <option value="D">i*d</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="101063" type="1">
+    <question>给定某Java程序的main方法，如下： public static void main(String[] args) { System.out.print("Hello" + args[1]); } 从命令行传参：people world nation，该程序的运行结果是（选一项）</question>
+    <choice>
+      <option value="A">Hello people</option>
+      <option value="B">Hello world</option>
+      <option value="C">hello people world nation</option>
+      <option value="D">运行时出现异常</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101064" type="1">
+    <question>给定某Java程序的main方法如下,该程序的运行结果是（选一项） public static void main(String[] args){ boolean boo=true; if(boo==false){ System.out.println("a"); } else{ Systim.out.println("b"); } }</question>
+    <choice>
+      <option value="A">a</option>
+      <option value="B">b</option>
+      <option value="C">c</option>
+      <option value="D">d</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101065" type="1">
+    <question>给定如下Java代码, 编译运行时, 以下( ) 描述是正确的（选一项） public class Person{ static int arr[] = new int [10]; public static void main(String a[]){ System.out.println(arr[1]); } }</question>
+    <choice>
+      <option value="A">编译时将发生错误</option>
+      <option value="B">编译时正确但是运行时出错</option>
+      <option value="C">输出为0</option>
+      <option value="D">输出为 null</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101066" type="1">
+    <question>给定如下Java代码，编译运行时，结果是（选一项） public static void main(String args[]){ for(int i = 0; i &lt; 3; i++){ System.out.print(i); } System.out.print(i); }</question>
+    <choice>
+      <option value="A">编译时报错</option>
+      <option value="B">正确运行，输出012</option>
+      <option value="C">正确运行，输出123</option>
+      <option value="D">正确运行，输出0123</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101067" type="1">
+    <question>给定如下Java代码，编译运行之后，将会输出（选一项） public class Test { public static void main(String args[]) { int Output = 10; boolean b1 = false; if((b1 == true) &amp;&amp; ((Output += 10) == 20)) { System.out.println("Equal" + Output); } else { System.out.println("Not equal" + Output); } }}</question>
+    <choice>
+      <option value="A">Equal 10</option>
+      <option value="B">Equal 20</option>
+      <option value="C">Not equal 10</option>
+      <option value="D">Not equal 20</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101068" type="1">
+    <question>给定如下Java代码，编译运行之后，将会输出（选一项） public static void main(String args[]){ int a = 5; System.out.println((a % 2 == 1) ? (a + 1)/2 : a/2); }</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">2.5</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101069" type="1">
+    <question>给定一个 Java 源程序 Test.Java, 在命令行中应该使用下面（ ）语句可以编译、运行该程序。（选一项）</question>
+    <choice>
+      <option value="A">Javac Test.Java Java Test</option>
+      <option value="B">Javac Test.Java Java Test.clsss</option>
+      <option value="C">Javac Test.Java Java Ttest</option>
+      <option value="D">Javac Test.Java Java Test.class</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101070" type="1">
+    <question>给定一个java程序的代码片段，如下：把这段代码转换为if语句，以下正确的是（选一项） switch(grade){ case'A':score=100;break; case'B':score=90;break; case'C': case'D':score=60;break; default:score=0;break; }</question>
+    <choice>
+      <option value="A">if(grade='A') score=100;else if(grade='B') score=90;else if(grade='C'||grade='D') score=60;elsescore=0;</option>
+      <option value="B">if(grade='A') score=100; if(grade=='B')score=90; if(grade=='C'||grade=='D') score=60; else score=0;</option>
+      <option value="C">if(grade=='A')score=100;else if(grade=='B')score=90;else if(grade=='C')score=60;else if(grade=='D')score=60;else score=0;</option>
+      <option value="D">if(grade=='A')score=100;else if(grade=='B') score=90;else if(grade=='C'||grade=='D') score=60;else score=0;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101071" type="1">
+    <question>给定一个Java程序的代码片断如下： if(grade == 'A'|| grade == 'B') Score = 90; else if(grade == 'C'|| grade == 'D') Score = 70; else Score = 60; 等同的switch是下列哪一个（选一项）</question>
+    <choice>
+      <option value="A">switch(grade){ case 'A': case 'B':score = 90; case 'C': case 'D':scpre = 70; default:score=60; }</option>
+      <option value="B">switch(grade){ case 'A':break; case 'B':score = 90; case 'C':break; case 'D':scpre = 70; default:score = 60;break; }</option>
+      <option value="C">switch(grade){ case 'B':score = 90;break; case 'D:scpre = 70;break; default:score = 60;break; }</option>
+      <option value="D">switch(grade){ case 'A': case 'B':score = 90;break; case 'C': case 'D':scpre = 70;break; default:score = 60;break; }</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101072" type="1">
+    <question>关于Java下列描述中正确的一项是（选一项）</question>
+    <choice>
+      <option value="A">标识符首字符的后面可以跟数字；</option>
+      <option value="B">标识符不区分大小写；</option>
+      <option value="C">复合数据类型变量包括布尔型、字符型、浮点型；</option>
+      <option value="D">数组属于基本数据类型；</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101073" type="1">
+    <question>关于Java语法说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">switch –case 语句中的default语句是必须的</option>
+      <option value="B">else可以单独使用</option>
+      <option value="C">case 子句后可以跟字符串</option>
+      <option value="D">else总是和最近的if匹配</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101074" type="1">
+    <question>结构化程序设计所规定的三种基本控制结构是（选一项）</question>
+    <choice>
+      <option value="A">输入，处理，输出</option>
+      <option value="B">树行，网状，环行</option>
+      <option value="C">顺序，分支，循环</option>
+      <option value="D">主程序，子程序，函数</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101075" type="1">
+    <question>考虑以下的JAVA程序： public static void main(String args[]) { int i,j,num=0; for(i=0;i&lt;4;i++) for(j=i;j&lt;2;j++) num=num+j; System.out.println("the value of num is "+ num); } 程序执行后，num的值应该是（选一项）</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">4</option>
+      <option value="C">0</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101076" type="1">
+    <question>李明买了几本Java的书籍，价格(单位元)分别是32，40，28，30，18。为了按价 格对这些书进行升序排序得到结果18，28，30，32，40，李明编写了如下Java代码，请问在横线处应该填写的代码是（选一项） public static void main(String args[]){ int price[5] = {30,40,20,32,18}; int i,j,temp; for(i=0;i&lt;5;i++){ for(j=0;j&lt;5-i-1;j++){ if(_________){ temp=price[j]; price[j]=price[j+1]; price[j+1]=temp; } } } }</question>
+    <choice>
+      <option value="A">price[j]&gt;price[j+1]</option>
+      <option value="B">price[j]&lt;price[j+1]</option>
+      <option value="C">j&gt;i</option>
+      <option value="D">i&lt;j</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101077" type="1">
+    <question>能将用JAVA语言编写的源代码转换成字节码的命令是（选一项）</question>
+    <choice>
+      <option value="A">java</option>
+      <option value="B">javac</option>
+      <option value="C">javadoc</option>
+      <option value="D">javab</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101078" type="1">
+    <question>能正确表示a≥10或a≤0的关系表达式是（选一项）</question>
+    <choice>
+      <option value="A">a&gt;=10 or a&lt;=0</option>
+      <option value="B">a&gt;=10│a&lt;=0</option>
+      <option value="C">a&gt;=10||a&lt;=0</option>
+      <option value="D">a&gt;=10&amp;&amp;a&lt;=0</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101079" type="1">
+    <question>如果数组a有10个成员，则对a数组元素的不正确引用是（选两项）</question>
+    <choice>
+      <option value="A">a[10]</option>
+      <option value="B">a[3-4]</option>
+      <option value="C">a[5]</option>
+      <option value="D">a[0]</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="101080" type="1">
+    <question>若k为整形，则while循环执行( )次（选一项） int k=2; while(k==0) { System.out.println(k); k--; }</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">9</option>
+      <option value="C">0</option>
+      <option value="D">1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101081" type="1">
+    <question>若有说明语句:char c＝'72';则变量c（选一项）</question>
+    <choice>
+      <option value="A">包含1个字符</option>
+      <option value="B">2个字符</option>
+      <option value="C">包含3个字符</option>
+      <option value="D">代码错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101082" type="1">
+    <question>设int 型变量 a、b，float 型变量 x、y，char 型变量 ch 均已正确定义并赋值，正确的switch语句是（选两项）</question>
+    <choice>
+      <option value="A">switch (x + y) { …… }</option>
+      <option value="B">switch ( ch + 1 ) { …… }</option>
+      <option value="C">switch ch { …… }</option>
+      <option value="D">switch ( a + b ){ …… }</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="101083" type="1">
+    <question>声明一个数组 int[][] arr = new[3][5]; 该数组中共有( )个元素。（选一项）</question>
+    <choice>
+      <option value="A">9</option>
+      <option value="B">10</option>
+      <option value="C">15</option>
+      <option value="D">12</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101084" type="1">
+    <question>下JAVA代码的输出结果是（选一项） int answer=100,result; result=answer-10; System.out.println("The result is " + result + 5 );</question>
+    <choice>
+      <option value="A">The result is 95</option>
+      <option value="B">The result is 905</option>
+      <option value="C">The result is 10</option>
+      <option value="D">The result is 100</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101085" type="1">
+    <question>下列Java代码运行后a, b,c 的值分别为（选一项） int a = 1,b = 5,c; ++a; b++; c = a + b;</question>
+    <choice>
+      <option value="A">2 6 8</option>
+      <option value="B">1 5 9</option>
+      <option value="C">1 5 8</option>
+      <option value="D">以上都不正确</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101086" type="1">
+    <question>下列Java方法定义中，正确的是（选一项）</question>
+    <choice>
+      <option value="A">int x( int a,b )</option>
+      <option value="B">boolean x( int a,int b) { return (a-b); }</option>
+      <option value="C">void x( a,b )</option>
+      <option value="D">int x( int a,int b) { return a-b; }</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101087" type="1">
+    <question>下列Java语句中，不正确的一项是（选一项）</question>
+    <choice>
+      <option value="A">int?$e,a,b?=10;</option>
+      <option value="B">char?c,d?=?'a';</option>
+      <option value="C">float?e?=?0.0d;</option>
+      <option value="D">double?e?=?0.0f;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101088" type="1">
+    <question>下列JAVA语言程序段不是死循环的是（选一项）</question>
+    <choice>
+      <option value="A">int i=100;while(1==1){i = i%100;if(i&gt;100) break;}</option>
+      <option value="B">for(; ;){}</option>
+      <option value="C">int k=0; do { } while(k&lt;=0);</option>
+      <option value="D">boolean b = false; while(b){};</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101089" type="1">
+    <question>下列JAVA语言代码的输出结果是（选一项） public static void main(String args[]){ int i; for(i=0;i&lt;3;i++) { switch(i) { case 1:System.out.print(i); case 2:System.out.print(i); default :System.out.print(i); } }}</question>
+    <choice>
+      <option value="A">011122</option>
+      <option value="B">012</option>
+      <option value="C">012020</option>
+      <option value="D">120</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101090" type="1">
+    <question>下列Java语言代码的运行结果是（选一项） public static void main(String[] args) { int a=2,b=-1,c=2; if(a&gt;b) { if(b&lt;0) c=0; else c++; System.out.println(c); } }</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101091" type="1">
+    <question>下列代码 public static void main(String []args){ int i = 5; do { System.out.println(i); ++i; }while (i&gt;5); }输出为（选一项）</question>
+    <choice>
+      <option value="A">死循环</option>
+      <option value="B">5</option>
+      <option value="C">程序报错</option>
+      <option value="D">无法编译</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101092" type="1">
+    <question>下列代码 public static void main(String []args){ int i = 0; for(i = 1;i &lt; 10;i++){ System.out.println ("i = " + i); if(i % 2 == 0){ continue; } } }输出的结果为（选一项）</question>
+    <choice>
+      <option value="A">从1到9中的奇数</option>
+      <option value="B">从1到9中的偶数</option>
+      <option value="C">无输出</option>
+      <option value="D">从1到9</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101093" type="1">
+    <question>下列代码中，将引起编译错误的行是（选一项） public?class?Exercise{ public?static?void?main(String?args[]){ float?f = 0.0; f += 1.0; }}</question>
+    <choice>
+      <option value="A">第2行??</option>
+      <option value="B">第3行??</option>
+      <option value="C">第4行??</option>
+      <option value="D">第6行</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101094" type="1">
+    <question>下列的哪个赋值语句是正确的？（选一项）</question>
+    <choice>
+      <option value="A">char a = 12.0;</option>
+      <option value="B">int a = 12.0;</option>
+      <option value="C">int a = 12.0f;</option>
+      <option value="D">int a = (int)12.0;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101095" type="1">
+    <question>下列方法定义中，方法头不正确的是（选一项）</question>
+    <choice>
+      <option value="A">public static x(double a)</option>
+      <option value="B">public static int x(double y)</option>
+      <option value="C">void x(double d)</option>
+      <option value="D">public int x()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101096" type="1">
+    <question>下列关于char类型的数据说法中，正确的一项是：（选一项）</question>
+    <choice>
+      <option value="A">’\r’表示换行符；</option>
+      <option value="B">’\n’表示回车符；</option>
+      <option value="C">byte的范围是-128~128</option>
+      <option value="D">凡是在Unicode的字符都可以用单引号括起来作为char类型常量；</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101097" type="1">
+    <question>下列关于变量组成部分描述正确的一项是：（选一项）</question>
+    <choice>
+      <option value="A">变量名不是标识符；</option>
+      <option value="B">变量名是标识符；</option>
+      <option value="C">浮点型属于复合类型；</option>
+      <option value="D">变量分为：基本类型和复合类型；</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101098" type="1">
+    <question>下列哪个不是正确标识符：（选一项）</question>
+    <choice>
+      <option value="A">$million;</option>
+      <option value="B">$_million;</option>
+      <option value="C">1?$_million;</option>
+      <option value="D">$1_million;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101099" type="1">
+    <question>下列哪一个是正确的Java标识符命名（选一项）</question>
+    <choice>
+      <option value="A">12@34</option>
+      <option value="B">_student</option>
+      <option value="C">-class</option>
+      <option value="D">1234</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101100" type="1">
+    <question>下列哪一项不属于Java语言的特点（选一项）</question>
+    <choice>
+      <option value="A">健壮性</option>
+      <option value="B">安全性</option>
+      <option value="C">面向对象</option>
+      <option value="D">不能跨平台</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101101" type="1">
+    <question>下列语句序列执行后，x 的值是（选一项） int a = 3, b = 4, x = 5; a++; if( a == b ) x = a * x;</question>
+    <choice>
+      <option value="A">35</option>
+      <option value="B">25</option>
+      <option value="C">20</option>
+      <option value="D">5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101102" type="1">
+    <question>下面( )是JAVA语言中的有效注释（选一项）</question>
+    <choice>
+      <option value="A">/* this is a comment*/</option>
+      <option value="B">--this is a comment</option>
+      <option value="C">*this is a comment*</option>
+      <option value="D">/--this is a comment</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101103" type="1">
+    <question>下面JAVA程序的输出结果是（选一项） int i,x[][]={{1,2,3},{4,5,6},{7,8,9}}; for(i=0;i&lt;3;i++) System.out.print(x[i][2-i]);</question>
+    <choice>
+      <option value="A">1 5 9</option>
+      <option value="B">1 4 7</option>
+      <option value="C">3 5 7</option>
+      <option value="D">3 6 9</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101104" type="1">
+    <question>下面程序输出结果是（选一项） System.out.println('2'+ '2');</question>
+    <choice>
+      <option value="A">22</option>
+      <option value="B">4</option>
+      <option value="C">0</option>
+      <option value="D">100</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101105" type="1">
+    <question>下面的JAVA 程序的输出结果是（选一项） int a=3,b=2,c=1; int x=10,y=20; if(a&lt;b) if(b!=0) if(!(x==0)) y=1; else if(x==0) y=0; y=-1; System.out.println(y);</question>
+    <choice>
+      <option value="A">20</option>
+      <option value="B">1</option>
+      <option value="C">0</option>
+      <option value="D">-1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101106" type="1">
+    <question>下面的Java程序段： int i,j; for(i = 3;i &gt; 0;i--) for(j = 0;j &lt; 5;j++) {...} 循环体的总执行次数是（选一项）</question>
+    <choice>
+      <option value="A">8</option>
+      <option value="B">15</option>
+      <option value="C">20</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101107" type="1">
+    <question>下面的JAVA语言代码段的输出结果是（选一项） int j; for(j=1;j&lt;10;j+=2) System.out.print(j);</question>
+    <choice>
+      <option value="A">1 2 3 4 5 6 7 8 9</option>
+      <option value="B">2 4 6 8</option>
+      <option value="C">1 3 5 7 9</option>
+      <option value="D">1 2 4 6 8</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101108" type="1">
+    <question>下面的程序段输出的结果是（选一项） int i=1，b，c； int[] a=new int[3]； b=a[i]; c=b+i; System.out.println(c)；</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">0</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101109" type="1">
+    <question>下面的方法用来求两个数中较大的值 public static int max(int x， int y){ return ________;} 在横线出应填入（选一项）</question>
+    <choice>
+      <option value="A">x</option>
+      <option value="B">y</option>
+      <option value="C">x&gt;y?x:y</option>
+      <option value="D">x&lt;y?x:y</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101110" type="1">
+    <question>下面定义数组语句，正确的是（选一项）</question>
+    <choice>
+      <option value="A">int arr = new arr[10][2];</option>
+      <option value="B">int ary = {1,2,3,4,5};</option>
+      <option value="C">int[] ary = new arr[10];</option>
+      <option value="D">int[] arr = {-1,"2",3,4,5};</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101111" type="1">
+    <question>下面对于方法的描述，正确的是（选一项）</question>
+    <choice>
+      <option value="A">方法可以返回多个值</option>
+      <option value="B">方法必须返回一个值</option>
+      <option value="C">方法可以有多个参数</option>
+      <option value="D">再方法内可以定义其它方法</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101112" type="1">
+    <question>下面哪些是Java语言中的关键字？?（选一项）</question>
+    <choice>
+      <option value="A">sizeof?</option>
+      <option value="B">Abstract?</option>
+      <option value="C">null?</option>
+      <option value="D">Native?</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101113" type="1">
+    <question>下面选项( )是JAVA语言中定义的循环语句类型（选一项）。</question>
+    <choice>
+      <option value="A">if else</option>
+      <option value="B">loop</option>
+      <option value="C">switch...case</option>
+      <option value="D">for</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101114" type="1">
+    <question>研究下面的JAVA程序段 int i,j; for(i=5;i&lt;10;i++) for(j=0;j&lt;4;j++){...} 循环体的总执行次数是（选一项）</question>
+    <choice>
+      <option value="A">20</option>
+      <option value="B">25</option>
+      <option value="C">24</option>
+      <option value="D">30</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101115" type="1">
+    <question>研究下面的Java代码，但x=2时,运行结果是（选一项） switch(x){ case 1: System.out.println(1); case 2: case 3: System.out.println(3); System.out.println(4); }</question>
+    <choice>
+      <option value="A">没有任何输出结果</option>
+      <option value="B">输出结果为3</option>
+      <option value="C">输出结果为3和4</option>
+      <option value="D">输出结果是1、3和4</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101116" type="1">
+    <question>已知：int x=7，y=5； x/y的值为（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">7</option>
+      <option value="C">0</option>
+      <option value="D">2</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101117" type="1">
+    <question>以下( )不是Java的原始数据类型。（选一项）</question>
+    <choice>
+      <option value="A">short</option>
+      <option value="B">boolean</option>
+      <option value="C">unit</option>
+      <option value="D">float</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101118" type="1">
+    <question>以下不是Java基本数据类型的是（选一项）</question>
+    <choice>
+      <option value="A">int</option>
+      <option value="B">float</option>
+      <option value="C">String</option>
+      <option value="D">boolean</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101119" type="1">
+    <question>以下程序的输出结果是（选一项） int i; for (i = 1; i &lt;= 5; i++) { if (i % 2 == 0) System.out.print("*"); else continue; System.out.print("#"); } System.out.print("$");</question>
+    <choice>
+      <option value="A">*#*#*#$</option>
+      <option value="B">#*#*#*$</option>
+      <option value="C">*#*#$</option>
+      <option value="D">#*#*$</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101120" type="1">
+    <question>以下程序的输出结果是（选一项） public static void main(String args[]) { int a=11; System.out.println (++a); }</question>
+    <choice>
+      <option value="A">12</option>
+      <option value="B">11</option>
+      <option value="C">10</option>
+      <option value="D">9</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101121" type="1">
+    <question>以下程序片断 int i = 1; while(i &lt; 5);{ i++; } System.out.println (i); 运行结果是（选一项）</question>
+    <choice>
+      <option value="A">输出1</option>
+      <option value="B">输出5</option>
+      <option value="C">程序无法运行</option>
+      <option value="D">死循环</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101122" type="1">
+    <question>以下代码段 int i = 5; if(i &lt; 3){ if(i &gt; 0 ){ System.out.println ("ok!"); } else{ System.out.println ("yes!"); } } else{ System.out.println ("no!"); } 输出的应该是（选一项）</question>
+    <choice>
+      <option value="A">ok!</option>
+      <option value="B">yes!</option>
+      <option value="C">no!</option>
+      <option value="D">ok!</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101123" type="1">
+    <question>以下关于Java虚拟机说法不正确的是（选一项）</question>
+    <choice>
+      <option value="A">Java虚拟机执行的是字节码</option>
+      <option value="B">字节码会被解释成本地机器语言</option>
+      <option value="C">不同平台下需要安装该平台下相应的Java虚拟机版本</option>
+      <option value="D">不同平台下Java虚拟机的规范不一样</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101124" type="1">
+    <question>以下会产生编译错误的Java语句是（选一项）</question>
+    <choice>
+      <option value="A">if (2 == 3) System.out.println("Hi");</option>
+      <option value="B">if (2 = 3) System.out.println("Hi");</option>
+      <option value="C">if (true) System.out.println("Hi");</option>
+      <option value="D">if (2 != 3) System.out.println("Hi");</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101125" type="1">
+    <question>以下叙述正确的是（选一项）</question>
+    <choice>
+      <option value="A">JAVA语言程序总是从第一个定义的方法开始执行</option>
+      <option value="B">在JAVA语言程序中，要调用的方法必须在main()方法中定义</option>
+      <option value="C">JAVA语言程序总是从main()方法开始执行</option>
+      <option value="D">JAVA语言程序中的main()方法必须放在程序的开始部分</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101126" type="1">
+    <question>以下正确的叙述有（选两项）</question>
+    <choice>
+      <option value="A">在Java程序中，每行中只能写一条语句。</option>
+      <option value="B">在Java程序中，Abc和abc是2个相同的变量</option>
+      <option value="C">若a和b的类型相同，在计算赋值表达式a = b后b的值将放入a，而a的值丢失</option>
+      <option value="D">若a是float型变量，a = 10是合法的，因为float型变量允许存放整型数</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="101127" type="1">
+    <question>以下字符常量中不合法的是（选一项）</question>
+    <choice>
+      <option value="A">'|'</option>
+      <option value="B">'\''</option>
+      <option value="C">"\n"</option>
+      <option value="D">'我'</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101128" type="1">
+    <question>有如下JAVA语言程序，则程序运行后的结果为（选一项） public static void main(String args[]) { int a = 2; int b = 3; int c = a&gt;b?a:b; System.out.println(c); }</question>
+    <choice>
+      <option value="A">2</option>
+      <option value="B">3</option>
+      <option value="C">1</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101129" type="1">
+    <question>有如下的JAVA语言程序，运行后m的值为（选一项） public static void main(String args[]){ int a=4; int m=0; int i,j; for(i=0;i&lt;a;i++) for(j=0;j&lt;=i;j++) m++; }</question>
+    <choice>
+      <option value="A">9</option>
+      <option value="B">10</option>
+      <option value="C">12</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101130" type="1">
+    <question>有以下程序 public static void main(String args[]) { int x=3, y=2; System.out.println(x/y); } 程序运行后的输出结果是（选一项）</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">2</option>
+      <option value="C">1</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101131" type="1">
+    <question>阅读下面的JAVA 语言代码，输出结果是（选一项） int x,y=1,z=0; if(z&lt;10) x=3; else if(y==0) x=5; else x=7; System.out.println(x-y);</question>
+    <choice>
+      <option value="A">7</option>
+      <option value="B">3</option>
+      <option value="C">4</option>
+      <option value="D">2</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101132" type="1">
+    <question>在JAVA语言中，下列正确的字符型常量是（选一项）</question>
+    <choice>
+      <option value="A">“”</option>
+      <option value="B">'9'</option>
+      <option value="C">#</option>
+      <option value="D">365</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101133" type="1">
+    <question>在JAVA语言中，下面()是逻辑运算符中优先级最高的（选一项）</question>
+    <choice>
+      <option value="A">!</option>
+      <option value="B">&amp;&amp;</option>
+      <option value="C">||</option>
+      <option value="D">|</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101134" type="1">
+    <question>在Java语言中，下面变量命名合法的有（选两项）</question>
+    <choice>
+      <option value="A">variable123</option>
+      <option value="B">123varable</option>
+      <option value="C">private</option>
+      <option value="D">variable_123</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="101135" type="1">
+    <question>在Java语言中，下面程序的输出结果是（选一项） public static void fun(int a,int b,int c) { c = a * b; } public static void main(String[] args) { int c = 0; fun(2,3,c); System.out.println(c); }</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">6</option>
+      <option value="D">无法确定</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101136" type="1">
+    <question>在JAVA语言中，下面选项( )声明一个数组用于保存4个参赛者参加5个不同项目的比赛成绩（选一项）</question>
+    <choice>
+      <option value="A">int[][] s = new int[5][6];</option>
+      <option value="B">int[][] s = new int[4][5];</option>
+      <option value="C">int[][] s = new int[3][4];</option>
+      <option value="D">int[][] s = new int[5][4];</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101137" type="1">
+    <question>在Java语言中，已知 a 为int 型，b 为 double型，c 为 float 型，d 为 char 型，则表达式 a+b*c-d/a 的 结果类型为（选一项）</question>
+    <choice>
+      <option value="A">int</option>
+      <option value="B">double</option>
+      <option value="C">float</option>
+      <option value="D">char</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101138" type="1">
+    <question>在JAVA语言中，以上正确的函数定义形式是（选一项）</question>
+    <choice>
+      <option value="A">double run(x,y);</option>
+      <option value="B">double run(int x;int y);</option>
+      <option value="C">double run(int x,int y);</option>
+      <option value="D">double run(int x,y);</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101139" type="1">
+    <question>在java语言中，有如下定义 public static void f (int x,int y) { int t ; if(x&gt;y){ t=x; x=y; y=t; } } public static void main(String args[]){ int a=4,b=3,c=5; f(a,b); System.out.println(a,b,c); }输出结果是（选一项）</question>
+    <choice>
+      <option value="A">3,4,5</option>
+      <option value="B">5,3,4</option>
+      <option value="C">4,5,3</option>
+      <option value="D">4,3,5</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101140" type="1">
+    <question>在Java语言中，有如下两条叙述：（选一项） 陈述A：5/2结果为2.5 陈述B：5.0/2.0结果为2.5</question>
+    <choice>
+      <option value="A">两句都对</option>
+      <option value="B">两句都错</option>
+      <option value="C">只有a对</option>
+      <option value="D">只有b对</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101141" type="1">
+    <question>在JAVA语言中，运行下面的程序段后将输出（选一项） char a[],b[] = {'c','h','i','n','a'}; a=b; System.out.println(a);</question>
+    <choice>
+      <option value="A">china</option>
+      <option value="B">ch</option>
+      <option value="C">chi</option>
+      <option value="D">编译出错</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="101142" type="1">
+    <question>在JAVA语言中，执行下面的循环后，x的值为（选一项） public static void main(String args[]) { int y=1,x=1; for(;y&lt;=50;y++) { if(x==10) break; if(x%2==1) { x =3; continue; } x =3; } }</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101143" type="1">
+    <question>在JAVA语言中，执行语句：char ch = 'A' + 3;后ch的值为（选一项）</question>
+    <choice>
+      <option value="A">不能确定</option>
+      <option value="B">67</option>
+      <option value="C">'C'</option>
+      <option value="D">'D'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101144" type="1">
+    <question>在Java语言中定义了如下变量：char ch;下列赋值语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">ch = "strtest"</option>
+      <option value="B">ch = '2'</option>
+      <option value="C">ch = '2345'</option>
+      <option value="D">ch = strtest</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101145" type="1">
+    <question>在Java语言中如下定义：int[] a= new int[10];则对a数组元素的正确引用是（选两项）</question>
+    <choice>
+      <option value="A">a[10]</option>
+      <option value="B">a[3+1]</option>
+      <option value="C">a(5)</option>
+      <option value="D">a[0]</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="101146" type="1">
+    <question>在JAVA语言中若有以下定义，则表达式a*b+d-c的值的类型为（选一项） char a; int b; float c; double d;</question>
+    <choice>
+      <option value="A">float</option>
+      <option value="B">int</option>
+      <option value="C">char</option>
+      <option value="D">double</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101147" type="1">
+    <question>在JAVA语言中下列哪组不是合法的用户标识符（选两项）</question>
+    <choice>
+      <option value="A">integer 和 1ch</option>
+      <option value="B">Int 和 scan</option>
+      <option value="C">case 和 public</option>
+      <option value="D">_ch 和 integer</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="101148" type="1">
+    <question>在JAVA语言中以下能为一维数组a正确初始化的语句是（选一项）</question>
+    <choice>
+      <option value="A">int a[10]=(0,0,0,0,0);</option>
+      <option value="B">int a[]= {1,2};</option>
+      <option value="C">int a[10]={0;1;2};</option>
+      <option value="D">int a[10] = {10};</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101149" type="1">
+    <question>在JAVA中, 无论测试条件是什么, 下列( )循环将至少执行一次。（选一项）</question>
+    <choice>
+      <option value="A">for</option>
+      <option value="B">do…while</option>
+      <option value="C">while</option>
+      <option value="D">while…do</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101150" type="1">
+    <question>在JAVA中，（ ）关键字用来终止循环。（选一项）</question>
+    <choice>
+      <option value="A">return</option>
+      <option value="B">continue</option>
+      <option value="C">break</option>
+      <option value="D">exit</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101151" type="1">
+    <question>在Java中，下列( )语句不能通过编译。（选一项）</question>
+    <choice>
+      <option value="A">String s = "john" + "was" + "here";</option>
+      <option value="B">String s = "john" + 3;</option>
+      <option value="C">int a = 3 + 5;</option>
+      <option value="D">float f = 5 + 5.5;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101152" type="1">
+    <question>在Java中，以下( )标识符是不是合法的。（选一项）</question>
+    <choice>
+      <option value="A">IDoLikeTheLongNameClass</option>
+      <option value="B">$byte</option>
+      <option value="C">_ok</option>
+      <option value="D">4_case</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101153" type="1">
+    <question>在Java中，以下定义数组的语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">int t[10] = new int[];</option>
+      <option value="B">char a[] = "hefg";</option>
+      <option value="C">int t[] = new int[10];</option>
+      <option value="D">double d = new double[10];</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="101154" type="1">
+    <question>在Java中下面哪一行代码不出现编译警告或错误？（选一项）</question>
+    <choice>
+      <option value="A">float f = 1.3;</option>
+      <option value="B">char c = "a";</option>
+      <option value="C">byte b = 257;</option>
+      <option value="D">int i = 10;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="101155" type="1">
+    <question>在Java中以下错误的描述是（选一项）</question>
+    <choice>
+      <option value="A">break语句不能用于循环语句和switch语句外的任何其他语句</option>
+      <option value="B">在switch 语句中使用break语句或continue语句的作用相同</option>
+      <option value="C">在循环语句中使用continue语句是为了结束本次循环，而不是终止整个循环</option>
+      <option value="D">在循环语句中使用break语句是为了使流程跳出循环体，提前结束循环</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="101156" type="1">
+    <question>执行下列 Java 语言代码段后 ,k 的值是（选一项） int k =45,a =18,b =23,c =9; k=a&lt;b?b:a; k=k&gt;c?c:k;</question>
+    <choice>
+      <option value="A">23</option>
+      <option value="B">18</option>
+      <option value="C">45</option>
+      <option value="D">9</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+</root>

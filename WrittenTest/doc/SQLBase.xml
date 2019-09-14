@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="104001" type="1">
+    <question>( )可以同一个表的不同字段进行联接。（选一项）</question>
+    <choice>
+      <option value="A">内联接</option>
+      <option value="B">自联接</option>
+      <option value="C">外联接</option>
+      <option value="D">左联接</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104002" type="1">
+    <question>( )完整性是指必须能够标识数据中的每个实体（选一项）</question>
+    <choice>
+      <option value="A">实体</option>
+      <option value="B">域</option>
+      <option value="C">引用</option>
+      <option value="D">用户自定义</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104003" type="1">
+    <question>（）描述了一个用来存储数据的容器，以及该容器存储和检索数据的过程（选一项）</question>
+    <choice>
+      <option value="A">数据库</option>
+      <option value="B">数据库管理系统</option>
+      <option value="C">数据模型</option>
+      <option value="D">关系型数据库管理系统</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104004" type="1">
+    <question>IBM 公司圣何赛研究实验室的一位研究人员Codd，在1970年6月发表的一篇论文中提出了一个模型，它允许设计者把他们的数据库分解成几个独立但是相关的表，这对提高数据库的性能很有意义，同时也向最终用户保留原来数据库的外观。从此，Codd就被公认为（）数据库之父（选一项）</question>
+    <choice>
+      <option value="A">网状模型</option>
+      <option value="B">层次模型</option>
+      <option value="C">关系模型</option>
+      <option value="D">平面模型</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104005" type="1">
+    <question>Microsoft SQL Server 2005在安装的时候就创建的数据库包括（选两项）</question>
+    <choice>
+      <option value="A">Pubs</option>
+      <option value="B">Master</option>
+      <option value="C">Northwind</option>
+      <option value="D">Msdb</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="104006" type="1">
+    <question>Microsoft SQL Server 中，创建一个数据库，可以包含以下（ ）文件。（选三项）</question>
+    <choice>
+      <option value="A">主要数据文件</option>
+      <option value="B">次要数据文件</option>
+      <option value="C">日志文件</option>
+      <option value="D">记录集</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="104007" type="1">
+    <question>ORDER BY 的作用是（选一项）</question>
+    <choice>
+      <option value="A">查询输出分组</option>
+      <option value="B">设置查询条件</option>
+      <option value="C">对记录排序</option>
+      <option value="D">限制查询返回的数据行</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104008" type="1">
+    <question>SQL Server 2005 是基于（）的（选一项）</question>
+    <choice>
+      <option value="A">关系型</option>
+      <option value="B">文件系统</option>
+      <option value="C">层次型</option>
+      <option value="D">网络型</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104009" type="1">
+    <question>SQL server提供了一些字符串函数，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">select right('hello',3) 返回值为：hel</option>
+      <option value="B">select ltrim(rtrim(' hello ')) 返回值为：hello(前后都无空格)</option>
+      <option value="C">select replace('hello','e','o') 返回值为：hollo</option>
+      <option value="D">select len('hello') 返回值为：5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104010" type="1">
+    <question>Sql server提供了一些字符串函数，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">select right('hello',3) 返回值为：hel</option>
+      <option value="B">select ltrim(rtrim(' hello ')) 返回值为：hello（前后都无空格）</option>
+      <option value="C">select replace('hello','e','o') 返回值为：hollo</option>
+      <option value="D">select len('hello') 返回值为：5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104011" type="1">
+    <question>SQLServer2005中, 有一个book(图书)表,包含字段:bookID(图书编号),title(书名), pDate(出版日期), author (作者) 等字段, 其中( )字段作为该表的主键是最恰当的（选一项）</question>
+    <choice>
+      <option value="A">bookID</option>
+      <option value="B">title</option>
+      <option value="C">pDate</option>
+      <option value="D">author</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104012" type="1">
+    <question>SQL语句：select * from students where SNO like '010[^0]%[A,B,C]%',可能会查询出的SNO是（选一项）</question>
+    <choice>
+      <option value="A">01053090A</option>
+      <option value="B">01003090A01</option>
+      <option value="C">01053090D09</option>
+      <option value="D">0101A01</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104013" type="1">
+    <question>T-SQL批处理语句块的结束标志为（选一项）</question>
+    <choice>
+      <option value="A">GO</option>
+      <option value="B">SUBMIT</option>
+      <option value="C">END</option>
+      <option value="D">RETURN</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104014" type="1">
+    <question>包含元数据的表由关系型数据库管理系统创建和维护，其中，表的创建涉及的内容包括以下的方面，除了（选一项）</question>
+    <choice>
+      <option value="A">指定数据库类型</option>
+      <option value="B">指定可以输入到字段中的数据的大小</option>
+      <option value="C">实施任何必要的约束以确保输入的数据有效</option>
+      <option value="D">实施限制权限</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104015" type="1">
+    <question>表book中包含三个字段：title(varchar), author(varchar), price(float)。 Author的默认值是’UNKNOW’，执行SQL语句：insert book (title,price) values (jsp', 50)。以下结果正确的是（选一项）</question>
+    <choice>
+      <option value="A">插入失败，SQL语句有错</option>
+      <option value="B">插入成功，author列的数据是UNKNOW</option>
+      <option value="C">插入成功，author列的数据是NULL</option>
+      <option value="D">插入成功，author列的数据是50</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104016" type="1">
+    <question>查询student表中的所有非空email信息, 以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Select email from student where email !=null</option>
+      <option value="B">Select email from student where email not is null</option>
+      <option value="C">Select email from student where email &lt;&gt; null</option>
+      <option value="D">Select email from student where email is not null</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104017" type="1">
+    <question>查找 student表中所有电话号码(列名：telephone)的第一位为8或6，第三位为0的电话号码（选一项）</question>
+    <choice>
+      <option value="A">SELECT telephone FROM student WHERE telephone LIKE '[86]%0*'</option>
+      <option value="B">SELECT telephone FROM student WHERE telephone LIKE '(8,6)*0%'</option>
+      <option value="C">SELECT telephone FROM student WHERE telephone LIKE '[8,6]_0*'</option>
+      <option value="D">SELECT telephone FROM student WHERE telephone LIKE '[86]_0%'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104018" type="1">
+    <question>查找 student表中所有电话号码(列名：telephone)的第一位为8或6，第三位为0的电话号码（选一项）</question>
+    <choice>
+      <option value="A">SELECT telephone FROM student WHERE telephone LIKE '[86]%0*'</option>
+      <option value="B">SELECT telephone FROM student WHERE telephone LIKE '(8,6)*0%'</option>
+      <option value="C">SELECT telephone FROM student WHERE telephone LIKE '[8,6]_0*'</option>
+      <option value="D">SELECT telephone FROM student WHERE telephone LIKE '[86]_0%'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104019" type="1">
+    <question>查找authors表中的所有电话号码的首位为4，第二位为0或1的电话号码（选一项）</question>
+    <choice>
+      <option value="A">SELECT phone FROM authors WHERE phone LIKE '4[1,0]%'</option>
+      <option value="B">SELECT phone FROM authors WHERE phone in '4[^10]%'</option>
+      <option value="C">SELECT phone FROM authors WHERE phone LIKE '4_[1,0]%'</option>
+      <option value="D">SELECT phone FROM authors WHERE phone between '41%' and '40%'</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104020" type="1">
+    <question>成绩表grade中字段score代表分数，以下( )语句返回成绩表中的最低分。（选两项）</question>
+    <choice>
+      <option value="A">select max(score) from grade</option>
+      <option value="B">select top 1 score from grade order by score asc</option>
+      <option value="C">Select min(score) from grade</option>
+      <option value="D">select top 1 score from grade order by score desc</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="104021" type="1">
+    <question>创建一个名为‘Customers’的新表，同时要求新表中包含表‘clients’的所有记录，SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">Select * into customers from clients</option>
+      <option value="B">Select into customers from clients</option>
+      <option value="C">Insert into customers select * from clients</option>
+      <option value="D">Insert customers select * from clients</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104022" type="1">
+    <question>创建一个名为‘Customers’的新表，同时要求新表中包含表‘clients’的所有记录，sql语句是（选一项）</question>
+    <choice>
+      <option value="A">Select * into customers from clients</option>
+      <option value="B">Select into customers from clients</option>
+      <option value="C">Insert into customers select * from clients</option>
+      <option value="D">Insert customers select * from clients</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104023" type="1">
+    <question>从货物订单数据表（order）中查询出其中订单金额（order_price）在1000和5000之间的订单的详细信息，并按照订单金额（order_price）升序排列。正确的语句是（选一项）</question>
+    <choice>
+      <option value="A">select * from order where order_price between 1000 and 5000 order by order_price ASC</option>
+      <option value="B">select * from order where order_price between 1000 and 5000 order by order_price DESC</option>
+      <option value="C">select * from order where 1000&lt;order_price&lt;5000 order by order_price ASC</option>
+      <option value="D">select * from order where 1000&lt;order_price&lt;5000 order by order_price DESC</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104024" type="1">
+    <question>当你执行下面的SQL语句时，会发生（选一项） SELECT au_id, title_id,sum(royaltyper) FROM titleauthor GROUP BY title_id, au_id ORDER BY title_id, au_id</question>
+    <choice>
+      <option value="A">该语句会失败</option>
+      <option value="B">在结果集中，对每一个不同的au_id的值和title_id的值的组合都会有一行</option>
+      <option value="C">在结果集中，每一行中au_id的值都不会相同</option>
+      <option value="D">在结果集中，每一行中title_id的值都不会相同</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104025" type="1">
+    <question>定义列中可以接受的数据值或格式，称为（选一项）</question>
+    <choice>
+      <option value="A">唯一性约束</option>
+      <option value="B">检查约束</option>
+      <option value="C">主键约束</option>
+      <option value="D">默认约束</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104026" type="1">
+    <question>定义列中可以接受的数据值或格式，称为（选一项）</question>
+    <choice>
+      <option value="A">唯一性约束</option>
+      <option value="B">检查约束</option>
+      <option value="C">主键约束</option>
+      <option value="D">默认约束</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104027" type="1">
+    <question>对于主键的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">主键字段输入的数据不允许重复</option>
+      <option value="B">主键字段的数据，为自动增长数据类型，不允许输入</option>
+      <option value="C">若主键由多个键组合而成，则某个主键字段可以存在重复值</option>
+      <option value="D">主键字段可以是字符数据类型</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104028" type="1">
+    <question>分析以下SQL语句: SELECT DISTINCT 产品.产品名称，产品.单价 FROM 产品 WHERE（（（产品.单价）&gt;(SELECT AVG([单价]) FROM 产品)）） ORDER BY产品.单价DESC 下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">“SELECT AVG（[单价]）FROM产品”是子查询</option>
+      <option value="B">“ORDER BY产品.单价 DESC”是指按单价从低到高顺序排列</option>
+      <option value="C">查询结果显示的是单价大于平均价格的记录</option>
+      <option value="D">此查询显示的字段只有“产品名称”和“单价”</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104029" type="1">
+    <question>关系型数据库中，要防止小于100的数保存到int类型的UnitsInStock列可以（选一项）</question>
+    <choice>
+      <option value="A">使用主键约束</option>
+      <option value="B">使用缺省约束</option>
+      <option value="C">使用外键约束</option>
+      <option value="D">使用检查约束</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104030" type="1">
+    <question>关于IDENTITY属性，下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">一个表只能有一个列具有IDENTITY属性</option>
+      <option value="B">你不能以定义了IDENTITY属性的列加上default约束</option>
+      <option value="C">附加了IDENTITY属性的列可以是任意数据类型</option>
+      <option value="D">你不能更新一个定义了IDENTITY属性的列</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104031" type="1">
+    <question>关于SQL server常用的数据类型，以下（ ）说法是错误的。（选一项）</question>
+    <choice>
+      <option value="A">Image数据类型可以用来存储图像。</option>
+      <option value="B">使用字符数据类型时，可以改变长度信息。</option>
+      <option value="C">使用整数数据类型时，可以改变长度信息。</option>
+      <option value="D">Bit数据类型为1位长度，可以存储表示是/否的数据。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104032" type="1">
+    <question>关于sql server常用的数据类型，以下说法是错误的（选一项）</question>
+    <choice>
+      <option value="A">Image数据类型可以用来存储图像。</option>
+      <option value="B">使用字符数据类型时，可以改变长度信息。</option>
+      <option value="C">使用整数数据类型时，可以改变长度信息。</option>
+      <option value="D">Bit数据类型为1位长度，可以存储表示是/否的数据。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104033" type="1">
+    <question>关于Truncate table, 以下( )描述是正确的。（选一项）</question>
+    <choice>
+      <option value="A">Truncate table 可跟Where从句，根据条件进行删除。</option>
+      <option value="B">Truncate table 用来删除表中所有数据。</option>
+      <option value="C">Truncate 可以删除表</option>
+      <option value="D">Truncate 比 table delete速度快。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104034" type="1">
+    <question>关于标识列，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">使用SQL语句插入数据时，可以为标识列指定要插入的值。</option>
+      <option value="B">表在生成时，其标识列一定存在确定的标识种子和标识递增量。</option>
+      <option value="C">若设定标识时，未指定标识递增量，那么使用SQL语句插入数据时，可以为标识列指定递增值。</option>
+      <option value="D">只能把主键设定为标识列。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104035" type="1">
+    <question>关于查询中列的别名, 以下( )语句是不正确的。（选一项）</question>
+    <choice>
+      <option value="A">Select name as '姓名' from table</option>
+      <option value="B">Select name as姓名 from table where id =1</option>
+      <option value="C">Sleect name = 姓名 from table</option>
+      <option value="D">Select names姓名 from table</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104036" type="1">
+    <question>关于多表联接查询，以下描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">外联接查询返回的结果集行数可能大于所有符合联接条件的结果集行数。</option>
+      <option value="B">多表联接查询必须使用到JOIN关键字</option>
+      <option value="C">内联接查询返回的结果是：所有符合联接条件的数据。</option>
+      <option value="D">在where子句中指定联接条件可以实现内联接查询。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104037" type="1">
+    <question>关于分组查询，以下（ ）描述是错误的。（选两项）</question>
+    <choice>
+      <option value="A">使用group by 进行分组查询</option>
+      <option value="B">对分组后的结果进行条件查询必须使用Having子句</option>
+      <option value="C">Having子句不能与where子句同时出现在一个select语句中</option>
+      <option value="D">在使用分组查询时，在select列表中只能出现被分组的字段。</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="104038" type="1">
+    <question>关于聚合函数，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">Sum返回表达式中所有数的总合，因此只能用于数字类型的列。</option>
+      <option value="B">Avg返回表达式中所有数的平均值，可以用于数字型和日期型的列。</option>
+      <option value="C">Max和Min可以用于字符型的列。</option>
+      <option value="D">Count可以用于字符型的列。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104039" type="1">
+    <question>关于数据完整性，以下说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">引用完整性通过主键和外键之间的引用关系实现。</option>
+      <option value="B">引用完整性通过限制数据类型、检查约束等实现。</option>
+      <option value="C">数据完整性是通过数据操纵者自身对数据的控制来实现的。</option>
+      <option value="D">如果两个表中存储的信息相互关联，那么只要修改了一个表，另外一个表也要做出相应的修改，则称该这两个表中的数据具备引用完整性。</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="104040" type="1">
+    <question>关于主键，以下( )说法是正确的。（选一项）</question>
+    <choice>
+      <option value="A">主键可以用来确保表中不存在重复的数据行。</option>
+      <option value="B">一个表必须有一个主键。</option>
+      <option value="C">主键列可以为null。</option>
+      <option value="D">只能对整数型列设置主键。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104041" type="1">
+    <question>关于主键，以下（）说法是正确的。（选一项）</question>
+    <choice>
+      <option value="A">主键可以用来确保表中不存在重复的数据行。</option>
+      <option value="B">一个表必须有一个主键。</option>
+      <option value="C">主键列可以为null。</option>
+      <option value="D">只能对整数型列设置主键。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104042" type="1">
+    <question>家庭住址最好采用（）数据类型进行存储。（选一项）</question>
+    <choice>
+      <option value="A">Char/Nchar</option>
+      <option value="B">text/Ntext</option>
+      <option value="C">Varchar/Nvarchar</option>
+      <option value="D">Char2/Nchar2</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104043" type="1">
+    <question>假设“产品”表中有“产品ID”，“产品名称”，“价格”此三个字段，要在此表里添加一条新记录，下列SQL语句能实现添加功能的是（选一项）</question>
+    <choice>
+      <option value="A">UPDATE INSERT 产品 VALUES('01008','花生','20')</option>
+      <option value="B">INSERT 产品 VALUES(01008,花生,20)</option>
+      <option value="C">INSERT INTO 产品 VALUES('01008','花生','20')</option>
+      <option value="D">INSERT * FROM 产品 VALUES('01008','花生','20')</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104044" type="1">
+    <question>假设表orderitem有列orderid(int类型)和列thenumber(int类型)，则下列语句可以正确执行的是（选一项）</question>
+    <choice>
+      <option value="A">Select * from orderitem where orderid&lt;=2 order by orderid Compute sum(thenumber) by orderid</option>
+      <option value="B">Select * from orderitem where orderid&lt;=2 Compute sum(thenumber) by orderid</option>
+      <option value="C">Select * from orderitem where orderid&lt;=2 order by thenumber Compute sum(thenumber) by orderid</option>
+      <option value="D">Select * from orderitem where orderid&lt;=2 order by orderid Compute sum(orderid) by thenumber</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104045" type="1">
+    <question>假设两张表建立了“主键—外键”的引用关系，则主表(主键)中对应(外键)的数据（选一项）</question>
+    <choice>
+      <option value="A">必须在子表中有对应</option>
+      <option value="B">可以比主表的数据多</option>
+      <option value="C">主表的数据行可以比子表的数据行少</option>
+      <option value="D">必须为数字数据类型</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104046" type="1">
+    <question>假设一系统原来使用Access数据库，现要使用SQL server数据库，采用（ ）方法可以完成两个数据库之间的数据转换工作。（选一项）</question>
+    <choice>
+      <option value="A">SQL server的附加数据库功能</option>
+      <option value="B">SQL server的还原数据库功能</option>
+      <option value="C">在SQL server中可直接打开Access数据库，另存即可。</option>
+      <option value="D">SQL server的导入导出功能</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104047" type="1">
+    <question>你们正在设计一个数据库应用程序，在设计中途的时候，数据库进行了重新规划，因此原来的数据库不再使用，并且启用了一个新的数据库和和数据库表结构，但是，原来有一张重要的表中已输入了大量的数据，你检查了新的数据库表和原来的数据库表的结构，发现表的结构并没有更改，为了把原来的数据在新的数据库中利用，可以采用最好的办法是（选一项）</question>
+    <choice>
+      <option value="A">重新在新的数据库表中录入全部的数据</option>
+      <option value="B">使用数据转换服务的输出功能把原来的数据保存为文本文件，再把文本文件拷贝到新的数据库中</option>
+      <option value="C">使用“INSERT INTO[新的表名] SELECT [旧的表名]”的插入语句进行表之间的数据转移</option>
+      <option value="D">首先建立两张表之间的主外键关系，再在VB中使用ADO对象进行数据分析和数据行插入</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104048" type="1">
+    <question>若数据库中只有一张student表，其中包含主键sudentid ，则执行语句：update student set studentid=100 where studentid=101, 结果可能是（选两项）</question>
+    <choice>
+      <option value="A">错误提示：主键列不能更新。</option>
+      <option value="B">更新了一条数据。</option>
+      <option value="C">错误提示：违反主键约束。</option>
+      <option value="D">既不提示错误，也不更新数据。</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="104049" type="1">
+    <question>若要删除book表中所有数据，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">truncate table book</option>
+      <option value="B">delete * from book</option>
+      <option value="C">drop table book</option>
+      <option value="D">delete table book</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104050" type="1">
+    <question>若要删除book表中所有数据，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">truncate table book</option>
+      <option value="B">delete * from book</option>
+      <option value="C">drop table book</option>
+      <option value="D">delete table book</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104051" type="1">
+    <question>删除表中所有数据行的命令是（选一项）</question>
+    <choice>
+      <option value="A">DELETE TABLE 表名</option>
+      <option value="B">TRUNCATE TABLE 表名</option>
+      <option value="C">DROP TABLE 表名</option>
+      <option value="D">ALTER TABLE 表名</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104052" type="1">
+    <question>设ABC表中有三列A、B、C，并且都是整数类型，则以下( )查询语句能按B列进行分组，并在每一组中取C的平均值。（选一项）</question>
+    <choice>
+      <option value="A">SELECT AVG(C) FROM ABC</option>
+      <option value="B">SELECT AVG(C) FROM ABC ORDER BY B</option>
+      <option value="C">SELECT AVG(C) FROM ABC GROUP BY B</option>
+      <option value="D">SELECT AVG(C) FROM ABC GROUP BY C,B</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104053" type="1">
+    <question>使用SQL创建多表查询要求查询中所涉及的表必须有（选一项）</question>
+    <choice>
+      <option value="A">主键</option>
+      <option value="B">公共字段</option>
+      <option value="C">组合键</option>
+      <option value="D">以上都是</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104054" type="1">
+    <question>我们通常使用（ ）输入存储和管理数据。（选一项）</question>
+    <choice>
+      <option value="A">数据库管理系统(DBMS)</option>
+      <option value="B">数据库</option>
+      <option value="C">管理信息系统(MS)</option>
+      <option value="D">数据词典</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104055" type="1">
+    <question>系统存储过程主要存储在( )数据库中。（选一项）</question>
+    <choice>
+      <option value="A">tempdb</option>
+      <option value="B">master</option>
+      <option value="C">model</option>
+      <option value="D">msdb</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104056" type="1">
+    <question>下列从大到小的排列下确的是（选一项）</question>
+    <choice>
+      <option value="A">数据库管理系统 数据库系统 数据库</option>
+      <option value="B">数据库 数据库系统 数据库管理系统</option>
+      <option value="C">数据库系统 数据库 数据库管理系统</option>
+      <option value="D">数据库系统 数据库管理系统 数据库</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104057" type="1">
+    <question>下列的查询语句哪一项是错误的（选一项）</question>
+    <choice>
+      <option value="A">Select * from stumarks where score&gt;=60</option>
+      <option value="B">Select * from (select * from stumarks where score&gt;=60)</option>
+      <option value="C">Select * from (select * from stumarks where score&gt;=60) as temp</option>
+      <option value="D">Select * from (select * from stumarks ) as temp where score&gt;=60</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104058" type="1">
+    <question>下列能用于日期/时间类型的聚合函数是（选一项）</question>
+    <choice>
+      <option value="A">MAX</option>
+      <option value="B">SUM</option>
+      <option value="C">MONTH</option>
+      <option value="D">AVG</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104059" type="1">
+    <question>下面对于域完整性理解正确的是（选两项）</question>
+    <choice>
+      <option value="A">域的完整性和实体完整性都强调了数据的唯一性</option>
+      <option value="B">可以指定列值的有效数据</option>
+      <option value="C">列的数据类型增强了域的完整性</option>
+      <option value="D">存储过程可用来定义域的完整性</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="104060" type="1">
+    <question>下面关于引用完整性约束的说法不正确的是（ ）。（选一项）</question>
+    <choice>
+      <option value="A">违反引用完整性约束时，不能对引用表进行插入操作</option>
+      <option value="B">当建立引用表时被引用的表必须已经存在</option>
+      <option value="C">当建立引用表时被引用的列必须已经存在</option>
+      <option value="D">被引用的列不必是主键或者唯一约束</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104061" type="1">
+    <question>现有表book，主键bookid设为标识列。若执行语句：select * into book2 from book 以下说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">若数据库中已存在表book2, 则会提示错误。</option>
+      <option value="B">若数据库中已存在表book2, 则语句执行成功，并且表book2中的bookid自动设为标识。</option>
+      <option value="C">若数据库中不存在表book2, 则语句执行成功，并且表book2中的bookid自动设为主键。</option>
+      <option value="D">若数据库中不存在表book2, 则语句执行成功，并且表book2中的bookid自动设为标识。</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="104062" type="1">
+    <question>现有表book，字段：id (int)，title (varchar), price (float); 其中id字段设为标识， 使用insert语句向book表中插入数据，以下语句错误的是（选一项）</question>
+    <choice>
+      <option value="A">insert into book (id,title,price) values(1,'java',100)</option>
+      <option value="B">insert into book (title,price) values('java',100)</option>
+      <option value="C">insert into book values ('java',100)</option>
+      <option value="D">insert book values('java',100)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104063" type="1">
+    <question>现有表book，字段：id (int)，title (varchar), price (float); 其中id字段设为自增长的标识， 使用insert语句向book表中插入数据，以下语句错误的是（选一项）</question>
+    <choice>
+      <option value="A">insert into book (id,title,price) values(1,'java',100)</option>
+      <option value="B">insert into book (title,price) values('java',100)</option>
+      <option value="C">insert into book values ('java',100)</option>
+      <option value="D">insert book values('java',100)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104064" type="1">
+    <question>现有表user，字段：userid，username, salary, deptid，email; 表department，字段：deptid, deptname;下面( )应采用检查约束来实现。（选一项）</question>
+    <choice>
+      <option value="A">若department中不存在deptid为2的纪录，则不允许在user表中插入deptid为2的数据行。</option>
+      <option value="B">若user表中已经存在userid为10的记录，则不允许在user表中再次插入userid为10的数据行。</option>
+      <option value="C">User表中的salary(薪水)值必须在1000元以上。</option>
+      <option value="D">若User表的email列允许为空，则向user表中插入数据时， 可以不输入email值。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104065" type="1">
+    <question>现有订单表orders，包含用户信息userid, 产品信息 productid, 以下( )语句能够返回至少被订购过两回的productid（选一项）</question>
+    <choice>
+      <option value="A">select productid from orders where count(productid)&gt;1</option>
+      <option value="B">select productid from orders where max(productid)&gt;1</option>
+      <option value="C">select productid from orders where having count(productid)&gt;1 group by productid</option>
+      <option value="D">select productid from orders group by productid having count(productid)&gt;1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104066" type="1">
+    <question>现有客户表customers(主键：客户编号cid)，包含10行数据，订单表orders(外键：客户编号cid )，包含6条数据。执行SQL语句：select * from customers right outer join orders on customers.cid=orders.cid。最多返回( )条记录。（选一项）</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">6</option>
+      <option value="C">4</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104067" type="1">
+    <question>现有书目表book，包含字段：price (float); 现在查询一条书价最高的书目的详细信息，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">select top 1 * from book order by price asc</option>
+      <option value="B">select top 1 * from book order by price desc</option>
+      <option value="C">select top 1 * from book where price</option>
+      <option value="D">select top 1 * from book where price= max(price)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104068" type="1">
+    <question>现有书目表book，包含字段：价格price (float)，类别type(char); 现在查询各个类别的平均价格、类别名称，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">select avg(price),type from book group by type</option>
+      <option value="B">select count(price),type from book group by price</option>
+      <option value="C">select avg(price),type from book group by price</option>
+      <option value="D">select count (price),type from book group by type</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104069" type="1">
+    <question>现有书目表book，数据见下表。 现在执行SQL语句：update book set title=replace(replace(title,'j','a'),'servlet','csharp')，执行结果是（选一项） bookid title 1 jsp&amp;servlet 2 jsp 3 Professionalservlet 4 asp</question>
+    <choice>
+      <option value="A">更新了3条记录</option>
+      <option value="B">更新了2条记录</option>
+      <option value="C">更新了1条记录</option>
+      <option value="D">该SQL语句有错误，无法执行</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104070" type="1">
+    <question>现有学生信息表Student_info,其中包括姓名(stu_name),学号(stu_id),成绩(stu_grade),为int数据类型。我们需要查询成绩为80分的学生姓名，要求结果按照学号降序排列。下面查询语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">SELECT stu_neme FROM student_info WHERE stu_grade=80 ORDER BY stu_id ASC</option>
+      <option value="B">SELECT stu_neme FROM student_info WHERE stu_grade=80 ORDER BY stu_id DESC</option>
+      <option value="C">SELECT stu_id,tu_neme FROM student_info WHERE stu_grade=80 ORDER BY stu_id ASC</option>
+      <option value="D">SELECT stu_neme FROM stu_info WHERE stu_grade LIKE 80 RSER BY stu_id DESC</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104071" type="1">
+    <question>学生成绩表grade中有字段score(float),现在要把所有在55分至60(包含两个边界值)之间的分数提高5分，以下SQL语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Update grade set score=score+5</option>
+      <option value="B">Update grade set score=score+5 where score&gt;=55 or score &lt;=60</option>
+      <option value="C">Update grade set score=score+5 where score between 55 and 60</option>
+      <option value="D">Update grade set score=score+5 where score &lt;=55 and score &gt;=60</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104072" type="1">
+    <question>学生成绩表grade中有字段score（float）,现在要把所有在55分至60(包含两个边界值)之间的分数提高5分，以下sql语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Update grade set score=score+5</option>
+      <option value="B">Update grade set score=score+5 where score&gt;=55 or score &lt;=60</option>
+      <option value="C">Update grade set score=score+5 where score between 55 and 60</option>
+      <option value="D">Update grade set score=score+5 where score &lt;=55 and score &gt;=60</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104073" type="1">
+    <question>一名学生可以选修多个科目，一个科目可以被多名学生选修，这种关系是（选一项）</question>
+    <choice>
+      <option value="A">一对一</option>
+      <option value="B">一对多</option>
+      <option value="C">多对一</option>
+      <option value="D">多对多</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104074" type="1">
+    <question>以下（ ）语句从表student中提取前5条记录。（选一项）</question>
+    <choice>
+      <option value="A">select * from student where rowcount=5</option>
+      <option value="B">select TOP of 5 * from student</option>
+      <option value="C">select TOP 5 * from student</option>
+      <option value="D">select * from student where rowcount&lt;=5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104075" type="1">
+    <question>以下( )不属于聚合函数（选一项）</question>
+    <choice>
+      <option value="A">MAX</option>
+      <option value="B">COUNT</option>
+      <option value="C">NOT</option>
+      <option value="D">MIN</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104076" type="1">
+    <question>以下( )说明了代码：not (付款方式=’信用卡’) or (信用卡&lt;&gt;’阳光卡’) 的含义。（选一项）</question>
+    <choice>
+      <option value="A">付款方式不能是信用卡。</option>
+      <option value="B">付款方式不能是信用卡，或者信用卡是阳光卡。</option>
+      <option value="C">如果付款方式是信用卡，那么信用卡不能是阳光卡。</option>
+      <option value="D">付款方式是信用卡，并且信用卡不能是阳光卡。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104077" type="1">
+    <question>以下（）语句从表student中提取前5条记录。（选一项）</question>
+    <choice>
+      <option value="A">select * from student where rowcount=5</option>
+      <option value="B">select TOP of 5 * from student</option>
+      <option value="C">select TOP 5 * from student</option>
+      <option value="D">select * from student where rowcount&lt;=5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104078" type="1">
+    <question>以下的T-SQL:SELECT city,state,COUNT(*) FROM authors GROUP BY city,state ORDERBY COUNTT(*) DESC,state 在查询分析器中运行后将（选一项）</question>
+    <choice>
+      <option value="A">提示错误信息，不能COUNT(*)DESC进行排序</option>
+      <option value="B">提示错误信息，不能按照多个列进行排序</option>
+      <option value="C">运行失败，GROUPBY 和ORDERBY的顺序字段应保持一致</option>
+      <option value="D">运行成功，将首先按照统计数进行排序</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104079" type="1">
+    <question>以下可以用于字符串模糊匹配的关键字（选一项）</question>
+    <choice>
+      <option value="A">OR</option>
+      <option value="B">Not between</option>
+      <option value="C">Not IN</option>
+      <option value="D">Like</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104080" type="1">
+    <question>引用完整性约束是用来维护（）个表之间的行的一致性的（选一项）</question>
+    <choice>
+      <option value="A">二</option>
+      <option value="B">三</option>
+      <option value="C">多个</option>
+      <option value="D">至少三</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104081" type="1">
+    <question>有关数据冗余说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">数据库中，数据存在副本的现象，就是数据冗余</option>
+      <option value="B">通过分类存储，可以有效减少数据冗余，但是会增加数据查找的复杂性</option>
+      <option value="C">在数据库设计阶段，一定要尽最大可能避免数据冗余，最好做到无数据冗余。</option>
+      <option value="D">数据冗余通常是由于数据库设计引起的。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104082" type="1">
+    <question>有一个"出版物"表，包含图书编码(BOOK-CODE),书名(BOOK-NAME)，出版日期(ISSUE-DT),备注(MEM-CD)等字段，字段（）作为该表的主键可能是最恰当的（选一项）</question>
+    <choice>
+      <option value="A">book-code</option>
+      <option value="B">book-name</option>
+      <option value="C">issue-dt</option>
+      <option value="D">mem-cd</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104083" type="1">
+    <question>有一个商品信息表（表名：ProInfo)，表的字段为：ProID(商品编号），ProCatg(商品类别)，ProName(商品名称)， ProPrice（商品价格），下列选项（ ）可以查询每一类商品的平均价格（选一项）</question>
+    <choice>
+      <option value="A">Select ProCatg , AVH(ProPrice) From ProInfo</option>
+      <option value="B">Select ProCatg,AVG(ProPrice) From ProInfo Group By ProCatg</option>
+      <option value="C">Select AVG (ProPrice) From ProInfo Group By ProCatg</option>
+      <option value="D">Select AVG(ProPrice) From ProInfo</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104084" type="1">
+    <question>在 SQL Server 2005 中 , 有 students ( 学生 ) 表 , 包含字段 :SID( 学号 ),SName( 姓 名) ,Grade ( 成绩)。现要将所有学员的成绩加 10 分。下列 SQL 语句正确的是 （选一项）</question>
+    <choice>
+      <option value="A">update students set Grade = Grade + lO</option>
+      <option value="B">update * set Grade = Grade +lO</option>
+      <option value="C">update * from students set Grade =Grade +l O</option>
+      <option value="D">update students set Grade 二 Grade +lO</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104085" type="1">
+    <question>在Pub数据库中，按“type”分组titles表中的行，并且消除不是以字母P开头的那些“type”,下列正确的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">Select type from titles where type like '%p' group by type</option>
+      <option value="B">Select type from titles group by type having type not like 'P%'</option>
+      <option value="C">Select type from titles group by type having type like ‘p%’</option>
+      <option value="D">Select type from titles where type like ‘p%’ group by type</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104086" type="1">
+    <question>在SQL Server 2005 中，假设订单表orders用来存储订单信息，cid代表客户编号，现要查询每个客户的次数以及客户编号，以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">select count(cid), cid from orders</option>
+      <option value="B">select count(cid), cid from orders order by cid</option>
+      <option value="C">select count(cid), cid from orders having count(cid)&gt;0</option>
+      <option value="D">select count(cid), cid from orders group by cid</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104087" type="1">
+    <question>在SQL Server 2005 中，使用update语句更新数据库表中的数据，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">每次只能更新一行数据</option>
+      <option value="B">表中的数据行可以全部被更新</option>
+      <option value="C">如果没有数据项被更新，将提示错误信息</option>
+      <option value="D">更新数据时，不能带有WHERE条件子句</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104088" type="1">
+    <question>在SQL Server 2005中, 当执行下面的SQL 语句时, 会发生( ) Select au_id, little_id, sum(royaltyper)from titleauthor group by title_id, au_id order by title_id, au_id （选一项）</question>
+    <choice>
+      <option value="A">在结果集中,对每一个不同的au_id的值和title_id的值的组合都会有一行</option>
+      <option value="B">在结果集中,每一行中au_id的值都不会相同</option>
+      <option value="C">该语句会运行失败,因为查询输出的次序和分组的次序不一样</option>
+      <option value="D">该语句会运行失败,因为royaltyper列也应进行分组</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104089" type="1">
+    <question>在SQL Server 2005中, 有students (学生)表, 包含字段: STD(学号),SName (姓名), Grade (成绩). 现查找所有学员中成绩最高的前5名学员. 下列SQL语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">SELECTTOP 5 FROM students ORDER BY Grade DESC</option>
+      <option value="B">SELECTTOP 5 FROM students ORDER BY Grade</option>
+      <option value="C">SELECTTOP 5 * FROM students ORDER BY Grade ASC</option>
+      <option value="D">SELECTTOP 5 * FROM students ORDER BY Grade DESC</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104090" type="1">
+    <question>在SQL Server 2005中,查找 student 表中所有身份证号码CardNo 的前三位为010或020的记录,以下语句正确的是（选两项）</question>
+    <choice>
+      <option value="A">select * from student where cardno like '010%' or cardno like '020%'</option>
+      <option value="B">select * from student where cardno like '010%' or '020%'</option>
+      <option value="C">select * from student where cardno like '0[1,2]0%'</option>
+      <option value="D">select * from student where cardno like '0(1,2)0%'</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="104091" type="1">
+    <question>在SQL Server 2005中，附加数据库操作是指（选一项）</question>
+    <choice>
+      <option value="A">把SQLServer数据库文件保存为其他数据库文件</option>
+      <option value="B">根据数据库物理文件中的信息，把数据库在SQLServer2005中恢复</option>
+      <option value="C">把所有该数据库表的数据清空</option>
+      <option value="D">把数据库删掉</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104092" type="1">
+    <question>在SQL server 2005中，关于数据库说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">数据库在磁盘上默认的存储位置是：SQL Server安装路径\Microsoft SQL Server\MSSQL\Data</option>
+      <option value="B">一个数据库至少应包含一个数据库文件(*.mdf)和一个事务日志文件(*.ldf)</option>
+      <option value="C">只有当数据库中不存在数据的情况下，才可以进行数据库的收缩操作。</option>
+      <option value="D">可以通过从A机器拷贝数据库文件和事务日志文件至B机器，然后通过在B机器上执行相应的附加数据库操作，实现数据库从A机器到B机器的复制。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104093" type="1">
+    <question>在SQL Server 2005中，假定grade (成绩)表中包含字段：sID(学号)，cID (班级编号)、lang(语文课成绩)、math(数学课成绩),那么计算所有学生人数和各科最高成绩的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">SELECT COUNT(*),MAX(lang),MAX(math)FROM grade</option>
+      <option value="B">SELECT COUNT(*),MAX(lang),MAX(math)FROM grade GROUP BY sID</option>
+      <option value="C">SELECT SUM(*),MAX(lang),MAX(math)FROM grade GROUP BY sID</option>
+      <option value="D">SELECT SUM(*),MAX(lang),MAX(math)FROM grade</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104094" type="1">
+    <question>在SQL Server 2005中，假定grade(成绩)表中包含字段：eID(班级编号)、lang(语文课成绩)、math(数学课成绩)、eng(英语课成绩)，那么计算不同班级几门课程的平均成绩的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">SELECT eID, AVG(lang,math,eng) FROM grade GROUP BY lang,math,eng</option>
+      <option value="B">SELECT Eid, AVG(lang),AVG(math),AVG(eng) FROM grade GROUP BY lang,math,eng</option>
+      <option value="C">SELECT eID, AVG(lang,math,eng) FROM grade GROUP BY eID</option>
+      <option value="D">SELECT eID,AVG(lang),AVG(math),AVG(eng) FROM grade GROUP BY eID</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104095" type="1">
+    <question>在SQL Server 2005中，假定grade(成绩)表中包含字段：sID(学号),cID(班级编号)，lang(语文课成绩)，math(数学课成绩),那么先按班级，后按语文成绩排序的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">SELECT * FROM grade GROUP BY lang,cId</option>
+      <option value="B">SELECT * FROM grade GROUP BYcId,lang</option>
+      <option value="C">SELECT * FROM grade ORDER BY lang,cld</option>
+      <option value="D">SELECT * FROM grade ORDER BY cId,lang</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104096" type="1">
+    <question>在SQL Server 2005中，假定grade(成绩)表中包含字段：sID(学号)，lang(语文课成绩)。那么列出语文成绩在80分到90分的学生的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">SELECT * FROM grade WHERE lang IN (80,90)</option>
+      <option value="B">SELECT * FROM grade HAVING lang IN (80,90)</option>
+      <option value="C">SELECT * FROM grade WHERE lang BETWEEN 80 AND 90</option>
+      <option value="D">SELECT * FROM grade HAVING lang BETWEEN 80 AND 90</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104097" type="1">
+    <question>在SQL Server 2005中，假定一个学生选修课管理系统中有两个表，包括：student(学生)表，其结构为：sID (学号),sName (姓名); studentCourse (学生选课)表，其结构为：sID (学号),cID (课程编号),score (成绩 )。那么列出所有已选课学生的学号、姓名、课程编号和成绩的SQL语句是（选两项）</question>
+    <choice>
+      <option value="A">SELECT sID,sName,cId,score FROM student,studentCourse</option>
+      <option value="B">SELECT,sID,sName,cID,score FROM student INNER JOIN studentCourse ON student.sID = studentCourse.sID</option>
+      <option value="C">SELECT,sID,sName,cID,score FROM student OUTER JOIN studentCourse ON student.sID = studentCourse.sID</option>
+      <option value="D">SELECT,sID,sName,cID,score FROM student, studentCourse WHERE student.sID = studentCourse.sID</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="104098" type="1">
+    <question>在SQL Server 2005中，假设表ABC中有A、B、C三列，均设为字符数据类型，其中 A列的默认值为”VA”。如果能够正确执行语句：INSERT ABC(A,C)VALUES(‘V’,’NULL’)，下列的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">插入A列的值为V</option>
+      <option value="B">插入A列的值为VA</option>
+      <option value="C">插入B列的值为空值</option>
+      <option value="D">插入C列的值为空值</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="104099" type="1">
+    <question>在SQL Server 2005中，删除一个表结构的命令是（选一项）</question>
+    <choice>
+      <option value="A">DELETE TABLE</option>
+      <option value="B">DROP TABLE</option>
+      <option value="C">TRUNCATE TABLE</option>
+      <option value="D">ALTER TABLE</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104100" type="1">
+    <question>在SQL Server 2005中，外键用于将一个表中的列与另一个表中的列关联起来，为了确保引用的完整性，要求（选一项）</question>
+    <choice>
+      <option value="A">外键列的列值必须已经存在于主键表的对应列的列值中</option>
+      <option value="B">外键列的列值必须与主键表的对应列的列值一一对应</option>
+      <option value="C">外键列不能有重复的值</option>
+      <option value="D">外键表的数据行行数必须大于主键表的数据行行数</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104101" type="1">
+    <question>在SQL Server 2005中，下列查询条件（ ）可以查询出员工表中的列hometown不是'北京'的记录。（选一项）</question>
+    <choice>
+      <option value="A">Where hometown =! '北京';</option>
+      <option value="B">Where hometown not '北京'</option>
+      <option value="C">Where hometown is not '北京'</option>
+      <option value="D">Where hometown &lt;&gt; '北京'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104102" type="1">
+    <question>在SQL Server 2005中,下面关于数据完整性的描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">如果数据库中没有重复的数据,即没有数据冗余的时候,数据就是完整的</option>
+      <option value="B">维护数据完整性就是保证数据库中数据的准确性</option>
+      <option value="C">数据库中数据越详细则越符合数据完整性</option>
+      <option value="D">维护数据完整性可以保证数据的一致性,避免出现没有意义的数据</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="104103" type="1">
+    <question>在SQL Server 2005中,学生表student中包含字段: 学生编号sid(主键),学生姓名sName, 现在查询所有姓名重复的记录,以下语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">select * from student where count(sid)&gt;1</option>
+      <option value="B">select a. * from student a,student b where a.sname=b.sname</option>
+      <option value="C">select * from student where count(sid)&gt;1 group by sName</option>
+      <option value="D">select * from student group by sName having count(sid)&gt;1</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104104" type="1">
+    <question>在SQL Server 2005中，学生表student中包含字母：学生编号sid（主键），学生姓名sName。成绩表score包含字段：课程编号cid，学生编号sid（外键），学生成绩score；其中学生表包含10行数据，成绩表包含6行记录（且sid列没有重复值），那么执行如下SQL语句，将返回（）条记录。（选一项） Select * from student left outer join score on student.sid=score.sid</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">6</option>
+      <option value="C">10</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104105" type="1">
+    <question>在SQL Server 2005中，要防止大于100 的数被保存到int 类型的列，可以使用（选一项）</question>
+    <choice>
+      <option value="A">主键约束</option>
+      <option value="B">限制约束</option>
+      <option value="C">外键约束</option>
+      <option value="D">检查约束</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104106" type="1">
+    <question>在SQL Server 2005中，以下关于主键的说法正确的是( )。（选一项）</question>
+    <choice>
+      <option value="A">表创建后，一旦设定了主键，主键就不能再更改</option>
+      <option value="B">表中可以没有主键</option>
+      <option value="C">主键列的值可以重复</option>
+      <option value="D">主键列允许插入空值</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104107" type="1">
+    <question>在SQL Server 2005中，有student(学生)表，其结构为: sID(学号,int 型,主键),sName(姓名,varchar 型), birthday(出生日期,varchar 型)，score(成绩，int型). 现要向学员表中插入一名学员的信息，下列SQL语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">INSERT INTO students VALUES(1,'李刚','1999-01-01',80)</option>
+      <option value="B">INSERT INTO students (sID,sName,birthday) VALUES(1,'李刚','1999-01-01',80)</option>
+      <option value="C">INSERT INTO students VALUES(1,李刚,1999-01-01,80)</option>
+      <option value="D">INSERT INTO students (sID,sName,brithday) VALUES (NULL,'李刚','1999-01-01')</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104108" type="1">
+    <question>在SQL Server 2005中，有系统数据库和用户数据库，下列不属于系统数据库的是（选一项）</question>
+    <choice>
+      <option value="A">master</option>
+      <option value="B">model</option>
+      <option value="C">msdb</option>
+      <option value="D">pubs</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104109" type="1">
+    <question>在SQL Server 2005中，有一个course(课程)表，包含字段：cName(课程名称)，grade(学分)。要从此表中查询所有学分不在２～４之间的课程名称，以下spl语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">SELECT cName FROM course WHERE grade IN (2, 4)</option>
+      <option value="B">SELECT cName FROM course WHERE grade NOT BETWEEN 2 AND 4</option>
+      <option value="C">SELECT cName FROM course WHERE ! (grade &gt; 2 AND grade &lt; 4)</option>
+      <option value="D">SELECT cName FROM course WHERE ! (grade &lt; 2 OR grade &lt;= 4)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104110" type="1">
+    <question>在SQL Server 2005中，有一个product(产品)表，包含字段：pname(产品名称)，要从此表中筛选出产品名称为“苹果”或者“香蕉”的记录，下列语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">SELECT * FROM product ON pname= '苹果' OR pname='香蕉'</option>
+      <option value="B">SELECT * FROM product ON pname= '苹果' AND pname='香蕉'</option>
+      <option value="C">SELECT * FROM product WHERE pname= '苹果' OR pname='香蕉'</option>
+      <option value="D">SELECT * FROM product WHERE pname= '苹果' AND pname='香蕉'</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104111" type="1">
+    <question>在SQL Server 2005中，主键用来实施（选一项）</question>
+    <choice>
+      <option value="A">引用完整性约束</option>
+      <option value="B">实体完整性约束</option>
+      <option value="C">域完整性约束</option>
+      <option value="D">自定义完整性约束</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104112" type="1">
+    <question>在SQL Server2005 建数据库必须要哪两类文件（选两项）</question>
+    <choice>
+      <option value="A">主要数据文件</option>
+      <option value="B">次要数据文件</option>
+      <option value="C">备份文件</option>
+      <option value="D">日志文件</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="104113" type="1">
+    <question>在SQL Server数据库中，( )可以看成为虚拟的表。（选一项）</question>
+    <choice>
+      <option value="A">游标</option>
+      <option value="B">视图</option>
+      <option value="C">索引</option>
+      <option value="D">存储过程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104114" type="1">
+    <question>在SQL Server数据库中，UNIQUE约束与PRIMARY KEY约束之间最主要的区别是（选一项）</question>
+    <choice>
+      <option value="A">UNIQUE约束要求数据库中至少存在一行数据，因此必须在创建数据库表之后才能创建，而PRIMARY KEY约束无此限制</option>
+      <option value="B">UNIQUE约束允许有空值，而PRIMARY KEY约束不允许有空值</option>
+      <option value="C">创建UNIQUE约束后，该数据行允许被更改，而PRIMARY KEY约束的数据行不允许更改</option>
+      <option value="D">UNIQUE约束列不能创建外键，而PRIMARY KEY约束可以创建外键引用</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104115" type="1">
+    <question>在SQL Server中，以下都属于二进制数据类型，除了（选一项）</question>
+    <choice>
+      <option value="A">Binary</option>
+      <option value="B">Image</option>
+      <option value="C">Bit</option>
+      <option value="D">VarBinary</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="104116" type="1">
+    <question>在SQL Server中创建一个名为Customers 的新表，同时要求该表与clients表的表结构相同，但不包含clients表的记录，SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">select * into customers from clients where 1&lt;&gt;1</option>
+      <option value="B">select * into customers from clients where false</option>
+      <option value="C">insert into customers select* from clients where 1&lt;&gt;1</option>
+      <option value="D">insert customers select9 from clients where false</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104117" type="1">
+    <question>在SQLServer2005中，创建表之后（选一项）</question>
+    <choice>
+      <option value="A">不允许再改更主键</option>
+      <option value="B">可以没有主键</option>
+      <option value="C">只能在企业管理器中更改主键，不能通过T－SQL更改主键</option>
+      <option value="D">主键允许为空</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104118" type="1">
+    <question>在T-sql中，以下（）是通配符（选一项）</question>
+    <choice>
+      <option value="A">&gt;=</option>
+      <option value="B">%</option>
+      <option value="C">or</option>
+      <option value="D">where</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104119" type="1">
+    <question>在表student中，包含主键列StuID,则执行"Update student set StuID=80",执行 的结果可能是（选一项）</question>
+    <choice>
+      <option value="A">更新了多行数据</option>
+      <option value="B">没有数据更新</option>
+      <option value="C">删除了一行不符合要求的数据</option>
+      <option value="D">T_SQL语法错误，不能执行</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104120" type="1">
+    <question>在查询分析器中你运行下面的语句，得到的结果是（选一项） CREATE TABLE numbers（ N1 INT， N2 NUMERIC（5，0）， N3 NUMERIC（4，2） ）GO INSERT INTO numbers VALUES（1.5，1.5，1.5） SELECT * FORM numbers</question>
+    <choice>
+      <option value="A">返回2，2和1.50的结果集合</option>
+      <option value="B">返回1.5，1.5，和1.5的结果集合</option>
+      <option value="C">CREATE TABLE命令不会执行，因为你无法为列N2设置精度为0</option>
+      <option value="D">返回1，2，和1.50的结果集合</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104121" type="1">
+    <question>在查询分析器中执行以下的语句 Select top 40 percent sName,sAddress,from students 结果返回10行数据，则（选一项）</question>
+    <choice>
+      <option value="A">表students中只有10行数据。</option>
+      <option value="B">表students中只有25行数据。</option>
+      <option value="C">表students中只有10行数据。</option>
+      <option value="D">表students中只有40行数据。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104122" type="1">
+    <question>在关系模型中，表由行和列组成，行和列分别称为（选一项）</question>
+    <choice>
+      <option value="A">元组，属性</option>
+      <option value="B">属性，元组</option>
+      <option value="C">关系，属性</option>
+      <option value="D">元组，关系</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104123" type="1">
+    <question>在关系型数据库中，基于公共字段将两个或多个表联系起来称为联接，联接包括以下不同的类型，除了（选一项）</question>
+    <choice>
+      <option value="A">内部联接</option>
+      <option value="B">外键联接</option>
+      <option value="C">外部联接</option>
+      <option value="D">自联接</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104124" type="1">
+    <question>在关系型数据库中，数据冗余指的是（选一项）</question>
+    <choice>
+      <option value="A">数据不准确</option>
+      <option value="B">存在重复数据</option>
+      <option value="C">数据之间不存在关系</option>
+      <option value="D">数据量太大</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="104125" type="1">
+    <question>在客户表中查询出不是以"公司"结尾的客户的纪录，正确的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">SELECT * FROM 客户 WHERE 公司名称 NOT LIKE '公司%'</option>
+      <option value="B">SELECT * FROM 客户 WHERE 公司名称 LIKE '_公司'</option>
+      <option value="C">SELECT * FROM 客户 WHERE 公司名称 NOT IN '%公司'</option>
+      <option value="D">SELECT * FROM 客户 WHERE 公司名称 NOT LIKE '%公司'</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104126" type="1">
+    <question>在实体关系图中，每个实体可能对应（ ）。（选一项）</question>
+    <choice>
+      <option value="A">应用程序的一个功能模块</option>
+      <option value="B">应用程序的一个界面</option>
+      <option value="C">应用程序的一个函数</option>
+      <option value="D">应用程序数据库中的一个表</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="104127" type="1">
+    <question>在一个表中，通常使用( )约束来保证列中的值都是唯一的，用来唯一的表示每行。（选一项）</question>
+    <choice>
+      <option value="A">主键</option>
+      <option value="B">检查</option>
+      <option value="C">非空</option>
+      <option value="D">外键</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="104128" type="1">
+    <question>执行SQL语句：select *, score*0.5+20 as 加权成绩 from grade where (score*0.5+20)&lt;60 order by score*0.5+20，以下描述是正确的（选一项）</question>
+    <choice>
+      <option value="A">错误提示：order by 子句中不能出现表达式。</option>
+      <option value="B">正确执行，显示grade表中各列值，按照score由低到高排序。</option>
+      <option value="C">正确执行，显示grade表中各列值，以及加权成绩列，按照score由低到高排序。</option>
+      <option value="D">错误提示：where 子句中不能出现表达式。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

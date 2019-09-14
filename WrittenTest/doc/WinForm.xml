@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="103001" type="1">
+    <question>（ ）方法执行指定为Command对象的命令文本的SQL语句，并返回受SQL语句影响或检索的行数。（选一项）</question>
+    <choice>
+      <option value="A">ExecuteNonQuery</option>
+      <option value="B">ExecuteReader</option>
+      <option value="C">ExecuteQuery</option>
+      <option value="D">ExecuteScalar</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103002" type="1">
+    <question>（ ）控件可以将其他控件分组。（选两项）</question>
+    <choice>
+      <option value="A">GroupBox</option>
+      <option value="B">ComboBox</option>
+      <option value="C">Panel</option>
+      <option value="D">TextBox</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="103003" type="1">
+    <question>.NET构架中被用来访问数据库数据的组件集合称为（选一项）</question>
+    <choice>
+      <option value="A">ADO</option>
+      <option value="B">ADO.NET</option>
+      <option value="C">COM</option>
+      <option value="D">Data Service.NET</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103004" type="1">
+    <question>.NET中，程序中的错误可以划分为以下三类，除了（选一项）</question>
+    <choice>
+      <option value="A">逻辑错误</option>
+      <option value="B">运行时错误</option>
+      <option value="C">语法错误</option>
+      <option value="D">自定义错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103005" type="1">
+    <question>ADO.NET的（ ）对象用来建立应用程序与数据库的连接。（选一项）</question>
+    <choice>
+      <option value="A">DataSet</option>
+      <option value="B">DataReader</option>
+      <option value="C">Connection</option>
+      <option value="D">Command</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103006" type="1">
+    <question>ADO.NET中，要向DataTable对象中添加一列，以下C#代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">myTable = new DataTable("Months"); myTable.Columns.Add("Month", string);</option>
+      <option value="B">myTable = new DataTable("Months"); myTable.Columns.Add("Month", typeof(string));</option>
+      <option value="C">myTable = new DataTable("Months"); myTable.Columns.Add("string",Month));</option>
+      <option value="D">myTable = new DataTable("Months"); myTable.Columns.Add(string ,"Month"));</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103007" type="1">
+    <question>C#语言使用（ ）来引入名称空间。（选一项）</question>
+    <choice>
+      <option value="A">import</option>
+      <option value="B">using</option>
+      <option value="C">include</option>
+      <option value="D">lib</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103008" type="1">
+    <question>C#中,变量var1是一个引用类型变量,则它（选一项）</question>
+    <choice>
+      <option value="A">可以存放真正的数据</option>
+      <option value="B">只存放指向真正数据的内存地址的引用</option>
+      <option value="C">可以存放真正的数据,也存放指向真正数据的内存地址的引用</option>
+      <option value="D">改变一个引用类型变量的值,可能会影响到其他值类型变量的值</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103009" type="1">
+    <question>Connection 、Command 、（ ）和DataAdapter对象是.NET Framework数据提供程序模型的核心要素。（选一项）</question>
+    <choice>
+      <option value="A">DataReader</option>
+      <option value="B">DataSet</option>
+      <option value="C">DataTable</option>
+      <option value="D">Transaction</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103010" type="1">
+    <question>dataTable 是数据集myDataSet 中的数据表对象,有9条记录。调用下列代码后,dataTable 中还有几条记录（选一项） dataTable.Rows[8].Delete();</question>
+    <choice>
+      <option value="A">9</option>
+      <option value="B">8</option>
+      <option value="C">1</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103011" type="1">
+    <question>public class Console{ public static void Main() { __________________; } }在横线处填入语句,输出为:C# is simple。（选一项）</question>
+    <choice>
+      <option value="A">Console.PrintLine("C# is simple")</option>
+      <option value="B">Console.WriteLine("C# is simple")</option>
+      <option value="C">WriteLine("C# is simple")</option>
+      <option value="D">Console.Output.WriteLine("C# is simple")</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103012" type="1">
+    <question>public static void Main(string[] args) { int i = 2000; object o = i; i = 2001; int j = (int)o; Console.WriteLine("i={0},o={1},j={2}", i, o, j); } 最后输出结果是（选一项）</question>
+    <choice>
+      <option value="A">i=2001,o=2000,j=2000</option>
+      <option value="B">i=2001,o=2001,j=2001</option>
+      <option value="C">i=2000,o=2001,j=2000</option>
+      <option value="D">i=2001,o=2000,j=2001</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103013" type="1">
+    <question>WinForms程序的入口点为（选一项）</question>
+    <choice>
+      <option value="A">静态方法Main</option>
+      <option value="B">静态方法Start</option>
+      <option value="C">启动窗体的Form_Load事件</option>
+      <option value="D">Appliaction_OnStart事件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103014" type="1">
+    <question>WinForms程序中，如果复选框控件的 Checked属性值设置为 True，表示（选一项）</question>
+    <choice>
+      <option value="A">该复选框被选中</option>
+      <option value="B">该复选框不被选中</option>
+      <option value="C">不显示该复选框的文本信息</option>
+      <option value="D">显示该复选框的文本信息</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103015" type="1">
+    <question>WinForms窗体A中有退出按钮B，如果在按ESC键的时候，相当于点按钮B退出和关闭窗体A，需要设置（ ）属性。（选一项）</question>
+    <choice>
+      <option value="A">窗体A的AcceptButton属性</option>
+      <option value="B">窗体A的CancelButton属性</option>
+      <option value="C">按钮B的AcceptButton属性</option>
+      <option value="D">按钮B的CancelButton属性</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103016" type="1">
+    <question>WinForms窗体的（ ）属性用来设置其是否为多文档窗体。（选一项）</question>
+    <choice>
+      <option value="A">MDI</option>
+      <option value="B">MDIParant</option>
+      <option value="C">IsMdiContainer</option>
+      <option value="D">IsMDI</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103017" type="1">
+    <question>WinForms中的状态栏不能由( )组成。（选一项）</question>
+    <choice>
+      <option value="A">StatusLabel</option>
+      <option value="B">ProgressBar</option>
+      <option value="C">DropDownButton</option>
+      <option value="D">TextBox</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103018" type="1">
+    <question>程序运行过程中发生的错误，叫作（选一项）</question>
+    <choice>
+      <option value="A">版本</option>
+      <option value="B">断点</option>
+      <option value="C">异常</option>
+      <option value="D">属性</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103019" type="1">
+    <question>看代码回答问题（选两项） 建表如下: create table stuInfo ( stuId int not null, stuName varchar(30) not null, stuAddress varchar(30), ) 看下面C#代码填空，要读取表中的第一列数据(已知sqlCmd为SqlCommand对象，sqlReader为SqlDataReader对象)： while(sqlReader.________ ) { Console.WriteLine(sqlReader._________); }</question>
+    <choice>
+      <option value="A">Read() GetInt(0)</option>
+      <option value="B">Next() GetValue(0)</option>
+      <option value="C">Read() GetValue(1)</option>
+      <option value="D">Read() GetValue(0)</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="103020" type="1">
+    <question>某程序员编写了如下创建一个DataTable的代码。请问关于该段代码说法正确的是（选一项） public static DataTable CreateDataTable() { DataTable dt = new DataTable(); dt.Columns.Add("id",typeof(System.Int32)); dt.Columns.Add("name",typeof(System.String)); dt.Constraints.Add("id",dt.Columns[0],true); dt.Columns[1].DefaultValue = ""; DataRow dr = dt.NewRow(); dr[0] = 1; dr[1] = "svse"; dt.Rows.Add(dr); dr = dt.NewRow(); dr[0] = 1; dr[1] = "svse"; dt.Rows.Add(dr); return dt; }</question>
+    <choice>
+      <option value="A">由于创建DataTable表时没有传递表名参数，该段代码编译时有错误</option>
+      <option value="B">该代码编译时无错误，但是运行时有错误</option>
+      <option value="C">该代码编译和运行时都没有错误</option>
+      <option value="D">如果把代码dr[1]="svse;"改为"dr[1]=硅谷svse;" 则运行时没有错误</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103021" type="1">
+    <question>如果要将窗体设置为透明的,则（选一项）</question>
+    <choice>
+      <option value="A">要将FormBoderStyle属性设置为None;</option>
+      <option value="B">要将Opacity属性设置为小于100%得值;</option>
+      <option value="C">要将locked属性设置为true;</option>
+      <option value="D">要将Enabled属性设置为True;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103022" type="1">
+    <question>使用ADO.NET的参数化（Parameters）为SQL命令添加参数时，需要（选一项）</question>
+    <choice>
+      <option value="A">参数名称</option>
+      <option value="B">参数类型</option>
+      <option value="C">参数长度</option>
+      <option value="D">参数</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103023" type="1">
+    <question>通过( )可以设置消息框中显示的按纽。（选一项）</question>
+    <choice>
+      <option value="A">Button</option>
+      <option value="B">DialogButton</option>
+      <option value="C">MessageBoxButtons</option>
+      <option value="D">MessageBoxIcon</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103024" type="1">
+    <question>为使用OleDb .NET Data Proviver连接到SQL Server 2005数据库,应将Connection对象的ConnectionString属性中的Provider子属性的值设置为（选一项）</question>
+    <choice>
+      <option value="A">Provider=SQLOLEDB</option>
+      <option value="B">Provider=SQLSERVER</option>
+      <option value="C">Provider=Microsoft.Jet.OLEDB.4.0</option>
+      <option value="D">Provider=MSDAORA</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103025" type="1">
+    <question>下列 ( )是ADO.NET的两个主要组件（选一项）</question>
+    <choice>
+      <option value="A">Command和DataAdapter</option>
+      <option value="B">DataSet和DataTable</option>
+      <option value="C">.NET数据提供程序和DataSet</option>
+      <option value="D">.NET数据提供和DataAdapter</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103026" type="1">
+    <question>下列（ ）是ADO．NET的两个主要组件。（选一项）</question>
+    <choice>
+      <option value="A">Command 和 DataAdapter</option>
+      <option value="B">DataSet 和 DataAdapter</option>
+      <option value="C">NET Framework数据提供程序和DataSet</option>
+      <option value="D">NET Framework数据提供程序和DataAdapter</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103027" type="1">
+    <question>下列关于ADO.NET的特点错误的是（选一项）</question>
+    <choice>
+      <option value="A">在ADO.NET中,数据是以XML格式存储的,具有较好的互操作性</option>
+      <option value="B">ADO.NET采用断开式数据结构,这增加了应用程序的开销</option>
+      <option value="C">在ADO.NET中,可以采用C# VB.NET等语言编写程序</option>
+      <option value="D">ADO.NET的性能比基于COM的ADO好</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103028" type="1">
+    <question>下列关于C#的异常处理的说法，错误的是（选一项）</question>
+    <choice>
+      <option value="A">try块必须跟catch块组合使用</option>
+      <option value="B">一个try块可以跟随多个catch块</option>
+      <option value="C">使用throw语句既可引发系统异常，也可以引发由开发人员创建的自定义异常</option>
+      <option value="D">在try … catch …..finally块中，即便开发人员编写强制逻辑代码，也不能跳出finally块的执行</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103029" type="1">
+    <question>下面关于using语句使用正确的是（选一项）</question>
+    <choice>
+      <option value="A">using(SqlConnection conn = new SqlConnection(connString)){}</option>
+      <option value="B">using(){SqlConnection conn = new SqlConnection(connString)}</option>
+      <option value="C">SqlConnection conn = new SqlConnection(connString)using(){}</option>
+      <option value="D">using(){}SqlConnection conn = new SqlConnection(connString)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103030" type="1">
+    <question>已知Winforms中有一个名为"dsOrder"的数据集中有一个名为"order"的表，在"order"表中有一行一列，下列（ ）段代码能够正确得到该表记录的第一行第一列的值。（选一项）</question>
+    <choice>
+      <option value="A">dsOrder["order"].Rows[0][0]</option>
+      <option value="B">dsOrder.Tables[0].Rows[0][0]</option>
+      <option value="C">dsOrder.Tables[0].Columns[0][0]</option>
+      <option value="D">dsOrder["order"].Columns[0][0]</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103031" type="1">
+    <question>以下的C#代码,用来判断两个整数是否相等: class C{ static void Main(string[] args) { int A; int B; if A=B Console.Write("A=B"); } }代码中存在的错误包括以下的几项,除了（选一项）</question>
+    <choice>
+      <option value="A">变量A和B是使用前,必须进行赋值</option>
+      <option value="B">判断A和B是否相等,应使用"=="符号</option>
+      <option value="C">A和B是否相等的判断,应该使用括号括起来;</option>
+      <option value="D">if下面的执行代码,应该使用花括号括起来</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103032" type="1">
+    <question>以下的C#代码: static void Main(string[]args) { int i=3; Console.WriteLine(A(i)); } static int A(int t) { return A(t) * t; } 运行时将输出（选一项）</question>
+    <choice>
+      <option value="A">9</option>
+      <option value="B">27</option>
+      <option value="C">编译时报告错误，提示方法调用必须有对象引用</option>
+      <option value="D">程序进入将报告溢出错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103033" type="1">
+    <question>有SQL SERVER2005数据库PUBS，PUBS库中有一表UserLogin，表结构如下： UserName Varchar(50) PrimaryKey Password Varchar(20) 阅读下面的WINFORM(C#)代码： private void button1_Click (object sender, System.EventArgs e) { SqlConnection myConn = new SqlConnection("Server=(local);uid=sa;pwd=;Database=pubs"); try { myConn.Open(); SqlDataAdapter da = new SqlDataAdapter(" Select UserName, password from UserLogin ", myConn); DataSet ds = new DataSet(); da.Fill(ds, "UserLogin"); DataRow dr = ds.Tables["UserLogin"].NewRow(); dr["UserName"] = DateTime.Now.Ticks.ToString(); dr["password"] = DateTime.Now.Ticks.ToString(); ds.Tables["UserLogin"].Rows.Add(dr); ds.AcceptChanges(); da.Update(ds, "UserLogin"); } catch(SqlException ee) { MessageBox.Show(ee.Message.ToString()); } finally { myConn.Close(); } } 假设命名空间引用、窗体初始化、连接数据库全部正确，则点击按钮button1，执行结果为（选一项）</question>
+    <choice>
+      <option value="A">在UserLogin表中新增加一条记录</option>
+      <option value="B">报错，ds.AcceptChanges()与da.Update(ds, “UserLogin”)不能同时用</option>
+      <option value="C">不报错，但没有将数据记录增加到UserLogin表中</option>
+      <option value="D">报错，不能用DateTime.Now.Ticks.ToString()给字段赋值</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103034" type="1">
+    <question>阅读以下C#代码片段，在程序编译过程中，下面说法正确的（选一项） int val=100; object obj=val; int num=(int)obj; Console.WriteLine("num:{0}",num);</question>
+    <choice>
+      <option value="A">第1行执行装箱操作</option>
+      <option value="B">第2行执行装箱操作</option>
+      <option value="C">禁止线程运行的秒数</option>
+      <option value="D">禁止线程运行的CPU时间数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103035" type="1">
+    <question>阅读以下的C#代码： public class TEApp { public static void ThrowException() { throw new Exception(); } public static void Main() { try { Console.WriteLine("try"); ThrowException(); } catch (Exception e) { Console.WriteLine("catch"); } finally { Console.WriteLine("finally"); } } }请问代码运行结果是（选一项）</question>
+    <choice>
+      <option value="A">try catch finally</option>
+      <option value="B">try</option>
+      <option value="C">try catch</option>
+      <option value="D">try finally</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103036" type="1">
+    <question>运行如下的C#代码段将输出（选一项） int a=10;string b="10"; Console.Writeline(a + b);</question>
+    <choice>
+      <option value="A">20</option>
+      <option value="B">1010</option>
+      <option value="C">10 10</option>
+      <option value="D">编译错误，提示数据类型不匹配</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103037" type="1">
+    <question>在.NET的WinForms程序中，可以使用()对象来连接和访问数据库。（选一项）</question>
+    <choice>
+      <option value="A">MDI</option>
+      <option value="B">JIT</option>
+      <option value="C">ADO.NET</option>
+      <option value="D">System.ADO</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103038" type="1">
+    <question>在．NET的控件中，Panel、GroupBox、TabControl等分组控件，有时候也被称之为（选一项）</question>
+    <choice>
+      <option value="A">容器控件</option>
+      <option value="B">组合控件</option>
+      <option value="C">排列控件</option>
+      <option value="D">基类控件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103039" type="1">
+    <question>在.NET中，程序员在代码中漏写了一个左大括号，这属于（选一项）</question>
+    <choice>
+      <option value="A">逻辑错误</option>
+      <option value="B">运行时错误</option>
+      <option value="C">语法错误</option>
+      <option value="D">自定义错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103040" type="1">
+    <question>在．Net中，定时器(Timer)控件的（ ）事件用编写定时触发的程序代码。（选一项）</question>
+    <choice>
+      <option value="A">Timer</option>
+      <option value="B">Start</option>
+      <option value="C">Trigger</option>
+      <option value="D">Tick</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103041" type="1">
+    <question>在.NET中，文本框控件的( )属性用来设置其是否是只读的。（选一项）</question>
+    <choice>
+      <option value="A">ReadOnly</option>
+      <option value="B">Locked</option>
+      <option value="C">Lock</option>
+      <option value="D">Style</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103042" type="1">
+    <question>在.NET中，以下关于命名空间的描述，正确的是（选一项）</question>
+    <choice>
+      <option value="A">命名空间不可以进行嵌套</option>
+      <option value="B">任一个.cs文件中，只能存在一个命名空间</option>
+      <option value="C">便用private修饰的命名空间，其内部的类也不允许访问</option>
+      <option value="D">命名空间使得代码更加有条理、结构更清晰</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103043" type="1">
+    <question>在.NET中，在窗体中显示一个消息框，并在点Yes按钮时关闭窗口，代码如下: MessageBoxButtons buttons = MessageBoxButtons.YesNo; DialogResult result; // (1)此处填写正确的代码 if(result == DialogResult.Yes) { this.Close(); } 则您认为在(1)处最合适的代码应该是（选一项）</question>
+    <choice>
+      <option value="A">result = MessageBox.Show(this, "Cancel this operation?", "No Server Name Specified", buttons);</option>
+      <option value="B">result = MessageBox(this,"Cancel this operation?","No Server Name Specified",bottons);</option>
+      <option value="C">result = MessageBox.Show("Cancel this operation?","No Server Name Specified");</option>
+      <option value="D">result = MessageBox("Cancel this operation?","No Server Name Specified");</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103044" type="1">
+    <question>在ADO.NET,以下是创建一个数据集的代码，下列能够正确输出“李四”的代码是（选一项） DataSet ds = new DataSet(); DataTable dt = new DataTable(); dt.Columns.Add("name",typeof(System.String)); DataRow dr = dt.NewRow(); dr[0] = "李四"; dt.Rows.Add(dr); ds.Tables.Add(dt);</question>
+    <choice>
+      <option value="A">Console.WriteLines(ds.Tables["name"].Rows[0][0]);</option>
+      <option value="B">Console.WriteLines(ds.Tables[0].Rows[0]["name"]);</option>
+      <option value="C">Console.WriteLines(ds.Rows[0][0]);</option>
+      <option value="D">Console.WriteLines(ds.Rows["name"][0]);</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103045" type="1">
+    <question>在ADO.NET应用程序中,通常要处理多条数据库记录,如果每次应用程序需要处理下一条记录时都返回数据库是不实际的,所以一个解决方案是使用（ ）来完成数据的处理。（选一项）</question>
+    <choice>
+      <option value="A">DataSet</option>
+      <option value="B">ResultSet</option>
+      <option value="C">DataReader</option>
+      <option value="D">DataAdpter</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103046" type="1">
+    <question>在ADO.NET中，（ ）对象的结构类似于关系数据库的结构，并在与数据库开的情况下，在缓存中存储数据。（选一项）</question>
+    <choice>
+      <option value="A">DataAdapter</option>
+      <option value="B">DataSet</option>
+      <option value="C">DataTable</option>
+      <option value="D">DataReader</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103047" type="1">
+    <question>在ADO.NET中，SqlConnection 类所在的命名空间是（选一项）</question>
+    <choice>
+      <option value="A">System</option>
+      <option value="B">System.Data</option>
+      <option value="C">System.Data.OleDb</option>
+      <option value="D">System.Data.SqlClient</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103048" type="1">
+    <question>在ADO.NET中,SqlConnection类所在的命名的空间是（选一项）</question>
+    <choice>
+      <option value="A">System</option>
+      <option value="B">System.Data</option>
+      <option value="C">System.Data.OleDb</option>
+      <option value="D">System.Data.SqlClient</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103049" type="1">
+    <question>在ADO.NET中，某程序为了保存学生的成绩，建立了一个成绩表，代码如下： DataTable dt = new DataTable("成绩表"); dt.Columns.Add("姓名", typeof(System.String)); dt.Columns.Add("成绩", typeof(System.Single)); DataRow dr = dt.NewRow(); dr[0] = "张三"; dr[1] = "90.5"; dr = dt.NewRow(); dr[0] = "李四"; dr[1] = "100"; dt.Rows.Add(dr); 请问上述代码运行后，成绩表dt的数据行中的数据是（选一项）</question>
+    <choice>
+      <option value="A">张三 90.5</option>
+      <option value="B">李四 100</option>
+      <option value="C">张三 90.5 李四 100</option>
+      <option value="D">没有数据</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103050" type="1">
+    <question>在ADO.NET中,为了确保DataAdapter对象能够正确地将数据从数据源填充到DataSet中,则必须事先设置好DataAdapter对象的下列哪个Command属性（选一项）</question>
+    <choice>
+      <option value="A">DeleteCommand</option>
+      <option value="B">UpdateCommand</option>
+      <option value="C">InsertCommand</option>
+      <option value="D">SelectCommand</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103051" type="1">
+    <question>在ADO.NET中，下列（ ）不属于SqlDataAdapter对象的属性。（选一项）</question>
+    <choice>
+      <option value="A">SqlCommand</option>
+      <option value="B">SelectCommand</option>
+      <option value="C">DeleteCommand</option>
+      <option value="D">InsertCommand</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103052" type="1">
+    <question>在ADO.NET中，下列（ ）组件用来获得只读只进数据。（选一项）</question>
+    <choice>
+      <option value="A">DataSet</option>
+      <option value="B">Command</option>
+      <option value="C">DataReader</option>
+      <option value="D">DataAdapter</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103053" type="1">
+    <question>在ADO.NET中，下列（ ）组件不属于.NET数据提供程序（选一项）</question>
+    <choice>
+      <option value="A">Command</option>
+      <option value="B">DataReader</option>
+      <option value="C">DataSet</option>
+      <option value="D">DataAdapter</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103054" type="1">
+    <question>在ADO.NET中，下列代码的输出结果是（选一项） SqlConnection conn = new SqlConnection("data source = pub;uid = bill;pwd = 12345;Initial catalog = Northwind"); Console.WriteLine(conn.ConnectionString);</question>
+    <choice>
+      <option value="A">pub</option>
+      <option value="B">bill</option>
+      <option value="C">data source = pub;uid = bill;pwd = 12345;initial catalog = Northwind</option>
+      <option value="D">Northwind</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103055" type="1">
+    <question>在ADO.NET中，下列代码运行后的输出结果是（选一项） DataTable dt = new DataTable(); dt.Columns.Add("编号", typeof(System.Int16)); dt.Columns.Add("成绩", typeof(System.Single)); dt.Columns[1].DefaultValue = 60; DataRow dr = dt.NewRow(); dr[0] = 10; dt.Rows.Add(dr); Console.WriteLine(dt.Rows[0][1]);</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">10</option>
+      <option value="D">60</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103056" type="1">
+    <question>在ADO.NET中，下列代码运行后的输出结果是（选一项） DataTable dt = new DataTable(); dt.Columns.Add("编号",typeof(System Int16)); dt.Columns.Add("成绩",typeof(System Single)); Console.WriteLine(dt.Columns[1].DataType);</question>
+    <choice>
+      <option value="A">System.Int16</option>
+      <option value="B">System.Single</option>
+      <option value="C">编号</option>
+      <option value="D">成绩</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103057" type="1">
+    <question>在ADO.NET中，下列代码运行后的输出结果是（选择一项） DataTable dt = new DataTable(); dt.Columns.Add('编号",typeof(System.Int16)); for(int i=1;i&lt;5;i++) { DataRow dr =dt.NewRow(); dr[0]=i; dt.Row.Add(dr); } Console.WriteLine(dt.Rows[2][0]);</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103058" type="1">
+    <question>在ADO.NET中，下列关于DataSet类说法有误的是（选两项）</question>
+    <choice>
+      <option value="A">可以向DataSet的表集合中添加新表</option>
+      <option value="B">DataSet中的数据发生改变之后，它会自动更新数据库中对应的数据</option>
+      <option value="C">DataSet 就好象是内存中的一个“临时数据库”</option>
+      <option value="D">DataSet 中的数据是只读的并且是只进的</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="103059" type="1">
+    <question>在ADO.NET中,已知reader是一个DateReader对象,下列代码行1的输出结果是"True",则代码行2的输出结果是（选一项） Console.WriteLine(reader.Read()); //1 Console.WriteLine(reader.IsClosed);//2</question>
+    <choice>
+      <option value="A">True</option>
+      <option value="B">False</option>
+      <option value="C">不确定</option>
+      <option value="D">出现异常</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103060" type="1">
+    <question>在ADO.NET中，已知变量sqlCom是一个SqlCommand对象，则下列代码运行时将出现异常的是（选一项） SqlDataReader reader = sqlCom.ExecuteReader(); //1 reader.Read(); //2 reader.Close(); //3 reader.Read(); //4</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103061" type="1">
+    <question>在ADO.NET中，已知某程序员编写的数据库连接字符串如下，则他使用的是（ ）.NET数据提供程序。（选一项） "provider=MSDAORA;Date Source=pubs;UserID=sa;Password=##"</question>
+    <choice>
+      <option value="A">SQL</option>
+      <option value="B">OIE DB</option>
+      <option value="C">ODBC</option>
+      <option value="D">Oracle</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="103062" type="1">
+    <question>在ADO.NET中,已知有一名为dsBook的数据集,数据集中有一名为book的数据表,下列能够正确将一个名为dgBook的DataGridView控件与数据进行绑定的是（选一项）</question>
+    <choice>
+      <option value="A">dsBook.SetDataBingding(dgBook,"book");</option>
+      <option value="B">dgBook.SetDataBingding(dsBook);</option>
+      <option value="C">dgBook.DataSource = dsBook.Tables["book"];</option>
+      <option value="D">dsBook.SetDataBingding(dgBook);</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103063" type="1">
+    <question>在ADO.NET中,拥护通过代码"DataTable dt = new DataTable();"创建了一个数据表,下列关于该表的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">通过代码DataRow dr = dt.NewRow();可以为数据表添加新的一行</option>
+      <option value="B">通过代码DataColumn dc = dt.Columns.Add("columnName");可以为数据表添加新的一行</option>
+      <option value="C">通过添加代码DataRow dr = dt.NewRow();dt.Rows.add(dr);可以为数据表添加新的一行</option>
+      <option value="D">通过代码DataColumn dc = dt.Newcolumn("columnName");dt.Columns.Add(dc);可以为数据表添加新的一行</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103064" type="1">
+    <question>在ADO.NET中，有以下四条代码。你认为它们最可能的编写顺序是（选一项） SqlConnection sqlCon=new SqlConnection(); //(1) sqlCon.Close(); //(2) sqlCon.ConnectionString="Server=;DataBase=pubs;uid=sa;pwd=pwd"; //(3) sqlCon.Open(); //(4)</question>
+    <choice>
+      <option value="A">1,2,3,4</option>
+      <option value="B">1,3,2,4</option>
+      <option value="C">1,3,4,2</option>
+      <option value="D">4,3,2,1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103065" type="1">
+    <question>在ADO.NET中。下列代码运行后的输出结果是（选一项） DataTable dt = new DataTable(); dt.Columns.Add("编号",typeof(System.Int16)); dt.Columns.Add("成绩",typeof(System.Int16)); for(int i=1;i&lt;=3;i++){ DataRow dr = dt.NewRow(); dr[0] = i; dt.Rows.Add(dr) } Console WriteLine(dt.Columns.Count);</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103066" type="1">
+    <question>在C#程序中，使用try...catch...（）结构来处理异常。（选一项）</question>
+    <choice>
+      <option value="A">error</option>
+      <option value="B">process</option>
+      <option value="C">finally</option>
+      <option value="D">do</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103067" type="1">
+    <question>在C#程序中，下列用来处理异常的结构，错误的是（选一项）</question>
+    <choice>
+      <option value="A">catch{}finally{}</option>
+      <option value="B">try{}finally{}</option>
+      <option value="C">try{}catch{}finally{}</option>
+      <option value="D">try{}catch{}</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103068" type="1">
+    <question>在C#中，（）正确定义了一个数组（选一项）</question>
+    <choice>
+      <option value="A">int iArray=new int[10];</option>
+      <option value="B">int[] iArray=new int;</option>
+      <option value="C">int[] iArray=new int[10];</option>
+      <option value="D">int[] iArray=new int(10);</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103069" type="1">
+    <question>在C#中，程序使用（ ）语句抛出系统异常或自定义异常。（选一项）</question>
+    <choice>
+      <option value="A">run</option>
+      <option value="B">throw</option>
+      <option value="C">catch</option>
+      <option value="D">finally</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103070" type="1">
+    <question>在C#中，可以通过装箱和拆箱实现值类型与引用类型之间相互转换，在下列代码中，有( )处实现了拆箱。（选一项） int age = 5; object o= age; //0 o=10; //1 age=(int)o; //2 object oAge =age; //3</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103071" type="1">
+    <question>在C#中，下列变量定义与赋值正确的是（选一项）</question>
+    <choice>
+      <option value="A">int age =12.5;</option>
+      <option value="B">string name =ACCP;</option>
+      <option value="C">double money =100.0;</option>
+      <option value="D">char leel=A;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103072" type="1">
+    <question>在C#中，下列表达式计算正确的是（选两项）</question>
+    <choice>
+      <option value="A">10%3=3</option>
+      <option value="B">10/3=3</option>
+      <option value="C">10%3=1</option>
+      <option value="D">10/3=1</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="103073" type="1">
+    <question>在C#中，下列常量定义正确的是（选一项）</question>
+    <choice>
+      <option value="A">const double PI 3.1415926;</option>
+      <option value="B">const double e=2.7</option>
+      <option value="C">define double PI 3.1415926</option>
+      <option value="D">define double e=2.7</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103074" type="1">
+    <question>在c#中，下列代码的运行结果是（选一项） float f=123.56f; object o=f; f=789.123f; Console.WriteLine("f={0}",f); Console.WriteLine("o={0}",o);</question>
+    <choice>
+      <option value="A">f=789.123 o=123.56</option>
+      <option value="B">f=123.56 o=789.123</option>
+      <option value="C">f=789.123 o=789.123</option>
+      <option value="D">f=123.56 o=123.56</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103075" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） int a=30,b=20; b=a; a=10; Console.WriteLine(a+" "+b);</question>
+    <choice>
+      <option value="A">10 10</option>
+      <option value="B">10 30</option>
+      <option value="C">10 20</option>
+      <option value="D">10 20</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103076" type="1">
+    <question>在C#中，下列代码的运行结果是（选一项） static void Main(string[]args) { Console.WrinteLine("运行结果是：{0}","运行结果"); }</question>
+    <choice>
+      <option value="A">运行结果</option>
+      <option value="B">运行结果是：{0}</option>
+      <option value="C">运行结果是：运行结果</option>
+      <option value="D">运行结果是运行结果</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103077" type="1">
+    <question>在C#中,下列代码运行后,变量c的值是（选一项） int a=15,b=10;float c=(float)a/b;</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">1.5</option>
+      <option value="D">5</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103078" type="1">
+    <question>在C#中，下列代码运行后，变量Max的值是（选一项） int a=5,b=10,c=15,Max=0; Max = a&gt;b?a:b; Max = c&lt;Max?c:Max;</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">5</option>
+      <option value="C">10</option>
+      <option value="D">15</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103079" type="1">
+    <question>在C#中,下列关于窗体的属性和方法,说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">如果在窗体的边框中显示了最大化框或者最小化框,则帮助按钮不会显示</option>
+      <option value="B">如果设置了窗体的AcceptBtton属性,则当用户按下Enter键时,将引发 AcceptButton属性指定的按钮的Click事件</option>
+      <option value="C">如果设置了窗体的CancelButton属性,则当用户按下Esc键盘时,窗体将会关闭</option>
+      <option value="D">如果窗体不可见,调用窗体的Activate方法后,窗体将显示激活</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103080" type="1">
+    <question>在C#中，下列关于构造函数的特点的说法，正确的是（选一项）</question>
+    <choice>
+      <option value="A">一个类中，只能有一个构造函数</option>
+      <option value="B">构造函数的名称与类名称一样，并且没有返回类型</option>
+      <option value="C">构造函数在对象销毁时自动执行</option>
+      <option value="D">一个类中至少要有一个构造函数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103081" type="1">
+    <question>在C#中定义一个数组，正确的代码为（选一项）</question>
+    <choice>
+      <option value="A">int arraya = new int[5];</option>
+      <option value="B">int[] arraya = new int[5];</option>
+      <option value="C">int arraya = new int[];</option>
+      <option value="D">int[5] arraya = new int;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103082" type="1">
+    <question>在C#中下列关于构造函数的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">构造函数可以声明返回类型</option>
+      <option value="B">构造函数不可以用private修饰</option>
+      <option value="C">构造函数必须与类同名</option>
+      <option value="D">构造函数不能带参数</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103083" type="1">
+    <question>在WinForms 中，下列代码的运行结果是（选一项） DataSet ds = new Dataset("Books"); DataTable dt = new DataTable("Student"); Console.Writeline(ds.DataSetName);</question>
+    <choice>
+      <option value="A">Books</option>
+      <option value="B">Student</option>
+      <option value="C">Ds</option>
+      <option value="D">ds.DataSetName</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103084" type="1">
+    <question>在WinForms窗体中，如果不使用分组控件来分组单选按钮，而是直接拖拽两个单选按钮放置在窗体中，则以下说法正确是的（选一项）</question>
+    <choice>
+      <option value="A">两个单选按钮可以同时被选中，即被看作是两个单独的组</option>
+      <option value="B">如果窗体中还存在有共他的已经分组的单选取按钮，则这两个单选按钮自动被加入该组</option>
+      <option value="C">两个单选钮按钮被自动默认为一组</option>
+      <option value="D">运行报错，提示必须使用分组控件对单选取按钮进行分组</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103085" type="1">
+    <question>在WinForms窗体中，有关ListView空件，运行下面代码之后，下列说法错误的是（选二项） This.listView1.SelectedItems[1].Text = "ABC"</question>
+    <choice>
+      <option value="A">将选择的所有列表的文本值修改为“ABC”</option>
+      <option value="B">将选择的第一项的文本值修改为“ABC ”</option>
+      <option value="C">当没有选择任何项的时候，程序出错</option>
+      <option value="D">当选择的只有一项的时候，程序出错</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="103086" type="1">
+    <question>在WinForms窗体中有一名为txtUser的TextBox控件，其MaxLength属性为5，该控件的当前文本为“网络编程”，若再执行代码：txtUser.AppendText("高手");则控件的文本为（选一项）</question>
+    <choice>
+      <option value="A">网络编程</option>
+      <option value="B">网络编程高</option>
+      <option value="C">网络编程高手</option>
+      <option value="D">出现运行是错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103087" type="1">
+    <question>在WinForms中，为了防止用户无意关闭窗体，需要在（ ）事件中编写代码，提示用户是否关闭窗体。（选一项）</question>
+    <choice>
+      <option value="A">Closing</option>
+      <option value="B">Closed</option>
+      <option value="C">Load</option>
+      <option value="D">VisibleChanged</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103088" type="1">
+    <question>在WinForms中，已知有一个名为Form1的窗体，请问下列代码执行过程中，最先触发的事件是（选一项）</question>
+    <choice>
+      <option value="A">Load</option>
+      <option value="B">Activated</option>
+      <option value="C">Closing</option>
+      <option value="D">Closed</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103089" type="1">
+    <question>在WinForm程序中，以编译方式绑定到DsHer数据集中的T1表到DataGridView控件gridHer,正确的代码为（选一项）</question>
+    <choice>
+      <option value="A">gridHer.DataSource=DsHer.Tables["T1"];</option>
+      <option value="B">gridHer.Bind(DsHer,"T1");</option>
+      <option value="C">gridHer.SetDataBinding(DsHer,"T1");</option>
+      <option value="D">gridHer.DataBindings =DsHer["T1"];</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103090" type="1">
+    <question>在WinForm窗体中，放置了一个PictureBox 控件PictureBox1，在设置PictureBox1控件的Image 属性后，当图片与控件的大小不一致时，可以通过如下代码( )使PictureBox1控件的大小与图片大小保持一致。（选一项）</question>
+    <choice>
+      <option value="A">this.PictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;</option>
+      <option value="B">this.PictureBox1.SizeMode = PictureBoxSizeMode.Normal;</option>
+      <option value="C">this.PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;</option>
+      <option value="D">this.PictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103091" type="1">
+    <question>在WinForm应用程序中，可以通过以下（ ）方法使一个窗体成为MDI窗体。（选一项）</question>
+    <choice>
+      <option value="A">改变窗体的标题信息</option>
+      <option value="B">在工程的选项中设置启动窗体</option>
+      <option value="C">设置窗体的IsMdiContainer属性</option>
+      <option value="D">设置窗体的ImeMode属性</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103092" type="1">
+    <question>在WinForm应用程序中，可以通过以下( )方法使一个窗体成为MDI窗体。（选一项）</question>
+    <choice>
+      <option value="A">改变窗体的标题信息</option>
+      <option value="B">在工程的选项中设置启动窗体</option>
+      <option value="C">设置窗体的IsMdiContainer属性</option>
+      <option value="D">设置窗体的ImeMode属性</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103093" type="1">
+    <question>在WinForm中，为了禁用一个名为btnOpen的Button控件控件，下列做法正确的是（选一项）</question>
+    <choice>
+      <option value="A">btnOpen.Enable = true;</option>
+      <option value="B">btnOpen.Enable = false;</option>
+      <option value="C">btnOpen.Visible = true;</option>
+      <option value="D">btnOpen.Visible = false;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103094" type="1">
+    <question>在Winform中,下列代码的运行结果是（选一项） DataSet ds = new DataSet(); DataTable dt = new DataTable(); dt.Columns.Add("name", typeof(System.String)); DataRow dr = dt.NewRow(); dr[0] = "李四"; dt.Rows.Add(dr); ds.Tables.Add(dt); Console.WriteLine(ds.HasChanges());</question>
+    <choice>
+      <option value="A">李四</option>
+      <option value="B">True</option>
+      <option value="C">False</option>
+      <option value="D">没有输出</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103095" type="1">
+    <question>在关于DataSet和DataTable的以下描述中，选出正确的答案（选一项）</question>
+    <choice>
+      <option value="A">同一个DataTable可以属于多个DataSet</option>
+      <option value="B">数据集中的数据表名称是区分大小写的，ds.Tables("Employees")和ds.Tables("employees")不是同一个表</option>
+      <option value="C">如果数据集中只有一个数据表，则该表的名称是大小写无关的</option>
+      <option value="D">即使数据集中只有一个数据表，该表的名称也要区分大小写</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="103096" type="1">
+    <question>在使用ADO.NET 设计数据库应用程序时,可通过设置Connection 对象的（ ）属性来指定连接到数据库时的用户和密码信息。（选一项）</question>
+    <choice>
+      <option value="A">ConnectionString</option>
+      <option value="B">DataSource</option>
+      <option value="C">UserInformation</option>
+      <option value="D">Provider</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="103097" type="1">
+    <question>在使用ADO.NET编写连接到SQL Server 2005数据库的应用程序时,从提高性能的角度考虑,应创建（ ）类的对象, 并调用其Open方法连接到数据库。（选一项）</question>
+    <choice>
+      <option value="A">OleDbConnection</option>
+      <option value="B">SqlConnection</option>
+      <option value="C">OdbcConnection</option>
+      <option value="D">Connection</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="103098" type="1">
+    <question>在一台名为Aptech的SQL Server服务器上，有一个名为Exam的数据库，管理员为该数据库创建了一个用户，用户名为bill，密码是123456。为了使用ADO.NET在该服务器（本地服务器的IP地址是127.0.0.1）上操作该数据库，下列连接字符串编写不正确的 是（选一项）</question>
+    <choice>
+      <option value="A">"server = Aptech;database = Exam;uid = bill;pwd = 123456;"</option>
+      <option value="B">"server = Aptech;database = Exam;integrated security = sspi"</option>
+      <option value="C">"server = .;database = Exam;uid = bill;pwd = 123456"</option>
+      <option value="D">"server = 127.0.0.1;database = Exam;integrated security = sspi"</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

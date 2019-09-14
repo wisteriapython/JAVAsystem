@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="324001" type="1">
+    <question>( )命名空间中的类和接口用于创建Web 应用程序的页面。（选一项）</question>
+    <choice>
+      <option value="A">System.Drawing</option>
+      <option value="B">System.IO</option>
+      <option value="C">System.Web.UI</option>
+      <option value="D">System.Web.Service</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324002" type="1">
+    <question>.Net应用程序的部署方式越来越多，以下都是应用程序部署比较常用的方式，除了（选一项）</question>
+    <choice>
+      <option value="A">使用XCOPY的方式在开发机-服务器之间进行目录拷贝部署</option>
+      <option value="B">使用Windows Installer 2.0专用打包工具进行客户程序的分发和管理</option>
+      <option value="C">提供客户程序的Internet下载</option>
+      <option value="D">把所有的源代码提供给用户，让用户进行调试、编译和配置最后的运行环境</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324003" type="1">
+    <question>&lt;% Reponse.Write(DateTime.Now) %&gt;等价于（选一项）</question>
+    <choice>
+      <option value="A">&lt;% = DateTime.Now %&gt;</option>
+      <option value="B">&lt;% DateTime.Now %&gt;</option>
+      <option value="C">&lt; Write( DateTime.Now )&gt;</option>
+      <option value="D">&lt;% Write = DateTime.Now %&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324004" type="1">
+    <question>App_Code目录用来放置中间层的（选一项）</question>
+    <choice>
+      <option value="A">专用数据库文件</option>
+      <option value="B">共享文件</option>
+      <option value="C">被保护的文件</option>
+      <option value="D">代码文件</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324005" type="1">
+    <question>ASP.NET窗体文件的扩展名为（选一项）</question>
+    <choice>
+      <option value="A">aspx</option>
+      <option value="B">ascx</option>
+      <option value="C">Inc</option>
+      <option value="D">Html</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324006" type="1">
+    <question>ASP.NET代码Response.Write(Server.htmlEncode("&lt;H1&gt;HtmlEncode 样例&lt;/H1&gt;"))输出结果为（选一项）</question>
+    <choice>
+      <option value="A">在窗口打印“HtmlEncode样例”</option>
+      <option value="B">在窗口打印“&lt;H1&gt;HtmlEncode样例&lt;/H1&gt;”</option>
+      <option value="C">在窗口打印“H1HtmlEncode样例H1”</option>
+      <option value="D">出现错误信息，说明嵌入的串中包含非法字符</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324007" type="1">
+    <question>ASP.NET的Response内置对象，可以通过（）来获取客户是否仍然连接在服务器上。（选一项）</question>
+    <choice>
+      <option value="A">IsConnected属性</option>
+      <option value="B">IsClientConnected属性</option>
+      <option value="C">Refresh方法</option>
+      <option value="D">CheckConnection方法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324008" type="1">
+    <question>ASP.NET的Web应用程序被安装和运行在服务器端，其作用是（选一项）</question>
+    <choice>
+      <option value="A">输出页面到屏幕</option>
+      <option value="B">将保存在磁盘中的HTML文档发送到客户端</option>
+      <option value="C">提供数据给另一个应用程序</option>
+      <option value="D">动态产生页面的HTML并发送到客户端</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324009" type="1">
+    <question>ASP.NET的身份验证系统非常灵活，它支持4种模式的设置，以下不属于这4中模式的是（选一项）</question>
+    <choice>
+      <option value="A">Windows类型</option>
+      <option value="B">Forms类型</option>
+      <option value="C">IIS类型</option>
+      <option value="D">None类型</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324010" type="1">
+    <question>ASP.NET服务器控件的AutoPostBack属性用于设置其事件（选一项）</question>
+    <choice>
+      <option value="A">是否立即回传</option>
+      <option value="B">是否需要回传</option>
+      <option value="C">是否需要响应</option>
+      <option value="D">是否立即响应</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324011" type="1">
+    <question>ASP.NET框架中，服务器控件是为配合Web表单工作而专门设计的。服务器控件有两种类型，它们是（选一项）</question>
+    <choice>
+      <option value="A">HTML控件和Web控件</option>
+      <option value="B">HTML控件和XML控件</option>
+      <option value="C">XML控件和Web控件</option>
+      <option value="D">HTML控件和IIS控件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324012" type="1">
+    <question>ASP.NET支持的配置文件的类型有（选两项）</question>
+    <choice>
+      <option value="A">服务器配置文件</option>
+      <option value="B">IIS配置文件</option>
+      <option value="C">文件夹配置文件</option>
+      <option value="D">应用程序配置文件</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="324013" type="1">
+    <question>ASP.NET中，以下对DropDownList服务器控件描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">DropDownList服务器控件不支持多重选择</option>
+      <option value="B">可以用SelectIndex属性或者SelectItem属性来判断哪一项被选取</option>
+      <option value="C">当用户更改选项时会引发SelectIndexChanged事件</option>
+      <option value="D">类似WinForms中的ComboBox控件,允许用户在运行时输入文本</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324014" type="1">
+    <question>ASP.NET中的配置文件Web.Config是一个（选一项）</question>
+    <choice>
+      <option value="A">文本文件</option>
+      <option value="B">二进制文件</option>
+      <option value="C">XML</option>
+      <option value="D">只读文件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324015" type="1">
+    <question>DataList控件的( )属性控制显示的列数。（选一项）</question>
+    <choice>
+      <option value="A">RepeatLayout</option>
+      <option value="B">RepeatDirection</option>
+      <option value="C">RepeatColumns</option>
+      <option value="D">DataSource</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324016" type="1">
+    <question>Label服务器控件( )属性用于指定Label控件显示的文字。（选一项）</question>
+    <choice>
+      <option value="A">width</option>
+      <option value="B">alt</option>
+      <option value="C">text</option>
+      <option value="D">name</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324017" type="1">
+    <question>PageDataSource类的( )属性设置或获取分页数据源每页的行数。（选一项）</question>
+    <choice>
+      <option value="A">AllowPaging</option>
+      <option value="B">PageSize</option>
+      <option value="C">PageCount</option>
+      <option value="D">AlloewCustomPaging</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324018" type="1">
+    <question>RangeValidator控件用于验证数据的（选一项）</question>
+    <choice>
+      <option value="A">类型</option>
+      <option value="B">格式</option>
+      <option value="C">范围</option>
+      <option value="D">正则表达式</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324019" type="1">
+    <question>Repeater控件不能使用( )种模板。（选一项）</question>
+    <choice>
+      <option value="A">ItemTemplate</option>
+      <option value="B">HeaderTemplate</option>
+      <option value="C">SelectedItemTemplate</option>
+      <option value="D">AlternatingItemTemplate</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324020" type="1">
+    <question>RequiredFieldValidator控件的ControlToValidate的属性用来( )。（选一项）</question>
+    <choice>
+      <option value="A">设置是否需要验证</option>
+      <option value="B">设置到验证的控件</option>
+      <option value="C">设置验证方式</option>
+      <option value="D">设置验证的数据类型</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324021" type="1">
+    <question>RequiredFieldValidator控件的ErrorMessage的属性用来（选一项）</question>
+    <choice>
+      <option value="A">设置错误信息</option>
+      <option value="B">设置到验证的控件</option>
+      <option value="C">定位错误类型</option>
+      <option value="D">启动错误处理程序</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324022" type="1">
+    <question>response对象的( )方法用于网页重导向另一个地址。（选一项）</question>
+    <choice>
+      <option value="A">transfer</option>
+      <option value="B">link</option>
+      <option value="C">redirect</option>
+      <option value="D">execute</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324023" type="1">
+    <question>Response对象的( )属性可以设定http的输入字符编码。（选一项）</question>
+    <choice>
+      <option value="A">charset</option>
+      <option value="B">cookie</option>
+      <option value="C">text</option>
+      <option value="D">Binarywrite</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324024" type="1">
+    <question>Server控件的“Server”是指（选一项）</question>
+    <choice>
+      <option value="A">控件在服务器端定义</option>
+      <option value="B">控件是服务器</option>
+      <option value="C">控件在服务器端存在并执行</option>
+      <option value="D">控件可以提供服务</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324025" type="1">
+    <question>session对象的( )方法时会触发session_onend事件。（选一项）</question>
+    <choice>
+      <option value="A">count</option>
+      <option value="B">abandon</option>
+      <option value="C">add</option>
+      <option value="D">remove</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324026" type="1">
+    <question>Session对象的默认有效期为多少分钟？（选一项）</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">15</option>
+      <option value="C">20</option>
+      <option value="D">30</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324027" type="1">
+    <question>txtInputName是一个文本框Web控件，以下的ASP.NET代码： private void Page_Load(object sender, System.EventArgs e) { txtInputName.Unload(); } 在执行时将（选一项）</question>
+    <choice>
+      <option value="A">页面加载时，将txtInputName文本框卸载，不显示在页面上</option>
+      <option value="B">页面加载时，该代码行无效，txtInputName文本框仍然显示</option>
+      <option value="C">页面加载时，该行代码出现错误</option>
+      <option value="D">提示错误信息，编译不能通过</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324028" type="1">
+    <question>ValidatorSummary验证控件的作用是（选一项）</question>
+    <choice>
+      <option value="A">检查总和数</option>
+      <option value="B">集中显示各个验证的结果</option>
+      <option value="C">判断有无超出范围</option>
+      <option value="D">检查数值的大小</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324029" type="1">
+    <question>Web 表单中，按钮的默认事件是（选一项）</question>
+    <choice>
+      <option value="A">Click 事件</option>
+      <option value="B">Load 事件</option>
+      <option value="C">Init 事件</option>
+      <option value="D">Command 事件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324030" type="1">
+    <question>部分代码文件public class WebForm1 : System.Web.UI.Page { protected System.Web.UI.WebControls.Button Button1; protected UserControl1 uc1; private void Button1_Click(object sender, System.EventArgs e) { uc1.Visible=false; } }根据以上代码可以看出，当单击服务器端按钮的时候页面将出现（）变化。（选一项）</question>
+    <choice>
+      <option value="A">将临时性隐藏用户控件，直到连接再次建立</option>
+      <option value="B">将临时性隐藏用户控件，直到再次点击该按钮</option>
+      <option value="C">没有什么变化</option>
+      <option value="D">运行时报错</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324031" type="1">
+    <question>关于ASP.NET 窗体应用程序，下列说法哪些是不正确的（选一项）</question>
+    <choice>
+      <option value="A">Web 窗体是在浏览器中进行解释执行的</option>
+      <option value="B">Web 窗体程序中脚本和代码可以分开</option>
+      <option value="C">Web 窗体程序产生的HTML 页面只能运行于IE 浏览器</option>
+      <option value="D">Web 窗体程序的代码可以使用任何一种.NET 兼容的编程语言编写</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324032" type="1">
+    <question>关于ASP.NET的验证控件，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">因为属于服务端控件，所以验证是在服务端进行</option>
+      <option value="B">RequiredFieldValidator用于验证一个控件输入值是否为空</option>
+      <option value="C">CompareValidator（比较验证） 按设定比较两个输入</option>
+      <option value="D">RangeValidator（范围验证） 输入是否在指定范围</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324033" type="1">
+    <question>关于ASP.NET配置文件的一些特点，描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">ASP.NET 允许将配置设置与静态内容、动态页和业务对象一起存储在应用程序的目录层次结构中。</option>
+      <option value="B">ASP.NET 不可以通过IIS对配置文件进行直接的浏览器访问</option>
+      <option value="C">machine.config设置可应用于整个服务器的属性</option>
+      <option value="D">Web.config只能存放在根目录中</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324034" type="1">
+    <question>关于ASP.NET中的代码隐藏文件的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">Web窗体页的程序的逻辑由代码组成，这些代码的创建用于与窗体交互。编程逻辑唯一与用户界面不同的文件中。该文件称作为“代码隐藏”文件，如果用C＃创建，该文件将具有“.ascx.cs”扩展名。</option>
+      <option value="B">项目中所有Web窗体页的代码隐藏文件都被编译成.EXE文件。</option>
+      <option value="C">项目中所有的Web窗体页的代码隐藏文件都被编译成项目动态链接库(.dll)文件。</option>
+      <option value="D">以上都不正确。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324035" type="1">
+    <question>假如发布了一个名为ASP.NET的应用系统，域名为My_web.com，本机的IP地址是202.163.45.68。下面的几种方式哪一种是可以访问这个系统的（选一项）</question>
+    <choice>
+      <option value="A">在本机：http://127.0.0.1/aspnet</option>
+      <option value="B">在局域网内的其它计算机： http://127.0.0.1/aspnet</option>
+      <option value="C">在因特网上的其它计算机： http://127.0.0.1/aspnet</option>
+      <option value="D">在本计算机</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324036" type="1">
+    <question>假如为C:\Inetpub\wwwroot\asp.net\chapter1添加了虚拟目录chapter1，那么如果访问其中的1-1.aspx，下面的( )是错误的。（选一项）</question>
+    <choice>
+      <option value="A">http://localhost/asp.net/chapter1/1-1.aspx</option>
+      <option value="B">http://localhost/chapter1/1-1.aspx</option>
+      <option value="C">http://localhost/asp.net/1-1.aspx</option>
+      <option value="D">http://127.0.0.1/chapter1/1-1.aspx</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324037" type="1">
+    <question>假设存放ASP.NET应用程序页面的目录为C:\InetPub\WWWRoot\WebSvrSample，则该程序中的代码：Request.ApplicationPath返回值应为（选一项）</question>
+    <choice>
+      <option value="A">C:\InetPub\WWWRoot</option>
+      <option value="B">/WebSvrSample</option>
+      <option value="C">C:\InetPub\WWWRoot\WebSvrSample</option>
+      <option value="D">\InetPub\WWWRoot\WebSvrSample</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324038" type="1">
+    <question>将一个Button控件加入到DataList控件的模板中，其CommandName属性设置为“buy”，当它被单击时将引发DataList控件的( )事件。（选一项）</question>
+    <choice>
+      <option value="A">DeleteCommand</option>
+      <option value="B">ItemCommand</option>
+      <option value="C">CancelCommand</option>
+      <option value="D">EditCommand</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324039" type="1">
+    <question>某ASP.NET应用程序的Web.Config文件部分代码如下,如此可知（选两项）&lt;authentication mode ="Forms"&gt; &lt;forms name =".yourAuthCookie" loginUrl="Login.aspx" protection="All" path="/"&gt; &lt;credentials passwordFormat="Clear"&gt; &lt;username="李桑" password="123"/&gt; &lt;/credentials&gt; &lt;/froms&gt; &lt;/authentication&gt; &lt;authorization&gt; &lt;deny users="?"/&gt; &lt;/authorization&gt;</question>
+    <choice>
+      <option value="A">只有名为李桑的用户能够访问应用程序</option>
+      <option value="B">所有用户都能够访问应用程序</option>
+      <option value="C">如果用户验证失败，将自动跳转到Login.aspx页面</option>
+      <option value="D">如果用户验证失败，将不会自动跳转到Login.aspx页面</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="324040" type="1">
+    <question>某ASP.NET应用程序的Web.Config文件部分代码如下： &lt;customErrors defaultRedirect="erro.aspx" mode= "Off"&gt; 由此可知（选两项）</question>
+    <choice>
+      <option value="A">如果应用程序出错，远程客户端不能看到详细的错误信息</option>
+      <option value="B">如果应用程序出错，程序将跳转到erro.aspx页面</option>
+      <option value="C">如果应用程序出错，本地用户将看到详细的错误信息</option>
+      <option value="D">如果应用程序出错，程序不会跳转到erro.aspx 页面</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="324041" type="1">
+    <question>某程序员开发一个ASP.NET应用程序,在应用程序的虚拟目录下有一个名为student.xml的文件,在虚拟目录下有一个Web页面,为了在该Web页面中将student.xml的数据读取到一个DataSet对象中,下列编码正确的是（选两项）</question>
+    <choice>
+      <option value="A">DataSet ds = new DataSet(); ds.ReadXml("student.xml",XmlReadMode.ReadSchema);</option>
+      <option value="B">DataSet ds = new DataSet(); ds.ReadXml(Server.MapPath("student.xml"),XmlReadMode.ReadSchema);</option>
+      <option value="C">DataSet ds = new DataSet("student"); StreamReader reader = new StreamReader(Server.MapPath("student.xml")); ds.ReadXml(reader);</option>
+      <option value="D">DataSet ds = new DataSet(student); StreamReader reader = new StreamReader(Server.MapPath("student.xml")); reader.read(ds);</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="324042" type="1">
+    <question>某程序员在一个ASP.NET应用程序中，将Session对象的TimeOut属性设置为了20，则（选一项）</question>
+    <choice>
+      <option value="A">用户如果连续二十分钟没有与应用程序进行交互，该用户会话将被清除</option>
+      <option value="B">用户如果连续二十秒钟没有与应用程序进行交互，该用户会话将被清除</option>
+      <option value="C">用户如果连续二十分钟与应用程序进行交互后，该用户会话将被清除</option>
+      <option value="D">用户如果连续二十秒钟与应用程序进行交互后，该用户会话将被清除</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324043" type="1">
+    <question>某个用ASP.Net技术开发的网站拥有大量访问量，最近该网站经常因为服务器内存占用率过高而停机。作为该网站的技术人员的你仔细检查了该网站系统，发现内存占用率过高是因为每个用户都有大量数据保存在Session中，为了解决该问题你因该进行（ ）处理。（选一项）</question>
+    <choice>
+      <option value="A">将保存在Session中的数据保存在Application中</option>
+      <option value="B">将保存在Session中的数据保存在Cookie中</option>
+      <option value="C">将Session中安全性要求不高的数据保存在Cookie中，不经常使用的数据保存在数据库中</option>
+      <option value="D">将Session中对安全性要求不高的数据保存在Application中，不经常使用的数据保存在数据库中</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324044" type="1">
+    <question>某人利用ASP.NET编写一个包括多个页面的应用程序，每个页面中都有一部分功能相同的导航按钮，这时最好采用（）实现导航功能，以加快开发速度。（选一项）</question>
+    <choice>
+      <option value="A">自定义控件</option>
+      <option value="B">用户控件</option>
+      <option value="C">复合控件</option>
+      <option value="D">Web控件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324045" type="1">
+    <question>你们正在使用ASP.NET开发一个论坛程序，为了在页面中实现文件上传的功能，最好选择下列（）来实现。（选一项）</question>
+    <choice>
+      <option value="A">一个HtmlInputText控件和两个按钮</option>
+      <option value="B">一个HtmlInputFile控件和一个按钮</option>
+      <option value="C">一个HtmlInputText控件、一个HtmlImage控件和一个按钮控件</option>
+      <option value="D">一个HtmlSelect控件和两个按钮</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324046" type="1">
+    <question>你在编写一个ASP.NET应用程序，实现一个会员管理的申请页面，你要使用ASP的内部控件来实现性别的选择，此时，（）控件应该是首选。（选一项）</question>
+    <choice>
+      <option value="A">CheckBox</option>
+      <option value="B">ListBox</option>
+      <option value="C">DropDownList</option>
+      <option value="D">TextBox</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324047" type="1">
+    <question>如果外地朋友通过Internet访问你的计算机上的ASP.NET文件，应该选择（选一项）</question>
+    <choice>
+      <option value="A">http://localhost/asp.net/chapter1/1-1.aspx</option>
+      <option value="B">http://127.0.0.1/asp.net/chapter1/1-1.aspx</option>
+      <option value="C">http://你的计算机名字/asp.net/chapter1/1-1.aspx</option>
+      <option value="D">http://你的计算机IP地址/asp.net/chapter1/1-1.aspx</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324048" type="1">
+    <question>如果希望控件内容变化后立即向服务器提交请求，需要在控件中添加属性（选一项）</question>
+    <choice>
+      <option value="A">AutoPostBack="true"</option>
+      <option value="B">AutoPostBack="false"</option>
+      <option value="C">IsPostBack="true"</option>
+      <option value="D">IsPostBack="false"</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324049" type="1">
+    <question>如果需要确保用户输入大于30的值，应该使用( )验证控件。（选一项）</question>
+    <choice>
+      <option value="A">RequiredFieldValidator</option>
+      <option value="B">CompareValidator</option>
+      <option value="C">RangeValidator</option>
+      <option value="D">RegularExpressionValidator</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324050" type="1">
+    <question>若Internet 资源要求验证客户端身份，WebRequest.GetResponse 方法将引发一个身份验证过程。此过程成功结束后，身份验证模块将向WebRequest 实例返回一个( )类实例，该实例包含Internet 服务器的验证消息。（选一项）</question>
+    <choice>
+      <option value="A">Authorization</option>
+      <option value="B">WebResponse</option>
+      <option value="C">Cookie</option>
+      <option value="D">NetworkCredential</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324051" type="1">
+    <question>使用“新建项目—〉Visual C# Projects 项目—〉ASP.NET Web 应用程序”成功创建URL为“http://localhost/MyWeb”的Web 表单应用程序后，项目文件将保存在（选一项）</question>
+    <choice>
+      <option value="A">本地计算机Web 站点的MyWeb 虚拟目录下</option>
+      <option value="B">本地文件共享MyWeb 中</option>
+      <option value="C">另一台名为localhost 的计算机的Web 站点的MyWeb 虚拟目录下</option>
+      <option value="D">本地目录c:\My Documents\MyWeb 下</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324052" type="1">
+    <question>使用ADO.NET的DataReader对象读取XML数据的代码段如下： DataSet myds = new DataSet(); //1 FileStream myfs = new FileStream(Server.MapPath("xmlgrid.xml"),FileMode.Open,FileAccess.Read); //2 StreamReader myreader = new StreamReader(myfs); //3 myreader.ReadXml(myds); //4 在以上四行代码中，第（）行代码将出现运行时错误。（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324053" type="1">
+    <question>使用CompareValiddator控件验证textbox控件中输入的内容是否为日期时，可以设置operator属性为（选一项）</question>
+    <choice>
+      <option value="A">equal</option>
+      <option value="B">notequal</option>
+      <option value="C">datatypecheck</option>
+      <option value="D">lessthan</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324054" type="1">
+    <question>通常对远程网站上的文件进行维护采用的手段是（选一项）</question>
+    <choice>
+      <option value="A">SMTP</option>
+      <option value="B">POP3</option>
+      <option value="C">FTP</option>
+      <option value="D">HTTP</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324055" type="1">
+    <question>文件上传控件.PostedFile.FileName表示的是（选一项）</question>
+    <choice>
+      <option value="A">服务器端文件物理路径</option>
+      <option value="B">客户端文件物理路径</option>
+      <option value="C">服务器端文件名称</option>
+      <option value="D">客户端文件名称</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324056" type="1">
+    <question>下列( )内置对象经常用来制作网页计数器。（选一项）</question>
+    <choice>
+      <option value="A">Reponse</option>
+      <option value="B">Application</option>
+      <option value="C">Request</option>
+      <option value="D">Session</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324057" type="1">
+    <question>下列不是服务器控件的是（选一项）</question>
+    <choice>
+      <option value="A">Textarea</option>
+      <option value="B">LinkButton</option>
+      <option value="C">HyperLink</option>
+      <option value="D">DropDownList</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324058" type="1">
+    <question>下列对ASP.NET验证控件描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">如果不为RequiredFieldValidator验证控件设置ControlToValidate设置，在运行时会出现异常</option>
+      <option value="B">不能将多个验证控件应用到一个文本框上</option>
+      <option value="C">RangeValidator验证控件只能对数字型的数据进行范围验证</option>
+      <option value="D">验证控件只是在客户端进行数据的验证</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324059" type="1">
+    <question>下列哪个不是ASP.NET的内置对象（选一项）</question>
+    <choice>
+      <option value="A">Application</option>
+      <option value="B">Session</option>
+      <option value="C">Request</option>
+      <option value="D">SqlCommand</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324060" type="1">
+    <question>下列哪个服务器控件不对WEB窗体进行输入验证（选一项）</question>
+    <choice>
+      <option value="A">Button</option>
+      <option value="B">LinkButton</option>
+      <option value="C">HyperLink</option>
+      <option value="D">ImageButton</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324061" type="1">
+    <question>下面( )文件主要定义应用初始化、结束，会话开始、结束，请求开始、结束等事件发生时应用程序要做的事情。（选一项）</question>
+    <choice>
+      <option value="A">Web.Config</option>
+      <option value="B">Global.asax</option>
+      <option value="C">Global.inc</option>
+      <option value="D">Config.asax</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324062" type="1">
+    <question>下面代码为一个ASP.NET Web应用程序Global.asax文件中的部分代码，当某个用户第一次访问应用程序的第一个页面时，页面中输出（选一项） void Session_Start(Object sender,EventArgs e) { Response.Write("1"); } void Application_BeginRequest(Object sender,EventArgs e) { Response.Write("3"); } void Application_EndRequest(Object sender,EventArgs e) { Response.Write("4"); }</question>
+    <choice>
+      <option value="A">34</option>
+      <option value="B">341</option>
+      <option value="C">314</option>
+      <option value="D">1</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324063" type="1">
+    <question>下面都是ASP.NET编程模式的优点，除了（选一项）</question>
+    <choice>
+      <option value="A">数据访问</option>
+      <option value="B">异构系统的数据交换</option>
+      <option value="C">事件驱动</option>
+      <option value="D">无需编码</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324064" type="1">
+    <question>下面哪个( )属性不属于Page对象。（选一项）</question>
+    <choice>
+      <option value="A">Lanuage</option>
+      <option value="B">AutoEventWireup</option>
+      <option value="C">Inherits</option>
+      <option value="D">Runat</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324065" type="1">
+    <question>下面哪项不是Request对象的集合。（选一项）</question>
+    <choice>
+      <option value="A">cookie</option>
+      <option value="B">querystring</option>
+      <option value="C">form</option>
+      <option value="D">session</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324066" type="1">
+    <question>现有一课程成绩输入框，成绩范围为0－100，这里最好使用( )验证控件。（选一项）</question>
+    <choice>
+      <option value="A">RequiredFieldValidator</option>
+      <option value="B">CompareValidator</option>
+      <option value="C">RangeValidator</option>
+      <option value="D">RegularExpressionValidator</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324067" type="1">
+    <question>向服务器发送请求有几种方式？（选两项）</question>
+    <choice>
+      <option value="A">POST</option>
+      <option value="B">GET</option>
+      <option value="C">SESSION</option>
+      <option value="D">COOKIE</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="324068" type="1">
+    <question>要把一个TextBox设置成密码输入框，应该设置( )属性。（选一项）</question>
+    <choice>
+      <option value="A">Columns</option>
+      <option value="B">Rows</option>
+      <option value="C">Text</option>
+      <option value="D">TextMode</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324069" type="1">
+    <question>要将数据源绑定到控件，需要调用控件的( )方法。（选一项）</question>
+    <choice>
+      <option value="A">Load</option>
+      <option value="B">DataBind</option>
+      <option value="C">Dispose</option>
+      <option value="D">GetType</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324070" type="1">
+    <question>要取出DropDownList控件中用户选择的值，应读取（选一项）</question>
+    <choice>
+      <option value="A">SelectedIndex</option>
+      <option value="B">SelectedValue</option>
+      <option value="C">Value</option>
+      <option value="D">Text</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324071" type="1">
+    <question>要使Button控件不可用，需要将控件的( )属性设置为false。（选一项）</question>
+    <choice>
+      <option value="A">Enabled</option>
+      <option value="B">EnableViewState</option>
+      <option value="C">Visible</option>
+      <option value="D">CausesValidation</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324072" type="1">
+    <question>要使RadioButton控件被选中，需要将其( )属性设置为 true。（选一项）</question>
+    <choice>
+      <option value="A">Enabled</option>
+      <option value="B">Visible</option>
+      <option value="C">Checked</option>
+      <option value="D">AutoPostBack</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324073" type="1">
+    <question>要验证文本框中输入的数据是否为合法的邮编，需要使用( )验证控件。（选一项）</question>
+    <choice>
+      <option value="A">RequiredFieldValidator</option>
+      <option value="B">RangeValidator</option>
+      <option value="C">CompareValidator</option>
+      <option value="D">RegularExpressionValidator</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324074" type="1">
+    <question>要指示ASP.NET是否启用会话状态，应该设置的配置项是（选一项）</question>
+    <choice>
+      <option value="A">&lt;httpRuntime&gt;</option>
+      <option value="B">&lt;pages&gt;</option>
+      <option value="C">&lt;appSetting&gt;</option>
+      <option value="D">&lt;sessionState&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324075" type="1">
+    <question>页面的IsPostBack属性用来判别页面（选一项）</question>
+    <choice>
+      <option value="A">是否需要回传</option>
+      <option value="B">是否是回传的</option>
+      <option value="C">是否启用回传</option>
+      <option value="D">是否响应回传</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324076" type="1">
+    <question>一个ASP.NET应用程序的Global.Asax文件的Application事件定义如下： protected void Application_Start(Object sender, EventArgs e) { Application["count"]=0; Response.Write(Application["count"].ToString()); } protected void Application_BeginRequest(Object sender, EventArgs e) { Response.Write(Application["count"].ToString()); } protected void Application_EndRequest(Object sender, EventArgs e) { Application["count"]=(Int32)Application["count"]+1; Response.Write(Application["count"].ToString()); } protected void Session_End(Object sender, EventArgs e) { Application["count"]=(Int32)Application["count"]+1; Response.Write(Application["count"].ToString()); } 则程序运行时，以下说法正确的是（）。（选一项）</question>
+    <choice>
+      <option value="A">第一次访问该网站时第一个在页面上显示的数字为0</option>
+      <option value="B">首次在页面上显示的数字为1、2、3三个数字</option>
+      <option value="C">若有多个不同的用户在刷新页面，则每个用户在刷新页面的时候，显示的数字也是连续的</option>
+      <option value="D">第一次访问该网站时将出现“响应在此上下文中不可用”的错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324077" type="1">
+    <question>以下的ASP.NET代码，在执行时将（选一项） private void Page_Load(object sender, System.EventArgs e) { Response.Write(Server.UrlEncode("http://ABC.aspx"));}</question>
+    <choice>
+      <option value="A">在页面中输出字符"http://ABC.aspx"</option>
+      <option value="B">在页面中输出字符"http%3a%2f%2fABC.aspx"</option>
+      <option value="C">跳转到http://ABC.aspx页面</option>
+      <option value="D">不会输出任何信息到请求方</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324078" type="1">
+    <question>以下的ASP.NET代码： private void Page_Load(object sender,System.EventArgs e){ (1)//在此处填写代码 { ArrayList values=new ArrayList(); values.Add("O"); values.Add("A"); chkA.DataSource=values; chkA.DataBind(); } }为保证页面不重复进行数据项的加载，需要在（1）处填写的代码行应为（选一项）</question>
+    <choice>
+      <option value="A">if(!IsPostBack)</option>
+      <option value="B">If(Page.PostBack=false)</option>
+      <option value="C">If(this.PostBack=fales)</option>
+      <option value="D">if (IsPostBack)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324079" type="1">
+    <question>以下的ASP.NET页面代码： &lt;html&gt;&lt;head&gt;&lt;/head&gt; &lt;body&gt; &lt;h3&gt;HyperLink Sample &lt;/h3&gt; Click on the HyperLink:&lt;br&gt; &lt;asp:HyperLink id="hyperlink1" ImageUrl="images/pict.jpg" NavigateUrl="http://www.microsoft.com" Text="Microsoft Official Site"/&gt; &lt;/body&gt;&lt;/html&gt; 下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">显示一个HyperLink控件，并且点击跳转到http://www.microsoft.com页面</option>
+      <option value="B">显示一个HyperLink控件，但是不执行任何跳转</option>
+      <option value="C">不显示HyperLink控件</option>
+      <option value="D">页面运行时将出现错误提示信息</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324080" type="1">
+    <question>以下都是@Page指令的属性，除了（选一项）</question>
+    <choice>
+      <option value="A">Debug</option>
+      <option value="B">AutoEventWireup</option>
+      <option value="C">Inherits</option>
+      <option value="D">EnableBuffer</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324081" type="1">
+    <question>以下是某个程序员在一个Web窗体中编写的部分C#代码，已知GetJobDs是一个返回一个数据集的方法，当某个用户第一次访问该页面的时候，下列说法正确的是（选一项） private void Page_Load(object sender,System.EventArgs e) { if(!this.IsPostBack) { DataSet ds = this.GetJobDs(); this.GridView1.DataSorce = ds.Tables[0]; } }</question>
+    <choice>
+      <option value="A">用户不能在GridView控件中看到数据集的中的数据，因为没有设置GridView控件的DataMember属性</option>
+      <option value="B">用户不能在GridView控件中看到数据集的中的数据，因为没有进行数据绑定</option>
+      <option value="C">用户不能在GridView控件中看到数据集的中的数据，因为代码行2，3不能被执行</option>
+      <option value="D">用户可以在GridView控件中看到数据集中的数据</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324082" type="1">
+    <question>用C#编写的网页后台代码被保存在 ( )文件中。（选一项）</question>
+    <choice>
+      <option value="A">.aspx</option>
+      <option value="B">.vb</option>
+      <option value="C">.cs</option>
+      <option value="D">.config</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324083" type="1">
+    <question>阅读下面.net配置文件： &lt;configuration&gt; &lt;system.web&gt; &lt;sessionState mode="InProc" cookieless="true" timeout="20"/&gt; &lt;/system.web&gt; &lt;/configuration&gt; 关于上述文件描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">该配置节点配置的是会话状态信息</option>
+      <option value="B">该配置文件指明将在远程计算机上存储会话状态</option>
+      <option value="C">该配置文件指明了请求超时时间为20分钟</option>
+      <option value="D">该配置文件指明了请求超时时间为20秒钟</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="324084" type="1">
+    <question>阅读下面配置文件： &lt;appSettings&gt; &lt;add key="DSN" value=" data source=YONGPING;Integrated Security=SSPI;Initial Catalog=northwind" /&gt; &lt;add key="SQL_Orders" value="SELECT AVG(Freight) FROM Orders" /&gt; &lt;/appSettings&gt; 在ASP.NET中，通过C#代码从配置文件中收集"DSN"的信息，正确的代码行是（选一项）。</question>
+    <choice>
+      <option value="A">string strDSN = ConfigurationManager.AppSettings["DSN"];</option>
+      <option value="B">string strDSN = ConfigurationManager.AppSettings("DSN");</option>
+      <option value="C">string strDSN = AppSettings["DSN"];</option>
+      <option value="D">string strDSN = AppSettings("DSN");</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324085" type="1">
+    <question>阅读下面配置文件： &lt;configuration&gt; &lt;system.web&gt; &lt;pages buffer="true" enableSessionState="true" autoEventWireup="true" /&gt; &lt;/system.web&gt; &lt;/configuration&gt; 关于上述配置文件的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">上述配置文件通过页面配置设置控制ASP.NET页面的一些默认行为</option>
+      <option value="B">配置文件中指定未启用响应缓冲</option>
+      <option value="C">配置文件中指定启用会话状态</option>
+      <option value="D">配置文件中指定自动启用页事件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324086" type="1">
+    <question>阅读以下的ASP.NET代码 &lt;asp:Button id="Button1" runat="server"&gt;&lt;/asp:Button&gt; &lt;asp:TextBox id="TextBox1" runat="server" &gt;&lt;/asp:TextBox&gt;&lt;asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server" ErrorMessage="错误" ControlToValidate="TextBox1"&gt;&lt;/asp:RequiredFieldValidator&gt;从代码中可以看出，该Web页上有一个文本框和一个按钮，请问当单击按钮的时候将出现（）变化。（选一项）</question>
+    <choice>
+      <option value="A">如果文本框为空，则显示"错误"</option>
+      <option value="B">如果文本框输入的不是时间，则显示"错误"</option>
+      <option value="C">如果文本框输入的不是数字，则显示"错误"</option>
+      <option value="D">如果文本框输入的不是字符，则显示"错误"</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324087" type="1">
+    <question>阅读以下的ASP.NET代码： private void Page_Load(object sender , Sysetm.EvetnArgs e) { if(!IsPostBack) { ArrayList values = new ArrayList(); values.Add("O"); values.Add("A"); values.Add("A"); values.Add("B"); values.Add("B"); CheekBoxList1.DataSource = values; CheckBosList1.DataBind(); } }请问当Web页面启动后，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">页面上将出现1个CheckBox控件</option>
+      <option value="B">页面上只有3个CheckBox控件</option>
+      <option value="C">页面上将出现5个CheckBox控件</option>
+      <option value="D">代码执行出有错误，错误原因是没法绑定到数据源</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324088" type="1">
+    <question>阅读以下的C#代码： &lt;%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %&gt; &lt;body&gt; 用户名：&lt;asp:TextBox ID="txtName" runat="server"&gt;&lt;/asp:TextBox&gt; &lt;br /&gt; 密码：&lt;asp:TextBox ID="txtPwd" runat="server" TextMode="Password"&gt;&lt;/asp:TextBox&gt;&lt;/body&gt; 以上代码是一个用户控件的代码，关于这段代码的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">以上代码是不对的，因为不能有&lt;body&gt;元素</option>
+      <option value="B">以上代码是不对的，因为不能有任何Html标记元素在控件中</option>
+      <option value="C">以上代码中有一个提供格式的表格，两个文本框和一个提交按钮</option>
+      <option value="D">该代码的物理文件名称为UserControl1.ascx.cs</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324089" type="1">
+    <question>在ASP.NET 中，如果要打开整个应用程序的跟踪，但是页面输出统计信息不要求发送到客户端，那么需要在Web.Config中做的配置项应该为（选一项）</question>
+    <choice>
+      <option value="A">&lt;trace enabled = "true"/&gt;</option>
+      <option value="B">&lt;trace enabled = "false" pageOutput = "false"/&gt;</option>
+      <option value="C">&lt;trace debug = "true"/&gt;</option>
+      <option value="D">&lt;trace debug="true" output="false"/&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324090" type="1">
+    <question>在ASP.NET 中,有一个注册窗体要求用户输入年龄,为了确保用户输入的年龄不小于18、不大于30，并且为整数,需要采用RangeValidator 控件对输入年龄的TextBox控件进行验证,下列对于RangeValidator控件属性设置正确的是（选两项）</question>
+    <choice>
+      <option value="A">将MinimumValue 设置为17, Type 属性为Integer</option>
+      <option value="B">将MinimumValue 设置为18, Type 属性为Integer</option>
+      <option value="C">将MaximumValue 设置为30, Type 属性为Integer</option>
+      <option value="D">将MaximumValue 设置为31, Type 属性为Integer</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="324091" type="1">
+    <question>在ASP.NET程序中，以下（）最有利于黑客在Web服务器上对站点文件进行破坏。（选一项）</question>
+    <choice>
+      <option value="A">页面内的_ViewState控件</option>
+      <option value="B">Application对象的Lock方法</option>
+      <option value="C">Server对象的MapPath方法</option>
+      <option value="D">客户端的JavaScript脚本</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324092" type="1">
+    <question>在ASP.NET的部署方案中，使用配置文件能够获得以下的好处，除了（选一项）</question>
+    <choice>
+      <option value="A">配置文件可以进行手工编辑，因而灵活</option>
+      <option value="B">分层配置的方案可继承，因而简便</option>
+      <option value="C">减少硬编码，便于修改</option>
+      <option value="D">配置参数、配置节处理程序是固定的，因而简单</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324093" type="1">
+    <question>在ASP.NET服务器验证控件中，能够验证自定义正则表达式的控件是（选一项）</question>
+    <choice>
+      <option value="A">RequiredFieldValidator</option>
+      <option value="B">CompareValidator</option>
+      <option value="C">Randebalidator</option>
+      <option value="D">RegularExpressionValidator</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324094" type="1">
+    <question>在ASP.NET工程中，Label1为标签控件、ListBox1为ListBox控件，代码"Label1.Text=ListBox1.Text"的执行结果为（选一项）</question>
+    <choice>
+      <option value="A">在标签中，显示ListBox控件中选中的项的文本</option>
+      <option value="B">在标签中，显示ListBox控件中没有选中的项</option>
+      <option value="C">判断ListBox控件中选择的文本是否与标签控件的文本信息相等</option>
+      <option value="D">代码"Label1.Text=ListBox1.Text"有错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324095" type="1">
+    <question>在ASP.NET技术中，在设置GridView 控件的模版列时（选一项）</question>
+    <choice>
+      <option value="A">模版列中的控件只有默认属性可以绑定</option>
+      <option value="B">模版列中的控件的任意属性可以绑定，但只能有一个属性绑定</option>
+      <option value="C">模版列中的控件的任意属性可以绑定，同时可以有多个属性绑定</option>
+      <option value="D">模版列中只有TextBox控件可以绑定</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324096" type="1">
+    <question>在ASP.NET页面中，使用验证控件来限制用户输入的出生年份在1900到2010，以下（）代码行能够实现（选一项）</question>
+    <choice>
+      <option value="A">&lt;asp:rangevalidator controltovalidate="txtBorth" type="Integer" minimumvalue="1900" maximumvalue="2010" errormessage="非法！" display="dynamic" runat="server" &gt; &lt;/asp:rangevalidator&gt;</option>
+      <option value="B">&lt;asp:CompareValidator controltovalidate="txtBorth" type="Integer" minimumvalue="1900" maximumvalue="2010" errormessage="非法！" display="dynamic" runat="server" &gt; &lt;/asp:rangevalidator&gt;</option>
+      <option value="C">&lt;asp:CompareValidator controltovalidate="txtBorth" type="Integer" valuetocompare="1900" operator = "GreaterThan" valuetocompare="2010" operator = "LessThan" errormessage="非法！" display="dynamic" runat="server" &gt; &lt;/asp:rangevalidator&gt;</option>
+      <option value="D">&lt;asp:RegularExpressionValidator controltovalidate="txtBorth" type="Integer" validationexpression = "1900-2010" errormessage="非法！" display="dynamic" runat="server" &gt; &lt;/asp:rangevalidator&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324097" type="1">
+    <question>在ASP.NET页面中，要使文本框最多输入6个字符，需要将该控件的( )属性值设置为6。（选一项）</question>
+    <choice>
+      <option value="A">MaxLength</option>
+      <option value="B">Columns</option>
+      <option value="C">Rows</option>
+      <option value="D">TabIndex</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324098" type="1">
+    <question>在ASP.NET应用中，假设当前站点所在文件夹是C：\Inetpub\，该站点的虚拟目录为Test，其对应的文件夹为E:\Study\，在该目录下有文件1.xml，则Server.MapPath("\\1.xml")的返回值是（选一项）</question>
+    <choice>
+      <option value="A">C:\Inetpub\Test\1.xml</option>
+      <option value="B">E:\Study\1.xml</option>
+      <option value="C">C:\Inetpub\1.xml</option>
+      <option value="D">E:\Study\Test\1.xml</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324099" type="1">
+    <question>在ASP.NET中, Application是 () 类的实例（选一项）</question>
+    <choice>
+      <option value="A">HttpApplication</option>
+      <option value="B">HttpApplicationUtility</option>
+      <option value="C">HttpApplicationState</option>
+      <option value="D">Page</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324100" type="1">
+    <question>在ASP.NET中, 已知在页面的Page_Load事件中已为一个DataList控件设置了一个DataTable类型数据源, 为了在DataList控件项中显示DataTable中名为 "Interest"的列，下列绑定表达式正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%# Eval("Interest") %&gt;</option>
+      <option value="B">&lt;%# Container.DataItem,"Interest"%&gt;</option>
+      <option value="C">&lt;%= DataBinder.Eval("Interest")%&gt;</option>
+      <option value="D">&lt;%# Interest%&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324101" type="1">
+    <question>在ASP.NET中, 有一个应用程序的Web.Config文件中有以下的配置: &lt;customErrors defaultRedirect = "Http://LocalHost/ MyAPP/ErrorComm.aspx" mode = "RemoteOnly"&gt; &lt;error statuscode = "404" redirect = "Http://LocalHost/ MyAPP/FileNotFound.aspx"/&gt; &lt;/customErrors&gt; 远程用户在访问的时候,如果应用程序出现除法为零的溢出错误,程序将（选一项）</question>
+    <choice>
+      <option value="A">跳转到ErrorComm.aspx页面</option>
+      <option value="B">跳转到FileNotFound.aspx页面</option>
+      <option value="C">直接关闭用户的浏览器</option>
+      <option value="D">直接报告错误</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324102" type="1">
+    <question>在ASP.NET中，.ascx和.aspx文件中都可以拥有的元素包括（选一项）</question>
+    <choice>
+      <option value="A">&lt;HTML&gt;</option>
+      <option value="B">&lt;BODY&gt;</option>
+      <option value="C">&lt;SCRIPT&gt;</option>
+      <option value="D">&lt;FORM&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324103" type="1">
+    <question>在ASP.NET中，_VIEWSTATE是（选一项）</question>
+    <choice>
+      <option value="A">Page的属性</option>
+      <option value="B">隐藏的控件</option>
+      <option value="C">自动执行的代码</option>
+      <option value="D">@Page指令的属性</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324104" type="1">
+    <question>在ASP.NET中，DropDownList被选中项的索引号被置于( )属性中。（选一项）</question>
+    <choice>
+      <option value="A">SelectedIndex</option>
+      <option value="B">SelectedItem</option>
+      <option value="C">SelectedValue</option>
+      <option value="D">TabIndex</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324105" type="1">
+    <question>在ASP.NET中，http://localhost/onlineExamSystem/ExamQuestion.aspx?ExamLevel=1,为了在当前页面获得其他页面从地址栏中传递过来的参数ExamLevel的值，下列方法正确的是（选二项）</question>
+    <choice>
+      <option value="A">Request.QueryString["ExamLevel"]</option>
+      <option value="B">Request.QueryString[0]</option>
+      <option value="C">Request.QueryString[1]</option>
+      <option value="D">Request.Params[1]</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="324106" type="1">
+    <question>在ASP.NET中，System.Xml 命名空间有一套完整的操作XML的类，通过使用读取器、编写器和DOM兼容的组件来读取、验证和操作 XML 数据。以下描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">XmlTextReader 类提供对 XML 数据的快速、非高速缓存的只进读访问</option>
+      <option value="B">XPathNavigator 类提供 W3C XPath 1.0 数据模型，而不是用于导航的光标样式模型的存储。</option>
+      <option value="C">XslTransform 类是一个 W3C XSLT 1.0 规范兼容的 XSLT 处理器，用于转换 XML 文档</option>
+      <option value="D">XmlTextReader 类提供一种生成 XML 的快速只进方法。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324107" type="1">
+    <question>在ASP.NET中，当针对整个页面调用（）方法时，会计算页面上所有数据绑定表达式。（选一项）</question>
+    <choice>
+      <option value="A">Fill()</option>
+      <option value="B">ReadXML()</option>
+      <option value="C">DataBind()</option>
+      <option value="D">DataBinder.Eval()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324108" type="1">
+    <question>在ASP.NET中，关于ADO.NET的事务，错误的是（选一项）</question>
+    <choice>
+      <option value="A">开始事务方法为BeginTransaction</option>
+      <option value="B">开始事务后会返回一个SqlTransaction对象</option>
+      <option value="C">事务执行完毕需要调用SqlConnection的Commit方法</option>
+      <option value="D">事务执行中有错误，需要调用SqlTransaction的RollBack方法</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324109" type="1">
+    <question>在ASP.NET中，关于XmlDataDocument的描述，错误的是（选一项）</question>
+    <choice>
+      <option value="A">XmlDataDocument的基类是XmlDocument</option>
+      <option value="B">XmlDataDocument所在的命名空间是System.Xml</option>
+      <option value="C">XmlDataDocument可以用一个DataSet进行初始化</option>
+      <option value="D">XmlDataDocument是XmlDocument的基类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324110" type="1">
+    <question>在ASP.NET中，关于下列代码的说法正确的是（选一项） HttpCookie user = new HttpCookie("name","王飞"); //1 Response.Cookies.Add(user); //2 user.Expires = DateTime.Now.AddMinutes(4); //3</question>
+    <choice>
+      <option value="A">代码行1错误</option>
+      <option value="B">代码行2错误</option>
+      <option value="C">代码行3错误</option>
+      <option value="D">所有代码行正确</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324111" type="1">
+    <question>在ASP.NET中，关于用户控件和自定义控件的差别，下列描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">用户控件用 .ascx 文件表示</option>
+      <option value="B">用户控件不会出现在工具箱中，而自定义控件会出现在工具箱中</option>
+      <option value="C">用户控件和自定义控件都不支持缓存</option>
+      <option value="D">用户控件会对使用可视化设计工具的用户提供有限的支持，而自定义控件会提供全面的支持。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324112" type="1">
+    <question>在ASP.NET中，可以使用多种方法从一个页面跳转到另外一个页面，或者联接到其他的超级连接，以下都是可选择的方案，除了（选一项）</question>
+    <choice>
+      <option value="A">使用Response对象的Redirect方法</option>
+      <option value="B">使用Server对象的Execute方法</option>
+      <option value="C">使用Server对象的Transfer方法</option>
+      <option value="D">使用Application对象的DirectTo方法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324113" type="1">
+    <question>在ASP.NET中，默认情况下WebService类里（选一项）</question>
+    <choice>
+      <option value="A">可以访问Session对象和Request对象</option>
+      <option value="B">不能访问Session对象但能访问Request对象</option>
+      <option value="C">能访问Session对象但不能访问Request对象</option>
+      <option value="D">既不能访问Session对象也不能访问Request对象</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324114" type="1">
+    <question>在ASP.NET中,某程序员在一个页面的Load事件中编写了如下代码，已知该页面使用了输出缓存。现有两个用户分别在12：10、和12：12访问了该页面，下列说法正确的是（选一项） private void Page_Load(object sender,System.EventArgs e) { Response.Write(DateTime.Now.ToShortDateString()); }</question>
+    <choice>
+      <option value="A">第一个用户一定输出12：10，第二个用户一定输出12：12</option>
+      <option value="B">第一用户一定输出12：10，第二个用户输出12：10或者12：12</option>
+      <option value="C">第一个用户、第二个用户一定都输出12：10</option>
+      <option value="D">第一个用户、第二个用户可能都输出12：12</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324115" type="1">
+    <question>在ASP.NET中，设置Session对象的TimeOut属性，可以为当前会话保持一定的超时限制，TimeOut是以（）为时间单位的。（选一项）</question>
+    <choice>
+      <option value="A">小时</option>
+      <option value="B">分钟</option>
+      <option value="C">秒</option>
+      <option value="D">毫秒</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324116" type="1">
+    <question>在ASP.NET中，使用代码隐藏技术来分离页面文件和代码文件，已经编译好的.dll文件，发布以后，一般都放（）下。（选一项）</question>
+    <choice>
+      <option value="A">虚拟目录的根目录</option>
+      <option value="B">虚拟目录跟目录下的bin文件夹中</option>
+      <option value="C">站点所在的目录的bin文件夹中</option>
+      <option value="D">系统目录的system32目录下</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324117" type="1">
+    <question>在ASP.NET中，为了不允许用户在一个文本框中输入"上帝"，可以使用下列控件，除了（选一项）</question>
+    <choice>
+      <option value="A">RangeValidator</option>
+      <option value="B">CompareValidator</option>
+      <option value="C">ReularExpressionvalidator</option>
+      <option value="D">CustomValidator</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324118" type="1">
+    <question>在ASP.NET中，为了从当前页面跳转到一个相同目录下名为Main.htm的页面，下面的方法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Server.Execute("Main.htm")</option>
+      <option value="B">Server.Transfer("Main.htm")</option>
+      <option value="C">Response.Redirect("Main.htm")</option>
+      <option value="D">Response.Write("Main.htm")</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324119" type="1">
+    <question>在ASP.NET中，为了在页面中使用一个名为UserControl1的用户控件，在下列空白处应该补充的代码是（）。（选一项） &lt;%@ Register src="________" tagname="WebUserControl" tagprefix="uc1" %&gt;</question>
+    <choice>
+      <option value="A">UserControl1.ascx</option>
+      <option value="B">UserControl1</option>
+      <option value="C">UserControl1.dll</option>
+      <option value="D">UserControl1.ascx.cs</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324120" type="1">
+    <question>在ASP.NET中，为了在页面中原样输出图中所示的字符串，下列代码正确的是（选一项）</question>
+    <choice>
+      <option value="A">Server.HtmlDecode("&lt;script&gt;confirm('长风破浪会有时，直挂云帆济沧海');&lt;script&gt;");</option>
+      <option value="B">Server.HtmlEncode("&lt;script&gt;confirm('长风破浪会有时，直挂云帆济沧海');&lt;script&gt;");</option>
+      <option value="C">Server.UrlDecode("&lt;script&gt;confirm('长风破浪会有时，直挂云帆济沧海');&lt;script&gt;");</option>
+      <option value="D">Server.UrlEncode("&lt;script&gt;confirm('长风破浪会有时，直挂云帆济沧海');&lt;script&gt;");</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324121" type="1">
+    <question>在ASP.NET中，文本框控件TextBox允许多种输入模式，包括单行、多行和密码输入模式，这是通过设置其（）属性来区分的。（选一项）</question>
+    <choice>
+      <option value="A">Style</option>
+      <option value="B">TextMode</option>
+      <option value="C">Type</option>
+      <option value="D">Input</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324122" type="1">
+    <question>在ASP.NET中,下列不能提高程序运行速度的做法是（选一项）</question>
+    <choice>
+      <option value="A">使用数据缓存技术</option>
+      <option value="B">全部使用ASP.NET服务器控件</option>
+      <option value="C">把一些控件的EnableViewState属性设为false</option>
+      <option value="D">在设计包含大量数据的页面时采用分页技术</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324123" type="1">
+    <question>在ASP.NET中，下列代码在页面中的输出结果是（选一项） XmlDocument xd = new XmlDocument(); xd.LoadXml("&lt;Person&gt;&lt;name&gt;诸葛亮&lt;/name&gt;&lt;/Person&gt;"); Response.Write(xd.InnerText);</question>
+    <choice>
+      <option value="A">诸葛亮</option>
+      <option value="B">&lt;name&gt;&lt;/name&gt;</option>
+      <option value="C">&lt;name&gt;诸葛亮&lt;/name&gt;</option>
+      <option value="D">&lt;Person&gt;&lt;name&gt;诸葛亮&lt;/name&gt;&lt;/Person&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324124" type="1">
+    <question>在ASP.NET中，下列关于Session对象的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">用户每次打开一个Web页面，将会创建一个Session对象</option>
+      <option value="B">用户关闭客户端Web页面后，Session对象将立刻消失</option>
+      <option value="C">应用程序退出后，Session对象的值才能消失</option>
+      <option value="D">每个用户的Session对象不能被其他用户访问</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324125" type="1">
+    <question>在ASP.NET中，下列关于Session对象与Application对象的比较，说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">在一个页面中定义的Session变量不能在其他页面访问，在一个页面中定义Application变量能在其他页面访问</option>
+      <option value="B">在一个页面中定义的Application变量不能在其他页面访问，在一个页面中定义Session变量能在其他页面访问</option>
+      <option value="C">对应于每个用户分别创建一个Session对象，对应于每个应用程序创建一个Application对象</option>
+      <option value="D">对应于每个用户分别创建一个Application对象，对应于每个应用程序创建一个Session对象</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324126" type="1">
+    <question>在ASP.NET中，下列关于TagName的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">TagName为用户控件的名称。</option>
+      <option value="B">TagName名称与TagPrefix标志一起用来唯一标识控件的命名空间。</option>
+      <option value="C">代码“&lt;uc1:UserControl1 id="UserControl11" runat="server"&gt;&lt;/uc1:UserControl1&gt;”中uc1为TagName标志。</option>
+      <option value="D">要使用TagName确定的标记，必须先在文件中注册该标记。如代码“&lt;%@ Register TagPrefix="uc1" TagName="UserControl1" Src="UserControl1.ascx" %&gt;”注册了TagName标记。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324127" type="1">
+    <question>在ASP.NET中，下列关于列表控件的DataBind方法的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">要把列表控件的实际绑定到某一数据源，必须调用DataBind方法</option>
+      <option value="B">执行DataBind方法，将完成创建列表控件项的工作</option>
+      <option value="C">执行DataBind方法，将完成用数据源的数据填充列表控件每一项的工作</option>
+      <option value="D">在设计的时候，可以调用DataBind方法将把列举的数据源的数据填充到列表控件的每一项来观察数据的正确性</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324128" type="1">
+    <question>在ASP.NET中，下列关于列表控件的DataSource属性的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">DataSource属性与数据绑定相关</option>
+      <option value="B">列表控件的数据源类型可以是数据列表</option>
+      <option value="C">列表控件的数据源类型可以是数据视图也可以是哈希表</option>
+      <option value="D">DataSource用于数据绑定时对数据行进行筛选</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324129" type="1">
+    <question>在ASP.NET中，下列关于用户控件的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">扩展名为.ascx或者.ocx</option>
+      <option value="B">用户控件可以包含&lt;HTML&gt;元素或者&lt;BODY&gt;元素</option>
+      <option value="C">用户控件与Html页面没有差别，是由HTML元素和代码组成的</option>
+      <option value="D">用户控件不可以包含&lt;FORM&gt;元素</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324130" type="1">
+    <question>在ASP．NET中，下列关于用户控件与自定义控件的比较，说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">自定义控件可以跨应用程序使用</option>
+      <option value="B">用户控件可以跨应用程序使用</option>
+      <option value="C">自定义控件是.ascx文件</option>
+      <option value="D">用户控件是dll文件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324131" type="1">
+    <question>在ASP.NET中，下列能够正确声明一个Button Web服务器控件的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;asp:Button id=Button1 runat="server" Text="Button"&gt;&lt;/asp:Button&gt;</option>
+      <option value="B">&lt;asp:Button id=Button1 runat="c#" Text="Button"&gt;&lt;/asp:Button&gt;</option>
+      <option value="C">&lt;asp:Button id=Buttonl Text="Button"&gt;&lt;/asp:Button&gt;</option>
+      <option value="D">&lt;INPUT type=button value=Button&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324132" type="1">
+    <question>在ASP.NET中，下列为加载XML文档的代码，正确的是（选两项）</question>
+    <choice>
+      <option value="A">XmlDocument MyXml = new XmlDocument();MyXml.Load (Server.MapPath ("Test.xml") );lblXmlData.Text = MyXml.InnerXml.ToString();</option>
+      <option value="B">XmlDocument MyXml = new XmlDocument();MyXml.LoadXml (Server.Path ("Test.xml") );lblXmlData.Text = MyXml.InnerXml.ToString();</option>
+      <option value="C">XmlDocument MyXml = new XmlDocument();string xmlStr = "&lt;PhoneBook&gt;"+ "&lt;Name&gt;SVSE&lt;/Name&gt;"+ "&lt;Number&gt;5555555&lt;/Number&gt;"+ "&lt;/PhoneBook&gt;";MyPhone.LoadXml( xmlString );lblXmlData.Text = MyXml.InnerXml.ToString();</option>
+      <option value="D">XmlDocument MyXml = new XmlDocument();XmlTextReader reader = new XmlTextReader("Test.xml");reader.Read();MyXml.Load(reader);lblXmlData.Text = MyXml.InnerXml.ToString();</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="324133" type="1">
+    <question>在ASP.NET中，下列在ASPX页面中使用错误的指令是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%@Assembly Name = "System"%&gt;</option>
+      <option value="B">&lt;%@Assembly Src="C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"%&gt;</option>
+      <option value="C">&lt;%@Implements Name = "System" %&gt;</option>
+      <option value="D">&lt;%@Implements interface = "System"%&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324134" type="1">
+    <question>在ASP.NET中，下面（）方式可以读取一个XML 文件到内存中。（选一项）</question>
+    <choice>
+      <option value="A">XmlTextReader xmlTextReader = new XmlTextReader(); xmlTextReader.Read("c:\\test.xml");</option>
+      <option value="B">XmlTextReader xmlTextReader = new XmlTextReader("c:\\test.xml"); xmlTextReader.Read();</option>
+      <option value="C">XmlDocument xmlDocument = new XmlDocument(); xmlDocument.Load("c:\\test.xml")</option>
+      <option value="D">XmlDocument xmlDocument = new XmlDocument("c:\\test.xml");</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324135" type="1">
+    <question>在ASP.NET中，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Machine.cofing用来保存ASP.NET的整个站点服务器配置信息</option>
+      <option value="B">Web.Config用来保存一个站点信息的配置信息</option>
+      <option value="C">更改Web.Config，ASP.NET应用程序的Session会完全失效</option>
+      <option value="D">以上说法都正确</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324136" type="1">
+    <question>在ASP.NET中，现有一个表dt1，它只有一个字段name，想用DataList进行数据绑定，则在html视图中应该用的绑定脚本为（选一项）</question>
+    <choice>
+      <option value="A">&lt;%@ Eval("dt1")%&gt;</option>
+      <option value="B">&lt;%# Eval("dt1")%&gt;</option>
+      <option value="C">&lt;%= Eval("name")%&gt;</option>
+      <option value="D">&lt;%# Eval("name")%&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324137" type="1">
+    <question>在ASP.NET中，要获取访问者的IP地址（选一项）</question>
+    <choice>
+      <option value="A">需要Response对象</option>
+      <option value="B">需要Request对象</option>
+      <option value="C">使用Request对象或Response对象都可以</option>
+      <option value="D">Request对象和Response对象都不可以</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324138" type="1">
+    <question>在ASP.NET中，已知sqlCon是一个SqlConnection对象，sqlCom是一个SqlCommand对象，下列代码能够正确创建一个SqlTransaction对象的是（选一项）</question>
+    <choice>
+      <option value="A">SqlTransaction tran = new SqlTransaction();</option>
+      <option value="B">SqlTransaction tran = sqlCon.BeginTransaction();</option>
+      <option value="C">SqlTransaction tran = sqlcom.BeginTransaction();</option>
+      <option value="D">SqlTransaction tran = sqlCon.CreateTransaction();</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324139" type="1">
+    <question>在ASP.NET中，已知xtw是一个已创建好的XmlTextWriter对象，则下列代码在文件中创建的节点是（选一项） xtw.WriteStartElement("Person"); xtw.WriteStartElement("Coutry"); xtw.WriteString("中国"); xtw.WriteEndElement();</question>
+    <choice>
+      <option value="A">&lt;Person&gt;&lt;Coutry&gt;&lt;/Coutry&gt;中国&lt;/Person&gt;</option>
+      <option value="B">&lt;Person&gt;&lt;Coutry&gt;中国&lt;/Coutry&gt;&lt;/Person&gt;</option>
+      <option value="C">&lt;Person&gt;&lt;/Person&gt;&lt;Coutry&gt;中国&lt;/Coutry&gt;</option>
+      <option value="D">&lt;Person&gt;中国&lt;/Person&gt;&lt;Coutry&gt;&lt;/Coutry&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324140" type="1">
+    <question>在ASP.NET中，已知一个RegularExpressionValidator控件的ValidationExpress属性为"^[a-z0-9]{3,5}$"，则在RegularExpressionValidator控件所验证的TextBox控件中输入不合法的是（选两项）</question>
+    <choice>
+      <option value="A">12345</option>
+      <option value="B">abcde</option>
+      <option value="C">abc123</option>
+      <option value="D">123abc</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="324141" type="1">
+    <question>在ASP.NET中，有一个ASPX页面的部分代码如下，当用户单击Button1按钮后，下列说发正确的是（选一项） public class CityBrower : System.Web.UI.Page{ protected System.UI.WebControls.Button Button1; string name = "SVSE3.0"; private void Page_Load(object sender,System.EventArgs e){ if(!this.IsPostBack) name = "SVSE4.0"; else name = "SVSE5.0"; } private void Button1_Click(object sender ,System.EventArgs e) { Response.Write(name); }</question>
+    <choice>
+      <option value="A">在页面中输出的文本 "SVSE5.0"</option>
+      <option value="B">在页面中输出的文本 "SVSE4.0"</option>
+      <option value="C">在页面中输出的文本 "SVSE3.0"</option>
+      <option value="D">在页面中不输出任何文本</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324142" type="1">
+    <question>在ASP.NET中，在加载页面时，使用（ ）属性检查是否为首次处理此页面。（选一项）</question>
+    <choice>
+      <option value="A">Page.Control</option>
+      <option value="B">Page.IsValid</option>
+      <option value="C">Page.IsPostBack</option>
+      <option value="D">Page.Cache</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324143" type="1">
+    <question>在ASP.NET中，在一注册页面为了验证用户输入的用户名必须是六个英文字母，你认为最可能需要使用下列（）验证控件对其进行验证。（选两项）</question>
+    <choice>
+      <option value="A">RequiredFieldValidator</option>
+      <option value="B">CompareValidator</option>
+      <option value="C">RangeValidator</option>
+      <option value="D">RegularExpressionValidator</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="324144" type="1">
+    <question>在ASP.NET中，执行以下代码时，将在页面显示（）。（选一项） Response.Write(Server.HtmlEnCode("&lt;H&gt;SVSE&lt;/H&gt;"));</question>
+    <choice>
+      <option value="A">SVSE</option>
+      <option value="B">&lt;H&gt;SVSE&lt;/H&gt;</option>
+      <option value="C">&lt;H&gt;&lt;/H&gt;</option>
+      <option value="D">不显示任何信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324145" type="1">
+    <question>在ASP.NET中&lt;%@ Register%&gt;指令中，下列关于Src属性的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">Src属性是用户控件的路径</option>
+      <option value="B">Src属性是用户控件的类名</option>
+      <option value="C">Src为用户控件的名称</option>
+      <option value="D">Src为用户控件的命名空间</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324146" type="1">
+    <question>在ASP.NET中为了保存用户的一个重要信息,最好使用以下()对象（选一项）</question>
+    <choice>
+      <option value="A">application</option>
+      <option value="B">session</option>
+      <option value="C">cookie</option>
+      <option value="D">cache</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324147" type="1">
+    <question>在ASP.NET中下列关于Response ,Request对象的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">Request用于检索从浏览器向服务器发送请求的信息</option>
+      <option value="B">Request用于将数据从服务器发送到浏览器</option>
+      <option value="C">Response对象的Redirect方法用于将客户端重定向到指定的页面</option>
+      <option value="D">Response对象的Write方法用于在客户端输出信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324148" type="1">
+    <question>在ASP.NET中要掩盖TextBox控件中文本，需要将控件的TextMode属性设置为（选一项）</question>
+    <choice>
+      <option value="A">Password</option>
+      <option value="B">MultiLine</option>
+      <option value="C">SingleLine</option>
+      <option value="D">Null</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324149" type="1">
+    <question>在ASP.NET中有Button控件myButton，要是单击控件时，导航到其他页面http://www.abc.com, 正确的代码为（选一项）</question>
+    <choice>
+      <option value="A">private void myButton_Click(object sender, System.EventArgs e){Redirect("http://www.abc.com/");}</option>
+      <option value="B">private void myButton_Click(object sender, System.EventArgs e) {Request.Redirect("http://www.abc.com/");}</option>
+      <option value="C">private void myButton_Click(object sender, System.EventArgs e) {Reponse.Redirect("http://www.abc.com/");}</option>
+      <option value="D">private void myButton_Click(object sender, System.EventArgs e) {Request.Redirect("http://www.abc.com/");return true;}</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324150" type="1">
+    <question>在ASP.NET中执行如下代码，没有得到正确结果，原因是（选一项） public string Name{ get{ return"李小龙";}} 在Test.aspx页面中编写如下数据绑定表达式：&lt;%#Name%&gt;</question>
+    <choice>
+      <option value="A">在Test.aspx中绑定方式不对，应该用&lt;%= %&gt;代替&lt;%# %&gt;</option>
+      <option value="B">属性定义错误</option>
+      <option value="C">应在Page_Load方法中加入Page.DataBind();</option>
+      <option value="D">以上答案都不对</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324151" type="1">
+    <question>在ASPNET中，视图状态是通过以下( )控件来实现的。（选一项）</question>
+    <choice>
+      <option value="A">Input type = "text"</option>
+      <option value="B">Input type=hidden"</option>
+      <option value="C">Input type="image"</option>
+      <option value="D">Input type="file"</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324152" type="1">
+    <question>在C#中,解析XML的类都存放在以下哪个命名空间中（选一项）</question>
+    <choice>
+      <option value="A">System.Xml</option>
+      <option value="B">System.Xml.Schema</option>
+      <option value="C">System.Xml.Xsl</option>
+      <option value="D">System.Xml.XPath</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324153" type="1">
+    <question>在DOM中，装载一个XML文档的方法（选一项）</question>
+    <choice>
+      <option value="A">Save方法</option>
+      <option value="B">Load方法</option>
+      <option value="C">LoadXML方法</option>
+      <option value="D">Send方法</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324154" type="1">
+    <question>在编写ASP.NET 页面时，若希望在每次页面载入时执行某个操作，则应将相应代码写入( )事件处理程序中。（选一项）</question>
+    <choice>
+      <option value="A">页面的Load</option>
+      <option value="B">页面的init</option>
+      <option value="C">页面的PreRender</option>
+      <option value="D">页面的Disposed 消息</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324155" type="1">
+    <question>在一个ASP.NET应用程序的Global.asax的Application_Start事件中定义了以下变量，下列说法正确的是（选二项） protected void Application_Start(Object sender,EventArgs e) { Application["count"]=1; }</question>
+    <choice>
+      <option value="A">每个用户都单独拥有该变量的值</option>
+      <option value="B">该变量在应用程序退出前一直存在</option>
+      <option value="C">所有用户都能访问该变量的值</option>
+      <option value="D">只有第一个用户可以访问该变量的值</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="324156" type="1">
+    <question>在一个ASP.NET应用程序的Global.Asax中，有以下的定义： protected void Application_Start(Object sender, EventArgs e) { Application["count"] = 123; }Application对象在页面也进行了引用，并且把count的小写改成了大写，代码如下：Response.Write(Application["COUNT"].ToString()); 则程序运行到上面的代码行时，将（选一项）</question>
+    <choice>
+      <option value="A">不出现错误，输出123</option>
+      <option value="B">不出现错误，但输出为0</option>
+      <option value="C">程序编译不能通过</option>
+      <option value="D">出现错误，表明为无对象实例，非法的NULL引用</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324157" type="1">
+    <question>在一个ASP.NET中，要执行整个页面的有效性验证，使用以下的代码： void ValidateBtn_Click(Object Sender, EventArgs E) { //（1）此处填写正确的代码 { lblOutput.Text = "验证通过"; } else { lblOutput.Text = "验证未通过"; } }则（1）处的代码行应该为（选一项）</question>
+    <choice>
+      <option value="A">if (Page.Validate == true)</option>
+      <option value="B">if (Page.IsValid == true)</option>
+      <option value="C">if (Page.Validators == true)</option>
+      <option value="D">if (Page.VerifyRenderingInServerForm == true)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="324158" type="1">
+    <question>在一个ASPNET开发的图书销售系统中，有一个Web窗体，窗体中有个名为DropDownListBookName的DropDownList控件以及一个名为btnGetBookName的Button控件，在btnGetBookName控件的Click事件中如下代码: private void GetBookName_Click(object sender,System.EventArgs e) { string [] bookName = {"CSharp高级应用程序开发上","CSharp高级应用程序开发中","CSharp高级应用程序开发下"}; ArrayList bookNameArr = new ArrayList(); for(int i=0; i&lt;bookName.Length; i++ ) { bookNameArr.Add(bookName[i].Replace("中","下")); } this.DropDownListBookName.DataSource = bookNameArr; }该Web窗体启动后，当用户点击btnGetBookName控件后，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">在DropDownListBookName控件中Items集合中有两项，分别为"CSharp高级应用程序开发上"、"CSharp高级应用程序开发下"</option>
+      <option value="B">在DropDownListBookName控件中Items集合中有三项，分别为"CSharp高级应用程序开发上"、"CSharp高级应用程序开发中"、"CSharp高级应用程序开发下"</option>
+      <option value="C">在DropDownListBookName没有任何项，因为没有调用DropDownListBookName控件的DataBind方法</option>
+      <option value="D">如果在this.DropDownListBookName.DataBind();则在DropDownListBookName控件中Items集合中有两项，分别为"CSharp高级应用程序开发上"、"CSharp高级应用程序开发下"</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="324159" type="1">
+    <question>在一个ASPX页面的Page_Load事件中，编写了如下代码，则执行该页面后，将在页面中输出（选一项） private void Page_Load(object sender,System.EventArgs e) { Response.Write("欢迎光临"); Response.End(); Response.Write("欢迎下次光临"); }</question>
+    <choice>
+      <option value="A">欢迎光临</option>
+      <option value="B">欢迎下次光临</option>
+      <option value="C">欢迎光临 欢迎下次光临</option>
+      <option value="D">欢迎光临欢迎下次光临</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324160" type="1">
+    <question>在一个ASPX页面中,有四个RadioButton控件,他们的HTML代码如下.当用户单击足球RadioButton控件后,下列说法正确的是（选一项） &lt;asp:RadioButton id="RadioButton1" groupName="bigBall" runat="server" Text="篮球"&gt;&lt;/asp:RadioButton&gt;&lt;asp:RadioButton id="RadioButton2" groupName="bigBall" runat="server" Text="足球"&gt;&lt;/asp:RadioButton&gt;&lt;asp:RadioButton id="RadioButton3" groupName="smallBall" runat="server" Text="乒乓球"&gt;&lt;/asp:RadioButton&gt;</question>
+    <choice>
+      <option value="A">篮球RadioButton控件的Checked属性变为False</option>
+      <option value="B">乒乓球RadioButton控件的Checked属性变为False</option>
+      <option value="C">羽毛球RadioButton控件的Checked属性变为True</option>
+      <option value="D">篮球RadioButton控件的Checked属性变为True</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="324161" type="1">
+    <question>在一个ASPX页面中有一个HyperLink控件,该控件的Target属性为"_blank",NavigateUrl属性为"http://www.baidu.com", 当用户单击该控件后，下列说法正确的是（选择一项）</question>
+    <choice>
+      <option value="A">当前窗体将变为空白页</option>
+      <option value="B">将打开一个新的空白页窗体</option>
+      <option value="C">在当前页面打开"http://www.baidu.com"网址对应的网页</option>
+      <option value="D">在一个新的窗体中打开"http://www.baidu.com"网址对应的网页</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="324162" type="1">
+    <question>在一购物车的ASP.NET应用程序中，若使用以下的代码来存储当前会话的口令信息：Session["pp"]=txtPwd.Text;则该代码在执行时将（选一项）</question>
+    <choice>
+      <option value="A">报告错误信息，提示NULL引用</option>
+      <option value="B">报告错误信息，应该使用Session["Password"]来进行标识</option>
+      <option value="C">不报告错误信息，但是存储的口令信息永远为空</option>
+      <option value="D">正常运行</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+</root>

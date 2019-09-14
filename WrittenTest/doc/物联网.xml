@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="413001" type="1">
+    <question>C#中String和StringBuilder的区别，下列描述正确的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">String 在进行运算时会产生一个新的实例，而 StringBuilder 则不会。</option>
+      <option value="B">StringBuilder是引用类型而String是值类型</option>
+      <option value="C">String类型可以隐式转换为StringBuilder类型</option>
+      <option value="D">StringBuilder 在进行运算时会产生一个新的实例，而 String 则不会。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413002" type="1">
+    <question>C#中存储过程参数的（ ）属性表明它是输入还是输出参数（选一项）</question>
+    <choice>
+      <option value="A">DbType</option>
+      <option value="B">ParameterName</option>
+      <option value="C">Direction</option>
+      <option value="D">SqlDbType</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413003" type="1">
+    <question>C#中将字符串转换为byte[]类型的方法是（ ）（选一项）</question>
+    <choice>
+      <option value="A">Encoding.Default.GetChars()</option>
+      <option value="B">Encoding.Default.GetBytes()</option>
+      <option value="C">Encoding.Default.GetString()</option>
+      <option value="D">Encoding.Default.GetByteCount()</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413004" type="1">
+    <question>C#中要定时循环执行某一操作，用到的控件是（ ）（选一项）</question>
+    <choice>
+      <option value="A">listBox</option>
+      <option value="B">timer</option>
+      <option value="C">ComboBox</option>
+      <option value="D">DataSet</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413005" type="1">
+    <question>C#中用于定义句柄的类型是（ ）（选一项）</question>
+    <choice>
+      <option value="A">int</option>
+      <option value="B">char</option>
+      <option value="C">IntPtr</option>
+      <option value="D">Byte</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413006" type="1">
+    <question>C/S架构中承担承担着连接各种感知设备，以及与它们通信的功能的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">Client端</option>
+      <option value="B">Server端</option>
+      <option value="C">RFID端</option>
+      <option value="D">网络层</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413007" type="1">
+    <question>EPCSDK.dll库中打开串口的函数是（ ）（选一项）</question>
+    <choice>
+      <option value="A">ResumeReading</option>
+      <option value="B">IdentifySingleTag</option>
+      <option value="C">ReadTag</option>
+      <option value="D">OpenComm</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413008" type="1">
+    <question>EPC编码存储在（ ）（选一项）</question>
+    <choice>
+      <option value="A">读写器存储芯片</option>
+      <option value="B">传输协议</option>
+      <option value="C">应用程序</option>
+      <option value="D">RFID标签的微型芯片</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413009" type="1">
+    <question>EPC编码是由（ ）组成（选一项）</question>
+    <choice>
+      <option value="A">由标头、厂商识别代码、对象分类代码、序列号</option>
+      <option value="B">由序列号、厂商识别代码、对象分类代码、商品代码</option>
+      <option value="C">由标头、地区代码、对象分类代码、序列号</option>
+      <option value="D">由序列号、厂商识别代码、商品代码、出厂日期</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413010" type="1">
+    <question>EPC标签中每个地址可以存储的容量是（ ）字节（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413011" type="1">
+    <question>FastWriteTag函数是EPCSDK.dll提供的快速写入标签的函数，下面代码中空白处应填入的代码是（ ）（选一项） byte[] data = Encoding.Default.GetBytes("独孤求败"); if (EPCSDKHelper.FastWriteTag(_handle, 0x03, 0x00, _______,_______, 0)) { MessageBox.Show("写入用户区成功"); } else { MessageBox.Show("写入用户区失败"</question>
+    <choice>
+      <option value="A">data,4</option>
+      <option value="B">4,data</option>
+      <option value="C">data,8</option>
+      <option value="D">8,data</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413012" type="1">
+    <question>JT6220读写器参数的设置使用下面（ ）函数（选一项）</question>
+    <choice>
+      <option value="A">SetReaderParameters</option>
+      <option value="B">GetReaderParameters</option>
+      <option value="C">ReadByEpcID</option>
+      <option value="D">InitializeTag</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413013" type="1">
+    <question>JT6220读写器的参数获取使用下面（ ）函数（选一项）</question>
+    <choice>
+      <option value="A">SetReaderParameters</option>
+      <option value="B">GetReaderParameters</option>
+      <option value="C">ReadByEpcID</option>
+      <option value="D">InitializeTag</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413014" type="1">
+    <question>RFID读写器上电之后不工作，需要检查其供电是否正常，其电源适配器的交流电供电电压应在（ ）（选一项）</question>
+    <choice>
+      <option value="A">220V以上</option>
+      <option value="B">7.5V左右</option>
+      <option value="C">100-240V之间</option>
+      <option value="D">7-9V之间</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413015" type="1">
+    <question>RFID设备根据频率来分类可分为四类，下面分类正确的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">低频、高频、超高频、微波</option>
+      <option value="B">低频、中频、高频、超高频</option>
+      <option value="C">低频、高频、超高频、射频</option>
+      <option value="D">低频、中频、高频、微波</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413016" type="1">
+    <question>RFID设备选型的三大原则是（ ）（选三项）</question>
+    <choice>
+      <option value="A">符合国家标准</option>
+      <option value="B">最好有技术支持</option>
+      <option value="C">适合应用环境</option>
+      <option value="D">与现有系统的结合</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="413017" type="1">
+    <question>RFID设备属于物联网中的（ ）层（选一项）</question>
+    <choice>
+      <option value="A">感知层</option>
+      <option value="B">应用层</option>
+      <option value="C">网络层</option>
+      <option value="D">编码层</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413018" type="1">
+    <question>WriteTagSingleWord函数是EPCSDK.dll提供的写入标签的函数，下面代码中空白处应填入的代码是（ ）（选一项） byte[] data = new byte[2]; data = Encoding.Default.GetBytes("中"); if(EPCSDKHelper.WriteTagSingleWord(_handle,0x03,0x00,________,________,0)) { MessageBox.Show("写入用户区1个字（2字节）成功"); } else</question>
+    <choice>
+      <option value="A">data,0</option>
+      <option value="B">0,data</option>
+      <option value="C">data[0],data[1]</option>
+      <option value="D">data.Length,data</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413019" type="1">
+    <question>标明现在申明的是外部函数所使用的修饰符是（ ）（选一项）</question>
+    <choice>
+      <option value="A">static</option>
+      <option value="B">struct</option>
+      <option value="C">extern</option>
+      <option value="D">internal</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413020" type="1">
+    <question>标签的访问密码最多（ ）位16进制数（选一项）</question>
+    <choice>
+      <option value="A">4</option>
+      <option value="B">6</option>
+      <option value="C">8</option>
+      <option value="D">16</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413021" type="1">
+    <question>标准RS-232串口的连接线只是采用九芯中的（ ）进行连接（选一项）</question>
+    <choice>
+      <option value="A">4、5、8</option>
+      <option value="B">1、2、3</option>
+      <option value="C">2、3、5</option>
+      <option value="D">2、3、4</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413022" type="1">
+    <question>采用IdentifyUploadedMultiTags函数识别标签，一次最多识别（ ）个标签（选一项）</question>
+    <choice>
+      <option value="A">50</option>
+      <option value="B">100</option>
+      <option value="C">150</option>
+      <option value="D">200</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413023" type="1">
+    <question>超高频RFID协议是以下（ ）一种？（选一项）</question>
+    <choice>
+      <option value="A">ISO18000-6C</option>
+      <option value="B">14443a</option>
+      <option value="C">ISO15693</option>
+      <option value="D">ISO/IEC14443</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413024" type="1">
+    <question>超高频读写器识别电子标签采用的原理是（ ）（选一项）</question>
+    <choice>
+      <option value="A">光电耦合</option>
+      <option value="B">电感耦合</option>
+      <option value="C">阻容耦合</option>
+      <option value="D">电磁反向散射耦合</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413025" type="1">
+    <question>从通信方式来划分，下列（ ）不属于读写器的常见工作模式（选一项）</question>
+    <choice>
+      <option value="A">单标签模式</option>
+      <option value="B">定时模式</option>
+      <option value="C">主从模式</option>
+      <option value="D">触发模式</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413026" type="1">
+    <question>当RFID应用系统中需要同时使用多台读写器进行标签识别时，应当使用下列（ ）技术来对每台读写器的识别进行控制？（选一项）</question>
+    <choice>
+      <option value="A">存储过程</option>
+      <option value="B">多线程</option>
+      <option value="C">配置文件</option>
+      <option value="D">委托</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413027" type="1">
+    <question>当SQL Server数据库经常作为C/S架构中的服务器系统，它的登录方式包括以下（ ）（选两项）</question>
+    <choice>
+      <option value="A">Windows身份验证</option>
+      <option value="B">本地账户身份验证</option>
+      <option value="C">远程账户身份验证</option>
+      <option value="D">SQL Server身份验证</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="413028" type="1">
+    <question>当串口不能连接时，下面检查中描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">需要检查读写器是否符合ISO18000-6B/C协议</option>
+      <option value="B">需要检查读写器的波特率是否设置正确</option>
+      <option value="C">查看选择的COM口是不是跟读写器与PC连接的相符。</option>
+      <option value="D">串口电缆是否连接正确，电缆未连接或连接不牢靠会导致PC机的命令不能下发到读写器</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413029" type="1">
+    <question>电脑的串行传输接口一次只能传输（ ）数据（选一项）</question>
+    <choice>
+      <option value="A">1 byte</option>
+      <option value="B">1 int</option>
+      <option value="C">1 bit</option>
+      <option value="D">1 char</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413030" type="1">
+    <question>电子标签的保留区是用于存放（ ）的区域（选一项）</question>
+    <choice>
+      <option value="A">EPC编码</option>
+      <option value="B">用户数据</option>
+      <option value="C">访问密码</option>
+      <option value="D">唯一编号</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413031" type="1">
+    <question>读写器的频率LF, HF, UHF分别对应于（ ）（选一项）</question>
+    <choice>
+      <option value="A">高频、超高频、微波</option>
+      <option value="B">低频、中频、高频</option>
+      <option value="C">低频、高频、超高频</option>
+      <option value="D">中频、高频、超高频</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413032" type="1">
+    <question>多线程的命名空间是（ ）（选一项）</question>
+    <choice>
+      <option value="A">System.Threading;</option>
+      <option value="B">System.Configuration;</option>
+      <option value="C">System.Collections.Generic;</option>
+      <option value="D">System.Runtime.InteropServices;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413033" type="1">
+    <question>发生在读写器与电子标签之间射频信号的耦合类型分为（ ）（选二项）</question>
+    <choice>
+      <option value="A">光电耦合</option>
+      <option value="B">电感耦合</option>
+      <option value="C">阻容耦合</option>
+      <option value="D">电磁反向散射耦合</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="413034" type="1">
+    <question>关于串口通讯下列描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">串口也可以称为COM口</option>
+      <option value="B">RS-232被称为标准串口，也是最常用的一种串行通讯接口</option>
+      <option value="C">串口不支持热插拔，且传输速率较低</option>
+      <option value="D">串口通讯不支持全双工模式</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413035" type="1">
+    <question>关于动态链接库下面描述错误的是（）（选一项）</question>
+    <choice>
+      <option value="A">动态链接库英文为DLL，是Dynamic Link Library 的缩写形式</option>
+      <option value="B">DLL是一个可执行文件</option>
+      <option value="C">DLL是一个包含可由多个程序同时使用的代码和数据的库</option>
+      <option value="D">DLL 包含一个或多个已被编译、链接并与使用它们的进程分开存储的函数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413036" type="1">
+    <question>关于事件下列描述正确的是（ ）（选两项）</question>
+    <choice>
+      <option value="A">事件是WinForm中独有的机制</option>
+      <option value="B">事件可以看作是一种特殊的委托</option>
+      <option value="C">事件是对委托的一种封装表现形式</option>
+      <option value="D">事件可以用于替换委托</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="413037" type="1">
+    <question>关于委托描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">委托是一种引用方法的类型</option>
+      <option value="B">委托即能够对静态方法进行调用也能够对实例方法进行调用</option>
+      <option value="C">委托定义了方法的类型</option>
+      <option value="D">定义委托必须使用public修饰符</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413038" type="1">
+    <question>关于相邻判别下列描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">相邻判别间隔时间越长表明同一标签识别到的几率越小</option>
+      <option value="B">启用相邻判别需要设置两个参数。</option>
+      <option value="C">相邻判别只能用在定时模式下</option>
+      <option value="D">相邻判别间隔时间设置为0的话表示不启用相邻判别</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413039" type="1">
+    <question>假设已有EPCSDKHelp类封装了操作读写器的函数，下面代码中应该填入的参数是（ ）（选一项） IntPtr _handle = EPCSDKHelp.OpenComm(1); byte[] data = new byte[] {0xED,0x0A,0x04,0x30,0x19,0x20 }; EPCSDKHelp.FastWriteTagID( ?,?,?,?);</question>
+    <choice>
+      <option value="A">_handle,12,data,0</option>
+      <option value="B">_handle,6,data,0</option>
+      <option value="C">_handle,data,0,12,0,0</option>
+      <option value="D">_handle,data,0,6,0,0</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413040" type="1">
+    <question>灭活密码保存在（ ）（选一项）</question>
+    <choice>
+      <option value="A">TID区的地址2-5</option>
+      <option value="B">EPC区的地址2-7</option>
+      <option value="C">保留区的地址0-1</option>
+      <option value="D">保留区的地址2-3</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413041" type="1">
+    <question>能够快速读取标签中EPC区域的函数是（ ）（选一项）</question>
+    <choice>
+      <option value="A">FastWriteTagID</option>
+      <option value="B">ReadTag</option>
+      <option value="C">IdentifySingleTag</option>
+      <option value="D">InitializeTag</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413042" type="1">
+    <question>能一次性写入多个字节的函数是（ ）（选一项）</question>
+    <choice>
+      <option value="A">WriteTagSingleWord</option>
+      <option value="B">FastWriteTag</option>
+      <option value="C">FastWriteTagID</option>
+      <option value="D">InitializeTag</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413043" type="1">
+    <question>如需要使用多标签读取函数时，需要将读写器设置（ ）状态（选一项）</question>
+    <choice>
+      <option value="A">触发模式+多标签识别</option>
+      <option value="B">定时模式+多标签识别</option>
+      <option value="C">主从模式+多标签识别</option>
+      <option value="D">以上均可</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413044" type="1">
+    <question>设立EPC编码的目标是（ ）（选一项）</question>
+    <choice>
+      <option value="A">对硬件设备进行管理</option>
+      <option value="B">对物理世界对象的唯一标识</option>
+      <option value="C">对数据建立唯一标识</option>
+      <option value="D">一种信号协议</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413045" type="1">
+    <question>申明委托的关键字是（ ）（选一项）</question>
+    <choice>
+      <option value="A">extern</option>
+      <option value="B">DllImport</option>
+      <option value="C">delegate</option>
+      <option value="D">Event</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413046" type="1">
+    <question>物联网的三个重要特征是（）（选三项）</question>
+    <choice>
+      <option value="A">全面感知</option>
+      <option value="B">物物相连</option>
+      <option value="C">可靠传递</option>
+      <option value="D">智能处理</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="413047" type="1">
+    <question>下列（ ）不属于RFID系统的组成部分（选一项）</question>
+    <choice>
+      <option value="A">阅读器</option>
+      <option value="B">天线</option>
+      <option value="C">标签</option>
+      <option value="D">传感器</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413048" type="1">
+    <question>下列（ ）区域的数据不需要锁定也不能修改（选一项）</question>
+    <choice>
+      <option value="A">保留区</option>
+      <option value="B">EPC区</option>
+      <option value="C">TID区</option>
+      <option value="D">用户区</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413049" type="1">
+    <question>下列（ ）是表明Command对象是存储过程的类型（选一项）</question>
+    <choice>
+      <option value="A">CommandType.Text</option>
+      <option value="B">CommandType.TableDirect</option>
+      <option value="C">CommandType.StoredProcedure</option>
+      <option value="D">CommandType.Parameters</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413050" type="1">
+    <question>下列（ ）种工作频率不是采用的电感耦合（选一项）</question>
+    <choice>
+      <option value="A">125kHz</option>
+      <option value="B">225kHz</option>
+      <option value="C">13.56MHz</option>
+      <option value="D">443MHz</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413051" type="1">
+    <question>下列关于电子标签的保留区描述正确的是（ ）（选二项）</question>
+    <choice>
+      <option value="A">保留区的访问标志是0x02</option>
+      <option value="B">保留区的地址范围是0-8</option>
+      <option value="C">保留区的地址0-1存储的是8位16进制的灭活密码</option>
+      <option value="D">保留区的地址2-3存储的是8位16进制的访问密码</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="413052" type="1">
+    <question>下列区域锁定后既不能读取也不能修改的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">保留区</option>
+      <option value="B">EPC区</option>
+      <option value="C">TID区</option>
+      <option value="D">用户区</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413053" type="1">
+    <question>下面（ ）标准及协议被称为标准串口（选一项）</question>
+    <choice>
+      <option value="A">RS-458</option>
+      <option value="B">RS-422</option>
+      <option value="C">RJ45</option>
+      <option value="D">RS-232</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413054" type="1">
+    <question>下面（ ）不属于物联网的系统架构（选一项）</question>
+    <choice>
+      <option value="A">数据层</option>
+      <option value="B">应用层</option>
+      <option value="C">感知层</option>
+      <option value="D">编码层</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413055" type="1">
+    <question>下面代码是C/S架构中客户端获取服务器时间，并设置本地系统时间与服务器同步的代码，空白处应该填入（ ）（选一项） DateTime serverTime = (DateTime)DBHelper.ExcuteQuery("___________").Rows[0][0]; SystemTime st = new SystemTime(); st.wYear = (short)serverTime.Year; st.wMonth = (short)serverTime.Month; st.wDay = (s</question>
+    <choice>
+      <option value="A">Select getdate from sysobjects</option>
+      <option value="B">Select * from getdate()</option>
+      <option value="C">Select getdate()</option>
+      <option value="D">Select @@ServerTime</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413056" type="1">
+    <question>下面代码是申明EPCSDK.dll中的打开和关闭串口的函数，请指出里面包含（ ）处错误（选一项） --[DllImport(“EPCSDK.dll”)] --public static extern IntPtr OpenComm(int portNo); --[DllImport(“EPCSDK.dll”)] --public static extern void CloseComm();</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413057" type="1">
+    <question>下面代码中读取的是（ ）区的数据（选一项） byte[] data=new byte[2]; if(EPCSDKHelper.ReadTag(_handle,0x03,0x00,1,data,0)) { String str=Encoding.Default.GetString(data); MessageBox.Show(str); }</question>
+    <choice>
+      <option value="A">保留区</option>
+      <option value="B">EPC区</option>
+      <option value="C">TID区</option>
+      <option value="D">用户区</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413058" type="1">
+    <question>下面关于Demo软件的作用描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">Demo软件可以用于调试RFID读写器</option>
+      <option value="B">可以借用Demo软件来设置读写器的参数</option>
+      <option value="C">Demo软件可以用来检查标签状况</option>
+      <option value="D">Demo软件是开发RFID系统应用必备的工具</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413059" type="1">
+    <question>下面关于多线程的描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">线程是进程中的一个执行单元；是操作系统分配CPU时间的基本单元。</option>
+      <option value="B">IsAlive可以获得当前线程的执行状态</option>
+      <option value="C">新建一个线程必须要先实例化一个Thread对象</option>
+      <option value="D">Thread对象的构造方法必须要使用ThreadStart委托</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413060" type="1">
+    <question>下面关于多线程的描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">一个Thread实例只能管理一个线程</option>
+      <option value="B">C#中Main()方法总是第一个线程</option>
+      <option value="C">线程一旦启动不能随意停止</option>
+      <option value="D">新创建的线程里不能直接调用主线程里的控件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413061" type="1">
+    <question>下面关于新增配置文件节点代码中应该填入的是（ ）（选一项） Configuration cf = ConfigurationManager.OpenExeConfiguration(“配置文件"); cf.AppSettings.Settings.Add(“color”, “red”); //新增appSettings节点 ____________________;</question>
+    <choice>
+      <option value="A">ConfigurationManager.RefreshSection(“appSettings”)</option>
+      <option value="B">cf.Save()</option>
+      <option value="C">return cf</option>
+      <option value="D">cf.AppSettings.Settings["color"].Value = status</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413062" type="1">
+    <question>下面这段代码是EPCSDK.dll中单标签读取函数的运用，其中空白处应填入（ ）（选一项） byte[] data = new byte[12]; if (EPCSDKHelper.IdentifySingleTag(hCom, data, null, 0)) { StringBuilder sb = new StringBuilder(__________); foreach (byte b in data) sb.Append(Convert.ToString(b, 16</question>
+    <choice>
+      <option value="A">data</option>
+      <option value="B">data.length</option>
+      <option value="C">data.Length * 2</option>
+      <option value="D">data.Length * 3</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413063" type="1">
+    <question>下面这段代码执行后，写入到标签里的数据是（ ）（选一项） byte[] data = new byte[12]; data = Encoding.Default.GetBytes("0123456789ABCDEF"); if (EPCSDKHelper.FastWriteTagID(_handle, 12, data, 0)) { MessageBox.Show("写入EPC编码成功"); } else { MessageBox.Show("写入EPC失败"); }</question>
+    <choice>
+      <option value="A">0123456789ABCDEF</option>
+      <option value="B">0123456789AB</option>
+      <option value="C">0123456789</option>
+      <option value="D">012345</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413064" type="1">
+    <question>现有一套不停车收费系统需采用RFID技术对车辆进行识别，应采用（ ）标签（选一项）</question>
+    <choice>
+      <option value="A">卡片类标签</option>
+      <option value="B">标签类标签</option>
+      <option value="C">注塑类抗金属标签</option>
+      <option value="D">防撕标签</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413065" type="1">
+    <question>在 C#中要引用外部实现的API函数时需要引入的命名空间是（ ）（选一项）</question>
+    <choice>
+      <option value="A">System.Threading;</option>
+      <option value="B">System.Configuration;</option>
+      <option value="C">System.Collections.Generic;</option>
+      <option value="D">System.Runtime.InteropServices;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413066" type="1">
+    <question>在C#中将字符串编码为字节序列的方法是（ ）（选一项）</question>
+    <choice>
+      <option value="A">Encoding.Default.GetBytes()</option>
+      <option value="B">Encoding.Default.GetEncoder()</option>
+      <option value="C">Encoding.Default.GetString()</option>
+      <option value="D">Encoding.Default.GetByteCount()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413067" type="1">
+    <question>在C#中将字节序列解码为字符串的方法是（ ）（选一项）</question>
+    <choice>
+      <option value="A">Encoding.Default.GetBytes()</option>
+      <option value="B">Encoding.Default.GetEncoder()</option>
+      <option value="C">Encoding.Default.GetString()</option>
+      <option value="D">Encoding.Default.GetByteCount()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413068" type="1">
+    <question>在C#中要读取配置文件必须要引入（ ）命名空间（选一项）</question>
+    <choice>
+      <option value="A">System.Threading;</option>
+      <option value="B">System.Configuration;</option>
+      <option value="C">System.Collections.Generic;</option>
+      <option value="D">System.Runtime.InteropServices;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413069" type="1">
+    <question>在EPCSDK.dll动态库中提供了多标签识别的函数IdentifyUploadedMultiTags，申明方式如下，它需要有5个参数，按先后顺序分别代表（ ）（选一项） [DllImport("EPCSDK.dll")] public static extern bool IdentifyUploadedMultiTags(IntPtr hCom, out byte tagNum, byte[] tagIds, byte[] devNos, byte[] antennaNos);</question>
+    <choice>
+      <option value="A">串口句柄、接收到的标签数、接收标签EPC的变量数组地址、设备号的数组地址、天线号的数组地址</option>
+      <option value="B">串口句柄、接收到的标签数组长度、接收标签EPC的变量数组地址、设备号的数组地址、天线号的数组地址</option>
+      <option value="C">串口句柄、接收到的字节长度、接收标签EPC的变量数组地址、天线号的数组地址、读头地址</option>
+      <option value="D">串口句柄、接收的标签数、标签区域地址、接收标签EPC的变量地址、读头地址</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413070" type="1">
+    <question>在EPCSDK.dll提供的函数中能够对标签所有区域进行读取的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">IdentifySingleTag</option>
+      <option value="B">ReadFirmwareVersion</option>
+      <option value="C">ReadTag</option>
+      <option value="D">IdentifyUploadedMultiTags</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413071" type="1">
+    <question>在SQL Server中类型为image的字段，在C#中的实体类应该使用（ ）类型来表示（选一项）</question>
+    <choice>
+      <option value="A">Image</option>
+      <option value="B">String</option>
+      <option value="C">Byte[]</option>
+      <option value="D">IntPtr</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413072" type="1">
+    <question>在WinForms的窗体继承中父窗体控件中的（ ）属性可以控制是否可以被子窗体修改（选一项）</question>
+    <choice>
+      <option value="A">Modifiers</option>
+      <option value="B">Locked</option>
+      <option value="C">TopMost</option>
+      <option value="D">Enabled</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413073" type="1">
+    <question>在WinForms中要实现窗体的动画效果，需要借助（ ）动态库的API函数（选一项）</question>
+    <choice>
+      <option value="A">mpr.dll</option>
+      <option value="B">EPCSDK.dll</option>
+      <option value="C">kernel32.dll</option>
+      <option value="D">user32.dll</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413074" type="1">
+    <question>在多线程中，新开设的工作线程如要更新界面上的控件需要将代码封装为一个方法或委托，然后通过（ ）方法调用（选一项）</question>
+    <choice>
+      <option value="A">delegate</option>
+      <option value="B">Invoke</option>
+      <option value="C">Append</option>
+      <option value="D">CreateHandle</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413075" type="1">
+    <question>在考勤系统中用于考勤识别的读写器应当设置为（ ）模式（选一项）</question>
+    <choice>
+      <option value="A">主从模式、单标签读取</option>
+      <option value="B">定时模式、单标签读取</option>
+      <option value="C">主从模式、多标签读取</option>
+      <option value="D">定时模式、多标签读取</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413076" type="1">
+    <question>在门禁管理系统中用于识别出入人员标签信息的读写器应该选用（ ）（选一项）</question>
+    <choice>
+      <option value="A">高频读写器</option>
+      <option value="B">低频读写器</option>
+      <option value="C">超高频读写器</option>
+      <option value="D">以上均可</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413077" type="1">
+    <question>在使用IdentifyUploadedMultiTags函数识别多标签时可以借（ ）方法将单个标签EPC码提取为一个byte[]（选一项）</question>
+    <choice>
+      <option value="A">Buffer. BlockCopy</option>
+      <option value="B">Buffer. ByteLength</option>
+      <option value="C">Buffer. GetByte</option>
+      <option value="D">Buffer. SetByte</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413078" type="1">
+    <question>在智能医管的婴儿防盗系统中不包含以下（ ）系统模块（选一项）</question>
+    <choice>
+      <option value="A">系统基础信息管理</option>
+      <option value="B">系统权限管理</option>
+      <option value="C">新生儿出入监控管理</option>
+      <option value="D">医护人员考勤管理</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413079" type="1">
+    <question>在智能医管系统中对于医护人员信息管理的标签发放应采用（ ）模式的读写器（选一项）</question>
+    <choice>
+      <option value="A">主从模式、单标签读取</option>
+      <option value="B">定时模式、单标签读取</option>
+      <option value="C">主从模式、多标签读取</option>
+      <option value="D">定时模式、多标签读取</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413080" type="1">
+    <question>终止一个前台进程可能用到的命令和操作是（ ）（选一项）</question>
+    <choice>
+      <option value="A">kill</option>
+      <option value="B">&lt;CTRL&gt;;+C</option>
+      <option value="C">shut down</option>
+      <option value="D">halt</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413081" type="1">
+    <question>shell的类型主要有（ ）（选三项）</question>
+    <choice>
+      <option value="A">ash</option>
+      <option value="B">ksh</option>
+      <option value="C">csh</option>
+      <option value="D">bash</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="413082" type="1">
+    <question>改变文件所有者的命令是（ ）(选一项）</question>
+    <choice>
+      <option value="A">chmod改文件权限</option>
+      <option value="B">touch</option>
+      <option value="C">chown</option>
+      <option value="D">Cat查看内容</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413083" type="1">
+    <question>在使用mkdir命令创建新的目录时，在其父目录不存在时先创建父目录的选项是（ ）（选一项）</question>
+    <choice>
+      <option value="A">-m</option>
+      <option value="B">-d</option>
+      <option value="C">-f</option>
+      <option value="D">-p</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413084" type="1">
+    <question>我们一般使用（ )工具来对硬盘建立分区</question>
+    <choice>
+      <option value="A">mknod</option>
+      <option value="B">fdisk</option>
+      <option value="C">format</option>
+      <option value="D">mkfs</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413085" type="1">
+    <question>C语言规定：在一个源程序中，main函数的位置（ ）（选一项）</question>
+    <choice>
+      <option value="A">必须在最开始</option>
+      <option value="B">必须在系统调用的库函数的后面</option>
+      <option value="C">可以任意</option>
+      <option value="D">必须在最后</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413086" type="1">
+    <question>下面的变量说明中（ ）是正确的（选一项）</question>
+    <choice>
+      <option value="A">char:a,b,c;</option>
+      <option value="B">char a;b;c;</option>
+      <option value="C">char a,b,c;</option>
+      <option value="D">char a,b,c</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413087" type="1">
+    <question>若num、a、b、和c都是int型变量，则执行表达式num=(a=4,b=16,c=32);后num的值为（ )（选一项）</question>
+    <choice>
+      <option value="A">4</option>
+      <option value="B">16</option>
+      <option value="C">32</option>
+      <option value="D">52</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413088" type="1">
+    <question>计算机中-1的补码表现形式是（ ）（选一项）</question>
+    <choice>
+      <option value="A">00000001</option>
+      <option value="B">10000001</option>
+      <option value="C">11111110</option>
+      <option value="D">11111111</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413089" type="1">
+    <question>此程序的输出结果是（ ）（选一项） main() { int n; (n=6*4,n+6),n*2; printf("n=%d\n",n); }</question>
+    <choice>
+      <option value="A">30</option>
+      <option value="B">24</option>
+      <option value="C">60</option>
+      <option value="D">48</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413090" type="1">
+    <question>从循环体内某一层跳出，继续执行循环外的语句是（ ）（选一项）</question>
+    <choice>
+      <option value="A">break语句</option>
+      <option value="B">return语句</option>
+      <option value="C">continue语句</option>
+      <option value="D">空语句</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413091" type="1">
+    <question>两个指针变量的值相等时，表明两个指针变量是（ ）（选一项）</question>
+    <choice>
+      <option value="A">占据同一内存单元</option>
+      <option value="B">指向同一内存单元地址或者都为空</option>
+      <option value="C">是两个空指针</option>
+      <option value="D">都没有指向</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413092" type="1">
+    <question>不正确的指针概念是（ ）（选一项）</question>
+    <choice>
+      <option value="A">一个指针变量智能指向同一类型的变量</option>
+      <option value="B">一个变量的地址称为该变量的指针</option>
+      <option value="C">只有同一类型变量的地址才能存放在指向该类型变量的指针变量之中</option>
+      <option value="D">指针变量可以赋任意整数，但不能赋浮点数</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413093" type="1">
+    <question>设有数组定义：char array[]=" China";则数组所占的存储空间为（ ）（选一项）</question>
+    <choice>
+      <option value="A">4个字节</option>
+      <option value="B">5个字节</option>
+      <option value="C">6个字节</option>
+      <option value="D">7个字节</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413094" type="1">
+    <question>无线传感器网络的三要素是（ ）（选三项）</question>
+    <choice>
+      <option value="A">传感器</option>
+      <option value="B">感知对象</option>
+      <option value="C">通信网络</option>
+      <option value="D">观察者</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="413095" type="1">
+    <question>下面不属于无线传感器网络系统的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">射频节点</option>
+      <option value="B">传感器节点</option>
+      <option value="C">汇聚节点</option>
+      <option value="D">管理节点</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413096" type="1">
+    <question>目前无线传感器网络操作系统应用最广泛的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">TinyOS操作系统</option>
+      <option value="B">Contiki操作系统</option>
+      <option value="C">MANTIS操作系统</option>
+      <option value="D">SOS操作系统</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413097" type="1">
+    <question>在ATOS实验平台中搭载射频模块和传感器模块的连接性质的设备是（ ）（选一项）</question>
+    <choice>
+      <option value="A">网关板</option>
+      <option value="B">节点板</option>
+      <option value="C">在线烧录器</option>
+      <option value="D">传感器</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413098" type="1">
+    <question>在ATOS实验平台中用于在Windows下运行Linux的程序是（ ）（选一项）</question>
+    <choice>
+      <option value="A">TinyOS</option>
+      <option value="B">nesC</option>
+      <option value="C">Cygwin</option>
+      <option value="D">Ubuntu</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="413099" type="1">
+    <question>nesC语言编写的程序文件的扩展名是（）（选一项）</question>
+    <choice>
+      <option value="A">.h</option>
+      <option value="B">.nc</option>
+      <option value="C">.cs</option>
+      <option value="D">.c</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413100" type="1">
+    <question>关于TinyOS操作系统，下列描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">TinyOS 提供任务和事件的两级调度机制。</option>
+      <option value="B">TinyOS 操作系统的组件分为：硬件抽象组件、合成硬件组件和配置组件。</option>
+      <option value="C">TinyOS 操作系统任务之间互相平等，没有优先级之分</option>
+      <option value="D">在Tinyos中事件和任务被处理完成之后，CPU即 进入睡眠状态。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413101" type="1">
+    <question>在nesC 程序中主要定义（ ）两种功能不同的组件（选一项）</question>
+    <choice>
+      <option value="A">模块、配件</option>
+      <option value="B">任务、事件</option>
+      <option value="C">接口、事件</option>
+      <option value="D">接口、配件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413102" type="1">
+    <question>nesC当中模块组件的具体执行都由4 个相关部分组成，它们分别是（ ）（选一项）</question>
+    <choice>
+      <option value="A">命令函数、事件函数、任务函数和配置函数</option>
+      <option value="B">任务函数、事件函数、数据帧和执行线程</option>
+      <option value="C">接口、命令、事件函数和数据帧</option>
+      <option value="D">命令函数、事件函数、数据帧和执行线程</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="413103" type="1">
+    <question>nesC当中的接口包含（ ）函数原型（选二项）</question>
+    <choice>
+      <option value="A">任务</option>
+      <option value="B">命令</option>
+      <option value="C">事件</option>
+      <option value="D">方法</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="413104" type="1">
+    <question>接口中的事件使用（ ）关键字触发（选一项）</question>
+    <choice>
+      <option value="A">signal</option>
+      <option value="B">call</option>
+      <option value="C">provides</option>
+      <option value="D">async</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="413105" type="1">
+    <question>接口中命令的调用方法是使用关键字（ ）（选一项）</question>
+    <choice>
+      <option value="A">signal</option>
+      <option value="B">call</option>
+      <option value="C">provides</option>
+      <option value="D">async</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="413106" type="1">
+    <question>下面关于参数化接口描述错误的是（ ）（选一项）</question>
+    <choice>
+      <option value="A">参数化接口实际上是一个接口数组</option>
+      <option value="B">每个接口使用组件只能连接一个没有使用过的参数</option>
+      <option value="C">在使用参数化接口时，配置组件连接接口时必须要实例化它们</option>
+      <option value="D">参数化接口事件缺省是在接口的使用者组件中实现的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+</root>

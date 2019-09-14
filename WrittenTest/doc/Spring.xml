@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="316001" type="1">
+    <question>“依赖注入”使用最多的是面向对象中的哪种思想（选一项）</question>
+    <choice>
+      <option value="A">封装</option>
+      <option value="B">多态</option>
+      <option value="C">继承</option>
+      <option value="D">面向接口编程</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316002" type="1">
+    <question>AOP的切入点的类型有（选一项）</question>
+    <choice>
+      <option value="A">静态切入点，动态切入点</option>
+      <option value="B">静态切入点，动态切入点，自定义切入点</option>
+      <option value="C">动态切入点，自定义切入点</option>
+      <option value="D">静态切入点，自定义切入点</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316003" type="1">
+    <question>AOP中的通知（Advice）作用是（选一项）</question>
+    <choice>
+      <option value="A">一个关注点的模块化</option>
+      <option value="B">在程序执行过程中某个特定的点</option>
+      <option value="C">匹配连接点（Joinpoint）的断言</option>
+      <option value="D">在切面的某个特定的连接点（Joinpoint）上执行的动作</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316004" type="1">
+    <question>AOP中的通知类型有（选一项）</question>
+    <choice>
+      <option value="A">前置通知，返回后通知，抛出后通知，环绕通知</option>
+      <option value="B">前置通知，返回后通知，后通知，环绕通知</option>
+      <option value="C">前置通知，返回后通知，抛出后通知，后通知，环绕通知</option>
+      <option value="D">返回后通知，抛出后通知，后通知，环绕通知</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316005" type="1">
+    <question>Spring的配置文件如何查找Hibernate的配置文件（选一项）</question>
+    <choice>
+      <option value="A">自动查找，没有规则</option>
+      <option value="B">通过 spring 的配置去查找，配置文件放在哪里都可以</option>
+      <option value="C">通过 spring 的配置去查找，配置文件应该放在类路径下</option>
+      <option value="D">Hibernate 会自动去查找 spring 的文件，spring 配置文件什么都不管</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316006" type="1">
+    <question>Spring和DWR的结合，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Spring 和 DWR 结合没有什么用处</option>
+      <option value="B">Spring 和 DWR 结合可以让简单问题复杂化</option>
+      <option value="C">Spring 和 DWR 的结合可以控制事务</option>
+      <option value="D">Spring 和 DWR 的结合不能控制事务</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316007" type="1">
+    <question>Spring和Hibernate结合之后，下面的哪些情况会发生（选一项）</question>
+    <choice>
+      <option value="A">不用写任何操作数据库的内容，它会自己操作数据库</option>
+      <option value="B">不用写任何事务操作的内容，它会自己管理事务</option>
+      <option value="C">会增加程序的复杂度，更难维护</option>
+      <option value="D">会简化 Hibernate 的数据库操作</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316008" type="1">
+    <question>Spring和Hibernate已经配置成功，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">自己写的dao 必须继承Spring 的 HibernateDaoSupport</option>
+      <option value="B">可以不用写任何事务管理内容，spring 自己管理</option>
+      <option value="C">可以在 spring dao 中写 sql 语句</option>
+      <option value="D">Spring dao 不能进行分页和用 hibernate 中的对象查询方式</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316009" type="1">
+    <question>Spring和struts的结合，以下错误的是（选一项）</question>
+    <choice>
+      <option value="A">它们的结合，可以用 spring “依赖注入”的方式管理 Action 类</option>
+      <option value="B">它们的结合是浪费时间，完成可以直接用 Action，不用spring 管理</option>
+      <option value="C">它们的结合需要增加一些配置信息</option>
+      <option value="D">它们的结合可以减少程序的偶合度</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316010" type="1">
+    <question>Spring连接jdbc的内容，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">spring 不是通过 jdbc 方式进行连接的</option>
+      <option value="B">spring 和 jdbc 的配置中可以选择是用 sql 还是 hql</option>
+      <option value="C">spring 配置 jdbc 不能用存储过程</option>
+      <option value="D">spring 配置 jdbc 无法简化 jdbc 连接数据库的步骤</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316011" type="1">
+    <question>Spring 配置文件中有如下代码片段，则下面说法错误的是（选三项） &lt;bean id="testBean" class="com.my.PersonBean"&gt; &lt;property name="ss" value="10"&gt; &lt;property name="dd" value="abc"&gt; &lt;/bean&gt;</question>
+    <choice>
+      <option value="A">PersonBean 中一定有代码：private Integer ss;</option>
+      <option value="B">PersonBean中一定有 public void setSs(Integer ss) 方法</option>
+      <option value="C">PersonBean中一定有代码: private String ss;</option>
+      <option value="D">PersonBean中一定有 public void setDd(String dd) 方法</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="316012" type="1">
+    <question>Spring中提供Hibernate开发模板的类是（选一项）</question>
+    <choice>
+      <option value="A">JdbcTemplate?????????????</option>
+      <option value="B">JdbcDaoSupport</option>
+      <option value="C">HibernateTemplate?????????????</option>
+      <option value="D">HibernateDaoSupport</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316013" type="1">
+    <question>Spring中依赖检查的四种模式是（选一项）</question>
+    <choice>
+      <option value="A">none, simple, object, null</option>
+      <option value="B">none, simple, object, all</option>
+      <option value="C">none, all, object, null</option>
+      <option value="D">none, simple, null, all</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316014" type="1">
+    <question>SSH能够解决什么问题，下面的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">SSH什么都解决不了</option>
+      <option value="B">SSH可以降低程序的偶合度，让维护变得简单</option>
+      <option value="C">SSH可以把简单问题复杂化，让人感觉高深</option>
+      <option value="D">SSH可以把复杂问题简单化，能够更好的实现程序的维护</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="316015" type="1">
+    <question>编写类继承JdbcDaoSupport后，必须要注入的是（选一项）</question>
+    <choice>
+      <option value="A">dataSource和sessionFactory</option>
+      <option value="B">jdbcTemplate</option>
+      <option value="C">sessionFactory</option>
+      <option value="D">dataSource</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316016" type="1">
+    <question>代码&lt;proterty name="msg"&gt; &lt;value&gt;null&lt;value&gt; &lt;proterty name="msg"&gt;的作用是（选一项）</question>
+    <choice>
+      <option value="A">设置Bean的属性为null?????????????????????</option>
+      <option value="B">设置Bean的属性为空字符串</option>
+      <option value="C">设置Bean的属性为字符串，字符串的值是“null”????????????????????</option>
+      <option value="D">设置Bean的属性为msg</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316017" type="1">
+    <question>当Spring和Hibernate一起连用的时候，需要注意什么（选一项）</question>
+    <choice>
+      <option value="A">Spring 的配置文件 和 Hibernate 的配件文件一定要写同一个目录下面</option>
+      <option value="B">如果要用 Spring 中的 dao 一定要让自己写的 dao 继承 Spring 中HibernateDaoSupport 类</option>
+      <option value="C">如果要用 Spring 中的 dao 一定要让自己写的 dao 继承 Hibernate 中HibernateDaoSupport 类</option>
+      <option value="D">不用写自己的 dao 类，Spring 会生成的</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316018" type="1">
+    <question>当方法出现异常而结束时可以触发的通知是（选两项）。</question>
+    <choice>
+      <option value="A">前置通知</option>
+      <option value="B">抛出后通知</option>
+      <option value="C">返回后通知</option>
+      <option value="D">后通知</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="316019" type="1">
+    <question>当一个类继承HibernateDaoSupport之后，这个类会发生什么变化（选一项）</question>
+    <choice>
+      <option value="A">这个类没有任何变化</option>
+      <option value="B">这个类变成了数据库连接类</option>
+      <option value="C">这个类会自己生成增删查改的代码，什么内容也不用写</option>
+      <option value="D">这个类会简化 Hibernate 操作数据库的步骤，并且提供对 session 的管理功能</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316020" type="1">
+    <question>对下面Spring声明式事务的配置含义的说明错误的是（选一项） &lt;bean id="txProxyTemplate" abstract="true" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"&gt; &lt;property name="transactionManager" ref="myTransactionManager" /&gt; &lt;property name="transactionAttributes"&gt; &lt;props&gt; &lt;prop key="get*"&gt;PROPAGATION_REQUIRED,readOnly&lt;/prop&gt; &lt;prop key="*"&gt;PROPAGATION_REQUIRED&lt;/prop&gt; &lt;/props&gt; &lt;/property&gt; &lt;/bean&gt;</question>
+    <choice>
+      <option value="A">定义了声明式事务的配置模板</option>
+      <option value="B">对get方法采用只读事务</option>
+      <option value="C">缺少sessionFactory属性的注入</option>
+      <option value="D">配置需要事务管理的bean的代理时，通过parent引用这个配置模板，代码如下：&lt;bean id="petBiz" parent="txProxyTemplate"&gt; &lt;property name="target" ref="petTarget"/&gt; &lt;/bean&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316021" type="1">
+    <question>对于Spring和Struts的集成，下列说法错误的是（选两项）</question>
+    <choice>
+      <option value="A">Action Bean 的实例可以由 Spring 创建</option>
+      <option value="B">在 Struts 配置文件中，Action Bean 的配置可以如下所示： &lt;action name="userForm" path="/user" parameter="operate" scope="request" type="org.springframework..web.struts.DelegatingActionProxy" &gt; &lt;/action&gt;</option>
+      <option value="C">在 Spring 配置文件中，Action Bean 的配置可以如下所示： &lt;bean id="/user" class="com.svse.web.action.UserAction"&gt; &lt;property name="userBiz" ref="userBiz" /&gt; &lt;/bean&gt;</option>
+      <option value="D">由于 Spring 本身也提供了 MVC 功能，所以不能与 Struts 集成</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="316022" type="1">
+    <question>关于HibernateDaoSupport类，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">HibernateDaoSupport 类是 j2se 中的类</option>
+      <option value="B">HibernateDaoSupport 类是 j2ee 中的类</option>
+      <option value="C">HibernateDaoSupport 类是 hibernate 中的类</option>
+      <option value="D">HibernateDaoSupport 类是 spring 中的类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316023" type="1">
+    <question>关于Spring对Hibernate的支持，下面说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">Spring 提供基类完成了繁琐的异常处理代码</option>
+      <option value="B">Spring 提供基类完成了繁琐的事务处理代码</option>
+      <option value="C">Spring 提供的基类对查询没有提供良好的支持</option>
+      <option value="D">Spring 提供的基类需要注入 sessionFacotry 才能正常运行</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="316024" type="1">
+    <question>关于spring配置jdbc存储过程返回值，以下说明正确的是（选一项）</question>
+    <choice>
+      <option value="A">存储过程一定不能有返回值</option>
+      <option value="B">存储过程可以没有返回值</option>
+      <option value="C">存储过程一定要有返回值</option>
+      <option value="D">存储过程可以有返回值，也可以没有返回值</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316025" type="1">
+    <question>关于Struts、Spring、Hibernate的集成框架，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">使用SSH 框架开发项目，由于增加了大量配置工作，从而会降低开发的效率</option>
+      <option value="B">三个框架可以用多种方式进行集成</option>
+      <option value="C">使用 SSH 框架开发不利于实现复杂的业务逻辑</option>
+      <option value="D">使用 SSH 框架开发不利于构造复杂的页面和交互流程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316026" type="1">
+    <question>关于BeanFactory说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">它是一个接口</option>
+      <option value="B">最常用的是XmlBeanFactory</option>
+      <option value="C">BeanFactory所管理的bean的定义只能来自于一个配置文件</option>
+      <option value="D">ApplicationContext也是一个BeanFactory</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316027" type="1">
+    <question>关于JdbcTemplate说话正确的是（选一项）</question>
+    <choice>
+      <option value="A">queryForInt方法使用于查询结果只返回只有一条记录的语句</option>
+      <option value="B">JdbcTemplate只能是有SQL语句，不能调用存储过程</option>
+      <option value="C">JdbcTemplate中的update方法只能用于修改数据，插入和删除数据要使用execute方法</option>
+      <option value="D">将产品表里的所有查询出来并以Product对象列表形式返回应该使用queryForList方法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316028" type="1">
+    <question>关于Spring的AOP，下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">支持前置通知、后置通知、环绕通知</option>
+      <option value="B">采用代理的方式实现</option>
+      <option value="C">在Spring2.0以前的版本中，通过&lt;aop:config&gt;、&lt;aop:pointcut&gt;和&lt;aop:advisor&gt;配置</option>
+      <option value="D">与“依赖注入”实现紧密结合</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316029" type="1">
+    <question>关于Spring和jdbc的配置步骤，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">不用添加驱动，spring 有自己的驱动</option>
+      <option value="B">需要添加数据库驱动，因为每个数据库的驱动不一样</option>
+      <option value="C">不用写数据库连接， spring 自己会连接</option>
+      <option value="D">不用写数据库连接的用户名和密码，spring 会自己设置默认的用户名和密码</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316030" type="1">
+    <question>关于Spring和Struts的集成，下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">Spring 提供了插件扩展机制，可以方便地与其他技术集成</option>
+      <option value="B">Struts 提供了插件机制，可以方便地与其他技术集成</option>
+      <option value="C">Spring 配置文件只要放在类路径中就可以被 Struts 找到</option>
+      <option value="D">Spring 配置文件中 Action Bean 的 id 属性要与 Struts 配置文件中对应 Action 的 name 属性相同</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316031" type="1">
+    <question>关于spring框架的论述正确的是（选一项）</question>
+    <choice>
+      <option value="A">spring 是重量级的框架</option>
+      <option value="B">spring 是j2se的集合框架</option>
+      <option value="C">spring 是j2se轻量级的框架，具有 侵入性</option>
+      <option value="D">用了 struts 和hibernate框架的程序 spring 框架不是必须的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316032" type="1">
+    <question>关于spring配置jdbc存储过程的参数，以下说明正确的是（选一项）</question>
+    <choice>
+      <option value="A">存储过程不能没有参数</option>
+      <option value="B">存储过程的参数数目不能超过三个</option>
+      <option value="C">存储过程可以没有参数</option>
+      <option value="D">存储过程的参数必须和java中的类型对应</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316033" type="1">
+    <question>关于Spring，下列描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">它是一个轻量级容器，实现了反转控制模式</option>
+      <option value="B">在web层，它有自己的实现，但也可以和其它框架整合</option>
+      <option value="C">和EJB容器一样，是一个“全有全无”的解决方案</option>
+      <option value="D">Spring不能和EJB一起使用</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="316034" type="1">
+    <question>关于Spring的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">通过setter方法实现依赖注入</option>
+      <option value="B">对Hibernate提供了支持，可简化Hibernate编码</option>
+      <option value="C">通过AOP可以轻松与Hibernate集成</option>
+      <option value="D">通过AOP实现了声明式事务管理</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316035" type="1">
+    <question>关于“返回后通知”和”后通知”说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">无论方法是如何结束的都会触发“返回后通知”</option>
+      <option value="B">无论方法是如何结束的都会触发“后通知”</option>
+      <option value="C">如果方法没有返回值“返回后通知”不会触发</option>
+      <option value="D">如果方法没有返回值“后通知”不会触发</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316036" type="1">
+    <question>关于声明式事务，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">声明式事务没有编程式事务好</option>
+      <option value="B">声明式事务主要是用“依赖注入”的方式完成的</option>
+      <option value="C">声明式事务主要是用“面向方面”的方式完成的</option>
+      <option value="D">Hibernate 自带声明式事务，可以不用 Spring 提供的内容</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316037" type="1">
+    <question>关于声明式事务的说法，下面正确的是（选三项）</question>
+    <choice>
+      <option value="A">Spring 采取AOP 的方式实现声明式事务</option>
+      <option value="B">声明式事务是非侵入式的，可以不修改原来的代码就给系统增加事务支持</option>
+      <option value="C">配置声明式事务需要 tx 和 aop 两个命名空间的支持</option>
+      <option value="D">配置声明式事务时我们主要关注“在哪儿”和“采取什么样的事务策略”</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="316038" type="1">
+    <question>关于使用Spring组装程序组件，下面说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Spring 主要通过属性注入，所以需要在被注入的类中定义好 setter 方法</option>
+      <option value="B">类初始化的工作将由 Spring 完成，代码中需要对基依赖的对象用 new 创建</option>
+      <option value="C">&lt;bean&gt; 节点的 abstract 属性表示可以获得其实例</option>
+      <option value="D">如果配置文件采用Spring 2.0的，写事务的语法更复杂</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316039" type="1">
+    <question>假设某个bean要使用某种类型的资源，那么一般情况下应该把资源的释放放到bean的生命周期中的( )阶段。（选一项）</question>
+    <choice>
+      <option value="A">定义</option>
+      <option value="B">初如化</option>
+      <option value="C">使用</option>
+      <option value="D">销毁</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316040" type="1">
+    <question>假设在Spring中配置有A和B，如果B继承A应该配置（选一项）</question>
+    <choice>
+      <option value="A">&lt;bean id="B"　class=".." parent="A"&gt;</option>
+      <option value="B">&lt;bean id="A"　class=".." parent="B"&gt;</option>
+      <option value="C">&lt;bean id="B"　class=".." extends="A"&gt;</option>
+      <option value="D">&lt;bean id="A"　class=".." parent="B"&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316041" type="1">
+    <question>假设在src下有spring的配置文件bean.xml,以下能正确加载配置文件的代码是（选一项）</question>
+    <choice>
+      <option value="A">ApplicationContext ctx=new XmlClassPathApplicationContext("bean.xml");</option>
+      <option value="B">ApplicationContext ctx=new XmlClassPathApplicationContext("src/bean.xml");</option>
+      <option value="C">ApplicationContext ctx=new XmlClassPathApplicationContext("src/application.xml");????????????????????</option>
+      <option value="D">ApplicationContext ctx=new XmlClassPathApplicationContext("application.xml");?</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316042" type="1">
+    <question>面在Spring中Context模块的功能是（选一项）</question>
+    <choice>
+      <option value="A">提供类似JNDI的访问对象查询和国际化（I18N）的支持</option>
+      <option value="B">提供AOPA的接口和实现</option>
+      <option value="C">提供MVC框架的实现</option>
+      <option value="D">提供ORM</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316043" type="1">
+    <question>某业务方法materielApply(Person p, List list) 需要对其进行事务控制，下面的声明方式能起到效果的是（选两项）</question>
+    <choice>
+      <option value="A">将查询方法声明为只读事务，其他方法声明为REQUIRED</option>
+      <option value="B">声明 do 开头的方法为 REQUIRED,并修改方法名为 doMaterielApply</option>
+      <option value="C">&lt;tx:method name="Apply" propagation="REQUIRED" /&gt;</option>
+      <option value="D">事务的 propagation 属性声明为 SUPPORTS</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="316044" type="1">
+    <question>请看以下代码 public class FwxxDAOHibImpl extends HibernatedaoSupport //1. implements FwxxDAO{ //2. public void add(FWXX fwxx) { //3. super.getHibernateTemplate().insert(fwxx); //4. } }错误的是（选一项）</question>
+    <choice>
+      <option value="A">1处有错误</option>
+      <option value="B">2处有错误</option>
+      <option value="C">3处有错误</option>
+      <option value="D">4处有错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316045" type="1">
+    <question>请看以下代码 public List findAll() { List list = null; try { String hql = "select * from TblUser"; //1. list = getHibernateTemplate().find(hql); //2. } catch (RuntimeException re) { throw re; //3. } return list; //4. }错误的是（选一项）</question>
+    <choice>
+      <option value="A">1处有错误</option>
+      <option value="B">2处有错误</option>
+      <option value="C">3处有错误</option>
+      <option value="D">4处有错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316046" type="1">
+    <question>请看以下代码 &lt;action name="fwxxForm" path="/fwxx" parameter="operate" type="org.springframework.web.struts.DelegatingActionProxy"&gt; //1. &lt;/action&gt; &lt;plug-in className="org.springframework.web.struts.ContextLoaderPlugIn"&gt; //2. &lt;set-property property="contextConfigLocation" //3. value="WEB-INF/applicationContext.xml" /&gt; //4. &lt;/plug-in&gt; 错误的是（选一项）</question>
+    <choice>
+      <option value="A">1处有错误</option>
+      <option value="B">2处有错误</option>
+      <option value="C">3处有错误</option>
+      <option value="D">4处有错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316047" type="1">
+    <question>请看以下代码 &lt;bean id="sessionFactory" //1. class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"&gt; //2. &lt;!-- 找hiberante的数据库配置信息 --&gt; &lt;property name="configLocation" //3. value="src:hibernate.cfg.xml"&gt; //4. &lt;/property&gt; &lt;/bean&gt; 错误的是（选一项）</question>
+    <choice>
+      <option value="A">1处有错误</option>
+      <option value="B">2处有错误</option>
+      <option value="C">3处有错误</option>
+      <option value="D">4处有错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316048" type="1">
+    <question>如果Bean被定义为prototype类型意味着（选一项）</question>
+    <choice>
+      <option value="A">Bean被定义为单例模式，每次创建一个</option>
+      <option value="B">Bean被定义为多例模式，每次创建至少两个</option>
+      <option value="C">Bean被定义为单例模式，只会共享一个实例</option>
+      <option value="D">Bean每次都会创建新的实例</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316049" type="1">
+    <question>如果使用以下代码注入&lt;ref local="msg"&gt;表示（选两项）</question>
+    <choice>
+      <option value="A">目标Bean的ID或Name是"msg"</option>
+      <option value="B">目标Bean必须在同一配置文件中</option>
+      <option value="C">目标Bean可以在不同配置文件中</option>
+      <option value="D">目标Bean必须在其它配置文件中</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="316050" type="1">
+    <question>如果想指定Spring中Bean的初始化方法可以设置配置中( )属性。（选一项）</question>
+    <choice>
+      <option value="A">Init-factory</option>
+      <option value="B">Init-method</option>
+      <option value="C">Start-factory</option>
+      <option value="D">Start-method</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316051" type="1">
+    <question>使用Spring的DAO模块进行JDBC管理时我们不能做到的是（选一项）</question>
+    <choice>
+      <option value="A">实现ORM映射??????????????????????</option>
+      <option value="B">管理数据源</option>
+      <option value="C">事物管理</option>
+      <option value="D">提供JDBC模板</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316052" type="1">
+    <question>使用构造方法注入时，Spring是通过( )来描述组件之间的依赖关系。（选一项）</question>
+    <choice>
+      <option value="A">JavaBean的属性</option>
+      <option value="B">setter方法</option>
+      <option value="C">组件的类型</option>
+      <option value="D">带参数的构造函数</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316053" type="1">
+    <question>通过ContextLoaderPlugin配置整合Struts的配置方法是（选一项）</question>
+    <choice>
+      <option value="A">&lt;plug-in className="org.springframework.web.struts.ContextLoaderPlugIn"&gt; &lt;set-property property="contextConfigLocation"/&gt; &lt;/plug-in&gt;</option>
+      <option value="B">&lt;plug-in className="org.springframework.web.struts.ContextLoaderPlugIn"&gt; &lt;set-property value="/WEB-INF/applicationContext.xml"/&gt; &lt;/plug-in&gt;</option>
+      <option value="C">&lt;plug-in className="org.springframework.web.struts.ContextLoaderPlugIn"&gt; &lt;set-property property="contextConfigLocation" value="/WEB-INF/applicationContext.xml"/&gt; &lt;/plug-in&gt;</option>
+      <option value="D">&lt;plug-in className="org.springframework.web.struts.ContextLoaderPlugIn"&gt; &lt;set-property property=" ContextLoaderPlugIn " value="/WEB-INF/applicationContext.xml"/&gt; &lt;/plug-in&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316054" type="1">
+    <question>为什么要使用“依赖注入”（选一项）</question>
+    <choice>
+      <option value="A">软件过于简单</option>
+      <option value="B">不需要有编程思想</option>
+      <option value="C">使用“组件”，把代码的偶合度降低</option>
+      <option value="D">为了使程序看起来比较庞大</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316055" type="1">
+    <question>下列对于企业级应用描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">企业级应用中的系统可能分布在不同的地方</option>
+      <option value="B">企业级应用对安全性要求很高</option>
+      <option value="C">企业级应用系统彼此之间是相互独立的，不需要和现有的系统整合</option>
+      <option value="D">企业应用中数据的一致性要求很高，所以必须有严格的事务性</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316056" type="1">
+    <question>下列功能是容器应该提供的，除了（选一项）</question>
+    <choice>
+      <option value="A">程序对象的生命周期</option>
+      <option value="B">声明式事物，安全等企业级服务</option>
+      <option value="C">与现有开发框架的整合</option>
+      <option value="D">程序中业务对象的依赖关系的管理</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316057" type="1">
+    <question>下列关于SpringAOP的说法正确的是（选三项）</question>
+    <choice>
+      <option value="A">首先要编写方面代码，实现 MethodBeforeAdvice 接口</option>
+      <option value="B">Spring AOP 采取拦截方法调用的方式实现，可以在调用方法前、调用后、抛出异常时拦截</option>
+      <option value="C">Spring AOP 采取代理的方式实现，常用代理对象的类别为 org.springframework.aop.framework.ProxyFacoryBean</option>
+      <option value="D">Spring AOP 可以在对目标(target) 不做任何修改的情况下增加程序功能</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="316058" type="1">
+    <question>下列关于Spring依赖注入的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">依赖注入一般包括两种，设值注入和构造方法注入</option>
+      <option value="B">设值注入方式使用得多一些</option>
+      <option value="C">Spring只支持设值注入</option>
+      <option value="D">依赖注入一般情况下由容器完成，不是应用代码完成的</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316059" type="1">
+    <question>下列有关AOP术语的是（选三项）</question>
+    <choice>
+      <option value="A">JoinPoint</option>
+      <option value="B">Advice</option>
+      <option value="C">Advisor</option>
+      <option value="D">Pointcut</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="316060" type="1">
+    <question>下面Spring声明式事务的配置中，存在哪些错误（选两项） &lt;aop:config&gt; &lt;aop:pointcut id="bizMethods" expression="execution(*com.conghai.isale.biz.*(..))" /&gt; &lt;aop:advisor advice-ref="txAdvice" pointcut-ref="txAdvice" /&gt; &lt;/aop:config&gt;</question>
+    <choice>
+      <option value="A">&lt;aop:config&gt;应为&lt;tx:config&gt;</option>
+      <option value="B">execution(* com.conghai.isale.biz.*(..))应为execution(* com.conghai.isale.biz.*.*(..))</option>
+      <option value="C">&lt;aop:advisor&gt;应为&lt;aop:advise&gt;</option>
+      <option value="D">pointcut-ref="txAdvice"应为pointcut-ref="bizMethods"</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="316061" type="1">
+    <question>下面不属于Spring提供的服务是（选一项）</question>
+    <choice>
+      <option value="A">程序对象的生命周期管理</option>
+      <option value="B">查找服务</option>
+      <option value="C">代码调试</option>
+      <option value="D">线程管理</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316062" type="1">
+    <question>下面关于AOP的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">AOP 将散落在系统中的“方面”代码集中实现</option>
+      <option value="B">AOP 有助于提高系统的可维护性</option>
+      <option value="C">AOP 已经表现出了将要替代面向对象的趋势</option>
+      <option value="D">AOP 是一种设计模式，Spring 提供了一种实现</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316063" type="1">
+    <question>下面关于Spring的说法中错误的是（选一项）</question>
+    <choice>
+      <option value="A">Spring 是一系列轻量级 JavaEE框架的集合</option>
+      <option value="B">Spring 中包含一个“依赖注入”模式的实现</option>
+      <option value="C">使用Spring 可以实现声明式事务</option>
+      <option value="D">Spring 提供了AOP 方式的日志系统</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316064" type="1">
+    <question>下面关于Spring和DWR的配置说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Spring 可以自动找到 DWR 的信息</option>
+      <option value="B">Spring 需要在 spring配置 文件中配置dwr ，才能找到 DWR 的配置文件</option>
+      <option value="C">在 dwr.xml 中可以找到 spring 的配置文件</option>
+      <option value="D">在 web.xml 中进行spring配置和监听的配置，才能让 dwr 认得 spring</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316065" type="1">
+    <question>下面关于Spring和Struts配置后，Action的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">Action 可以直接配置在 spring 中，struts 不用配置，它自己可以找到</option>
+      <option value="B">Action 需要继承 Spring 中的类，才能用，否则会报错</option>
+      <option value="C">Action 实例通过代理的方式被 Spring 得到</option>
+      <option value="D">Action 实现可以自己找到 spring 的信息，不用配置任何内容</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316066" type="1">
+    <question>下面关于SSH的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">SSH的结合，是世界上最完美的javaWeb框架</option>
+      <option value="B">SSH的结合，是世界上最差的javaWeb框架</option>
+      <option value="C">SSH的结合，可以降低程序的偶合度，让程序维护变得简单</option>
+      <option value="D">SSH的结合，可以让简单的程序变得复杂，让程序看起来很酷</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316067" type="1">
+    <question>下面关于“依赖注入”的说法，错误的是（选一项）</question>
+    <choice>
+      <option value="A">将组件间的依赖关系采取配置文件的方式管理，而不是硬编码在代码中</option>
+      <option value="B">降低了组件间的耦合，使程序更容易维护和升级</option>
+      <option value="C">促进了“面向接口”编程，使构建大规模程序更轻松</option>
+      <option value="D">不需要定义接口，降低了编码复杂度</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316068" type="1">
+    <question>下面关于Spring和jdbc的配置，说法错误的是（选两项）</question>
+    <choice>
+      <option value="A">Spring 不能和 jdbc 配置，只支持 Hibernate</option>
+      <option value="B">Spring 能和 jdbc 配置，但不能写 sql 语句</option>
+      <option value="C">Spring 能和 jdbc 配置，也可以写 sql 语句</option>
+      <option value="D">Spring 和 jdbc 配置之后，用 sql 操作数据库中的数据</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="316069" type="1">
+    <question>下面关于Spring和Hibernate整合说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Hibernate的数据源只能配置在Hibernate自己的配置文件中。</option>
+      <option value="B">Hibernate的数据源只能配置在Spring的配置文件中</option>
+      <option value="C">Hibernate的数据源可以配置在Hibernate自己的配置文件中或Spring的配置文件中。</option>
+      <option value="D">Hibernate的数据源不能在整合中配置</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316070" type="1">
+    <question>下面关于Spring说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Spring提供了“全由全无”的解决方案</option>
+      <option value="B">Spring不是一种“全由全无”的解决方案</option>
+      <option value="C">Spring只能用于Web编程</option>
+      <option value="D">Spring只能用于非Web项目</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316071" type="1">
+    <question>下面关于依赖注入说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">依赖注入的目标是在代码之外管理程序组件间的依赖关系</option>
+      <option value="B">依赖注入即是“面向接口”编程</option>
+      <option value="C">依赖注入是面向对象技术的替代品</option>
+      <option value="D">依赖注入的使用会增大程序的规模</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="316072" type="1">
+    <question>下面哪些是Spring代理机制（选一项）</question>
+    <choice>
+      <option value="A">静态代理</option>
+      <option value="B">计数代理</option>
+      <option value="C">动态代理</option>
+      <option value="D">虚拟代理</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316073" type="1">
+    <question>现在需要使用三层结构搭建某个网上专卖店的网站上增加一个满1000送200的促销方案，如果你是设计人员，你将在三层结构的( )中实现这一策略。（选一项）</question>
+    <choice>
+      <option value="A">模型层</option>
+      <option value="B">表示层</option>
+      <option value="C">数据访问层</option>
+      <option value="D">业务逻辑层</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="316074" type="1">
+    <question>以下属于轻量级容器的优点是（选一项）</question>
+    <choice>
+      <option value="A">架构复杂，功能强大</option>
+      <option value="B">降低了复杂性，更容易配置</option>
+      <option value="C">增加代码量</option>
+      <option value="D">不适用AOPA</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316075" type="1">
+    <question>以下不是属于设置注入的优点的是（选一项）</question>
+    <choice>
+      <option value="A">在对象方法调用前，对象一定处于组装完备的状态</option>
+      <option value="B">简化开发JAVABEAN代码的工作量</option>
+      <option value="C">JAVABEAN属性可以被子类继承，不需添加额外代码</option>
+      <option value="D">JAVABEAN属性的getter或setter方法可以作为文档的一部分</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316076" type="1">
+    <question>以下不属于Spring中Bean的生命周期的是（选一项）</question>
+    <choice>
+      <option value="A">预编译</option>
+      <option value="B">定义</option>
+      <option value="C">初始化</option>
+      <option value="D">销毁</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316077" type="1">
+    <question>以下代码的作用是（选一项） &lt;entry&gt; &lt;key&gt; &lt;value&gt;yup an entry&lt;/value&gt; &lt;/key&gt; &lt;value&gt;just some string&lt;/value&gt; &lt;/entry&gt;</question>
+    <choice>
+      <option value="A">在Bean的map属性中注入一个元素</option>
+      <option value="B">在Bean的list属性中注入一个元素</option>
+      <option value="C">在Bean的set属性中注入一个元素</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316078" type="1">
+    <question>以下代码的作用是（选一项） &lt;bean id="myTxManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager"&gt; &lt;property name="sessionFactory" ref="mySessionFactory"/&gt; &lt;/bean&gt;</question>
+    <choice>
+      <option value="A">声明Hibernate的工厂Bean为myTxManager</option>
+      <option value="B">声明Hibernate的事务管理Bean为myTxManager</option>
+      <option value="C">声明SessionFactory为myTxManager</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316079" type="1">
+    <question>以下代码的作用是（选一项） &lt;list&gt; &lt;ref bean="myDataSource" /&gt; &lt;/list&gt;</question>
+    <choice>
+      <option value="A">在Bean 的List属性中注入一个字符串“myDataSource”</option>
+      <option value="B">在Bean 的List属性中注入一个文件“myDataSource”</option>
+      <option value="C">在Bean 的List属性中注入一个对象，目标Bean名字是“myDataSource”</option>
+      <option value="D">在Bean 的List属性中注入一个字符数组“myDataSource”</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316080" type="1">
+    <question>以下关于AOP说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">AOP提高系统复杂性；</option>
+      <option value="B">AOP有助于提高系统可维护性</option>
+      <option value="C">AOP时开发效率变低</option>
+      <option value="D">AOP将要替代面向对象</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316081" type="1">
+    <question>以下关于BeanFactory说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">BeanFactory是一个接口</option>
+      <option value="B">BeanFactory是一个抽象类</option>
+      <option value="C">BeanFactory是一个已实现的类</option>
+      <option value="D">ApplicationContext不是BeanFactory的实现</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="316082" type="1">
+    <question>以下关于Bean的ID说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">ID是唯一的</option>
+      <option value="B">注册Bean时是可以不定义ID</option>
+      <option value="C">ID的定义灵活，可以使用不符合XML ID限定的字符</option>
+      <option value="D">ID在某些情况下可被name替代</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316083" type="1">
+    <question>以下关于依赖注入说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">在与Struts的整合中只能使用设值方法注入????????????????????</option>
+      <option value="B">在与Struts的整合中只能使用构造方法注入</option>
+      <option value="C">设值方法注入必须有setter方法????????????????????</option>
+      <option value="D">设值方法注入必须有getter方法</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316084" type="1">
+    <question>以下配置文件的功能是（选一项） &lt;bean id="exampleInitBean" class="examples.ExampleBean" destroy-method="cleanup"/&gt;</question>
+    <choice>
+      <option value="A">exampleInitBean使用cleanup创建实例</option>
+      <option value="B">exampleInitBean使用cleanup初始化参数</option>
+      <option value="C">exampleInitBean在销毁时调用cleanup方法</option>
+      <option value="D">以上都错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316085" type="1">
+    <question>以下是dwr和sprig的配置信息 &lt;context-param&gt; &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt; //1. &lt;param-value&gt;src:applicationContext.xml&lt;/param-value&gt; //2. &lt;/context-param&gt; &lt;listener&gt; //3. &lt;listener-class&gt; org.springframework.web.context.ContextLoaderListener //4. &lt;/listener-class&gt; &lt;/listener&gt; 错误的是（选一项）</question>
+    <choice>
+      <option value="A">1处有错误</option>
+      <option value="B">2处有错误</option>
+      <option value="C">3处有错误</option>
+      <option value="D">4处有错误</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316086" type="1">
+    <question>有关Spring中配置数据源，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">配置数据源的bean名字只能是dataSource</option>
+      <option value="B">DataSource接口位于java.sql包中</option>
+      <option value="C">在一个Spring配置文件中可以配置多个数据源</option>
+      <option value="D">DataSource就是一个数据库连接</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316087" type="1">
+    <question>有以下代码 package x.y; public class Foo { public Foo(Bar bar, Baz baz) { // ... } }能够正确的使用构造函数创建Bean的配置是（选一项）</question>
+    <choice>
+      <option value="A">&lt;bean id="exampleBean" class="examples.ExampleBean"&gt; &lt;constructor-arg type="int" /&gt; &lt;constructor-arg type="java.lang.String" /&gt; &lt;/bean&gt;</option>
+      <option value="B">&lt;bean id="exampleBean" class="examples.ExampleBean"&gt; &lt;constructor-arg type="int" value="7500000"/&gt; &lt;constructor-arg type="string" value="42"/&gt; &lt;/bean&gt;</option>
+      <option value="C">&lt;bean id="exampleBean" class="examples.ExampleBean"&gt; &lt;constructor-arg type="int" value="7500000"/&gt; &lt;constructor-arg type="java.lang.String" value="42"/&gt; &lt;/bean&gt;</option>
+      <option value="D">&lt;bean id="exampleBean" class="examples.ExampleBean"&gt; &lt;constructor-arg value="7500000"/&gt; &lt;constructor-arg value="42"/&gt; &lt;/bean&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316088" type="1">
+    <question>在Spring的配置文件中，包含如下所示的配置代码，则下面说法正确的是（选两项） &lt;bean id="testBean" class="test.TestBean"&gt; &lt;property name="db" value="10" /&gt; &lt;property name="sp" value="mm" /&gt; &lt;/bean&gt;</question>
+    <choice>
+      <option value="A">可以通过下面的代码得到对象的实例： ApplicationContext c = new ClassPathXmlApplicationContext("di.xml"); TestBean t = (TestBean) c.getBean("test.TestBean");</option>
+      <option value="B">TestBean 中一定有如下的语句： Private String db = "";</option>
+      <option value="C">TestBean 中一定有方法：public void setSp(String value)</option>
+      <option value="D">属性 db 的类型可能是 int 也可能是 String</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="316089" type="1">
+    <question>在Spring框架中，面向方面编程(AOP) 的目标在于（选一项）</question>
+    <choice>
+      <option value="A">编写程序时不用关心其依赖组件的实现</option>
+      <option value="B">将程序中涉及的公用问题集中解决</option>
+      <option value="C">封装 JDBC 访问数据库的代码，简化数据访问层的重复性代码</option>
+      <option value="D">实现页面的“无刷新”</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316090" type="1">
+    <question>在 Spring 配置文件 di.xml 中包含下面的配置代码，可以推断（选一项） &lt;bean id="a" class="A"&gt; &lt;property name="m" value="1" /&gt; &lt;/bean&gt;</question>
+    <choice>
+      <option value="A">下列语句运行时无异常 ApplicationContext c = new ClassPathXmlApplicationContext("di.xml"); A a = (A)content.getBean("a");</option>
+      <option value="B">A 是 抽象类</option>
+      <option value="C">A 是接口</option>
+      <option value="D">类A中定义了 getM() 方法</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316091" type="1">
+    <question>在Spring中配置Hibernate事务管理器(HibernateTransactionManager) 时，需要注入的属性名称是（选一项）</question>
+    <choice>
+      <option value="A">dataSource</option>
+      <option value="B">sessionFactory</option>
+      <option value="C">baseHibernateDao</option>
+      <option value="D">transactionProxyFactoryBean</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316092" type="1">
+    <question>在SpringAOP中，如果想计算某一个方法执行的时间，可以使用的SpringAOP中的( )通知来实现改功能。（选一项）</question>
+    <choice>
+      <option value="A">Interception Around通知</option>
+      <option value="B">Before通知</option>
+      <option value="C">After Returning</option>
+      <option value="D">Throws 通知</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316093" type="1">
+    <question>在SpringAOP中实现制动代理的类是（选一项）</question>
+    <choice>
+      <option value="A">RegexpMethodPointcutAdvisor</option>
+      <option value="B">ProxyFactoryBean</option>
+      <option value="C">DefaultAdvisorAutoProxyCreator</option>
+      <option value="D">以上都可以</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="316094" type="1">
+    <question>在Spring中DAO模块的功能是（选一项）</question>
+    <choice>
+      <option value="A">提供和常用ORM框架的集成</option>
+      <option value="B">提供JDBC的抽象层，提高JDBC编程性和声明式事物管理</option>
+      <option value="C">Web中的文件上传</option>
+      <option value="D">提供和常用ORM框架的集成</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316095" type="1">
+    <question>在Spring中定义自动装配为byType的作用是（选一项）</question>
+    <choice>
+      <option value="A">Spring将目标Bean的属性名字和工厂中对应的Bean名字对应起来</option>
+      <option value="B">Spring将目标Bean的属性类型和工厂中对应的Bean类型对应起来</option>
+      <option value="C">Spring将目标Bean的构造函数参数和工厂中对应的Bean名字对应起来</option>
+      <option value="D">以上都不是</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316096" type="1">
+    <question>在Spring中配置一个抽象类A（选一项）</question>
+    <choice>
+      <option value="A">&lt;bean id="A" abstract="false"&gt;</option>
+      <option value="B">&lt;bean id="A" abstract="true"&gt;</option>
+      <option value="C">&lt;bean id="A" parent="true"&gt;</option>
+      <option value="D">&lt;bean id="A" parent="false"&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="316097" type="1">
+    <question>怎样使用“依赖注入”（选一项）</question>
+    <choice>
+      <option value="A">用 new 来创建</option>
+      <option value="B">用继承来创建</option>
+      <option value="C">用实现接口来创建</option>
+      <option value="D">通过 setXX 方法 和 xml 配置文件来实现</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+</root>

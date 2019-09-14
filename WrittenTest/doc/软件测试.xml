@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="205001" type="1">
+    <question>( )是对软件的模块或者单元的测试。（选一项）</question>
+    <choice>
+      <option value="A">系统测试</option>
+      <option value="B">单元测试</option>
+      <option value="C">集成测试</option>
+      <option value="D">验收测试</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205002" type="1">
+    <question>测试的类型包括（）、集成测试、系统测试和验收测试。（选一项）</question>
+    <choice>
+      <option value="A">边界测试</option>
+      <option value="B">关键路径测试</option>
+      <option value="C">优先级测试</option>
+      <option value="D">单元测试</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="205003" type="1">
+    <question>单元测试最常用的方法是（选一项）</question>
+    <choice>
+      <option value="A">安装/反安装测试</option>
+      <option value="B">压力测试</option>
+      <option value="C">白盒测试</option>
+      <option value="D">用户验收测试</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205004" type="1">
+    <question>对于软件测试，以下（ ）是不可能的。（选一项）</question>
+    <choice>
+      <option value="A">进行单元测试</option>
+      <option value="B">对程序完全测试</option>
+      <option value="C">编写测试计划</option>
+      <option value="D">针对软件中的缺陷进行纠正</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205005" type="1">
+    <question>关于静态测试和动态测试，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">二者都不运行程序</option>
+      <option value="B">二者都需要运行程序</option>
+      <option value="C">只有静态测试需要运行程序</option>
+      <option value="D">只有动态测试需要运行程序</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="205006" type="1">
+    <question>关于软件测试，以下（）说法是错误的。（选一项）</question>
+    <choice>
+      <option value="A">测试能提高软件的质量，但是提高质量不能依赖测试</option>
+      <option value="B">测试只能证明缺陷存在，不能证明缺陷不存在</option>
+      <option value="C">开发人员测试自己的程序后，可作为该程序已经通过测试的依据</option>
+      <option value="D">80%的缺陷聚集在20%的模块中，经常出错的模块改错后还会经常出现</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205007" type="1">
+    <question>关于软件测试，以下说法（）是错误的观点。（选一项）</question>
+    <choice>
+      <option value="A">完全测试程序是不可能的</option>
+      <option value="B">软件测试是有风险行为</option>
+      <option value="C">测试可以显示潜伏的软件缺陷</option>
+      <option value="D">并非所有软件缺陷都能恢复</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205008" type="1">
+    <question>关于使用自动测试工具，下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">提高测试效率，节省测试成本</option>
+      <option value="B">有些测试单靠手工很难完成</option>
+      <option value="C">不是所有的测试都可以使用自动测试工具来完成</option>
+      <option value="D">适当复杂逻辑的自动设计与证明</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="205009" type="1">
+    <question>关于系统测试，下列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">主要测试系统是否符合“需求规格说明书”</option>
+      <option value="B">一般由独立测试小组采用黑盒方式来测试</option>
+      <option value="C">验收测试与系统测试很相似，主要区别是测试人员不同，验收测试由用户执行</option>
+      <option value="D">在规范化数据库中，易于维护数据完整性</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="205010" type="1">
+    <question>基本路径测试是一种（）测试方法。（选一项）</question>
+    <choice>
+      <option value="A">白盒</option>
+      <option value="B">黑盒</option>
+      <option value="C">压力</option>
+      <option value="D">负载</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="205011" type="1">
+    <question>软件测试的目的是（选一项）</question>
+    <choice>
+      <option value="A">评价软件的质量</option>
+      <option value="B">发现软件的错误</option>
+      <option value="C">找出软件中的所有错误</option>
+      <option value="D">证明软件是正确的</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205012" type="1">
+    <question>下C语言代码段：下列测试用例可以实现条件覆盖的是（选一项） int cal(int x,int y,int z){ int k = 0; if(x &gt; 3 || y &gt; 4){ k = x y; } if ( z &gt; 2 ){ k = z; } return k; }</question>
+    <choice>
+      <option value="A">{x = 4、y = 4 、z = 1} {x = 2 、y = 5 、z= 3}</option>
+      <option value="B">{x = 4 、y = 4 、z = 3} {x = 2 、y = 3 、z = 3}</option>
+      <option value="C">{x = 4 、y = 4 、z = 1} {x = 2 、y = 5 、z = 2}</option>
+      <option value="D">{x = 4 、y = 4 、z = 3} {x = 4 、y = 4 、z = 3}</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="205013" type="1">
+    <question>下列关于测试与调试的说法，错误的是（选一项）</question>
+    <choice>
+      <option value="A">软件测试主要是通过某种手段找出软件中的缺陷</option>
+      <option value="B">一般先进行调试后进行测试</option>
+      <option value="C">软件调试主要是通过分析，诊断和改正程序的法潜在错误</option>
+      <option value="D">测试贯穿整个软件开发周期</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205014" type="1">
+    <question>下列关于单元测试的说法中错误的是（选一项）</question>
+    <choice>
+      <option value="A">桩模块由被测模块调用，在单元测试中接受测试数据，启动被测模块</option>
+      <option value="B">单元测试以白盒测试为主</option>
+      <option value="C">桩模块用以模拟被测模块工作过程中所调用的模块</option>
+      <option value="D">驱动模块用以模拟被模块的上级模块</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="205015" type="1">
+    <question>一个测试用例是为了测试软件的某一具体功能或性能面是设计，它通常由以下的不方面组成，除了（选一项）</question>
+    <choice>
+      <option value="A">测试目的</option>
+      <option value="B">输入数据</option>
+      <option value="C">实际的输出结果</option>
+      <option value="D">预计的输出结果</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205016" type="1">
+    <question>在C语言中，有如下函数，为了进行判定-条件覆盖测试，下列满足要求的测试用例是（选一项） void Check(int x,int y){ if(x&gt;=2||y&gt;2){ print("ok"); } }</question>
+    <choice>
+      <option value="A">{x=1、y=2} {x=0、y=0}</option>
+      <option value="B">{x=1、y=4} {x=3、y=1}</option>
+      <option value="C">{x=1、y=1} {x=3、y=4}</option>
+      <option value="D">{x=2、y=2} {x=3、y=3}</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205017" type="1">
+    <question>在软件测试和软件质量保证中，你最近使用了一个自动化的测试工具来测试你的 程序模块，该工具只能用于监视和检查代码的缺陷，而不能修改或者优化程序任何不合理的地方，这样的测试工具属于（）类型的。（选一项）</question>
+    <choice>
+      <option value="A">自动集成</option>
+      <option value="B">非自动化</option>
+      <option value="C">非侵入化</option>
+      <option value="D">非破坏化</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205018" type="1">
+    <question>在软件测试技术中，SQA指（选一项）</question>
+    <choice>
+      <option value="A">软件测试</option>
+      <option value="B">软件质量保证</option>
+      <option value="C">数据库</option>
+      <option value="D">标准查询语言</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205019" type="1">
+    <question>在软件测试技术中,在下列关于桩模块与驱动模块的说法正确是（选一项）</question>
+    <choice>
+      <option value="A">驱动模块在单元测试中输出数据</option>
+      <option value="B">驱动模块在单元测试中接受数据,并把数据传送给被测模块</option>
+      <option value="C">桩模块在单元测试中接受数据</option>
+      <option value="D">桩模块调用被测模块,并把数据传送给被测模块</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205020" type="1">
+    <question>在下面所列举的逻辑覆盖中，测试覆盖最弱的是（选一项）</question>
+    <choice>
+      <option value="A">条件覆盖</option>
+      <option value="B">条件组合覆盖</option>
+      <option value="C">语句覆盖</option>
+      <option value="D">条件及判定覆盖</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="205021" type="1">
+    <question>质量管理的三个核心过程是（选一项）</question>
+    <choice>
+      <option value="A">质量分析，质量检验和质量预测</option>
+      <option value="B">质量计划，质量保证和质量控制。</option>
+      <option value="C">质量评估，质量检验和质量控制</option>
+      <option value="D">质量计划，质量分析和质量控制</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="205022" type="1">
+    <question>质量为（）中确定是现代质量管理中的一项基本原则。（选一项）</question>
+    <choice>
+      <option value="A">检验</option>
+      <option value="B">计划</option>
+      <option value="C">开发</option>
+      <option value="D">运行</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

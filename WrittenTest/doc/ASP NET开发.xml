@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="325001" type="1">
+    <question>“Duration=3”代表页面缓存的时间是（选一项）</question>
+    <choice>
+      <option value="A">3小时</option>
+      <option value="B">3分钟</option>
+      <option value="C">3秒钟</option>
+      <option value="D">3天</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325002" type="1">
+    <question>&lt;credentials&gt; 有一个属性passwordFormat，下列哪个不可能是该属性的值（选一项）</question>
+    <choice>
+      <option value="A">None</option>
+      <option value="B">Clear</option>
+      <option value="C">SHA1</option>
+      <option value="D">MD5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="325003" type="1">
+    <question>ASP.NET的缓存不包括（选一项）</question>
+    <choice>
+      <option value="A">页面输出缓存</option>
+      <option value="B">相对缓存</option>
+      <option value="C">应用程序数据缓存</option>
+      <option value="D">页面部分缓存</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325004" type="1">
+    <question>ASP.NET中，将方法前加上( )属性来标记该方法支持Web访问。（选一项）</question>
+    <choice>
+      <option value="A">[Serializable]</option>
+      <option value="B">[Formatable]</option>
+      <option value="C">[WebMethod]</option>
+      <option value="D">[STAThread]</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325005" type="1">
+    <question>SOAP是一种基于 XML 的、用于在Web上交换结构化和类型信息的简单的轻量协议，SOAP 协议规范包括四个部分，以下（）不属于这四个部分。（选一项）</question>
+    <choice>
+      <option value="A">定义用于封装数据的必需的可扩展信封</option>
+      <option value="B">定义用来表示应用程序定义的数据类型和有向图形的可选数据编码规则</option>
+      <option value="C">定义 RPC 样式（请求/响应）的消息交换模式</option>
+      <option value="D">定义不同性质的服务器之间的数据交换规则和调用过程</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325006" type="1">
+    <question>SOAP的全称是（选一项）</question>
+    <choice>
+      <option value="A">Simple Object Address Protocol</option>
+      <option value="B">Simple Object Access Protocol</option>
+      <option value="C">Simple Object Address process</option>
+      <option value="D">Simple Object Access process</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325007" type="1">
+    <question>WebService的基本通信协议是（选一项）</question>
+    <choice>
+      <option value="A">DCOM</option>
+      <option value="B">SOAP</option>
+      <option value="C">CORBA</option>
+      <option value="D">UDP</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325008" type="1">
+    <question>WebService文件的扩展名是（选一项）</question>
+    <choice>
+      <option value="A">aspx</option>
+      <option value="B">ascx</option>
+      <option value="C">asmx</option>
+      <option value="D">ashx</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325009" type="1">
+    <question>WebPartManager部件在一个ASPX页面中可以有多少个（选一个）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">任意</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="325010" type="1">
+    <question>关于HttpHandler程序的说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">它是请求处理的终点</option>
+      <option value="B">它实现了IhttpHandler接口</option>
+      <option value="C">IsReusable属性设置为false时，表明程序只能使用一次</option>
+      <option value="D">文件后缀名是.ashx</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="325011" type="1">
+    <question>角色管理类Roles不能完成的功能是（选一项）</question>
+    <choice>
+      <option value="A">把用户加入角色</option>
+      <option value="B">把用户从角色删除</option>
+      <option value="C">查找某个角色的用户</option>
+      <option value="D">重置某角色所有用户的登录密码</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325012" type="1">
+    <question>某数据挖掘公司专门出售对其股票报价引擎的访问权，如这家公司使用下列（）技术，就可以把股票报价服务卖给数百家客户，而无需进行任何定制或修改。（选一项）</question>
+    <choice>
+      <option value="A">编写多个股票接口以适应不同的客户机</option>
+      <option value="B">Web服务</option>
+      <option value="C">EJB</option>
+      <option value="D">RMI</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325013" type="1">
+    <question>你们使用SQLServer2005来存储新闻信息，不同时间段的信息在某段时间内经常被访问，因而，查询的结果集在一些时间内对Internet用户是完全相同的，为提高页面的访问速度，你想使用ASP.NET的缓存机制来缓存这些结果集，此时应该使用（）类型的缓存机制。（选一项）</question>
+    <choice>
+      <option value="A">临时缓存</option>
+      <option value="B">页面缓存</option>
+      <option value="C">数据缓存</option>
+      <option value="D">数据库缓存</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325014" type="1">
+    <question>您创建了一个ASP.NET应用程序，这个应用程序调用一个Xml Web Service。这个Xml Web Service将返回一个包含了公司雇员列表的DataSet对象。请选择该如何在这个程序中使用这个Xml Web Service（选一项）</question>
+    <choice>
+      <option value="A">在"引用"对话框的.Net标签中选择System.Web.Services.dll</option>
+      <option value="B">在"Web引用"对话框中输入这个XML Web service的地址</option>
+      <option value="C">在Global.asax.cs中添加一条using语句并指定这个XML Web service的地址</option>
+      <option value="D">在Global.asax.cs中写一个事件处理器导入这个Xml Web Service相应的.wsdl和.disco文件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325015" type="1">
+    <question>判断是否为匿名用户要使用以下Profile的哪个属性（选一项）</question>
+    <choice>
+      <option value="A">IsDirty</option>
+      <option value="B">IsOnline</option>
+      <option value="C">IsSynchronized</option>
+      <option value="D">IsAnonymous</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325016" type="1">
+    <question>启用ASP.NET个性化需要配置哪个配置节（选一项）</question>
+    <choice>
+      <option value="A">Authentication</option>
+      <option value="B">SessionState</option>
+      <option value="C">Profile</option>
+      <option value="D">MemberShip</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325017" type="1">
+    <question>启用ASP.NET匿名个性化，需要配置哪个配置节（选一项）</question>
+    <choice>
+      <option value="A">appSettings</option>
+      <option value="B">authentication</option>
+      <option value="C">compilation</option>
+      <option value="D">anonymousIdentification</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325018" type="1">
+    <question>使用Cookie进行身份验证的类型称为（）身份验证（选一项）</question>
+    <choice>
+      <option value="A">windows</option>
+      <option value="B">passport</option>
+      <option value="C">forms</option>
+      <option value="D">none</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325019" type="1">
+    <question>下列不属于使用WebService的途径的是（选一项）</question>
+    <choice>
+      <option value="A">HTTP—GET</option>
+      <option value="B">HTTP—POST</option>
+      <option value="C">SOAP</option>
+      <option value="D">ADO.NET</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325020" type="1">
+    <question>下列关于WebService的描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">XML是Web Service表示数据的基本格式。</option>
+      <option value="B">XSD为Web Service的数据类型系统</option>
+      <option value="C">SOAP规范定义了Web Service消息传递的机制</option>
+      <option value="D">Web Service采用IDL语言来描述Web Service对外提供的接口</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325021" type="1">
+    <question>下列关于WSDL的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">WSDL是Web服务描述语言</option>
+      <option value="B">WSDL是一种用于描述Web服务或者网络端点的基于XML的语言</option>
+      <option value="C">WSDL是微软开发的Web服务描述语言，它只支持Windows平台</option>
+      <option value="D">在Visual Studio.NET开发环境中，将自动生成WSDL文件，无需手工操作</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325022" type="1">
+    <question>下列关于模块(HttpModule)和处理程序(HttpHandler)的说法中,正确的是（选一项）</question>
+    <choice>
+      <option value="A">HTTP请求的处理过程中，只能调用一个HttpHandler和一个HttpModule</option>
+      <option value="B">模块不执行任何操作,处理程序才是最终的执行</option>
+      <option value="C">处理程序和模块一一对应,每次请求都只有一个处理程序和模块最终参与处理</option>
+      <option value="D">请求到达处理之前,可能会被某模块抛弃</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325023" type="1">
+    <question>下列哪些不是WebPart部件支持的模式（选一项）</question>
+    <choice>
+      <option value="A">编辑模式</option>
+      <option value="B">通讯模式</option>
+      <option value="C">设计模式</option>
+      <option value="D">目录模式</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325024" type="1">
+    <question>下列哪些不属于用户管理控件（选一项）</question>
+    <choice>
+      <option value="A">LoginOut</option>
+      <option value="B">LoginName</option>
+      <option value="C">LoginStatus</option>
+      <option value="D">LoginView</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="325025" type="1">
+    <question>下列哪一个内置对象用来实现应用程序数据缓存（选一项）</question>
+    <choice>
+      <option value="A">Session</option>
+      <option value="B">Application</option>
+      <option value="C">Page</option>
+      <option value="D">Cache</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325026" type="1">
+    <question>下面为定义WebService的部分代码，阅读下面代码： public class SvrAdd : System.Web.Services.WebService { public SvrAdd () { InitializeComponent(); } public int Add(int x,int y) { return (x+y); } }关于上述代码的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">代码中定义的Web Service提供了一个"Add" Web服务，该服务用于对两个数相加</option>
+      <option value="B">因为该Web 服务SvrAdd提供了组件初始化的功能，因此必须在服务的其他请求之前进行调用</option>
+      <option value="C">代码中有两个public作用域的方法，该Web Service提供了两个Web服务</option>
+      <option value="D">代码中没有提供Web 服务</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325027" type="1">
+    <question>以下不能在应用程序缓存中成功添加缓存项的是（选一项）</question>
+    <choice>
+      <option value="A">Cache["cache1"]="Hello SVSE"</option>
+      <option value="B">Cache.Insert("cache1", "SVSE")</option>
+      <option value="C">Cache.Insert("cache1", "SVSE", null)</option>
+      <option value="D">Cache.Add("cache1", "SVSE")</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325028" type="1">
+    <question>以下关于[WebMethod]的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">它是一个特性</option>
+      <option value="B">它表示它下面的方法是Web服务方法</option>
+      <option value="C">它下面的方法，其参数和返回值类型都是固定的</option>
+      <option value="D">一个Web Service文件可以有多个[WebMethod]</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325029" type="1">
+    <question>以下关于Substitution控件的描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">它用来缓存页面中需要缓存的部分。</option>
+      <option value="B">它用来替换页面中不需要缓存的部分。</option>
+      <option value="C">该控件MethodName属性调用的方法修饰符和返回类型是固定的。</option>
+      <option value="D">该控件MethodName属性调用的方法参数类型是固定的。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325030" type="1">
+    <question>以下关于WebService的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">使用Web Service可 进行穿越防火墙的通信</option>
+      <option value="B">Web Service描述语言WSDL是XML格式的文件</option>
+      <option value="C">我们测试Web Service的返回结果为XML格式文件</option>
+      <option value="D">我们不可能调用其他网站，如新浪网上发布的Web Service</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325031" type="1">
+    <question>以下关于调用WebService的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">需要添加Web引用</option>
+      <option value="B">需要实例化Web Service类</option>
+      <option value="C">可以实现跨项目调用，但是不能实现异地调用</option>
+      <option value="D">为了让异地程序调用我们的Web Service发布出去</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325032" type="1">
+    <question>以下关于整页缓存的@OutputCache指令声明，错误的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%@ OutputCache VarybyParam="id;name" VaryByControl="None"%&gt;</option>
+      <option value="B">&lt;%@ OutputCache Duration="5" VaryByParam="id;name" %&gt;</option>
+      <option value="C">&lt;%@ OutputCache Duration="5" VaryByControl="None" %&gt;</option>
+      <option value="D">&lt;%@ OutputCache Duration="5" VaryByParam="id;name" VaryByControl="None"%&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="325033" type="1">
+    <question>以下属于页面部分缓存的是（选一项）</question>
+    <choice>
+      <option value="A">整页缓存</option>
+      <option value="B">缓存后替换</option>
+      <option value="C">应用程序数据缓存</option>
+      <option value="D">使用Substitution控件</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="325034" type="1">
+    <question>在.NET中，下列关于SOAP的描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">SOAP提供了标准的RPC方法调用Web Service</option>
+      <option value="B">SOAP规范定义了SOAP消息格式，以及怎样通过HTTP协议来使用SOAP</option>
+      <option value="C">XML是基于SOAP的</option>
+      <option value="D">SOAP的目标是允许使用标准化的方法在客户机运行在Internet上的应用程序之间交换原文的信息</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="325035" type="1">
+    <question>在ASP.NET中，使用页面缓存，可以提高（选一项）</question>
+    <choice>
+      <option value="A">页面显示的图形效果</option>
+      <option value="B">页面加载的速度</option>
+      <option value="C">应用程序的安全性</option>
+      <option value="D">节约操作系统得内存资源</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="325036" type="1">
+    <question>在ASP.NET中，有一个高考录取分数线查询的网站，各个省份的录取分数线都存放在一个表中。因此各个省份的考生查询分数线时，通过选择自己的省份来查询录取分数线。程序员设计了两个页面，在第一个页面中用一个DropDownList空间来绑定各个省份，在第二个页面中添加一个DataGrid控件，用来根据第一个页面传递过来的Provice参数显示对应省份的录取分数线。考虑到同一个省份的考生特别多，因此同时查看录取分数线的考生比较多，为了减轻服务器的负担，程序员启用页面缓存，下列对两个页面OutputCathe指令声明合理的是（选两项）</question>
+    <choice>
+      <option value="A">第一个页面OutputCache指令：&lt;%@OutputCache duration=120 VaryByParam=none%&gt;</option>
+      <option value="B">第二个页面OutputCache指令：&lt;%@OutputCache duration=100 VaryByParam=none%&gt;</option>
+      <option value="C">第一个页面OutputCache指令：&lt;%@OutputCache duration=100 VaryByControl=ddlProvince %&gt;</option>
+      <option value="D">第二个页面OutputCache指令：&lt;%@OutputCache duration=100 VaryByParam= Province %&gt;</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="325037" type="1">
+    <question>在ASP.NET中管理注册用户的类是（选一项）</question>
+    <choice>
+      <option value="A">MemberShip</option>
+      <option value="B">MembershipUser</option>
+      <option value="C">Roles</option>
+      <option value="D">Member</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="325038" type="1">
+    <question>在实现Web服务的.asmx文件中将方法暴露给浏览器的语句是（选一项）</question>
+    <choice>
+      <option value="A">WebMethod</option>
+      <option value="B">Function</option>
+      <option value="C">Method</option>
+      <option value="D">Main</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

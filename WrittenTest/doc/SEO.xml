@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="406001" type="1">
+    <question>搜索引擎营销的简称是(单选）</question>
+    <choice>
+      <option value="A">SEO</option>
+      <option value="B">SEM</option>
+      <option value="C">SEC</option>
+      <option value="D">SERP</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406002" type="1">
+    <question>Google和百度哪个能抓取Iframe里的内容(单选）</question>
+    <choice>
+      <option value="A">Google</option>
+      <option value="B">百度</option>
+      <option value="C">都能</option>
+      <option value="D">都不能</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406003" type="1">
+    <question>以下对网站排名没有太大影响的因素是(单选）</question>
+    <choice>
+      <option value="A">服务器稳定性</option>
+      <option value="B">Title标签</option>
+      <option value="C">Keywords标签</option>
+      <option value="D">网站内容和更新频率</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406004" type="1">
+    <question>友情链接方面，PR的选择应该优先选择的链接为(单选）</question>
+    <choice>
+      <option value="A">PR高，相关性低</option>
+      <option value="B">PR低，相关性高 C</option>
+      <option value="C">PR高，相关性低</option>
+      <option value="D">RP高，相关性高</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406005" type="1">
+    <question>一个精准关键词的“基础三度”不包括(单选）</question>
+    <choice>
+      <option value="A">相关度</option>
+      <option value="B">流行度</option>
+      <option value="C">竞争度</option>
+      <option value="D">相似度</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406006" type="1">
+    <question>一个做女性服装批发的网站，最好的关键词选择是(单选）</question>
+    <choice>
+      <option value="A">女装批发</option>
+      <option value="B">服装批发</option>
+      <option value="C">女性服装</option>
+      <option value="D">女性服装批发网站</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406007" type="1">
+    <question>下面哪个HTTP状态码是搜索引擎返回的抓取正常的状态码(单选）</question>
+    <choice>
+      <option value="A">500</option>
+      <option value="B">301</option>
+      <option value="C">200</option>
+      <option value="D">404</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406008" type="1">
+    <question>下列URL对SEO最友好的是(单选）</question>
+    <choice>
+      <option value="A">seo/index.html</option>
+      <option value="B">seo/</option>
+      <option value="C">seo.aspx</option>
+      <option value="D">seo.php?id=21</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406009" type="1">
+    <question>robots.txt不支持的代码为(单选）</question>
+    <choice>
+      <option value="A">Allow</option>
+      <option value="B">Disallow</option>
+      <option value="C">Crawl-delay</option>
+      <option value="D">noindex</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406010" type="1">
+    <question>以下哪一种提高PR值的行为被Google 认为是作弊行为(单选）</question>
+    <choice>
+      <option value="A">与很多相关站点友情链接</option>
+      <option value="B">加入很多网站目录站、导航站</option>
+      <option value="C">向PR值高的站点购买链接</option>
+      <option value="D">发布供求信息，带有反向链接</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406011" type="1">
+    <question>SEO指的是(单选）</question>
+    <choice>
+      <option value="A">搜索引擎优化</option>
+      <option value="B">搜索引擎营销</option>
+      <option value="C">搜索引擎操作</option>
+      <option value="D">搜索引擎开放</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406012" type="1">
+    <question>HTML标签&lt;title&gt;与之间&lt;/title&gt;显示的是(单选）</question>
+    <choice>
+      <option value="A">关键词</option>
+      <option value="B">描述</option>
+      <option value="C">网站的标题</option>
+      <option value="D">网站内容</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406013" type="1">
+    <question>在目前的搜索引擎中，从全球来看，占领市场份额最大的搜索引擎是(单选）</question>
+    <choice>
+      <option value="A">ASK</option>
+      <option value="B">Yahoo!</option>
+      <option value="C">Google</option>
+      <option value="D">AOL</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406014" type="1">
+    <question>link命令的作用是(单选）</question>
+    <choice>
+      <option value="A">检查站点收录情况</option>
+      <option value="B">检查反链数量</option>
+      <option value="C">检查死链</option>
+      <option value="D">检查错误</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406015" type="1">
+    <question>以下状态码表示重定向的是(单选）</question>
+    <choice>
+      <option value="A">403</option>
+      <option value="B">404</option>
+      <option value="C">301</option>
+      <option value="D">500</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406016" type="1">
+    <question>搜索引擎公司百度是由（ ）创立的(单选）</question>
+    <choice>
+      <option value="A">马云</option>
+      <option value="B">史玉柱</option>
+      <option value="C">李彦宏</option>
+      <option value="D">杨致远</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406017" type="1">
+    <question>slurp是哪个搜索引擎的蜘蛛(单选）</question>
+    <choice>
+      <option value="A">百度</option>
+      <option value="B">美国在线</option>
+      <option value="C">Bing</option>
+      <option value="D">Yahoo</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406018" type="1">
+    <question>Wordpress常被搜索引擎优化人员用来(单选）</question>
+    <choice>
+      <option value="A">建立论坛</option>
+      <option value="B">建立内容管理系统</option>
+      <option value="C">建立博客</option>
+      <option value="D">建销售站</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406019" type="1">
+    <question>老谢要做一个女性服装批发的销售站，进行在线销售，你觉得老谢最应该选择哪个关键词进行推广(单选）</question>
+    <choice>
+      <option value="A">女装</option>
+      <option value="B">女装网站</option>
+      <option value="C">女装批发</option>
+      <option value="D">服装批发</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406020" type="1">
+    <question>友情链接方面，PR的选择应该优先选择的链接为(单选）</question>
+    <choice>
+      <option value="A">PR高，相关度低</option>
+      <option value="B">PR低，相关高</option>
+      <option value="C">PR高，相关低</option>
+      <option value="D">RP高，相关高</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406021" type="1">
+    <question>Sitemap的开始和结束标记是(单选）</question>
+    <choice>
+      <option value="A">&lt;urlset&gt;&lt;/urlset&gt;</option>
+      <option value="B">&lt;url&gt;&lt;/url&gt;</option>
+      <option value="C">&lt;loc&gt;&lt;/loc&gt;</option>
+      <option value="D">&lt;add&gt;&lt;/add&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406022" type="1">
+    <question>SEO工程师通常讲的Google webmasters指的是(单选）</question>
+    <choice>
+      <option value="A">谷歌分析师</option>
+      <option value="B">谷歌趋势</option>
+      <option value="C">谷歌关键词</option>
+      <option value="D">谷歌管理员工具</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406023" type="1">
+    <question>在网络营销中，PPC指的是(单选）</question>
+    <choice>
+      <option value="A">Points Per Click</option>
+      <option value="B">Pay Per Click</option>
+      <option value="C">Person Per Click</option>
+      <option value="D">Page Per Click</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406024" type="1">
+    <question>你刚刚上了一个新的站点，为了让搜索引擎收录，最好的做法是(单选）</question>
+    <choice>
+      <option value="A">把标题变得更加吸引人</option>
+      <option value="B">从相关高质量的权威网站加链接到新站</option>
+      <option value="C">向黑客购买大量的反向的无关的链接</option>
+      <option value="D">加一些flash动画到站点首页上</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406025" type="1">
+    <question>对于老站点改版，最好的做法是(单选）</question>
+    <choice>
+      <option value="A">改天主题和URL</option>
+      <option value="B">不改变主题和URL，更新丰富相关内容</option>
+      <option value="C">需要再次提交给搜索引擎</option>
+      <option value="D">换个产品，从头再来</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406026" type="1">
+    <question>PageRank是（ ）公司的专有算法(单选）</question>
+    <choice>
+      <option value="A">百度</option>
+      <option value="B">雅虎</option>
+      <option value="C">谷歌</option>
+      <option value="D">美国在线</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406027" type="1">
+    <question>老谢要做一个关于SEO培训的网站，选择在南京地区做SEO培训，帮助有学习需要的人，你觉得老谢最应该选择哪个关键词进行推广(单选）</question>
+    <choice>
+      <option value="A">南京SEO</option>
+      <option value="B">SEO培训网站</option>
+      <option value="C">南京SEO学习</option>
+      <option value="D">南京SEO培训</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406028" type="1">
+    <question>老谢要对其博客站点进行改版，为了保持和提高现有排名，一定不能改变的是(单选）</question>
+    <choice>
+      <option value="A">主题和URL</option>
+      <option value="B">keyword标签</option>
+      <option value="C">description描述</option>
+      <option value="D">页面上的文字</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406029" type="1">
+    <question>跟天涯属于同类型的网站是(单选）</question>
+    <choice>
+      <option value="A">新浪</option>
+      <option value="B">优酷</option>
+      <option value="C">猫扑</option>
+      <option value="D">赶集</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="406030" type="1">
+    <question>以下网站属于站长论坛的是(单选）</question>
+    <choice>
+      <option value="A">5173</option>
+      <option value="B">A5</option>
+      <option value="C">163</option>
+      <option value="D">PLU</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="406031" type="1">
+    <question>在发微博中用来提醒好友的符号是(单选）</question>
+    <choice>
+      <option value="A">使用“@”</option>
+      <option value="B">使用“$”</option>
+      <option value="C">使用“&amp;”</option>
+      <option value="D">使用“#”</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="406032" type="1">
+    <question>新浪博客每天可写多少篇日志(单选）</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">10</option>
+      <option value="C">20</option>
+      <option value="D">多于20</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406033" type="1">
+    <question>以下软件中不属于网络三剑客的是(单选）</question>
+    <choice>
+      <option value="A">Dreamweaver</option>
+      <option value="B">Flash</option>
+      <option value="C">Firework</option>
+      <option value="D">Access</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="406034" type="1">
+    <question>以下扩展名中不属于图片格式的是(单选）</question>
+    <choice>
+      <option value="A">jpg</option>
+      <option value="B">swf</option>
+      <option value="C">gif</option>
+      <option value="D">jpeg</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

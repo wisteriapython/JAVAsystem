@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="302001" type="1">
+    <question>( )程序包用于读写操作系统文本文件。（选一项）</question>
+    <choice>
+      <option value="A">Dbms_output</option>
+      <option value="B">Dbms_lob</option>
+      <option value="C">Dbms_random</option>
+      <option value="D">Utl_file</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302002" type="1">
+    <question>( )触发器允许触发操作的语句访问行的列值。（选一项）</question>
+    <choice>
+      <option value="A">行级</option>
+      <option value="B">语句级</option>
+      <option value="C">模式</option>
+      <option value="D">数据库级</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302003" type="1">
+    <question>( )是oracle在启动期间用来标识物理文件和数据文件的二进制文件。（选一项）</question>
+    <choice>
+      <option value="A">控制文件</option>
+      <option value="B">参数文件</option>
+      <option value="C">数据文件</option>
+      <option value="D">可执行文件</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302004" type="1">
+    <question>CREATE TABLE 语句用来创建（选一项）</question>
+    <choice>
+      <option value="A">表</option>
+      <option value="B">视图</option>
+      <option value="C">用户</option>
+      <option value="D">函数</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302005" type="1">
+    <question>imp命令的哪个参数用于确定是否要倒入整个导出文件。（选一项）</question>
+    <choice>
+      <option value="A">constranints</option>
+      <option value="B">tables</option>
+      <option value="C">full</option>
+      <option value="D">file</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302006" type="1">
+    <question>ORACLE表达式NVL(phone，'0000-0000')的含义是（选一项）</question>
+    <choice>
+      <option value="A">当phone为字符串0000-0000时显示空值</option>
+      <option value="B">当phone为空值时显示0000-0000</option>
+      <option value="C">判断phone和字符串0000-0000是否相等</option>
+      <option value="D">将phone的全部内容替换为0000-0000</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302007" type="1">
+    <question>ORACLE交集运算符是（选一项）</question>
+    <choice>
+      <option value="A">intersect</option>
+      <option value="B">union</option>
+      <option value="C">set</option>
+      <option value="D">minus</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302008" type="1">
+    <question>ORACLE使用哪个系统参数设置日期的格式（选一项）</question>
+    <choice>
+      <option value="A">nls_language</option>
+      <option value="B">nls_date</option>
+      <option value="C">nls_time_zone</option>
+      <option value="D">nls_date_format</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302009" type="1">
+    <question>Oracle数据库中，通过（）访问能够以最快的方式访问表中的一行（选一项）</question>
+    <choice>
+      <option value="A">主键</option>
+      <option value="B">Rowid</option>
+      <option value="C">唯一索引</option>
+      <option value="D">整表扫描</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302010" type="1">
+    <question>Oracle数据库中，下面（）可以作为有效的列名。（选一项）</question>
+    <choice>
+      <option value="A">Column</option>
+      <option value="B">123_NUM</option>
+      <option value="C">NUM_#123</option>
+      <option value="D">#NUM123</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302011" type="1">
+    <question>Oracle数据库中，以下（）命令可以删除整个表中的数据，并且无法回滚（选一项）</question>
+    <choice>
+      <option value="A">drop</option>
+      <option value="B">delete</option>
+      <option value="C">truncate</option>
+      <option value="D">cascade</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302012" type="1">
+    <question>Oracle中, ( )函数将char或varchar数据类型转换为date数据类型。（选一项）</question>
+    <choice>
+      <option value="A">date</option>
+      <option value="B">to_date</option>
+      <option value="C">todate</option>
+      <option value="D">ctodate</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302013" type="1">
+    <question>ORACLE中，执行语句：SELECT address1||','||address2||','||address2 "Address" FROM employ；将会返回（）列（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">2</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302014" type="1">
+    <question>Oralce数据库中，以下（）函数可以针对任意数据类型进行操作。（选一项）</question>
+    <choice>
+      <option value="A">TO_CHAR</option>
+      <option value="B">LOWER</option>
+      <option value="C">MAX</option>
+      <option value="D">CEIL</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302015" type="1">
+    <question>partition by list(msn_id)子句的含义是（选一项）</question>
+    <choice>
+      <option value="A">按msn_id列进行范围分区</option>
+      <option value="B">按msn_id列进行列表分区</option>
+      <option value="C">按msn_id列进行复合分区</option>
+      <option value="D">按msn_id列进行散列分区</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302016" type="1">
+    <question>比较pagesize和linesize两个命令的特点，正确的是（选两项）</question>
+    <choice>
+      <option value="A">pagesize命令用于设置屏幕上每一页包含的行数</option>
+      <option value="B">linesize命令用于设置屏幕上每一行的字符数</option>
+      <option value="C">pagesize命令用于设置屏幕上每一行的字符数</option>
+      <option value="D">linesize命令用于设置屏幕上每一页包含的行数</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="302017" type="1">
+    <question>查询语句SELECT LTRIM('aaabaccaddefg','abc') FROM DUAL的返回结果是（选一项）</question>
+    <choice>
+      <option value="A">addefg</option>
+      <option value="B">dde</option>
+      <option value="C">ddefg</option>
+      <option value="D">aabaccaddefg</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302018" type="1">
+    <question>带有（）字句的SELECT语句可以在表的一行或多行放置排他锁（选一项）</question>
+    <choice>
+      <option value="A">FOR INSERT</option>
+      <option value="B">FOR UPDATE</option>
+      <option value="C">FOR DELETE</option>
+      <option value="D">FOR REFRESH</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302019" type="1">
+    <question>调用ORACLE隐式游标的关键字是（选一项）</question>
+    <choice>
+      <option value="A">CURSOR</option>
+      <option value="B">SQL</option>
+      <option value="C">PLSQL</option>
+      <option value="D">ORACLECURSOR</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302020" type="1">
+    <question>关于ORACLE锁的级别，说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">ROW SHARE是表级锁</option>
+      <option value="B">一个会话对表加了SHARE锁，别的会话不能对该表加SHARE锁</option>
+      <option value="C">一个会话对表加了SHARE锁，别的会话不能对该表进行修改</option>
+      <option value="D">使用UPDATE语句修改记录，系统一定会添加ROW SHARE锁</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302021" type="1">
+    <question>看下面代码，正确的是( 选一项 )</question>
+    <choice>
+      <option value="A">DECLARE DBMS_OUTPUT.PUT_LINE('定义部分'); BEGIN DBMS_OUTPUT.PUT_LINE('语句部分'); END;</option>
+      <option value="B">BEGIN NUM NUMBER:=100; DBMS_OUTPUT.PUT_LINE('NUM 的值为:'||NUM); END;</option>
+      <option value="C">DECLARE NUM NUMBER:=100; BEGIN NUM:=NUM+NUM/2; DBMS_OUTPUT.PUT_LINE('NUM 的值为:'||NUM); END;</option>
+      <option value="D">BEGIN NUM NUMBER:=100; DECLARE NUM:=NUM+NUM/2; DBMS_OUTPUT.PUT_LINE('NUM 的值为:'||NUM); END;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302022" type="1">
+    <question>可以使用下面的( )个数据字典查看当前数据库的表空间情况。（选一项）</question>
+    <choice>
+      <option value="A">dba_users</option>
+      <option value="B">dba_tab_privs</option>
+      <option value="C">dba_tablespaces</option>
+      <option value="D">user_tab_privs</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302023" type="1">
+    <question>如果存储过程的参数类型为OUT，那么调用时传递的参数应该为（选一项）</question>
+    <choice>
+      <option value="A">常量</option>
+      <option value="B">表达式</option>
+      <option value="C">变量</option>
+      <option value="D">都可以</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302024" type="1">
+    <question>如果希望更新Oracle表authors中first_name列为非空，可以使用哪个语句（选一项）</question>
+    <choice>
+      <option value="A">alter table authors add first_name not null</option>
+      <option value="B">alter table authors modify first_name not null</option>
+      <option value="C">alter table authors alter first_name not null</option>
+      <option value="D">alter table authors drop first_name not null</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302025" type="1">
+    <question>如果希望执行某操作时，该操作不执行，而是执行另一个操作，那么可是使用什么方式来完成（选一项）</question>
+    <choice>
+      <option value="A">before触发器</option>
+      <option value="B">after触发器</option>
+      <option value="C">instead of触发器</option>
+      <option value="D">undo触发器</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302026" type="1">
+    <question>使用desc命令不能显示表的( )信息（选一项）</question>
+    <choice>
+      <option value="A">列名称</option>
+      <option value="B">列长度</option>
+      <option value="C">列是否为空</option>
+      <option value="D">表中的记录数</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302027" type="1">
+    <question>数据字典在SGA的哪一个组件中缓存（选一项）</question>
+    <choice>
+      <option value="A">数据库高速缓冲区</option>
+      <option value="B">共享</option>
+      <option value="C">PGA</option>
+      <option value="D">重做日志缓冲区</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302028" type="1">
+    <question>下列ORACLE说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">UNION集合运算中不会存在重复记录</option>
+      <option value="B">UNION ALL集合运算不会存在重复记录</option>
+      <option value="C">INTERSECT运算结果是两个结果集合中共同的部分</option>
+      <option value="D">MINUS运算中不存在第二个集合的记录</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302029" type="1">
+    <question>下列不属于ORACLE分析函数的是（选一项）</question>
+    <choice>
+      <option value="A">ROW_NUMBER</option>
+      <option value="B">ROWNUM</option>
+      <option value="C">RANK</option>
+      <option value="D">DENSE_RANK</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302030" type="1">
+    <question>下列不属于ORACLE逻辑结构的是（选一项）</question>
+    <choice>
+      <option value="A">区</option>
+      <option value="B">段</option>
+      <option value="C">数据文件</option>
+      <option value="D">数据块</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302031" type="1">
+    <question>下列不属于ORACLE游标属性的是（选一项）</question>
+    <choice>
+      <option value="A">ISOPEN</option>
+      <option value="B">EXISTS</option>
+      <option value="C">FOUND</option>
+      <option value="D">ROWCOUNT</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302032" type="1">
+    <question>下列关于ORACLE的to_date函数和 to_char函数，描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">to_char 函数的作业是将字符串数据转换为日期数据</option>
+      <option value="B">to_date 函数的作业是讲字符串转换为日期</option>
+      <option value="C">to_char 函数是将日期数据转换为字符数据</option>
+      <option value="D">to_date 函数是将日期数据转换为字符数据</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="302033" type="1">
+    <question>下列哪个ORACLE后台进程是数据写入进程（选一项）</question>
+    <choice>
+      <option value="A">DBWR</option>
+      <option value="B">SERVICELOG</option>
+      <option value="C">LGWR</option>
+      <option value="D">SMON</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302034" type="1">
+    <question>下列哪个进程主要职责是监控服务器进程和注册数据服务。（选一项）</question>
+    <choice>
+      <option value="A">SMON</option>
+      <option value="B">PMON</option>
+      <option value="C">DBWR</option>
+      <option value="D">LGWR</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302035" type="1">
+    <question>下列说法错误的是（选两项）</question>
+    <choice>
+      <option value="A">在PL/SQL中使用&lt;&gt;表示不等于</option>
+      <option value="B">在PL/SQL中使用!=表示不等于</option>
+      <option value="C">在PL/SQL中使用相等判断使用　==</option>
+      <option value="D">在PL/SQL中赋值使用　=</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="302036" type="1">
+    <question>下列有关包的使用说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">在不同的包内模块可以重名</option>
+      <option value="B">包的私有过程不能被外部程序调用</option>
+      <option value="C">包体中的全局过程和函数必须在包头部分说明</option>
+      <option value="D">必须先创建包头，然后创建包体</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302037" type="1">
+    <question>下列有关存储过程的特点说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">存储过程不能将值传回调用的主程序</option>
+      <option value="B">存储过程是一个命名的模块</option>
+      <option value="C">编译的存储过程存放在数据库中</option>
+      <option value="D">一个存储过程可以调用另一个存储过程</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302038" type="1">
+    <question>下列有关函数的特点说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">函数必须定义返回类型</option>
+      <option value="B">函数参数的类型可以是OUT</option>
+      <option value="C">在函数体内可以多次使用RETURN语句</option>
+      <option value="D">函数的调用应使用EXECUTE命令</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302039" type="1">
+    <question>下面哪个ORACLE函数把字符串x的所有单词的首字母变成大写（选一项）</question>
+    <choice>
+      <option value="A">initcap</option>
+      <option value="B">concat</option>
+      <option value="C">upper</option>
+      <option value="D">lower</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302040" type="1">
+    <question>下面哪个操作会导致用户连接到ORACLE数据库，但不能创建表（选一项）</question>
+    <choice>
+      <option value="A">授予了CONNECT的角色，但没有授予RESOURCE的角色</option>
+      <option value="B">没有授予用户系统管理员的角色</option>
+      <option value="C">数据库实例没有启动</option>
+      <option value="D">数据库监听没有启动</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302041" type="1">
+    <question>下面哪个用户不是ORACLE缺省安装后就存在的（选一项）</question>
+    <choice>
+      <option value="A">SYSMANAGER</option>
+      <option value="B">SYSTEM</option>
+      <option value="C">SYS</option>
+      <option value="D">SCOTT</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302042" type="1">
+    <question>下面那个部分是PL/SQL中必须存在的部分（选一项）</question>
+    <choice>
+      <option value="A">声明部分</option>
+      <option value="B">执行部分</option>
+      <option value="C">异常处理部分</option>
+      <option value="D">跳转块</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302043" type="1">
+    <question>下面是有关Oracle主键约束的描述，正确的是（选一项）</question>
+    <choice>
+      <option value="A">主键约束用于唯一的确定表中的每一行数据</option>
+      <option value="B">在一个表中，最多只能有2个主键约束</option>
+      <option value="C">主键约束只能由一个列组成</option>
+      <option value="D">主键约束不能由一个单列组成</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302044" type="1">
+    <question>下面是有关系统权限和对象权限的描述，正确的是（选一项）</question>
+    <choice>
+      <option value="A">系统权限是针对某个对象的权限，对象权限不与数据库中的某个对象关联</option>
+      <option value="B">系统权限和对象权限都是针对某个对象操作的权限</option>
+      <option value="C">系统权限和对象权限都不与具体的对象关联</option>
+      <option value="D">系统权限不与数据库中的对象关联，对象权限是针对某个对象操作的权限</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302045" type="1">
+    <question>序列的两个属性是（选两项）</question>
+    <choice>
+      <option value="A">currval</option>
+      <option value="B">nowval</option>
+      <option value="C">nextval</option>
+      <option value="D">preval</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="302046" type="1">
+    <question>要审计用户执行的create,drop,和alter等ddl语句，应创建( )触发器。（选一项）</question>
+    <choice>
+      <option value="A">行级</option>
+      <option value="B">语句级</option>
+      <option value="C">模式</option>
+      <option value="D">数据库</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302047" type="1">
+    <question>以下需求中哪个需要用分组函数来实现（选一项）</question>
+    <choice>
+      <option value="A">把ORDER表中的定单时间显示成 'DD MON YYYY' 格式</option>
+      <option value="B">把字符串 'JANUARY 28, 2000' 转换成日期格式</option>
+      <option value="C">显示PRODUCT 表中不同种类产品的COST的和</option>
+      <option value="D">把PRODUCT表中的DESCRIPTION列用小写形式显示</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302048" type="1">
+    <question>有关ORACLE包的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">包的声明和包体中的函数可以在参数个数上不一致</option>
+      <option value="B">包中不能定义变量</option>
+      <option value="C">包中定义的全局变量所有的子过程都可以使用</option>
+      <option value="D">包中的存储过程不能重载，但函数可以重载</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302049" type="1">
+    <question>有关ORACLE触发器的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">可以通过手工的方式激发触发器</option>
+      <option value="B">停用触发器的唯一方法是删除触发器</option>
+      <option value="C">行级触发器是在修改每条记录时都触发一次</option>
+      <option value="D">在行级触发器中可以使用deleted和inserted表</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302050" type="1">
+    <question>有关ORACLE存储过程说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">可以在查询语句中调用储存过程</option>
+      <option value="B">存储过程是一次编译多次使用</option>
+      <option value="C">存储过程通过传出参数的形式对外提供数据传递</option>
+      <option value="D">存储过程中不能调用其他的存储过程</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="302051" type="1">
+    <question>有关ORACLE的INSTEAD OF触发器说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">替代触发器的触发源可以是表</option>
+      <option value="B">替代触发器可以后置触发</option>
+      <option value="C">替代触发器就是用触发器执行部分替换DML语句的操作</option>
+      <option value="D">替代触发器仍然会执行DML语句</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302052" type="1">
+    <question>有关ORACLE函数说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">函数中可以对表进行处理</option>
+      <option value="B">函数的主要作用是进行业务处理</option>
+      <option value="C">函数主要是对传入的参数进行数据处理</option>
+      <option value="D">函数可以递归调用</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302053" type="1">
+    <question>有关ORACLE函数说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">ORACLE不能自定义函数</option>
+      <option value="B">函数每次调用的时候都需要解释执行PL/SQL</option>
+      <option value="C">函数只能在查询中使用</option>
+      <option value="D">函数可以不带参数</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302054" type="1">
+    <question>有关ORACLE视图说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">视图的数据和对应表的数据单独存储</option>
+      <option value="B">视图只能在存储过程中使用</option>
+      <option value="C">使用WITH CHECK OPTION可以保证通过视图修改数据不会改变表视图的记录数</option>
+      <option value="D">如果表不存在不能创建视图</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302055" type="1">
+    <question>有关ORACLE数据类型下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">%TYPE是取的一个行结构类型</option>
+      <option value="B">%ROWTYPE是取的一个行结构类型</option>
+      <option value="C">VARCHAR2在PL/SQL中和SQL中表示数据的长度一致</option>
+      <option value="D">PL/SQL和SQL中都有逻辑类型</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302056" type="1">
+    <question>有关ORACLE索引说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">索引的数据和表的数据分开存储，但索引组织表除外</option>
+      <option value="B">所有索引中的数据是顺序排序</option>
+      <option value="C">分区表的索引必须统一存储</option>
+      <option value="D">只能对分区表的索引进行分区</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302057" type="1">
+    <question>有关ORACLE异常说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">可以利用非预定异常抛出有编号的异常</option>
+      <option value="B">用户可以定义预定义异常</option>
+      <option value="C">自定义异常反应的是ORACLE系统错误</option>
+      <option value="D">使用try…catch抓异常</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302058" type="1">
+    <question>有关触发器的维护说法错误的是（选两项）</question>
+    <choice>
+      <option value="A">触发器创建后由系统自动调用</option>
+      <option value="B">在触发器中不能执行事务操作</option>
+      <option value="C">可以人为的设定触发器是否有效</option>
+      <option value="D">不能对一个表的所有触发器同时修改为无效</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="302059" type="1">
+    <question>有关序列说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">序列的起始值必须在最大值和最小值之间</option>
+      <option value="B">序列开始使用后不能进行修改</option>
+      <option value="C">序列如果可以循环取值，下一个循环的开始值是minvalue指定的值</option>
+      <option value="D">第一次使用序列的NEXTVAL得到的是起始值</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302060" type="1">
+    <question>阅读以下PL/SQL程序： begin for idx in 1..10 loop dbms_output.put_line('Index='||idx); end loop; end; 下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">程序出错，因为第2行变量idx没有声明</option>
+      <option value="B">程序出错，因为第3行字符串连接应该用+号，而不是||</option>
+      <option value="C">程序出错，因为第3行变量idx必须用TO_CHAR函数进行类型转换</option>
+      <option value="D">该段代码可以正常运行</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302061" type="1">
+    <question>在Oracal中，阅读以下PL/SQL代码： DELCARE vempno number; BEGIN SELECT empno INTO vempno FROM emp; ... END; 针对上述PL/SQL片段，可能发生的异常是（选两项）</question>
+    <choice>
+      <option value="A">TOO_MANY_ROWS</option>
+      <option value="B">DUP_CAL_ON_INDEX</option>
+      <option value="C">NO_DATA_FOUND</option>
+      <option value="D">ZERO_DIVIDE</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="302062" type="1">
+    <question>在Oracle 中，使用了如下的语句创建用户TOM CREATE USER TOM IDENTIFIED BY TOMSYS 则对于该用户而言，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">该用户的口令为TOMSYS</option>
+      <option value="B">TOM默认为表空间为SYSSTEM</option>
+      <option value="C">TOM 的临时表空间为TEMP</option>
+      <option value="D">使GRANT UPDATE 命令可以修改TOM的口令</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302063" type="1">
+    <question>在oracle程序中处理语句时发生的逻辑错误导致( )故障。（选一项）</question>
+    <choice>
+      <option value="A">实例</option>
+      <option value="B">介质</option>
+      <option value="C">语句</option>
+      <option value="D">用户进程</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302064" type="1">
+    <question>在Oracle数据库中，使用以下语句创建一个触发器： Create or replace trigger ai_emp After insert on emp For each row Begin :new.ename:=upper(:new.ename); End ai_emp; 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">触发器创建成功，该触发器将每次插入的新记录的ename列变为大写</option>
+      <option value="B">触发器创建成功，该触发器将每次insert语句插入的第一条记录的ename列变为大写</option>
+      <option value="C">触发器创建失败，因为insert触发器不能更改:new对象的值</option>
+      <option value="D">触发器创建失败，因为after触发器不能更改:new对象的值</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302065" type="1">
+    <question>在Oracle系统中，可以使用( )提交完成的事务。（选一项）</question>
+    <choice>
+      <option value="A">commit</option>
+      <option value="B">rollback</option>
+      <option value="C">savepoint</option>
+      <option value="D">transaction</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302066" type="1">
+    <question>在oracle中( )是最小的存储空间。（选一项）</question>
+    <choice>
+      <option value="A">区</option>
+      <option value="B">段</option>
+      <option value="C">块</option>
+      <option value="D">表空间</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302067" type="1">
+    <question>在Oracle中, 关于HAVING 子句, 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">HAVING子句和WHERE子句相同</option>
+      <option value="B">HAVING子句用于单行的条件查询</option>
+      <option value="C">HAVING子句用于已分组的条件查询</option>
+      <option value="D">HAVING子句必须紧跟在WHERE子句后面使用</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302068" type="1">
+    <question>在Oracle中,( )操作符返回两个查询所选定的所有不重复的行。（选一项）</question>
+    <choice>
+      <option value="A">INTERSECT</option>
+      <option value="B">MINUS</option>
+      <option value="C">UNION</option>
+      <option value="D">OR</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302069" type="1">
+    <question>在Oracle中，INSTEAD OF触发器主要用于（选一项）</question>
+    <choice>
+      <option value="A">表</option>
+      <option value="B">表和视图</option>
+      <option value="C">基于单个表的视图</option>
+      <option value="D">基于多个表的视图</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302070" type="1">
+    <question>在Oracle中，PL/SQL块中定义了一个带参数的游标： CURSOR emp_cursor(dnum NUMBER) IS SELECT sal,comm FORM emp WHERE deptno=dnum; 那么正确打开此游标的语句是（选一项）</question>
+    <choice>
+      <option value="A">OPEN emp_cursor(20);</option>
+      <option value="B">OPEN emp_cursor FOR 20;</option>
+      <option value="C">OPEN emp_cursor USING 20;</option>
+      <option value="D">FOR rmp_rec IN emp_cursor(20) LOOP ... END LOOP;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302071" type="1">
+    <question>在ORACLE中，rank()函数和dense_rank()函数的差别是（选一项）</question>
+    <choice>
+      <option value="A">rank函数和dense_rank函数都没有跳跃</option>
+      <option value="B">rank函数和dense_rank函数都有跳跃</option>
+      <option value="C">rank函数有跳跃 dense_rank函数没有跳跃</option>
+      <option value="D">rank函数没有跳跃 dense_rank函数有跳跃</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302072" type="1">
+    <question>在Oracle中，表EMP包含以下列： …… NAME VARCHAR2(20) ADDR VARCHAR2(60) …… 要以NAME's address is ADDR格式返回数据，以下SQL语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">SELECT NAME '''s address is ' ADDR FROM EMP;</option>
+      <option value="B">SELECT NAME || '''s address is ' || ADDR FROM EMP;</option>
+      <option value="C">SELECT NAME '\'s address is ' ADDR FROM EMP;</option>
+      <option value="D">SELECT NAME || '\'s address is ' || ADDR FROM EMP;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302073" type="1">
+    <question>在Oracle中，表分区方式（）建议分区数是2的幂（2、4、8等），以获得最平均的数据发布（选一项）</question>
+    <choice>
+      <option value="A">范围分区</option>
+      <option value="B">列表分区</option>
+      <option value="C">散列分区</option>
+      <option value="D">复合分区</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302074" type="1">
+    <question>在Oracle中，不属于游标属性的是（选一项）</question>
+    <choice>
+      <option value="A">%NOTFOUND。</option>
+      <option value="B">%FOUND</option>
+      <option value="C">%ISCLOSE D</option>
+      <option value="D">%ROWTYPE</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302075" type="1">
+    <question>在ORACLE中，当col为( )时，col &gt; any ( 5 , 10 , 28 ) 为假。（选一项）</question>
+    <choice>
+      <option value="A">22</option>
+      <option value="B">2</option>
+      <option value="C">12</option>
+      <option value="D">32</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302076" type="1">
+    <question>在Oracle中，当FETCH语句从游标获得数据时，下面叙述正确的是（选一项）</question>
+    <choice>
+      <option value="A">游标打开</option>
+      <option value="B">游标关闭</option>
+      <option value="C">当前记录的数据加载到变量中</option>
+      <option value="D">创建变量保存当前记录的数据</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302077" type="1">
+    <question>在Oracle中，当从SQL表达式调用函数时，下列描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">从SELECT语句调用的函数均不能修改数据库表</option>
+      <option value="B">函数可以带有IN、OUT等模式的参数</option>
+      <option value="C">函数的返回值必须是数据库类型，不得使用PL/SQL类型</option>
+      <option value="D">形式参数必须使用数据库类型，不得使用PL/SQL类型</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302078" type="1">
+    <question>在Oracle中，当需要使用显式游标更新或删除游标中的行时，声明游标时指定的SELECT语句必须带有（）子句。（选一项）</question>
+    <choice>
+      <option value="A">WHERE CURRENT OF</option>
+      <option value="B">INTO</option>
+      <option value="C">FOR UPDATE</option>
+      <option value="D">ORDER BY</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302079" type="1">
+    <question>在Oracle中，第1个用户对数据库表Product实行了如下的命令： SELECT * FROM Product WHERE ProductID='001' FOR UPDATE; 此时第2个用户也对该表执行了如下命令: SELECT * FROM Product WHERE ProductID='001' FOR UPDATE WAIT 3; UPDATE Product SET ProductID='002' WHERE ProductID='001'; COMMIT; 则针对第2个用户,说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">修改成功,将ProductID为001的记录改为ProductID为002</option>
+      <option value="B">等待3秒后修改成功,将ProductID为001的记录改为ProductID为002</option>
+      <option value="C">提示资源被占用,如果第一个用户在3秒期间释放了资源,则提示修改成功</option>
+      <option value="D">等待时间大雨3秒,第1个用户释放资源后,修改成功</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302080" type="1">
+    <question>在Oracle中，关于PL/SQL下列描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">PL/SQL代表Power Language/SQL</option>
+      <option value="B">PL/SQL不支持面向对象编程</option>
+      <option value="C">PL/SQL块包括声明部分、可执行部分和异常处理部分</option>
+      <option value="D">PL/SQL提供的四种内置数据类型是character,integer,float,boolea</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302081" type="1">
+    <question>在Oracle中，关于程序包的描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">程序包是一种数据库对象，它是对相关PL/SQL类型、子程序、游标、异常、变量和常量的封装</option>
+      <option value="B">程序包中私有对象是通过PRIVATE关键字来标识的</option>
+      <option value="C">PL/SQL允许两个或多个打包的子程序具有同一名称，只要子程序接受的参数数据类型不同</option>
+      <option value="D">程序包具有模块化、信息隐藏、新增功能及性能更佳等优点</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302082" type="1">
+    <question>在Oracle中，关于触发器的描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">触发器可以删除，但不能禁用</option>
+      <option value="B">触发器只能用于表</option>
+      <option value="C">触发器可以分为行级和语句级</option>
+      <option value="D">触发器是一个对关联表发出select、insert、update或delete语句时触发的存储过程</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302083" type="1">
+    <question>在Oracle中，关于锁,下列描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">锁用于在用户之间控制对数据的并发访问</option>
+      <option value="B">可以将锁归类为行级锁和表级锁</option>
+      <option value="C">insert、update、delete语句自动获得行级锁</option>
+      <option value="D">同一时间只能有一个用户锁定一个特定的表</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302084" type="1">
+    <question>在Oracle中，关于子程序的描述不正确的是（选一项）</question>
+    <choice>
+      <option value="A">子程序是已命名的PL/SQL块，可带参数并可在需要时随时调用</option>
+      <option value="B">子程序可以具有声明部分、可执行部分和异常处理部分</option>
+      <option value="C">子程序参数的模式只有IN和OUT两种模式</option>
+      <option value="D">子程序可分为过程和函数两种类型</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302085" type="1">
+    <question>在ORACLE中，模式是（选一项）</question>
+    <choice>
+      <option value="A">创建表的模板</option>
+      <option value="B">一个用户下所有对象的集合</option>
+      <option value="C">一种设计数据库的方法</option>
+      <option value="D">数据库别名</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302086" type="1">
+    <question>在Oracle中，你需要创建索引提高薪水审查的性能，该审查要对员工薪水提高12个百分点后进行分析处理，下面哪个create index命令能解决此问题（选一项）</question>
+    <choice>
+      <option value="A">CREATE INDEX my_idx_1 ON employee(salary*1.12);</option>
+      <option value="B">CREATE UNIQUE INDEX my_idx_1 ON employee(salary)</option>
+      <option value="C">CREATE BITMAP INDEX my_idx_1 ON employee(salary);</option>
+      <option value="D">CREATE INDEX my_idx_1 ON employee(salary) REVERSE;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302087" type="1">
+    <question>在Oracle中，你以SYSDBA登录，CUSTOMER表位于Mary用户方案中，下面哪条语句为数据库中的所有用户创建CUSTOMER表的同义词（）。（选一项）</question>
+    <choice>
+      <option value="A">CREATE PUBLIC SYNONYM cust ON mary.customer;</option>
+      <option value="B">CREATE PUBLIC SYNONYM cust FOR mary.customer;</option>
+      <option value="C">CREATE SYNONYM cust ON mary.customer FOR PUBLIC;</option>
+      <option value="D">不能创建CUSTOMER的公用同义词。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302088" type="1">
+    <question>在Oracle中,使用下列语句产生序列: CREATE SEQUENCE id; Oracle服务器会预开辟内存并维持的序列值有()个（选一项）</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">10</option>
+      <option value="C">20</option>
+      <option value="D">100</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302089" type="1">
+    <question>在Oracle中，使用以下语句创建视图： CREATE OR REPLACE VIEW pen_view AS SELECT * FROM order_master WHERE ostatus = ‘p’ WITH CHECK OPTION; 当用户试图执行以下语句: UPDATE pen_view SET ostatus = ‘d’ WHERE ostatus=’p’; 下列描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">Oracle将ostatus修改为d，不提示任何错误</option>
+      <option value="B">Oracle不执行更新操作，并返回错误信息</option>
+      <option value="C">Oracle将ostatus修改为d，同时返回错误信息</option>
+      <option value="D">Oracle不执行更新操作，也不提示任何错误</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302090" type="1">
+    <question>在Oracle中,使用以下语句创建视图; create or replace view myView as select * from orders where status='p'; 假定Orders表中包含10条status='p'的记录,当用户试图执行以下语句; update myView set status='o' where status='p'; 下列正确的是（选一项）</question>
+    <choice>
+      <option value="A">Oracle不执行更新操作,并返回错误信息</option>
+      <option value="B">Oracle成功执行更新操作,再次查看视图时返回0行记录</option>
+      <option value="C">Oracle成功执行更新操作,再次查看视图时返回10行记录</option>
+      <option value="D">Oracle执行更新操作,但提示错误信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302091" type="1">
+    <question>在Oracle中，事务中使用下列SQL语句不会引起锁定（选一项）</question>
+    <choice>
+      <option value="A">SELECT</option>
+      <option value="B">INSERT</option>
+      <option value="C">UPDATE</option>
+      <option value="D">DELETE</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302092" type="1">
+    <question>在Oracle中，数据库中的触发器是一个对关联表发出insert、update或（）语句时触发的存储过程。（选一项）</question>
+    <choice>
+      <option value="A">delete</option>
+      <option value="B">drop</option>
+      <option value="C">create</option>
+      <option value="D">truncate</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302093" type="1">
+    <question>在Oracle中，通过命令（）可以释放锁。（选一项）</question>
+    <choice>
+      <option value="A">INSERT</option>
+      <option value="B">DELETE</option>
+      <option value="C">ROLLBACK</option>
+      <option value="D">UNLOCK</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302094" type="1">
+    <question>在Oracle中，下列( )语句不能用于控制游标。（选一项）</question>
+    <choice>
+      <option value="A">Open</option>
+      <option value="B">Create</option>
+      <option value="C">Fetch</option>
+      <option value="D">Close</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302095" type="1">
+    <question>在Oracle中，下列关于PL/SQL的说法不正确的是（选一项）</question>
+    <choice>
+      <option value="A">PL/SQL支持DML、DDL和DCL</option>
+      <option value="B">PL/SQL支持游标操作和事务命令</option>
+      <option value="C">声明部分是必选的</option>
+      <option value="D">可执行部分是必选的</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302096" type="1">
+    <question>在Oracle中，下列哪种标量类型不能保存到数据库表中（选一项）</question>
+    <choice>
+      <option value="A">CHAR</option>
+      <option value="B">BLOB</option>
+      <option value="C">DATE</option>
+      <option value="D">BOOLEAN</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302097" type="1">
+    <question>在Oracle中，下面关于函数描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">SYSDATE函数返回Oracle服务器的日期和时间</option>
+      <option value="B">ROUND数字函数按四舍五入原则返回指定十进制数最靠近的整数</option>
+      <option value="C">ADD_MONTHS日期函数返回指定两个月份天数的和</option>
+      <option value="D">SUBSTR函数从字符串指定的位置返回指定长度的子串</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="302098" type="1">
+    <question>在Oracle中，下述( )命令会使挂起的事务完成。（选一项）</question>
+    <choice>
+      <option value="A">COMMIT</option>
+      <option value="B">DELETE</option>
+      <option value="C">UPDATE</option>
+      <option value="D">SELECT</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302099" type="1">
+    <question>在Oracle中，序列venseq使用下面的语句创建： CREATE SEQUENCE venseq INCREMENT BY 1 START WITH 10 MAXVALUE 100 MINVALUE 10 CYCLE CACHE 5; 下面对序列venseq修改的语句，错误的是（选一项）</question>
+    <choice>
+      <option value="A">ALTER SEQUENCE venseq START WITH 1</option>
+      <option value="B">ALTER SEQUENCE venseq MAXVALUE 90;</option>
+      <option value="C">ALTER SEQUENCE venseq NOMINVALUE;</option>
+      <option value="D">ALTER SEQUENCE venseq NOCACHE;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302100" type="1">
+    <question>在Oracle中，以下不属于集合操作符的是（选一项）</question>
+    <choice>
+      <option value="A">UNION</option>
+      <option value="B">SUM</option>
+      <option value="C">MINUS</option>
+      <option value="D">INTERSECT</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302101" type="1">
+    <question>在Oracle中，用户（）拥有所有内置的程序包。（选一项）</question>
+    <choice>
+      <option value="A">SYS</option>
+      <option value="B">SYSTEM</option>
+      <option value="C">PUBLIC</option>
+      <option value="D">DEFAULT</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302102" type="1">
+    <question>在Oracle中，用下列语句定义了一个过程： CREATE OR REPLACE PROCEDURE test(a IN VARCHAR2, b IN OUT NUMBER, c OUT VARCHAR2) IS BEGIN …… END; 假定使用的变量都已定义，下面对过程test的调用语法正确的是（选一项）</question>
+    <choice>
+      <option value="A">test('String1',50,v_str2)</option>
+      <option value="B">test(v_str1,v_num1,'String2')</option>
+      <option value="C">test('String1',v_num1,v_str2)</option>
+      <option value="D">test(v_str1,20,v_str2)</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302103" type="1">
+    <question>在Oracle中，用下列语句定义了一个过程： CREATE PROCEDURE proc(value1 IN VARCHAR2,value2 OUT NUMBER,value3 IN OUT VARCHAR2) IS BEGIN …… END; 假定使用的变量都已定义，下面对过程proc的调用语法正确的是（选一项）</question>
+    <choice>
+      <option value="A">proc('tt',10,v3)</option>
+      <option value="B">proc('tt',v2,v3)</option>
+      <option value="C">proc(v1,v2,v3)</option>
+      <option value="D">proc('tt',10,'dd')</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302104" type="1">
+    <question>在Oracle中，用以下SQL命令创建了一个序列： CREATE SEQUENCE my_seq START WITH 394 INCREMENT BY 12 NOMINVALUE NOMAXVALUE NOCYCLE NOCACHE; 用户执行包含my_seq.NEXTVAL的SQL语句三次，然后执行包含 my_seq.CURRVAL的SQL语句四次，请问序列my_seq的当前值是（选一项）</question>
+    <choice>
+      <option value="A">406</option>
+      <option value="B">418</option>
+      <option value="C">430</option>
+      <option value="D">442</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302105" type="1">
+    <question>在Oracle中，有表“cd”它包含列“cdcode”，“category”和“cdname”，要查询category取值为“CLASSIC”或“ROCK”的行，应采用语句（选两项）</question>
+    <choice>
+      <option value="A">SELECT * FROM cd WHERE category IN ('CLASSIC','ROCK');</option>
+      <option value="B">SELECT * FROM cd WHERE category BETWEEN 'CLASSIC' AND 'ROCK';</option>
+      <option value="C">SELECT * FROM cd WHERE category='CLASSIC'AND category='ROCK';</option>
+      <option value="D">SELECT * FROM cd WHERE category='CLASSIC' OR category='ROCK';</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="302106" type="1">
+    <question>在Oracle中，有一个名为seq的序列对象，以下语句能返回序列值但不会引起序列值增加的是（选一项）</question>
+    <choice>
+      <option value="A">select seq.ROWNUM from dual</option>
+      <option value="B">select seq.ROWID from dual;</option>
+      <option value="C">select seq.CURRVAL from dual;</option>
+      <option value="D">select seq.NEXTVAL from dual;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302107" type="1">
+    <question>在Oracle中，阅读下列PL/SQL块： DECLARE v_lower NUMBER:=2; v_upper NUMBER:=100; v_count NUMBER:=1; BEGIN FOR i IN v_lower..v_upper LOOP INSERT INTO test(results) VALUES (v_count); v_count := v_count + 1; END LOOP; END; 请问FOR LOOP循环体执行了（）次。（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">98</option>
+      <option value="D">100</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302108" type="1">
+    <question>在Oracle中，在SQL提示符下调用存储过程的方法是（选两项）</question>
+    <choice>
+      <option value="A">使用CALL语句</option>
+      <option value="B">使用EXECUTE语句</option>
+      <option value="C">使用RUN语句</option>
+      <option value="D">直接使用过程名</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="302109" type="1">
+    <question>在Oracle中，在以下情形建立位图索引可以获得较好的性能（选一项）</question>
+    <choice>
+      <option value="A">在列值唯一的列上建立</option>
+      <option value="B">在列值相差很小的列上建立</option>
+      <option value="C">在列值频繁重复的列上建立</option>
+      <option value="D">在用于保存位图的列上建立</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="302110" type="1">
+    <question>在Oracle中，在执行SQL语句时，你不小心使用Update命令将所有的ID值设置成了11111，那么使用( )命令可以取消这一操作。（选一项）</question>
+    <choice>
+      <option value="A">EXIT</option>
+      <option value="B">OUIT</option>
+      <option value="C">COMMIT</option>
+      <option value="D">ROLLBACK</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="302111" type="1">
+    <question>在Oracle中，执行下面的语句： SELECT ceil(-97.342), floor(-97.342), round(-97.342), trunc(-97.342) FROM dual; 哪个函数的返回值不等于-97（选一项）</question>
+    <choice>
+      <option value="A">ceil()</option>
+      <option value="B">floor()</option>
+      <option value="C">round()</option>
+      <option value="D">trunc()</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="302112" type="1">
+    <question>在Windows操作系统中，Oracle的（）服务器监听并接受来自客户端应用程序的连接请求。（选一项）</question>
+    <choice>
+      <option value="A">OracleHOME_NAMETNSListener</option>
+      <option value="B">OracleServiceSID</option>
+      <option value="C">OracleHOME_NAMEAgent</option>
+      <option value="D">OracleHOME_NAMEHTTPServe</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302113" type="1">
+    <question>在非归档方式下操作的数据库禁用了（选一项）</question>
+    <choice>
+      <option value="A">归档日志。</option>
+      <option value="B">联机日志。</option>
+      <option value="C">日志写入程序。</option>
+      <option value="D">日志文件。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="302114" type="1">
+    <question>子程序的( )模式参数可以在调用子程序时指定一个常量。（选一项）</question>
+    <choice>
+      <option value="A">in</option>
+      <option value="B">out</option>
+      <option value="C">In out</option>
+      <option value="D">inout</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

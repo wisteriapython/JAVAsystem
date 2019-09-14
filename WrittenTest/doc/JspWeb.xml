@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="204001" type="1">
+    <question>( )接口用户存储与Servlet相关的信息。（选一项）</question>
+    <choice>
+      <option value="A">HttpSession</option>
+      <option value="B">ServletContext</option>
+      <option value="C">HttpServletRequest</option>
+      <option value="D">HttpServletResponse</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204002" type="1">
+    <question>( )动作用于得到Bean的属性值。（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:param&gt;</option>
+      <option value="B">&lt;jsp:getProperty&gt;</option>
+      <option value="C">&lt;jsp:setProperty&gt;</option>
+      <option value="D">&lt;jsp:forward&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204003" type="1">
+    <question>( )动作用于将永久的控制权从jsp页面传输至本地服务器的另一个位置。（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:include&gt;</option>
+      <option value="B">&lt;jsp:userBean&gt;</option>
+      <option value="C">&lt;jsp:forword&gt;</option>
+      <option value="D">&lt;jsp:param&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204004" type="1">
+    <question>( )多次计算它的标签体。（选一项）</question>
+    <choice>
+      <option value="A">迭代标签</option>
+      <option value="B">标准操作标签</option>
+      <option value="C">常用标签</option>
+      <option value="D">条件标签</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204005" type="1">
+    <question>( )页面在Model I体系结构中负责处理请求。（选一项）</question>
+    <choice>
+      <option value="A">XML</option>
+      <option value="B">JSP</option>
+      <option value="C">DHTML</option>
+      <option value="D">HTML</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204006" type="1">
+    <question>( )用于操作JSP中的范围变量。（选一项）</question>
+    <choice>
+      <option value="A">条件标签</option>
+      <option value="B">迭代标签</option>
+      <option value="C">常用标签</option>
+      <option value="D">自定义标签</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204007" type="1">
+    <question>( )用于调用过滤器链中的下一个过滤器。（选一项）</question>
+    <choice>
+      <option value="A">FilterConfig()</option>
+      <option value="B">Filter()</option>
+      <option value="C">FilterChain()</option>
+      <option value="D">RequestDispatcher()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204008" type="1">
+    <question>&lt;jsp:param&gt;动作元素经常与( )元素一起使用。（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:include&gt;</option>
+      <option value="B">&lt;jsp:useBean&gt;</option>
+      <option value="C">&lt;jsp:setProperty&gt;?</option>
+      <option value="D">&lt;jsp:forward&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204009" type="1">
+    <question>&lt;jsp:useBean&gt;声明对象的默认有效范围为（选一项）</question>
+    <choice>
+      <option value="A">page</option>
+      <option value="B">session</option>
+      <option value="C">application</option>
+      <option value="D">request</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204010" type="1">
+    <question>&lt;jsp:userBean&gt;动作的()属性指定可以在整个页面中引用特定Bean的唯一值。（选一项）</question>
+    <choice>
+      <option value="A">id</option>
+      <option value="B">class</option>
+      <option value="C">type</option>
+      <option value="D">scope</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204011" type="1">
+    <question>Cookie方法中，那个能得到Cookie的存在的时间（选一项）</question>
+    <choice>
+      <option value="A">getName()</option>
+      <option value="B">getValue()</option>
+      <option value="C">getMaxAge()</option>
+      <option value="D">setMaxAge()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204012" type="1">
+    <question>EL表达式，${10 mod 3}，执行结果为（选一项）</question>
+    <choice>
+      <option value="A">10 mod 3</option>
+      <option value="B">1</option>
+      <option value="C">3</option>
+      <option value="D">null</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204013" type="1">
+    <question>Form表单提交的信息中含有“name= svse”，阅读下面的JSP，a.jsp将输出（选一项） 接受该请求的JSP： &lt;% response.sendRedirect(“a.jsp"); %&gt; a.jsp: &lt;%=request.getParameter(“name") %&gt;</question>
+    <choice>
+      <option value="A">null</option>
+      <option value="B">什么都不输出</option>
+      <option value="C">异常信息</option>
+      <option value="D">svse</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204014" type="1">
+    <question>HttpServletRequest接口的( )方法用于创建会话。（选一项）</question>
+    <choice>
+      <option value="A">getContext()</option>
+      <option value="B">getSession()</option>
+      <option value="C">setSession()</option>
+      <option value="D">putSession()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204015" type="1">
+    <question>Http是什么( )协议。（选一项）</question>
+    <choice>
+      <option value="A">局域网</option>
+      <option value="B">有状态</option>
+      <option value="C">无状态</option>
+      <option value="D">状态良好</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204016" type="1">
+    <question>Http协议的状态码（）表示文件没有创建（选一项）</question>
+    <choice>
+      <option value="A">200</option>
+      <option value="B">400</option>
+      <option value="C">500</option>
+      <option value="D">404</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204017" type="1">
+    <question>J2EE 中，（）类的（）方法用于创建对话（选一项）</question>
+    <choice>
+      <option value="A">HttpServletRequest、getSession</option>
+      <option value="B">HttpServletResponse、newSession</option>
+      <option value="C">HtttpSession、newInstance</option>
+      <option value="D">HttpSession、getSession</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204018" type="1">
+    <question>J2EE中，HttpServletRequest类的( )方法用返回与当前请求相关联的会话，如果没有，则返回null（选一项）</question>
+    <choice>
+      <option value="A">getSession()</option>
+      <option value="B">getSession(true)</option>
+      <option value="C">getSession(false)</option>
+      <option value="D">getSession(null)</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204019" type="1">
+    <question>J2EE中，Servlet API 为使用Cookie,提供了（）类。（选一项）</question>
+    <choice>
+      <option value="A">javax.servlet.http.Cookie</option>
+      <option value="B">javax.servlet.http.HttpCookie</option>
+      <option value="C">javax.servlet. Cookie</option>
+      <option value="D">javax.servlet.http. HttpCookie</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204020" type="1">
+    <question>JSP EL 表达式：${user.loginName}执行效果等同于（选一项）</question>
+    <choice>
+      <option value="A">&lt;%=user.getLoginName()%&gt;</option>
+      <option value="B">&lt;%user.getLoginName();%&gt;</option>
+      <option value="C">&lt;%=user.loginName%&gt;</option>
+      <option value="D">&lt;% user.loginName;%&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204021" type="1">
+    <question>JSP EL表达式的语法为（选一项）</question>
+    <choice>
+      <option value="A">!JSP expression</option>
+      <option value="B">${JSP expression}</option>
+      <option value="C">#{ JSP expression}</option>
+      <option value="D">@{ JSP expression{</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204022" type="1">
+    <question>JSP缺省的脚本语言为（选一项）</question>
+    <choice>
+      <option value="A">HTML</option>
+      <option value="B">JSP</option>
+      <option value="C">ASPX</option>
+      <option value="D">JAVA</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204023" type="1">
+    <question>JSP中的( )隐式对象表示Servlet类的实例。（选一项）</question>
+    <choice>
+      <option value="A">request</option>
+      <option value="B">reponse</option>
+      <option value="C">page</option>
+      <option value="D">session</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204024" type="1">
+    <question>JSP中的三种脚本元素是（选三项）</question>
+    <choice>
+      <option value="A">声明</option>
+      <option value="B">Scriptlet</option>
+      <option value="C">表达式</option>
+      <option value="D">注释</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="204025" type="1">
+    <question>Jsp中有如下代码： &lt;% Cookie c = new Cookie("name" , "admin"); c.setMaxAge(10000); response.addCookie(c); %&gt; 以下哪句代码可以正确显示”admin”（选一项）</question>
+    <choice>
+      <option value="A">${cookie.name}</option>
+      <option value="B">${cookie.name.value}</option>
+      <option value="C">${ name}</option>
+      <option value="D">${name.value}</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204026" type="1">
+    <question>Login.jsp为登录页面，表单代码如下： &lt;form action="index.jsp" method="post"&gt; &lt;input type="text" name="name"/&gt; &lt;input type="submit" value="login"/&gt; &lt;/form&gt; Index.jsp中直接显示用户名，以下哪种代码正确（选一项）</question>
+    <choice>
+      <option value="A">${requestScope.name}</option>
+      <option value="B">&lt;%=name%&gt;</option>
+      <option value="C">${param.name}</option>
+      <option value="D">&lt;%=param.name%&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204027" type="1">
+    <question>Medel II 体系结构的( )对象将客户端呈现在应用程序界面。（选一项）</question>
+    <choice>
+      <option value="A">模型</option>
+      <option value="B">控制器</option>
+      <option value="C">视图</option>
+      <option value="D">Servlet</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204028" type="1">
+    <question>pageContext对象提供对( )和request对象的访问权限。（选一项）</question>
+    <choice>
+      <option value="A">session</option>
+      <option value="B">param</option>
+      <option value="C">header</option>
+      <option value="D">cookie</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204029" type="1">
+    <question>page指令中的contentType 属性的缺省值（选一项）</question>
+    <choice>
+      <option value="A">text/xml</option>
+      <option value="B">text/html</option>
+      <option value="C">text/plain</option>
+      <option value="D">image/gif</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204030" type="1">
+    <question>page指令中的import属性可以在页面中出现( )次。（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">多</option>
+      <option value="D">以上都不对</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204031" type="1">
+    <question>Servlet 可以在以下（）三个不同的作用域存储数据（选一项）</question>
+    <choice>
+      <option value="A">请求、会话和上下文</option>
+      <option value="B">响应、会话和上下文</option>
+      <option value="C">请求、响应和会话</option>
+      <option value="D">请求、响应和上下文</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204032" type="1">
+    <question>ServletContext接口的( )方法用于将对象保存到Servlet上下文中。（选一项）</question>
+    <choice>
+      <option value="A">getServletContext()</option>
+      <option value="B">getContext()</option>
+      <option value="C">getAttribute()</option>
+      <option value="D">setAttribute()</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204033" type="1">
+    <question>Servlet程序的入口点是（选一项）</question>
+    <choice>
+      <option value="A">init（）</option>
+      <option value="B">main（）</option>
+      <option value="C">service（）</option>
+      <option value="D">doGet（）</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204034" type="1">
+    <question>Servlet的初始化参数只能在Servlet的( )方法中获取。（选一项）</question>
+    <choice>
+      <option value="A">doPost()??</option>
+      <option value="B">doGet()</option>
+      <option value="C">init()??</option>
+      <option value="D">destroy()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204035" type="1">
+    <question>Servlet使用( )接口的forword和include方法进行通讯。（选一项）</question>
+    <choice>
+      <option value="A">ServletContext</option>
+      <option value="B">ServletConfig</option>
+      <option value="C">RequestDispatcher</option>
+      <option value="D">HttpSession</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204036" type="1">
+    <question>Servlet中，HttpServletResponse的（）方法用来把一个Http请求重定向到另外的URL（选一项）</question>
+    <choice>
+      <option value="A">sendURL()</option>
+      <option value="B">redirectURL()</option>
+      <option value="C">sendRedirect()</option>
+      <option value="D">redirectResponse()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204037" type="1">
+    <question>session对象的( )方法用于设置会话的超时时间。（选一项）</question>
+    <choice>
+      <option value="A">session.setMaxInactiveInterval(30);</option>
+      <option value="B">session.setMaxTime(30) ;</option>
+      <option value="C">session.getMaxInactiveInterval() ;</option>
+      <option value="D">session.setAttribute(“time”,30) ;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204038" type="1">
+    <question>sesson对象的( )方法用于判断是否为开始新会话。（选一项）</question>
+    <choice>
+      <option value="A">begin()?</option>
+      <option value="B">isNewSessionID()</option>
+      <option value="C">invalidate()</option>
+      <option value="D">isNew()</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204039" type="1">
+    <question>test.jsp文件中有如下一行代码： &lt;jsp:useBean id="user" scope="__" type="com.UserBean"&gt; 要使user对象可以作用于整个应用程序，下划线中应添入（选一项）</question>
+    <choice>
+      <option value="A">page</option>
+      <option value="B">request</option>
+      <option value="C">session</option>
+      <option value="D">application</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204040" type="1">
+    <question>Web应用程序结构中，web.xml文件必须入在以下那个目录下（选一项）</question>
+    <choice>
+      <option value="A">class</option>
+      <option value="B">WebRoot</option>
+      <option value="C">项目下</option>
+      <option value="D">WEB-INF</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204041" type="1">
+    <question>按照J2SE规范，在Web应用的内部目录结构中，位于( )的文件是对客户可见的资源（选一项）</question>
+    <choice>
+      <option value="A">Web应用根目录</option>
+      <option value="B">Web应用WEB-INF子目录。</option>
+      <option value="C">Web应用WEB-CONFIG子目录</option>
+      <option value="D">Web应用META-INF子目录</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204042" type="1">
+    <question>编写Servlet 的doPost方法时，需要抛出异常为（选一项）</question>
+    <choice>
+      <option value="A">ServletException， IOException</option>
+      <option value="B">ServletException， RemoteException</option>
+      <option value="C">HttpServletException， IOException</option>
+      <option value="D">HttpServletException， RemoteException</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204043" type="1">
+    <question>编写一个Filter，需要（选一项）</question>
+    <choice>
+      <option value="A">继承Filter 类</option>
+      <option value="B">实现Filter 接口</option>
+      <option value="C">继承HttpFilter 类</option>
+      <option value="D">实现HttpFilter接口</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204044" type="1">
+    <question>编写自定义标签处理类后，需要编写一个（）去描述（选一项）</question>
+    <choice>
+      <option value="A">.tag文件</option>
+      <option value="B">.tld文件</option>
+      <option value="C">dtd文件</option>
+      <option value="D">.xml文件</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204045" type="1">
+    <question>不同的客户端需要共享的信息应存储到( )中。（选一项）</question>
+    <choice>
+      <option value="A">Servlet上下文</option>
+      <option value="B">会话对象</option>
+      <option value="C">Http请求对象</option>
+      <option value="D">Http响应对象</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204046" type="1">
+    <question>从HTTP请求中获得请求参数，应该调用（选一项）</question>
+    <choice>
+      <option value="A">request对象的getAttribute()方法</option>
+      <option value="B">request对象的getParameter()方法</option>
+      <option value="C">session对象的getAttribute()方法</option>
+      <option value="D">session对象的getParameter()方法</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204047" type="1">
+    <question>当浏览器第二次访问以下JSP网页时的输出结果是什么（选一项） &lt;!% int a=0; %&gt; &lt;% int b=0; a ; b ; %&gt; a:&lt;%= a %&gt; &lt;br&gt; b:&lt;%= b %&gt;</question>
+    <choice>
+      <option value="A">a=0 b=0</option>
+      <option value="B">a=1 b=1</option>
+      <option value="C">a=2 b=1</option>
+      <option value="D">a=2 b=2</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204048" type="1">
+    <question>给定test1.jsp代码片断，如下： &lt;html&gt; &lt;jsp:include page=”test2.jsp” flush=”false”&gt; &lt;jsp:param name=”color” value=”red”/&gt; &lt;/jsp:include&gt; &lt;/html&gt; 要在test2.jsp中输出参数color中的值，以下选项正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%=request.getParameter(“color”)%&gt;</option>
+      <option value="B">&lt;%=request.getAttribute(“color”)%&gt;</option>
+      <option value="C">&lt;jsp:getParam name=”color”/&gt;</option>
+      <option value="D">&lt;jsp:include param=”color”/&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204049" type="1">
+    <question>给定TheBean类，假设还没有创建TheBean类的实例，以下哪些JSP标准动作语句能创建这个bean的一个新实例，并把它存储在请求作用域（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp :useBean name="myBean" type="com.example.TheBean"/&gt;</option>
+      <option value="B">&lt;jsp :takeBean name="myBean" type="com.example.TheBean"/&gt;</option>
+      <option value="C">&lt;jsp :useBean id="myBean" class="com.example.TheBean" scope="request"/&gt;</option>
+      <option value="D">&lt;jsp :takeBean id="myBean" class="com.example.TheBean" scope="request"/&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204050" type="1">
+    <question>给定某Servlet程序的片段如下,用户在浏览器地址栏中键盘键入正确的请求URL并回车后,在控制台上显示的结果是（选一项） public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException ,IOException{ System.out.println("get"); } public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException ,IOException{ System.out.println("post"); }</question>
+    <choice>
+      <option value="A">get</option>
+      <option value="B">post</option>
+      <option value="C">get post</option>
+      <option value="D">post get</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204051" type="1">
+    <question>给定一个 Servlet 的doGet方法中的代码片段，如下： request.setAttribute("name","zhang"); response.sendRedirect("http://localhost:8080/servlet/MyServlt"); 那么在 MyServlet 中可以使用（）方法把属性 name的值取出来。（选一项）</question>
+    <choice>
+      <option value="A">String str=request.getAttribute("name");</option>
+      <option value="B">String str=(String)request.getAttribute("name");</option>
+      <option value="C">Object str=request.getAttribute("name");</option>
+      <option value="D">无法取出来</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204052" type="1">
+    <question>给定一个Model1体系结构，其中有一个JSP页面处理所有控制器函数，这个JSP控制器要把请求分派给另一个JSP页面（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:forward page=”view.jsp”/&gt;</option>
+      <option value="B">&lt;jsp:forward file=”view.jsp”/&gt;</option>
+      <option value="C">&lt;jsp:dispatch page=”view.jsp”/&gt;</option>
+      <option value="D">&lt;jsp:dispatch file=”view.jsp”/&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204053" type="1">
+    <question>给定一个Servlet程序的代码片段，如下 public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException { Request.getSession().getAttribute("A"); //第一行 } 假定第一行返回的对象引用不是null，那么这个对象存储在（）范围中（选一项）</question>
+    <choice>
+      <option value="A">page</option>
+      <option value="B">session</option>
+      <option value="C">request</option>
+      <option value="D">application</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204054" type="1">
+    <question>给定一个Servlet的代码片段如下 public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{ ______ out.println("hi kitty!"); out.close(); } 运行次Servlet时输出如下： hi kitty! 则应在此Servlet下划线处填充如下代码（选一项）</question>
+    <choice>
+      <option value="A">PrintWriter out = response.getWriter();</option>
+      <option value="B">PrintWriter out = request.getWriter();</option>
+      <option value="C">OutputStream out = response.getOutputStream();</option>
+      <option value="D">OutputStream out = request.getWriter();</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204055" type="1">
+    <question>给定以下JSP代码片段，有2个客户依次浏览该JSP;且每个客户只浏览一次，第2个客户会看到浏览器显示（选一项） &lt;%int x = 1; %&gt; &lt;%!int x = 10; %&gt; x= &lt;%= x%&gt;</question>
+    <choice>
+      <option value="A">x=1</option>
+      <option value="B">x=2</option>
+      <option value="C">x=10</option>
+      <option value="D">x=11</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204056" type="1">
+    <question>关于&lt;jsp:include&gt;,下列说法不正确的是（选一项）</question>
+    <choice>
+      <option value="A">它可以包含静态文件</option>
+      <option value="B">它可以包含动态文件</option>
+      <option value="C">当它的flush属性为true时,表示缓冲区满时,将会被清空</option>
+      <option value="D">它的flush属性的默认值为true</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204057" type="1">
+    <question>关于session的使用,,下列说话正确的是（选一项）</question>
+    <choice>
+      <option value="A">不同的用户窗口具有不同的session</option>
+      <option value="B">不同的用户窗口具有相同的session</option>
+      <option value="C">session可能超过时间</option>
+      <option value="D">Session永远不可能超时</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204058" type="1">
+    <question>关于Web应用程序在Web服务器中的部署，正确的说法是（选一项）</question>
+    <choice>
+      <option value="A">每个部署到Tomcat服务器的Web 应用，都自动会被服务器压缩成WAR格式。</option>
+      <option value="B">每个部署到Tomcat服务器的Web 应用，都自动会被服务器编译成一个class文件。</option>
+      <option value="C">Tomcat 的所有Web应用都必须部署在&lt;Tomcat安装目录&gt;\Server目录下</option>
+      <option value="D">所有web服务器的Web应用程序目录结构是类似的。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204059" type="1">
+    <question>关于在Web应用中与一个Servlet 关联的过滤器类数量，正确的说法是（选两项）</question>
+    <choice>
+      <option value="A">可以为一个Servlet 部署多个过滤器。</option>
+      <option value="B">可以为多个Servlet部署同一个过滤器。</option>
+      <option value="C">每个Servlet必须至少有一个过滤器。</option>
+      <option value="D">每个过滤器类必须部署到至少一个Servlet</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="204060" type="1">
+    <question>核心标签库中，用来实现循环功能的标签是（选一项）</question>
+    <choice>
+      <option value="A">&lt;c:if&gt;</option>
+      <option value="B">&lt;c:for&gt;</option>
+      <option value="C">&lt;c:while&gt;</option>
+      <option value="D">&lt;c:foreach&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204061" type="1">
+    <question>考虑下面JSP文件代码片断： &lt;HTML&gt;&lt;BODY&gt; &lt;jsp:include page=”test2.jsp”&gt; &lt;jsp:param name=”username” value=”accp”/&gt; &lt;/jsp:include&gt; &lt;/BODY&gt;&lt;/HTML&gt; 以下（ ）代码片断放置在test2.jsp中不会导致错误（选两项）</question>
+    <choice>
+      <option value="A">&lt;jsp:getParam name=”username”/&gt;</option>
+      <option value="B">&lt;jsp:include param =”username”/&gt;</option>
+      <option value="C">&lt;%=request.getParameter(“username”)%&gt;</option>
+      <option value="D">&lt;%=request.getAttribute(“username”)%&gt;</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="204062" type="1">
+    <question>某JSP中有如下代码，显示结果为（选一项） &lt;% int a = 5; request.setAttribute(“a”,”123”); session.setAttribute(“a”,”456”); %&gt; &lt;c:out value="${a}"/&gt;</question>
+    <choice>
+      <option value="A">5</option>
+      <option value="B">123</option>
+      <option value="C">456</option>
+      <option value="D">null</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204063" type="1">
+    <question>某JSP中有如下代码： &lt;% page .setAttribute(“a”,”page”); request.setAttribute(“a”,”request”); session.setAttribute(“a”,”session”); application.setAttribute(“a”,”application”); %&gt; 有：${a} 则显示结果为（选一项）</question>
+    <choice>
+      <option value="A">page</option>
+      <option value="B">request</option>
+      <option value="C">session</option>
+      <option value="D">application</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204064" type="1">
+    <question>那种方式可以启动Tomcat（选一项）</question>
+    <choice>
+      <option value="A">javac.exe</option>
+      <option value="B">shutdown.bat</option>
+      <option value="C">java.exe</option>
+      <option value="D">startup.bat</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204065" type="1">
+    <question>如果编写一个计数器程序，用来记载当前网站的访问量，最好采用JSP中的( )对象。（选一项）</question>
+    <choice>
+      <option value="A">page?</option>
+      <option value="B">session</option>
+      <option value="C">request?</option>
+      <option value="D">application</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204066" type="1">
+    <question>如果某一JSP页面的表单中，有几个复选框，name为"habit"，则该JSP提交后，通过下面( )语句去获取用户选中复选框的值。（选一项）</question>
+    <choice>
+      <option value="A">request.getAttrubute("habit");</option>
+      <option value="B">request.getParameter("habit");</option>
+      <option value="C">request.getParameterValues("habit");</option>
+      <option value="D">request.getHabit();</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204067" type="1">
+    <question>如下代码，执行效果为（选一项） &lt;c:set var=“a” value=“123” /&gt; &lt;c:out value=“${a}”/&gt; &lt;c:out value=“a”/&gt;</question>
+    <choice>
+      <option value="A">123 123</option>
+      <option value="B">a 123</option>
+      <option value="C">123 a</option>
+      <option value="D">A a</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204068" type="1">
+    <question>下列( )不属于会话跟踪技术的内容。（选一项）</question>
+    <choice>
+      <option value="A">URL重写</option>
+      <option value="B">Cookie</option>
+      <option value="C">隐藏表单域</option>
+      <option value="D">使用会话管理</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204069" type="1">
+    <question>下列关于import属性说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">import 属性能导入一个特定的类</option>
+      <option value="B">import属性能导入某一个包中的所有类</option>
+      <option value="C">import属性能通过单一属性导入多个包和类</option>
+      <option value="D">import属性不能通过单一属性导入多个包或类</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204070" type="1">
+    <question>下列可以正确获取当前Web程序物理路径的方法为（选一项）</question>
+    <choice>
+      <option value="A">request.getRealPath(“/”)?</option>
+      <option value="B">request.getFile(“/”)</option>
+      <option value="C">response.getRealPath(“/”)?</option>
+      <option value="D">response.getFile(“/”)</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204071" type="1">
+    <question>下列那个类是抽象类（选一项）</question>
+    <choice>
+      <option value="A">ServletConfig</option>
+      <option value="B">HttpServlet</option>
+      <option value="C">Cookie</option>
+      <option value="D">HttpServletRequest</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204072" type="1">
+    <question>下列那些可以进行会话管理（选两项）</question>
+    <choice>
+      <option value="A">Session</option>
+      <option value="B">Request</option>
+      <option value="C">Cookie</option>
+      <option value="D">Response</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="204073" type="1">
+    <question>下面不是JAVA开发平台的是（选一项）</question>
+    <choice>
+      <option value="A">J2SE</option>
+      <option value="B">JAVA EE</option>
+      <option value="C">J2ME</option>
+      <option value="D">Eclipse</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204074" type="1">
+    <question>下面不属于Cookie头部的内容是（选一项）</question>
+    <choice>
+      <option value="A">Name</option>
+      <option value="B">Value</option>
+      <option value="C">Domain</option>
+      <option value="D">Expires</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204075" type="1">
+    <question>下面关于JSP作用域对象的说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">request对象可以得到请求中的参数</option>
+      <option value="B">session对象可以保存用户信息</option>
+      <option value="C">application对象可以被多个应用共享</option>
+      <option value="D">作用域范围从小到达是request、session、application</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204076" type="1">
+    <question>下面哪项是错误的设置Bean属性值的方法（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:setProperty name="beanInstanceName" property= "*" /&gt;</option>
+      <option value="B">&lt;jsp:setProperty name="beanInstanceName" property="propertyName"/&gt;</option>
+      <option value="C">&lt;jsp:setProperty name="beanInstanceName" property="propertyName" param="parameterName" /&gt;</option>
+      <option value="D">&lt;jsp:setProperty name="beanInstanceName" property="*" value="{string | &lt;%= expression %&gt;}"/&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204077" type="1">
+    <question>下面哪些对象可以在同一应用程序的不同网页间共享数据（选一项）</question>
+    <choice>
+      <option value="A">page</option>
+      <option value="B">response</option>
+      <option value="C">request</option>
+      <option value="D">session</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204078" type="1">
+    <question>下面那个不在Servlet生命周期中（选一项）</question>
+    <choice>
+      <option value="A">init()</option>
+      <option value="B">doOptions()</option>
+      <option value="C">service()</option>
+      <option value="D">destroy()</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204079" type="1">
+    <question>现在session中没有任何属性，阅读下面2个JSP中的代码，将分别输出（选一项） &lt;% out.println(session.getAttribute("svse ")); %&gt; &lt;% session.invalidate(); out.println(session.getAttribute("svse ")); %&gt;</question>
+    <choice>
+      <option value="A">null, 异常信息</option>
+      <option value="B">null, null</option>
+      <option value="C">异常信息，异常信息</option>
+      <option value="D">异常信息，null</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204080" type="1">
+    <question>页面在ModelI体系结构中负责处理请求。（选一项）</question>
+    <choice>
+      <option value="A">XML</option>
+      <option value="B">DHTML</option>
+      <option value="C">JSP</option>
+      <option value="D">HTML</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204081" type="1">
+    <question>以下（）可用于检索session属性userid的值（选一项）</question>
+    <choice>
+      <option value="A">session.getAttribute ("userid");</option>
+      <option value="B">session.setAttribute ("userid");</option>
+      <option value="C">request.getParameter ("userid");</option>
+      <option value="D">request.getAttribute ("userid");</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204082" type="1">
+    <question>以下代码能否编译通过，假如能编译通过，运行时得到什么输出结果（选一项） &lt;% request.setAttribute("count",new Integer(0)); Integer count = request.getAttribute("count") ; %&gt; &lt;%=count %&gt;</question>
+    <choice>
+      <option value="A">编译不通过</option>
+      <option value="B">可以编译运行，输出0</option>
+      <option value="C">编译通过，但运行时抛出ClassCastException</option>
+      <option value="D">可以编译通过，但运行无输出</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204083" type="1">
+    <question>以下代码执行效果为（选一项） &lt;c:forEach var = "i" begin = "1" end = "5" step = "2"&gt; &lt;c:out value=“${i}”/&gt; &lt;/c:forEach&gt;</question>
+    <choice>
+      <option value="A">1 2 3 4 5</option>
+      <option value="B">1 3 5</option>
+      <option value="C">i i i</option>
+      <option value="D">15</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204084" type="1">
+    <question>以下代码执行效果为（选一项） &lt;c:forEach var = "i" begin = "1" end = "5"&gt; &lt;c:out value="${i}"/&gt; &lt;/c:forEach&gt;</question>
+    <choice>
+      <option value="A">1 2 3 4 5</option>
+      <option value="B">i i i i i</option>
+      <option value="C">15</option>
+      <option value="D">编译错误</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204085" type="1">
+    <question>以下代码执行效果为（选一项） &lt;% session.setAttribute("a","svse"); %&gt; &lt;c:if test="${2&gt;1}"&gt; &lt;c:out value="${a}"/&gt; &lt;/c:if&gt;</question>
+    <choice>
+      <option value="A">a</option>
+      <option value="B">svse</option>
+      <option value="C">2&gt;1</option>
+      <option value="D">null</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204086" type="1">
+    <question>以下哪个标签实现了switch功能（选一项）</question>
+    <choice>
+      <option value="A">&lt;c:if&gt;</option>
+      <option value="B">&lt;c:switch&gt;</option>
+      <option value="C">&lt;c:choose&gt;</option>
+      <option value="D">&lt;c:case&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204087" type="1">
+    <question>以下哪个参数不属于&lt;c:forEach&gt;标签（选一项）</question>
+    <choice>
+      <option value="A">var</option>
+      <option value="B">begin</option>
+      <option value="C">end</option>
+      <option value="D">delims</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204088" type="1">
+    <question>以下哪个方法不是TagSupport类的方法（选一项）</question>
+    <choice>
+      <option value="A">doPost()</option>
+      <option value="B">doStartTag()</option>
+      <option value="C">doEndTag()</option>
+      <option value="D">doAfterBody()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204089" type="1">
+    <question>以下哪句代码可以正确导入核心标签库（选一项）</question>
+    <choice>
+      <option value="A">&lt;% page import = "c"%&gt;</option>
+      <option value="B">&lt;% page prefix = "c" uri = "/WEB-INF/c.tld"%&gt;</option>
+      <option value="C">&lt;% taglib prefix = "c" import = "/WEB-INF/c.tld" %&gt;</option>
+      <option value="D">&lt;% taglib prefix = "c" uri = "/WEB-INF/c.tld"%&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204090" type="1">
+    <question>以下哪些是Web服务器（选一项）</question>
+    <choice>
+      <option value="A">JCreator</option>
+      <option value="B">Tomcat</option>
+      <option value="C">JBuilder</option>
+      <option value="D">Eclipse</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204091" type="1">
+    <question>以下哪些是属于Java的开发平台（选三项）</question>
+    <choice>
+      <option value="A">J2SE</option>
+      <option value="B">J2EE</option>
+      <option value="C">J2ME</option>
+      <option value="D">JDK</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="204092" type="1">
+    <question>在 J2EE中，使用 Resultset对象的 next()方法移动光标时，如果超过界限，会抛出异常，该异常通常是（选一项）</question>
+    <choice>
+      <option value="A">InterruptedExceptlon</option>
+      <option value="B">AlreadyBoundExceptlon</option>
+      <option value="C">SQLException</option>
+      <option value="D">NetExcePtlon</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204093" type="1">
+    <question>在 J2EE中，使用 Servlet 过滤器，需要在 web.xml中配置（）元素（选两项）</question>
+    <choice>
+      <option value="A">&lt;filter&gt;</option>
+      <option value="B">&lt;filter-mapping&gt;</option>
+      <option value="C">&lt;servlet-filter&gt;</option>
+      <option value="D">&lt;filter-config&gt;</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="204094" type="1">
+    <question>在a.jsp中有代码片断如下：在b.jsp中加入下列（A）代码，可以输出在a.jsp页面上输入的loginName的值。（选一项） &lt;form action =”b.jsp” method =”POST” name=”form1”&gt; loginName:&lt;input type=”text” name=”loginName”/&gt; &lt;input type=”submit” name=”submit”/&gt; &lt;/form&gt;</question>
+    <choice>
+      <option value="A">&lt;%=request.getParameter(“loginName”)%&gt;</option>
+      <option value="B">&lt;%=request.gerAttribute(“loginName”)%&gt;</option>
+      <option value="C">&lt;%String name=request.getParameter(“loginname”); out.println(name); %&gt;</option>
+      <option value="D">&lt;% String name=request.getAttribute(“loginname”); out.println(name); %&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204095" type="1">
+    <question>在Eclipse开发环境中,网页文件放在以下哪个目录中（选一项）</question>
+    <choice>
+      <option value="A">工程下</option>
+      <option value="B">WEB-INF</option>
+      <option value="C">WebRoot</option>
+      <option value="D">classes</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204096" type="1">
+    <question>在http协议里，用于发送大量数据的方法是（选一项）</question>
+    <choice>
+      <option value="A">post</option>
+      <option value="B">get</option>
+      <option value="C">put</option>
+      <option value="D">options</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204097" type="1">
+    <question>在J2EE中，标签库中文件（*.tld）存放在（）目录下（选一项）</question>
+    <choice>
+      <option value="A">WEB—INF</option>
+      <option value="B">WEB—INF/tags</option>
+      <option value="C">WEB—INF/classes</option>
+      <option value="D">WEB—INF/lib</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204098" type="1">
+    <question>在J2EE中，对于Httpservlet类的描述，错误的是（选一项）</question>
+    <choice>
+      <option value="A">我们自己编写的Servlet继承了HttpServlet类，一定需覆盖doPost或者doGet</option>
+      <option value="B">Httpservlet类扩展了GenericServlet类，实现了GenericServlet类的抽象方法</option>
+      <option value="C">Httpservlet类中处理客户请求和响应时所使用的两个接口是：HttpServletRequest和HttpServletResponse．</option>
+      <option value="D">我们自己编写的servlet继承了Httpservlet类，一般只需要覆盖doPost方法，不必覆盖servive（）方法，因为一个service（）方法会调用doPost或者doGet方法</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204099" type="1">
+    <question>在J2EE中，给定某Servlet的代码如下，编译运行该文件，以下陈述正确的是（选一项） public class Servlet1 extends HttpServlet{ public void init() throws ServletException{} public void service(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{ PrintWriter out = response.getWriter(); out.println("hello!"); } }</question>
+    <choice>
+      <option value="A">编译该文件时会提示缺少doGet()或者dopost()方法，编译不能够成功通过</option>
+      <option value="B">编译后，把Servlet1.class放在正确位置，运行该Servlet，在浏览器中会看到输出文字：hello!</option>
+      <option value="C">编译后，把Servlet1.class放在正确位置，运行该Servlet，在浏览器中看不到任何输出的文字</option>
+      <option value="D">编译后，把Servlet1.class放在正确位置，运行该Servlet,在浏览器中会看到运行期错误信息</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204100" type="1">
+    <question>在J2EE中，假如HttpSession的getLastAccessTime（）方法返回值为x，getCreationTime（）方法返回值为y，则为x - y为（选一项）</question>
+    <choice>
+      <option value="A">两个连续请求之间间隔的最长时间</option>
+      <option value="B">最近的两个连续请求之间的时间间隔</option>
+      <option value="C">最后使用session发送请求的时间和session创建时间的间隔</option>
+      <option value="D">最后使用session发送请求的时间</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204101" type="1">
+    <question>在J2EE中，以下对RequestDispatcher描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">Jsp中有个隐含的对象diapatcher,它的类型是RequestDispatcher</option>
+      <option value="B">ServletConfig有一个方法：getRequestDispatcher可以返回RequestDipatcher对象</option>
+      <option value="C">RequestDipatcher 有一个方法：forward可以把请求继续传递给别的Servlet或者JSP界面</option>
+      <option value="D">JSP中有个隐含的默认对象request，它的类型是RequestDipatcher</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204102" type="1">
+    <question>在J2EE中，在web.xml中，有如下代码: &lt;session - config&gt; &lt;session - timeout&gt;30&lt;/session - timeout&gt; &lt;/session - config&gt; 上述代码定义了默认的会话超时时长，时长为30（选一项）</question>
+    <choice>
+      <option value="A">毫秒</option>
+      <option value="B">秒</option>
+      <option value="C">分钟</option>
+      <option value="D">小时</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204103" type="1">
+    <question>在J2EE中，重定向到另一个页面，以下（）语句是正确的（选一项）</question>
+    <choice>
+      <option value="A">request.sendRedirect("http://www.svse.org");</option>
+      <option value="B">request.sendRedirect();</option>
+      <option value="C">response.sendRedirect("http://www.svse.org");</option>
+      <option value="D">response.sendRedirect();</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204104" type="1">
+    <question>在J2EE中在servletl中的doGet和doPost方法中只有如下代码： request.setAttribute("jb","aPtech"); response.sendRedirect("http://localhost：8080/servlet/Servlet2"); 那么在Servlet2 中使用（）可以把属性jb的值取出来（选一项）</question>
+    <choice>
+      <option value="A">String str = request.getAttribute("jb");</option>
+      <option value="B">String sir =(String)request.getAttribute("jb");</option>
+      <option value="C">Object str = request.getAttribute("jb");</option>
+      <option value="D">取不出来</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204105" type="1">
+    <question>在JSP页面中，保存数据的范围由小到大依次是（选一项）</question>
+    <choice>
+      <option value="A">pageContext,request,application,session</option>
+      <option value="B">pageContext,application,session,request</option>
+      <option value="C">pageContext,request,session,application</option>
+      <option value="D">pageContext,session,request,application</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204106" type="1">
+    <question>在JSP页面中，能够完成输出操作的内置对象是（选一项）</question>
+    <choice>
+      <option value="A">out</option>
+      <option value="B">response</option>
+      <option value="C">request</option>
+      <option value="D">config</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204107" type="1">
+    <question>在JSP页面中，如果从一个源页面中通过&lt;jsp:forward page=urlname/&gt;将本页面请求转发至指定URL组件，则在该URL组件（JSP页面）中可处理的共享数据范围是（选三项）</question>
+    <choice>
+      <option value="A">session</option>
+      <option value="B">request</option>
+      <option value="C">page</option>
+      <option value="D">application</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="204108" type="1">
+    <question>在JSP页面中，正确引入JavaBean的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%jsp:useBean id="myBean" scope="page" class="pkg.MyBean" %&gt;</option>
+      <option value="B">&lt;jsp:useBean name="myBean" scope="page" class="pkg.MyBean" &gt;</option>
+      <option value="C">&lt;jsp:useBean id="myBean" scope="page" class="pkg.MyBean" /&gt;</option>
+      <option value="D">&lt;jsp:useBean name="myBean" scope="page" class="pkg.MyBean" /&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204109" type="1">
+    <question>在JSP中，&lt;%＝"1+4" %&gt;将输出（选一项）</question>
+    <choice>
+      <option value="A">l+4</option>
+      <option value="B">5</option>
+      <option value="C">14</option>
+      <option value="D">不会输出，因为表达式是错误的</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204110" type="1">
+    <question>在JSP中，page指令的（）属性用来引入需要的包或类（选一项）</question>
+    <choice>
+      <option value="A">extends</option>
+      <option value="B">import</option>
+      <option value="C">languge</option>
+      <option value="D">contentType</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204111" type="1">
+    <question>在JSP中，test . jsp文件如下，试图运行时，将发生（选一项） &lt;html&gt; &lt;% String str = null; %&gt; str is &lt;%= str%&gt; &lt;/html&gt;</question>
+    <choice>
+      <option value="A">转译期有误</option>
+      <option value="B">编译Servlet源码时发生错误</option>
+      <option value="C">执行编译后的Servlet时发生错误</option>
+      <option value="D">运行后，浏览器上显示：str is null</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204112" type="1">
+    <question>在JSP中，对＜jsp:setProperty＞标记描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:setProperty&gt;和&lt;jsp:getProPerty&gt;必须在一个JSP文件中搭配出现</option>
+      <option value="B">就如同session.setAttribute()一样，来设计属性/值对</option>
+      <option value="C">和&lt;jsp:useBean&gt;动作一起使用，来设置bean的属性值</option>
+      <option value="D">就如同request.setAttribute()一样，来设置属性／值对</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204113" type="1">
+    <question>在JSP中，给定以下JSP代码片段，运行结果是（选一项） &lt;% int x=5; %&gt; &lt;% ! int x=7; %&gt; &lt;%! int getX(){ return x; } %&gt; &lt;% out.print("X1=" + x); %&gt; &lt;% out.print("X2=" + getX()); %&gt;</question>
+    <choice>
+      <option value="A">X1=5 X2=7</option>
+      <option value="B">X1=5 X2=5</option>
+      <option value="C">X1=7 X2=7</option>
+      <option value="D">X1=7 X2=5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204114" type="1">
+    <question>在JSP中，若要在JSP正确使用标签：&lt;x:getKing/&gt;，在jsp中声明的taglib指令为：&lt;%@taglib uri = "/WEB-INF/myTags.tld" prefix = "_____"&gt;，下划线处应该是（选一项）</question>
+    <choice>
+      <option value="A">x</option>
+      <option value="B">getKing</option>
+      <option value="C">myTags</option>
+      <option value="D">king</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204115" type="1">
+    <question>在JSP中，以下的page指令设置了使用的脚本语言是Java，且导入了java.rmi.*和java．util．*包．正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;%@ page Language="Java",import="java.rmi.*;java.uitl.* "%&gt;</option>
+      <option value="B">&lt;%@ page language="Java" import="java.rmi.* ;java.uitl.* "%&gt;</option>
+      <option value="C">&lt;%@ page language="Java";import="java.rmi.*;java.uitl.* "%&gt;</option>
+      <option value="D">&lt;%@ page language="Java" import="java.rmi.* ,java.uitl.*" %&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="204116" type="1">
+    <question>在JSP中，以下是有关&lt;jsp:setProperty&gt;和&lt;jsp:getProperty&gt;标记的描述，正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;jsp:setProperty&gt;和&lt;jsp:getProperty&gt;标记都必须在&lt;jsp:useBean&gt;的开始标记和结束标记之间</option>
+      <option value="B">这两个标记的name属性的值必须和&lt;jsp:usebean&gt;标记的id 属性的值相对应</option>
+      <option value="C">&lt;jsp:setProperty&gt;和&lt;jsp:getProperty&gt; 标记可以用于对bean中定义的所有属性进行选择和设置</option>
+      <option value="D">这两个标记的name属性的值可以和&lt;jsp:userbean&gt;标记的id属性的值不同</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204117" type="1">
+    <question>在JSP中，只有一行代码：${1+2}，运行将输出（选一项）</question>
+    <choice>
+      <option value="A">1 2</option>
+      <option value="B">3</option>
+      <option value="C">null</option>
+      <option value="D">没有任何输出，因为表达式是错误的</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204118" type="1">
+    <question>在MVC模式中，核心内容为（选一项）</question>
+    <choice>
+      <option value="A">view??</option>
+      <option value="B">control?????</option>
+      <option value="C">model?</option>
+      <option value="D">不确证</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204119" type="1">
+    <question>在Servlet过滤器的生命周期方法中，每当传递请求或响应时，web容器会调用（）方法（选一项）</question>
+    <choice>
+      <option value="A">init</option>
+      <option value="B">service</option>
+      <option value="C">doFilter</option>
+      <option value="D">destroy</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204120" type="1">
+    <question>在Servlet中，下列语句可以正确获取PrintWriter对象的是（选一项）</question>
+    <choice>
+      <option value="A">PrintWriter out= request.getWriter();</option>
+      <option value="B">PrintWriter out = request.getPrintWriter();</option>
+      <option value="C">PrintWriter out= response.getWriter();</option>
+      <option value="D">PrintWriter out = response.getPrintWriter();</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204121" type="1">
+    <question>在WEB应用程序的目录结构中，在WEB-INF文件夹中的lib目录是放()文件的（选一项）</question>
+    <choice>
+      <option value="A">.jsp文件</option>
+      <option value="B">.class文件</option>
+      <option value="C">.jar文件</option>
+      <option value="D">web.xml文件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204122" type="1">
+    <question>在使用过滤器之前调用( )方法。（选一项）</question>
+    <choice>
+      <option value="A">doFilter()</option>
+      <option value="B">destroy()</option>
+      <option value="C">init()</option>
+      <option value="D">getFilterName()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204123" type="1">
+    <question>在一个Filter中，处理filter业务的是（）方法（选一项）</question>
+    <choice>
+      <option value="A">dealFilter (ServletRequest request,ServletResponse response,FilterChain chain)</option>
+      <option value="B">dealFilter (ServletRequest request,ServletResponse response)</option>
+      <option value="C">doFilter (ServletRequest request,ServletResponse response, FilterChain chain)</option>
+      <option value="D">doFilter (ServletRequest request,ServletResponse response)</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204124" type="1">
+    <question>在支持Servlet规范的Web服务器中，URL http：//localhost：8080/HllowordWeb/helloword处为一个Servlet。当服务器收到5个同样的Servlet请求： http：//localhost：8080/HllowordWeb/helloword？userName=“one” http：//localhost：8080/HllowordWeb/helloword？userName=“two” http：//localhost：8080/HllowordWeb/helloword？userName=“three” http：//localhost：8080/HllowordWeb/helloword？userName=“four” http：//localhost：8080/HllowordWeb/helloword？userName=“five” 时，服务器将（选一项）</question>
+    <choice>
+      <option value="A">创建5个helloword实例和5个线程，每次线程访问一个实例</option>
+      <option value="B">创建5个helloword实例和5个进程，每次进程访问一个实例</option>
+      <option value="C">创建1个helloword实例和5个线程，5个线程同时访问该实例</option>
+      <option value="D">创建1个helloword实例和5个线程，5个进程同时访问该实例</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="204125" type="1">
+    <question>在自定义标签中，HelloTag继承自TagSupport类，其中有如下代码： out.println("HELLO"); 该out对象声明方法为：（选一项）</question>
+    <choice>
+      <option value="A">PrintWriter out = response.getOut();</option>
+      <option value="B">JspWriter out = pageContext.getOut();</option>
+      <option value="C">JspWriter out = pageContext.getWriter();</option>
+      <option value="D">PrintWriter out = response.getWriter();</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="204126" type="1">
+    <question>重向可以使用( )方法。（选一项）</question>
+    <choice>
+      <option value="A">response.sendRedirect("login.jsp"):</option>
+      <option value="B">request.sendRedirect("login.jsp");</option>
+      <option value="C">&lt;jsp :forward page= "login.jsp"/&gt;</option>
+      <option value="D">&lt;forward page= "login.jsp"/&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="204127" type="1">
+    <question>自定义标签中，如果要声明标签参数为必须的，则需要进行哪种配置（选一项）</question>
+    <choice>
+      <option value="A">&lt;required&gt;true&lt;/required&gt;</option>
+      <option value="B">&lt;rtexprvalue&gt;true&lt;/rtexprvalue&gt;</option>
+      <option value="C">&lt;required&gt;false&lt;/required&gt;</option>
+      <option value="D">&lt;rtexprvalue&gt;false&lt;/rtexprvalue&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

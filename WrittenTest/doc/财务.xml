@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="410001" type="1">
+    <question>K/3系统的建帐工作是在____进行。(选择一项)</question>
+    <choice>
+      <option value="A">K/3客户端</option>
+      <option value="B">K/3中间层</option>
+      <option value="C">K/3数据库</option>
+      <option value="D">以上几处皆可</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410002" type="1">
+    <question>某企业成立于2000年6月，2005年12月购入K/3软件，2006年3月开始正式使用软件并录入2006年1月的帐务数据，则该企业的帐套启用期间是（）(选择一项)</question>
+    <choice>
+      <option value="A">2000年6月</option>
+      <option value="B">2005年12月</option>
+      <option value="C">2006年3月</option>
+      <option value="D">2006年1月</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410003" type="1">
+    <question>金蝶K/3 系统遵循微软Windows DNA 框架结构，基于三层结构技术，不包括（）(选择一项)</question>
+    <choice>
+      <option value="A">数据库端</option>
+      <option value="B">中间层</option>
+      <option value="C">人力资源层</option>
+      <option value="D">客户端</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410004" type="1">
+    <question>用户详细的授权是通过___按钮来进行的。(选择一项)</question>
+    <choice>
+      <option value="A">&lt;授权&gt;</option>
+      <option value="B">&lt;全选&gt;</option>
+      <option value="C">&lt;高级&gt;</option>
+      <option value="D">&lt;数据授权&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410005" type="1">
+    <question>拥有最大管理权限，无需授权的用户是( )(选择一项)</question>
+    <choice>
+      <option value="A">系统管理员</option>
+      <option value="B">任何授予了全部权限的用户</option>
+      <option value="C">没有此类用户</option>
+      <option value="D">普通用户</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410006" type="1">
+    <question>添加新用户时可以不作的是()(选择一项)</question>
+    <choice>
+      <option value="A">录入用户名</option>
+      <option value="B">确定认证方式</option>
+      <option value="C">选择用户组</option>
+      <option value="D">授权</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410007" type="1">
+    <question>初始化与日常凭证业务处理可以同步进行,但是不能执行的操作是（）(选择一项)</question>
+    <choice>
+      <option value="A">凭证审核</option>
+      <option value="B">凭证汇总</option>
+      <option value="C">凭证过账</option>
+      <option value="D">查询帐簿</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410008" type="1">
+    <question>总账业务如何录入下设核算项目的科目的初始数据(选择一项)</question>
+    <choice>
+      <option value="A">直接录入</option>
+      <option value="B">要点击核算项目栏的“√”进入特定界面输入</option>
+      <option value="C">无须录入由汇总数据自动生成</option>
+      <option value="D">上述方式都可以</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410009" type="1">
+    <question>制单时，用来获取基础资料等内容的通用获取键（)(选择一项)</question>
+    <choice>
+      <option value="A">F7</option>
+      <option value="B">Ctrl+F7</option>
+      <option value="C">F11</option>
+      <option value="D">ESC</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410010" type="1">
+    <question>对不常用的会计科目可采取 使该科目不显示(选择一项)</question>
+    <choice>
+      <option value="A">删除</option>
+      <option value="B">修改</option>
+      <option value="C">禁用</option>
+      <option value="D">报警</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410011" type="1">
+    <question>固定资产初始化流程正确顺序是哪一项（ ）a、基础资料设置 b、初始数据的录入 c、结束初始化 d、系统参数的设置(选择一项)</question>
+    <choice>
+      <option value="A">abcd</option>
+      <option value="B">dabc</option>
+      <option value="C">bcad</option>
+      <option value="D">abdc</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410012" type="1">
+    <question>本月新增的固定资产在（）计提折旧(选择一项)</question>
+    <choice>
+      <option value="A">本日</option>
+      <option value="B">本月</option>
+      <option value="C">下月</option>
+      <option value="D">本年</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410013" type="1">
+    <question>已经使用的固定资产变动方式等基础资料将（ ）(选择一项)</question>
+    <choice>
+      <option value="A">可禁用</option>
+      <option value="B">可删除</option>
+      <option value="C">无法删除</option>
+      <option value="D">可隐藏</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410014" type="1">
+    <question>固定资产报废业务在（ ）进行(选择一项)</question>
+    <choice>
+      <option value="A">卡片变动</option>
+      <option value="B">卡片清理</option>
+      <option value="C">卡片新增</option>
+      <option value="D">固定资产报废</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410015" type="1">
+    <question>已录入的卡片，如果还没有被审核，或者系统还没有进行结账，处于当期，则还可以对卡片进行（ ），否则只能对卡片进行变动或清理，来改变卡片的数据资料。(选择一项)</question>
+    <choice>
+      <option value="A">修改或删除</option>
+      <option value="B">新增或复制</option>
+      <option value="C">禁用</option>
+      <option value="D">隐藏</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410016" type="1">
+    <question>固定资产净值的计算为（ ）(选择一项)</question>
+    <choice>
+      <option value="A">固定资产原值-累计折旧</option>
+      <option value="B">固定资产原值-累计折旧-减值准备</option>
+      <option value="C">固定资产原值-累计折旧-减值准备-净残值</option>
+      <option value="D">固定资产原值-累计折旧-净残值</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410017" type="1">
+    <question>固定资产系统提供的计提折旧方法不包括（）(选择一项)</question>
+    <choice>
+      <option value="A">平均年限法</option>
+      <option value="B">双倍余额递减法</option>
+      <option value="C">自定义</option>
+      <option value="D">三倍余额递增法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410018" type="1">
+    <question>有关固定资产卡片中的预计使用期间数和预计净残值率是在下列那选项中设置的（ ）(选择一项)</question>
+    <choice>
+      <option value="A">变动方式类别</option>
+      <option value="B">使用状态类别</option>
+      <option value="C">卡片类别管理</option>
+      <option value="D">折旧方法定义</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410019" type="1">
+    <question>应收（付）系统，不可以对以下单据生成凭证(选择一项)</question>
+    <choice>
+      <option value="A">已核销的单据</option>
+      <option value="B">已审核的单据</option>
+      <option value="C">未核销的单据</option>
+      <option value="D">未审核的单据</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410020" type="1">
+    <question>信用管理中不包括（ ）(选择一项)</question>
+    <choice>
+      <option value="A">信用额度</option>
+      <option value="B">信用期限</option>
+      <option value="C">物料数量</option>
+      <option value="D">产品质量</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410021" type="1">
+    <question>金蝶K/3 10.3工资系统中，提供了3种基金计算方法，下面不正确的是(选择一项)</question>
+    <choice>
+      <option value="A">按次数计算</option>
+      <option value="B">按季度计算</option>
+      <option value="C">按期间计算</option>
+      <option value="D">按年度计算</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410022" type="1">
+    <question>金蝶K/3 10.3工资系统中，关于期末结账的描述不正确的是(选择一项)</question>
+    <choice>
+      <option value="A">期末结账会把工资项目类别为固定项目的值还到下一期</option>
+      <option value="B">期末结账后，上一期的工资数据不允许修改</option>
+      <option value="C">期末结账后，工资项目类别为变动的将会删除</option>
+      <option value="D">期末结账提供了按次和按月的结账方法</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410023" type="1">
+    <question>金蝶K/3 10.3工资系统中，禁用职员是在哪里操作(选择一项)</question>
+    <choice>
+      <option value="A">职员属性中修改</option>
+      <option value="B">工资数据录入中修改</option>
+      <option value="C">工资数据参数进行修改</option>
+      <option value="D">人员变动中进行处理</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410024" type="1">
+    <question>金蝶K/3 10.3系统中，提供了费用分配功能，费用分配是和K/3什么模块业务紧密相关的(选择一项)</question>
+    <choice>
+      <option value="A">人力资源系统</option>
+      <option value="B">固定资产系统</option>
+      <option value="C">总账系统</option>
+      <option value="D">现金系统</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410025" type="1">
+    <question>在金蝶K/3 10.3工资系统中，所得税设置计算完毕，还需要在哪里把相应的所得税额进行引入，供工资计算；(选择一项)</question>
+    <choice>
+      <option value="A">工资录入</option>
+      <option value="B">所得税设置</option>
+      <option value="C">工资发放表</option>
+      <option value="D">期末结账</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410026" type="1">
+    <question>关于会计的产生和发展，下列说法错误的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">会计是适应社会生产实践和经济管理的客观需要而产生的</option>
+      <option value="B">剩余产品的出现是会计产生的前提条件</option>
+      <option value="C">近代会计的出现以借贷记账法的产生及应用为标志</option>
+      <option value="D">现代会计以财务会计的形成为标志</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410027" type="1">
+    <question>会计确认和计量基础不包括（ ）(选择一项)</question>
+    <choice>
+      <option value="A">收付实现制</option>
+      <option value="B">权责发生制</option>
+      <option value="C">混合制</option>
+      <option value="D">虚拟制</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410028" type="1">
+    <question>会计假设不包括（ ）(选择一项)</question>
+    <choice>
+      <option value="A">会计主体假设</option>
+      <option value="B">持续经营假设</option>
+      <option value="C">会计年度假设</option>
+      <option value="D">货币计量假设</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410029" type="1">
+    <question>下列哪一项不全是会计要素（ ）(选择一项)</question>
+    <choice>
+      <option value="A">资产、负债、利润</option>
+      <option value="B">资产、收入、利润</option>
+      <option value="C">收入、费用、所有者权益</option>
+      <option value="D">收入、税金、利润</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410030" type="1">
+    <question>下列哪一项不属于负债（ ）(选择一项)</question>
+    <choice>
+      <option value="A">短期借款</option>
+      <option value="B">应付工资</option>
+      <option value="C">应付账款</option>
+      <option value="D">预付账款</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410031" type="1">
+    <question>下列哪一个活动带来的收入不属于收入要素（ ）(选择一项)</question>
+    <choice>
+      <option value="A">销售商品</option>
+      <option value="B">固定资产盘盈</option>
+      <option value="C">提供劳务</option>
+      <option value="D">让渡资产使用权</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410032" type="1">
+    <question>关于“用银行存款归还短期借款50 000元”导致的会计要素的变化，下列说法正确的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">资产增加，负债增加</option>
+      <option value="B">资产增加，负债减少</option>
+      <option value="C">资产减少，负债减少</option>
+      <option value="D">资产减少，负债增加</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410033" type="1">
+    <question>用银行存款购买材料2000元的会计分录借方为“借：原材料　 2000”，则贷方正确的写法是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">贷：银行存款　　2000</option>
+      <option value="B">贷：短期借款 2000</option>
+      <option value="C">贷：实收资本　　2000</option>
+      <option value="D">贷：现金 　　2000</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410034" type="1">
+    <question>使用现金支付广告费2000元的会计分录贷方为“贷：现金　 2 000”，则借方正确的写法是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">借：生产费用 2000</option>
+      <option value="B">借：银行存款 2000</option>
+      <option value="C">借：管理费用 2000</option>
+      <option value="D">借：营业外支出 2000</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410035" type="1">
+    <question>向债权人借款30000元（6个月后归还）存入银行的会计分录的借方和贷方，下列说法正确的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">借方为银行存款，贷方为短期借款</option>
+      <option value="B">借方为银行存款，贷方为长期借款</option>
+      <option value="C">贷方为银行存款，借方为短期借款</option>
+      <option value="D">贷方为银行存款，借方为长期借款</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410036" type="1">
+    <question>企业接受投资者投资一台设备，价值20 000元的会计分录借方为“借：固定资产　　20 000”，则贷方正确的写法是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">贷：银行存款　　2 0000</option>
+      <option value="B">贷：短期借款　　20 000</option>
+      <option value="C">贷：实收资本　　20 000</option>
+      <option value="D">贷：应收账款　 20 000</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410037" type="1">
+    <question>购入材料79000元，开出支票60000元，余款未付的会计分录借方为“借：原材料　　 79000”，则贷方正确的写法是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">贷：应付账款　19000 银行存款 60000</option>
+      <option value="B">贷：应付账款　79000</option>
+      <option value="C">贷：银行存款　79000</option>
+      <option value="D">贷：银行存款　19000 应付账款 60000</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410038" type="1">
+    <question>某公司用银行存款38 000元购入材料5000元和固定资产33 000元的会计分录贷方为“贷：银行存款　38 000”，则借方正确的写法是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">借：银行存款 38000</option>
+      <option value="B">借：原材料 38000</option>
+      <option value="C">借：原材料　　 33 000 固定资产　 5 000</option>
+      <option value="D">借：原材料　　 5 000 固定资产　 33 000</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="410039" type="1">
+    <question>会计凭证分为哪两种（ ）(选择一项)</question>
+    <choice>
+      <option value="A">收款凭证、付款凭证</option>
+      <option value="B">原始凭证、记账凭证</option>
+      <option value="C">收款凭证、通用凭证</option>
+      <option value="D">原始凭证、付款凭证</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410040" type="1">
+    <question>关于记账凭证，下列说法错误的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">记账凭证分为单式记账凭证和复式记账凭证</option>
+      <option value="B">记账凭证包括原始凭证和复式记账凭证</option>
+      <option value="C">专用记账凭证属于复式记账凭证</option>
+      <option value="D">通用记账凭证属于复式记账凭证</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410041" type="1">
+    <question>关于日记账，下列说法错误的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">是按照经济业务发生的时间先后顺序，逐日逐笔顺序登记的账</option>
+      <option value="B">日记账有现金日记账和银行存款日记账</option>
+      <option value="C">应付账款适合做日记账</option>
+      <option value="D">日记账也称为序时帐</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410042" type="1">
+    <question>银行存款和现金之间相互划拔的业务，按我国会计实务的惯例应编制（ ）(选择一项)</question>
+    <choice>
+      <option value="A">付款凭证</option>
+      <option value="B">收款凭证</option>
+      <option value="C">转账凭证</option>
+      <option value="D">既需要编制付款凭证也需要编制付款凭证</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410043" type="1">
+    <question>记账凭证中使用的会计科目发生错误，并已按错误凭证登记入账 ，且记账凭证和账簿记录相吻合，此时应该使用红字更正法更正，下列哪一个更正步骤是错误的（ ）(选择一项)</question>
+    <choice>
+      <option value="A">用黑字金额编制一张与原错误记账凭证内容一致的记账凭证，在摘要栏中注明“冲销某日×号凭证错误”</option>
+      <option value="B">用红字金额记入有关账户，以冲销原来的错账</option>
+      <option value="C">用蓝字或黑字编制一张正确的记账凭证，在摘要栏中注明“更正某日×号凭证错误”</option>
+      <option value="D">用蓝字或黑字登记有关账户，以更正错账</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410044" type="1">
+    <question>收到合伙者甲工厂与乙工厂按协议各投入的80000元，资金已经全部到位，存入我公司银行存款户，其帐务处理借方为“借：银行存款 160000”，则贷方为：（　　　）(选择一项)</question>
+    <choice>
+      <option value="A">贷：实收资本 　　 80000</option>
+      <option value="B">贷：实收资本——甲工厂 80000 实收资本——乙工厂 80000</option>
+      <option value="C">贷：资本公积　　　　　160000</option>
+      <option value="D">贷：应付账款 160000</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410045" type="1">
+    <question>胜利公司投资旧机器一台，该机器的重置价值为150000，双方协商其现值为130000。其帐务处理借方为“借：固定资产 150000”，则贷方为（ ）(选择一项)</question>
+    <choice>
+      <option value="A">贷：实收资本 150000</option>
+      <option value="B">贷：资本公积 150000</option>
+      <option value="C">贷：累计折旧 20000 实收资本 130000</option>
+      <option value="D">D. 贷：累计折旧 20000 资本公积 130000</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410046" type="1">
+    <question>收到国家拨入A原材料一批，该材料评估价为300000，作为对我公司的投资。其帐务处理贷方为“贷：实收资本—国家资本 300000”，则借方为（ ）(选择一项)</question>
+    <choice>
+      <option value="A">借：原材料——A材料 300000</option>
+      <option value="B">借：银行存款 300000</option>
+      <option value="C">借：应收帐款 300000</option>
+      <option value="D">借：应付帐款——A材料 300000</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="410047" type="1">
+    <question>收到好友公司赠送我公司新宝马轿车一辆，市价300000。其帐务处理借方为“借：固定资产 300000”，则贷方为（ ）(选择一项)</question>
+    <choice>
+      <option value="A">贷：实收资本 300000</option>
+      <option value="B">贷：资本公积 300000</option>
+      <option value="C">贷：应付账款 300000</option>
+      <option value="D">贷：营业外收入 300000</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410048" type="1">
+    <question>获光明工厂的土地使用权，双方商定并经房产管理部门评估，该土地使用权的价值为150000元，作对我公司的投资。关于其帐务处理借方和贷方，下列说法正确的是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">借方为固定资产，贷方为实收资本</option>
+      <option value="B">贷方为固定资产，借方为实收资本</option>
+      <option value="C">借方为无形资产，贷方为实收资本</option>
+      <option value="D">借方为固定资产，贷方为银行存款</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="410049" type="1">
+    <question>某公司购入需要安装的车床一台，发票注明买价100000元，增值税17000元，支付运杂费2000元，安装设备时，领用材料3000元，支付工资2000元，则该车床的入账价值为（ ）(选择一项)</question>
+    <choice>
+      <option value="A">100000</option>
+      <option value="B">107000</option>
+      <option value="C">117000</option>
+      <option value="D">124000</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="410050" type="1">
+    <question>企业因处置而减少的固定资产，一般应通过（ ）账户进行核算(选择一项)</question>
+    <choice>
+      <option value="A">固定资产清理</option>
+      <option value="B">累计折旧</option>
+      <option value="C">营业外收入</option>
+      <option value="D">固定资产</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

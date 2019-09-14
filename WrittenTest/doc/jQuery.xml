@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="404001" type="1">
+    <question>下面哪一种不属于Jquery的选择器。(选择一项）</question>
+    <choice>
+      <option value="A">基本选择器</option>
+      <option value="B">层次选择器</option>
+      <option value="C">表单选择器</option>
+      <option value="D">节点选择器</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404002" type="1">
+    <question>使用jquery检查&lt;input type="hidden" id="id" name="id" /&gt;元素在网页上是否存在。(选择一项）</question>
+    <choice>
+      <option value="A">if($("#id")) { //do someing... }</option>
+      <option value="B">if($("#id").length &gt; 0) { //do someing... }</option>
+      <option value="C">if($("#id").length() &gt; 0) { //do someing... }</option>
+      <option value="D">if($("#id").size &gt; 0) { //do someing... }</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="404003" type="1">
+    <question>&lt;a href="xxx.jpg" title="温家宝出席学校..."&gt;新闻&lt;/a&gt;,获取&lt;a&gt;元素title的属性值。（选择一项）</question>
+    <choice>
+      <option value="A">$("a").attr("title").val();</option>
+      <option value="B">$("#a").attr("title");</option>
+      <option value="C">$("a").attr("title");</option>
+      <option value="D">$("a").attr("title").value;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404004" type="1">
+    <question>执行下面语句 $(document).ready(function(){ $("#click").click(function(){ alert("click one time"); }); $("#click").click(function(){ alert("click two time"); }); }); 单击按钮&lt;input type="button" id="click" value="点击我"/&gt;，这个会有什么效果。 （选择一项）</question>
+    <choice>
+      <option value="A">弹出一次对话框，显示click one time 。</option>
+      <option value="B">弹出一次对话框，显示click two time 。</option>
+      <option value="C">弹出两次对话框，依次显示click one time，click two time。</option>
+      <option value="D">js编译错误。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404005" type="1">
+    <question>页面中有三个元素，如下：&lt;div&gt;div标签&lt;/div&gt;&lt;span&gt;span标签&lt;/span&gt;&lt;p&gt;p标签&lt;/p&gt;，如果这三个标签要触发同一个事件，那么正确的写法是（选择一项）</question>
+    <choice>
+      <option value="A">$("div,span,p").click(function(){ //… });</option>
+      <option value="B">$("div || span || p").click(function(){ //… });</option>
+      <option value="C">$("div + span + p").click(function(){ //… });</option>
+      <option value="D">$("div ~ span ~ p").click(function(){ //… });</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="404006" type="1">
+    <question>页面中有一个select标签，代码如下： &lt;select id="sel"&gt; &lt;option value="0"&gt;请选择&lt;/option&gt; &lt;option value="1"&gt;选项一&lt;/option&gt; &lt;option value="2"&gt;选项二&lt;/option&gt; &lt;option value="3"&gt;选项三&lt;/option&gt; &lt;option value="4"&gt;选项四&lt;/option&gt; &lt;/select&gt;，要使“选项四”选中的正确写法。 （选择一项）</question>
+    <choice>
+      <option value="A">$("#sel").val("选项四");</option>
+      <option value="B">$("#sel").val("4");</option>
+      <option value="C">$("#sel &gt; option:eq(4)").checked;</option>
+      <option value="D">$("#sel option:eq(4)").attr("selected");</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="404007" type="1">
+    <question>页面中有一个性别单选按钮，请设置”男”为选中状态。代码如下： &lt;input type="radio" name="sex"&gt; 男 &lt;input type="radio" name="sex"&gt; 女 正确的是 （选择一项）</question>
+    <choice>
+      <option value="A">$("sex[0]").attr("checked",true);</option>
+      <option value="B">$("#sex[0]").attr("checked",true);</option>
+      <option value="C">$("[name=sex]:radio").attr("checked",true);</option>
+      <option value="D">$(":radio[name=sex]:eq(0)").attr("checked",true);</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404008" type="1">
+    <question>在页面中有一个ul元素，代码如下： &lt;ul&gt; &lt;li title='苹果'&gt;苹果&lt;/li&gt; &lt;li title='橘子'&gt;橘子&lt;/li&gt; &lt;li title='菠萝'&gt;菠萝&lt;/li&gt; &lt;/ul&gt;，下面对节点的操作哪一个说法不正确。 （选择一项）</question>
+    <choice>
+      <option value="A">var $li = $("&lt;li title='香蕉'&gt;香蕉&lt;/ii&gt;"); 是创建节点。</option>
+      <option value="B">$("ul").append($("&lt;li title='香蕉'&gt;香蕉&lt;/ii&gt;")); 是给ul追加节点。</option>
+      <option value="C">$("ul li:eq(1)").remove();是删除ul下“橘子“那个节点。</option>
+      <option value="D">以上说法都不对</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404009" type="1">
+    <question>页面有一个&lt;input type="text" id="name" name="name" value=""/&gt;元素，动态设置该元素的值。正确的选项是。（选择一项）</question>
+    <choice>
+      <option value="A">$("#name").val("动态设值");</option>
+      <option value="B">$("#name").text("动态设值");</option>
+      <option value="C">$("#name").html("动态设值");</option>
+      <option value="D">$("#name").value("动态设值");</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="404010" type="1">
+    <question>下面说法不正确的是（选择一项）</question>
+    <choice>
+      <option value="A">$(":hidden")选取&lt;input&gt;的type类型是hidden的不可见元素。</option>
+      <option value="B">$("div &gt;span")选取&lt;div&gt;元素下元素名是&lt;span&gt;的子元素。</option>
+      <option value="C">$("div :first")选取所有&lt;div&gt;元素中第一个&lt;div&gt;元素。</option>
+      <option value="D">$("input:gt(1)")选取索引值大于1的&lt;input&gt;元素。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="404011" type="1">
+    <question>下面说法不正确的是 （选择一项）</question>
+    <choice>
+      <option value="A">$("input:checked")选取所有被选中的&lt;input&gt;元素</option>
+      <option value="B">$("#form:disabled")选取id为form的表单内的所有不可用元素</option>
+      <option value="C">$("#name").is(":visible")是判断id为name的元素的可见性</option>
+      <option value="D">$("div ").addClass("background","url(img/up.gif) ")是设置样式的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404012" type="1">
+    <question>如果需要匹配包含文本的元素，用下面哪种来实现 （选择一项）</question>
+    <choice>
+      <option value="A">text()</option>
+      <option value="B">contains()</option>
+      <option value="C">input()</option>
+      <option value="D">attr(name)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="404013" type="1">
+    <question>下面不属于Jquery的ajax全局事件的是 （选择一项）</question>
+    <choice>
+      <option value="A">ajaxComplete(callback)</option>
+      <option value="B">ajaxSuccess(callback)</option>
+      <option value="C">$.post(url)</option>
+      <option value="D">ajaxSend(callback)</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404014" type="1">
+    <question>在jquey中，如果想要从DOM中删除所有匹配的元素，下面哪一个是正确的 （选择一项）</question>
+    <choice>
+      <option value="A">delete()</option>
+      <option value="B">empty()</option>
+      <option value="C">remove()</option>
+      <option value="D">removeAll()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404015" type="1">
+    <question>在jquery中想要找到所有元素的同辈元素，下面哪一个是可以实现的 （选择一项）</question>
+    <choice>
+      <option value="A">nextAll([expr])</option>
+      <option value="B">siblings([expr])</option>
+      <option value="C">next()</option>
+      <option value="D">find([expr])</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="404016" type="1">
+    <question>下面选项中哪一个是和$("#foo")等价的写法。（选择一项）</question>
+    <choice>
+      <option value="A">$("foo#")</option>
+      <option value="B">$(#"foo")</option>
+      <option value="C">$ ("foo")</option>
+      <option value="D">jQuery("#foo")</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404017" type="1">
+    <question>获取&lt;div id="content"&gt;内容…&lt;/div&gt;标签里的文本内容。（选择两项）</question>
+    <choice>
+      <option value="A">$("#content").val();</option>
+      <option value="B">$("#content").html();</option>
+      <option value="C">$("#content").text();</option>
+      <option value="D">$("#content").innerHTML();</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="404018" type="1">
+    <question>以下关于jQuery的描述错误的是（）。（选一项）</question>
+    <choice>
+      <option value="A">jQuery 是一个 JavaScript 函数库</option>
+      <option value="B">jQuery 极大地简化了 JavaScript 编程</option>
+      <option value="C">jQuery 的宗旨是 “write less，do more”</option>
+      <option value="D">jQuery的核心功能不是根据选择器查找HTML元素，然后对这些元素执行相应的操作</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404019" type="1">
+    <question>在jQuery中，下列关于文档就绪函数的写法错误的是（）。（选一项）</question>
+    <choice>
+      <option value="A">$(document).ready(function() { });</option>
+      <option value="B">$(function() { });</option>
+      <option value="C">$(document)(function() { });</option>
+      <option value="D">$().ready(function() { });</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404020" type="1">
+    <question>以下（）选项不能够正确地得到这个标签：（选一项） &lt;input id="btnGo" type="button" value="单击我" class="btn"/&gt;</question>
+    <choice>
+      <option value="A">$("#btnGo")</option>
+      <option value="B">$(".btnGo")</option>
+      <option value="C">$(".btn")</option>
+      <option value="D">$("input[type='button']")</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="404021" type="1">
+    <question>在HTML页面中有如下结构的代码： &lt;div id="header"&gt; &lt;h3&gt; &lt;span&gt;S3N认证考试&lt;/span&gt; &lt;/h3&gt; &lt;ul&gt; &lt;li&gt;一&lt;/li&gt; &lt;li&gt;二&lt;/li&gt; &lt;li&gt;三&lt;/li&gt; &lt;li&gt;四&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; 请问下列选项（）所示jQuery代码，不能够让汉字“四”的颜色变成红色。（选一项）</question>
+    <choice>
+      <option value="A">$("#header ul li:eq(3)").css("color","red");</option>
+      <option value="B">$("#header li:eq(3)").css("color","red");</option>
+      <option value="C">$("#header li:last").css("color","red");</option>
+      <option value="D">$("#header li:gt(3)").css("color","red");</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="404022" type="1">
+    <question>在HTML页面中有如下结构的代码： &lt;ul id="p-list"&gt; &lt;li&gt;苹果iPhone 4S&lt;/li&gt; &lt;/ul&gt; 请问以下（）方法不能让“苹果iPhone 4S”隐藏。（选一项）</question>
+    <choice>
+      <option value="A">$("#p-list li:nth-child(0)").hide();</option>
+      <option value="B">$("#p-list li:only-child").hide();</option>
+      <option value="C">$("#p-list li:last-child").hide();</option>
+      <option value="D">$("#p-list li:first-child").hide();</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="404023" type="1">
+    <question>在jQuery中，函数（）能够实现元素显示和隐藏的互换。（选一项）</question>
+    <choice>
+      <option value="A">hide()</option>
+      <option value="B">show()</option>
+      <option value="C">toggle()</option>
+      <option value="D">fade()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="404024" type="1">
+    <question>有以下标签：&lt;input id="txtContent" class="txt" type="text" value="张三"/&gt; 请问不能够正确的获取文本框里面的值“张三”的语句是（）。（选一项）</question>
+    <choice>
+      <option value="A">$(".txt").val()</option>
+      <option value="B">$(".txt").attr("value")</option>
+      <option value="C">$("#txtContent").text()</option>
+      <option value="D">$("#txtContent").attr("value")</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

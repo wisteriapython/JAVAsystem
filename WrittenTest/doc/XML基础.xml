@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="301001" type="1">
+    <question>( )语法用于编写Schema。（选一项）</question>
+    <choice>
+      <option value="A">HTML</option>
+      <option value="B">XML</option>
+      <option value="C">SGML</option>
+      <option value="D">DTD</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301002" type="1">
+    <question>“&lt;”用DTD的内部实体( )表示（选一项）</question>
+    <choice>
+      <option value="A">&amp;gt;</option>
+      <option value="B">&amp;lt;</option>
+      <option value="C">&amp;amp;</option>
+      <option value="D">&amp;apos;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301003" type="1">
+    <question>&lt;?xml version="1.0" encoding="gb2312" ?&gt; &lt;?xml:stylesheet type="text/xsl" href="stud.xsl" ?&gt; &lt;roster&gt; &lt;student ID="s101"&gt; &lt;name&gt;李华&lt;/name&gt; &lt;sex&gt;男&lt;/sex&gt; &lt;birthday&gt;1978.9.12&lt;/birthday&gt; &lt;score&gt;92&lt;/score&gt; &lt;/student&gt; &lt;/roster&gt; 针对上述XML文件，以下是stud.xsl 。 &lt;?xml version="1.0" encoding="gb2312"?&gt; &lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt; &lt;xsl:template match="/"&gt; &lt;xsl:value-of select="student/name"/&gt; &lt;/xsl:template&gt; &lt;/xsl:stylesheet&gt; 此XML在IE中的输出是（选一项）</question>
+    <choice>
+      <option value="A">李华</option>
+      <option value="B">IE输出错误信息</option>
+      <option value="C">无输出</option>
+      <option value="D">&lt;name&gt;李华&lt;/name&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301004" type="1">
+    <question>&lt;?xml version="1.0"?&gt; &lt;!DOCTYPE mydoc[ &lt;!ENTITY location "jianwai street"&gt;]&gt; &lt;customer&gt; &lt;name&gt;jack&lt;/name&gt; &lt;address&gt;&amp;location;&lt;/address&gt; &lt;/customer&gt; 关于上述Xml文档，以下描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">该Xml文档中使用了外部DTD。</option>
+      <option value="B">通过浏览器打开上述Xml文档时，字符串jianwai street代替了&amp; location;</option>
+      <option value="C">该Xml文档不是有效的XML文档。</option>
+      <option value="D">该Xml文档中的location为参数实体。</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="301005" type="1">
+    <question>&lt;?xml version="1.0"?&gt; &lt;!--例子 --&gt; &lt;greeting&gt; Hello, World! &lt;/greeting&gt; 上面的XML文档属于（）文档（选一项）</question>
+    <choice>
+      <option value="A">无效的</option>
+      <option value="B">有效的</option>
+      <option value="C">格式良好的</option>
+      <option value="D">格式错误的</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301006" type="1">
+    <question>&lt;customer_summary xmlns:addr="http://www.xyz.com/addresses/" xmlns:books="http://www.zyx.com/books/" &gt; &lt;addr:name&gt;&lt;title&gt;Mrs.&lt;/title&gt;&lt;/addr:name&gt; &lt;books:title&gt;Lord of the Rings&lt;/books:title&gt; 上述是一段关于XML命名空间的实例片段，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">本例中，命名空间的前缀分别是 addr、books</option>
+      <option value="B">第一个 &lt;title&gt; 元素属于 addr 名称空间，因为其父元素 &lt;addr:Name&gt; 属于该名称空间。</option>
+      <option value="C">名称空间中定义的字符串必须是可以访问的URL，比如：XML 解析器会到 http://www.zyx.com/books/ 去搜索 DTD 或schema</option>
+      <option value="D">名称空间的缩写需要在定义之后才能使用</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301007" type="1">
+    <question>&lt;roster&gt; &lt;student ID="s101"&gt; &lt;name&gt;李华&lt;/name&gt; &lt;sex&gt;男&lt;/sex&gt; &lt;birthday&gt;1978.9.12&lt;/birthday&gt; &lt;score&gt;92&lt;/score&gt; &lt;/student&gt; &lt;student ID="s102"&gt; &lt; name&gt;齐辉&lt;/name&gt; &lt;sex&gt;女&lt;/sex&gt; &lt;birthday&gt;1979.3.2&lt;/birthday&gt; &lt;score&gt;90&lt;/score&gt; &lt;/student&gt; &lt;/roster&gt; 针对上述XML代码,输出ID为s102的学生的姓名的XSL片段正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsl:template match="/roster"&gt; &lt;xsl:value-of select=".[@ID='s102']/name"/&gt; &lt;/xsl:template&gt;</option>
+      <option value="B">&lt;xsl:template match="/roster"&gt; &lt;xsl:value-of select="student[@ID='s102']/name"/&gt; &lt;/xsl:template&gt;</option>
+      <option value="C">&lt;xsl:template match="/roster"&gt; &lt;xsl:value-of select="[student@ID='s102']/name"/&gt; &lt;/xsl:template&gt;</option>
+      <option value="D">&lt;xsl:template match="/"&gt; &lt;xsl:value-of select="student[@ID='s102']/name"/&gt; &lt;/xsl:template&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301008" type="1">
+    <question>&lt;stuList&gt; &lt;student id="a001"&gt; &lt;name&gt;jack&lt;name&gt; &lt;age&gt;22&lt;/age&gt; &lt;/student&gt; &lt;student id="a002"&gt; &lt;name&gt;make&lt;name&gt; &lt;age&gt;23&lt;/age&gt; &lt;/student&gt; &lt;/stuList&gt; 查找id='a002'的xpath表达式是（选一项）</question>
+    <choice>
+      <option value="A">//name[.='a002']</option>
+      <option value="B">//name[@id]/age='22'</option>
+      <option value="C">//name[@id='a002']</option>
+      <option value="D">stuList/child::*[2]</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301009" type="1">
+    <question>DOM的全称为（选一项）</question>
+    <choice>
+      <option value="A">Document Object Mode l</option>
+      <option value="B">Document Object Module</option>
+      <option value="C">Double Object Mode l</option>
+      <option value="D">Double Object Module</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301010" type="1">
+    <question>DTD中Required属性的作用是（选一项）</question>
+    <choice>
+      <option value="A">设置属性是必需的</option>
+      <option value="B">设置属性的默认值</option>
+      <option value="C">使属性具有固定值</option>
+      <option value="D">声明此属性可选</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301011" type="1">
+    <question>Report.xml中包含subject 元素，该元素可以包含某 HTML 标记，如下： &lt;subject&gt; &lt;b&gt;2008年&lt;/b&gt; &lt;i&gt;北京奥运会&lt;/i&gt;展望 &lt;/subject&gt; 现需要编写一个XML schema来定义该xml文档内容的结构，以下的schema片断中，（）可以使Report.xml通过有效性验证（选两项）</question>
+    <choice>
+      <option value="A">&lt;xsd:element name="subject"&gt; &lt;xsd:complexType mixed="true"&gt; &lt;xsd:all&gt; &lt;xsd:element name="i" minOccurs="0" maxOccurs="unbounded" type="xsd:string" /&gt; &lt;xsd:element name="b" minOccurs="0" maxOccurs="unbounded" ty</option>
+      <option value="B">&lt;xsd:element name="subject" type="xsd:string" /&gt;</option>
+      <option value="C">&lt;xsd:element name="subject" type="xsd:anyType" /&gt;</option>
+      <option value="D">&lt;xsd:element name="subject"&gt; &lt;xsd:complexType mixed="true"&gt; &lt;xsd:sequence&gt; &lt;xsd:element name="i" minOccurs="0" maxOccurs="unbounded" type="xsd:string" /&gt; &lt;xsd:element name="b" minOccurs="0" maxOccurs="unbounded"</option>
+    </choice>
+    <answer>AC</answer>
+    <desc/>
+  </exam>
+  <exam id="301012" type="1">
+    <question>XML是哪个机构制定的标准（选一项）</question>
+    <choice>
+      <option value="A">IBM</option>
+      <option value="B">Microsoft</option>
+      <option value="C">甲骨文</option>
+      <option value="D">W3C</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301013" type="1">
+    <question>定义样式表中的变量,使用的标签是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsl:value-of&gt;</option>
+      <option value="B">&lt;xsl:count&gt;</option>
+      <option value="C">&lt;xsl:sum&gt;</option>
+      <option value="D">&lt;xsl:variable&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301014" type="1">
+    <question>对于XML文档实例&lt;decimals&gt;-2.0 -3.0 8.6&lt;/decimals&gt;,最恰当地描述它的结构的XML Schema片段是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xs:element name="decimals"&gt; &lt;xs:simpleType&gt; &lt;xs:restriction base="xs:decimal"&gt; &lt;xs:minInclusive value="-3.0"/&gt; &lt;xs:maxInclusive value="8.6"/&gt; &lt;/xs:restriction&gt; &lt;/xs:simpleType&gt; &lt;/xs:element&gt;</option>
+      <option value="B">&lt;xs:element name="decimals"&gt; &lt;xs:simpleType&gt; &lt;xs:union itemType="xs:decimal"&gt; &lt;/xs:simpleType&gt; &lt;/xs:element&gt;</option>
+      <option value="C">&lt;xs:element name="decimals"&gt; &lt;xs:simpleType&gt; &lt;xs:list itemType="xs:decimal"&gt; &lt;/xs:simpleType&gt; &lt;/xs:element&gt;</option>
+      <option value="D">&lt;xs:element name="decimals"&gt; &lt;xs:simpleType&gt; &lt;xs:all itemType="xs:decimal"&gt; &lt;/xs:simpleType&gt; &lt;/xs:element&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301015" type="1">
+    <question>分析如下的XML文档实例： &lt;!xml version="1.0" encoding="GB2312"?&gt; &lt;学生名册&gt; &lt;学生 学号="1"&gt; &lt;姓名&gt;张三&lt;/姓名&gt; &lt;性别&gt;男&lt;/性别&gt; &lt;/学生&gt; &lt;学生 学号="2"&gt; &lt;姓名&gt;李四&lt;/姓名&gt; &lt;性别&gt;女&lt;/性别&gt; &lt;/学生&gt; &lt;/学生名册&gt; 下面的DTD文档中，能够最恰当的定义该XML文档是（选一项）</question>
+    <choice>
+      <option value="A">&lt;!ELEMENT 学生名册 （学生？）&gt; &lt;!ELEMENT 学生（姓名，性别）&gt; &lt;!ELEMENT 姓名 （#PCDATA）&gt; &lt;!ELEMENT 性别 （#PCDATA）&gt; &lt;!ATTLIST 学生 学号 (1|2|3) #REQUIRED&gt;</option>
+      <option value="B">&lt;!ELEMENT 学生名册 （学生 ）&gt; &lt;!ELEMENT 学生（姓名，性别）&gt; &lt;!ELEMENT 姓名 （#PCDATA）&gt; &lt;!ELEMENT 性别 （#PCDATA）&gt; &lt;!ATTLIST 学生 学号 CDATA #REQUIRED&gt;</option>
+      <option value="C">&lt;!ELEMENT 学生名册 （学生 ）&gt; &lt;!ELEMENT 学生（姓名，性别）&gt; &lt;!ELEMENT 姓名 （#PCDATA）&gt; &lt;!ELEMENT 性别 （#PCDATA）&gt; &lt;!ATTLIST 学生 学号 ID #REQUIRED&gt;</option>
+      <option value="D">&lt;!ELEMENT 学生名册 （学生？）&gt; &lt;!ELEMENT 学生（姓名，性别）&gt; &lt;!ELEMENT 姓名 （#PCDATA）&gt; &lt;!ELEMENT 性别 （#PCDATA）&gt; &lt;!ATTLIST 学生 学号CDATA #REQUIRED&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301016" type="1">
+    <question>分析以下的DTD文档，下面的XML实例（）能够通过该DTD的校验。（选一项） &lt;!ELEMENT doc(title?,chap*)&gt; &lt;!ELEMENT title (#PCDATA)&gt; &lt;!ELEMENT chap (sect )&gt; &lt;!ELEMENT sect (para )&gt; &lt;!ELEMENT para (#PCDATA)&gt;</question>
+    <choice>
+      <option value="A">&lt;doc&gt;&lt;chap&gt;&lt;para&gt;Text&lt;/para&gt;&lt;/chap&gt;&lt;/doc&gt;</option>
+      <option value="B">&lt;doc&gt;&lt;chap&gt;&lt;sect&gt;&lt;para&gt;Text&lt;/para&gt;&lt;/chap&gt;&lt;/doc&gt;</option>
+      <option value="C">&lt;doc&gt;&lt;title&gt;Text&lt;/title&gt;&lt;/doc&gt;</option>
+      <option value="D">&lt;doc&gt;&lt;title&gt;Text&lt;/title&gt;&lt;sect&gt;&lt;para&gt;Text &lt;/para&gt;&lt;/sect&gt;&lt;/doc&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301017" type="1">
+    <question>基于 () 的数据传输标准, Web服务可以实现跨平台、跨语言的相互通信和数据共享（选一项）</question>
+    <choice>
+      <option value="A">HTML</option>
+      <option value="B">CSS</option>
+      <option value="C">XML</option>
+      <option value="D">XSLT</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301018" type="1">
+    <question>某新闻网站新闻量较大，并且新闻需要被即时发布。该网站可以通过各种浏览器和手持设备访问。网站后台是一个基于xml的应用系统，该系统把数据库中数据读取到xml文档中，并使用DOM进行解析。使用以下（）方法可以提高后台应用系统的性能，从而提高该网站的性能（选一项）</question>
+    <choice>
+      <option value="A">把xml文档转化成html网页。</option>
+      <option value="B">使用SAX解析xml文档。</option>
+      <option value="C">不经解析，把xml文档直接发送给浏览器。</option>
+      <option value="D">使用样式表对xml文档进行转换。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301019" type="1">
+    <question>如果一个XML 文档存在以下( )情况，我们称它为无效的xml文档。（选两项）</question>
+    <choice>
+      <option value="A">没有遵守 XML 规范定义的语法规则。</option>
+      <option value="B">遵守 XML语法，但没有 定义DTD 或Schema。</option>
+      <option value="C">定义了DTD 或Schema，但没有遵守DTD 或Schema中定义的规则。</option>
+      <option value="D">定义的DTD 或Schema不符合语法规范。</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="301020" type="1">
+    <question>如果有如下的XML文档实例片段: &lt;studentlist&gt; &lt;student&gt; &lt;name&gt;a&lt;/name&gt; &lt;sex&gt;male&lt;/sex&gt; &lt;age&gt;20&lt;/age&gt; &lt;/student&gt; &lt;student&gt; &lt;name&gt;b&lt;/name&gt; &lt;sex&gt;female&lt;/sex&gt; &lt;age&gt;21&lt;/age&gt; &lt;/student&gt; &lt;/studentlist&gt; 那么XPath 表达式/studentlist/student/name 匹配的结果是（选一项）</question>
+    <choice>
+      <option value="A">&lt;name&gt;a&lt;/name&gt;</option>
+      <option value="B">&lt;name&gt;a&lt;/name&gt; &lt;name&gt;b&lt;/name&gt;</option>
+      <option value="C">a</option>
+      <option value="D">ab</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301021" type="1">
+    <question>若用DOM处理下面一段XML文档，则下面的XML文档中有（）个对象（选一项） &lt;book&gt; &lt;author&gt;tom&lt;/author&gt; &lt;bookcode&gt;12&lt;/bookcode&gt; &lt;/book&gt;</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">3</option>
+      <option value="C">4</option>
+      <option value="D">5</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301022" type="1">
+    <question>声明相同的元素至多出现一次应使用哪个符号（选一项）</question>
+    <choice>
+      <option value="A">+</option>
+      <option value="B">*</option>
+      <option value="C">？</option>
+      <option value="D">|</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301023" type="1">
+    <question>下列关于XML的描述中正确的有（选一项）</question>
+    <choice>
+      <option value="A">如果已经指定了父元素的命名空间，子元素就不能使用自己的命名空间</option>
+      <option value="B">元素可以应用命名空间，属性不可以</option>
+      <option value="C">结构完整的XML文档一定是合法的XML文档</option>
+      <option value="D">合法的XML文档一定是结构完整的XML文档</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301024" type="1">
+    <question>下列关于XML文档中根元素的说法不正确的有（选一项）</question>
+    <choice>
+      <option value="A">每一个结构完整的XML文档有且只有一个根元素</option>
+      <option value="B">根元素完全包括了文档中其他所有元素</option>
+      <option value="C">根元素的起始标记要放在其他所有元素的起始标记之前，而根元素的结束标记要放在其他所有元素的结束标记之后</option>
+      <option value="D">根元素不能包含属性节点</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="301025" type="1">
+    <question>下面（）是XML提供的编程接口，用于开发人员解析XML文档。（选两项）</question>
+    <choice>
+      <option value="A">XPath</option>
+      <option value="B">DOM</option>
+      <option value="C">XSLT</option>
+      <option value="D">SAX</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="301026" type="1">
+    <question>下面XML文档节点中，下列（）的内容是不会被XML解析器解析的（选一项）</question>
+    <choice>
+      <option value="A">PCDATA</option>
+      <option value="B">处理指令PI</option>
+      <option value="C">CDATA</option>
+      <option value="D">实体</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301027" type="1">
+    <question>要定义一个数据类型，既可能包含integer类型的值，也可能包含string类型的值，以下schema片段正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsd:simpleType name="idNumber"&gt; &lt;xsd:union&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:integer"/&gt; &lt;/xsd:simpleType&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:string"/&gt; &lt;/xsd:simpleType&gt; &lt;/xsd:union&gt; &lt;/xsd:simpleType&gt;</option>
+      <option value="B">&lt;xsd:simpleType name="idNumber"&gt; &lt;xsd:list&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:integer"/&gt; &lt;/xsd:simpleType&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:string"/&gt; &lt;/xsd:simpleType&gt; &lt;/xsd:list&gt; &lt;/xsd:simpleType&gt;</option>
+      <option value="C">&lt;xsd:simpleType name="idNumber"&gt; &lt;xsd:all&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:integer"/&gt; &lt;/xsd:simpleType&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:string"/&gt; &lt;/xsd:simpleType&gt; &lt;/xsd:all&gt; &lt;/xsd:simpleType&gt;</option>
+      <option value="D">&lt;xsd:simpleType name="idNumber"&gt; &lt;xsd:choice&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:integer"/&gt; &lt;/xsd:simpleType&gt; &lt;xsd:simpleType&gt; &lt;xsd:restriction base="xsd:string"/&gt; &lt;/xsd:simpleType&gt; &lt;/xsd:choice&gt; &lt;/xsd:simpleType&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301028" type="1">
+    <question>已知xml文档包含如下内容（list为根元素）： &lt;list&gt; &lt;item id="0001"&gt; &lt;price&gt;18&lt;/price&gt; &lt;/item&gt; &lt;item id="0002"&gt; &lt;price&gt;15&lt;/price&gt; &lt;/item&gt; &lt;item/&gt; &lt;product&gt; &lt;item id="01"&gt;&lt;/item&gt; &lt;/product&gt; &lt;/list&gt; 使用xslt进行转换时，语句&lt;xsl:template match="/list/item[@id]"&gt;能够匹配到（）个item元素（选一项）</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">2</option>
+      <option value="C">1</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301029" type="1">
+    <question>已知xslt片段：&lt;xsl:if test="roundOff(o.5)"&gt;&lt;/xsl:if&gt;, test语句的返回值是（选一项）</question>
+    <choice>
+      <option value="A">true</option>
+      <option value="B">false</option>
+      <option value="C">不存在roundOff函数。</option>
+      <option value="D">以上都不是。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301030" type="1">
+    <question>以下的xml文档片段中，属性符合XML语法规则的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;car name="zhang’s car"&gt;</option>
+      <option value="B">&lt;car name='zhang”s car'&gt;</option>
+      <option value="C">&lt;car name='jieda car "&gt;</option>
+      <option value="D">&lt;car name=jieda &gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301031" type="1">
+    <question>用来转换和表示XML文档的是（选一项）</question>
+    <choice>
+      <option value="A">CSS</option>
+      <option value="B">XSL</option>
+      <option value="C">SAX</option>
+      <option value="D">DOM</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301032" type="1">
+    <question>有stud.dtd文件如下: &lt;?xml version="1.0" encoding="gb2312" ?&gt; &lt;!ELEMENT roster (student )&gt; &lt;!ELEMENT student (name)&gt; &lt;!ELEMENT name (#PCDATA)&gt; &lt;!ATTLIST student school CDATA #REQUIRED&gt; &lt;!ENTITY is "Elementary School"&gt; 有stud.xml文件如下: &lt;?xml version="1.0" encoding="gb2312" ?&gt; &lt;!DOCTYPE roster SYSTEM "stud.dtd" &gt; &lt;roster&gt; &lt;student school="&amp;is;" &gt; &lt;name&gt;Jake&lt;/name&gt; &lt;/student&gt; &lt;/roster&gt; 下述说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">stud.xml不符合stud.dtd的有效性要求</option>
+      <option value="B">IE中浏览stud.xml 时,报错</option>
+      <option value="C">IE中浏览stud.xml 时,将显示: &lt;roster&gt; &lt;student school="Elementary School"&gt; &lt;name&gt;Jake&lt;/name&gt; &lt;/student&gt; &lt;/roster&gt;</option>
+      <option value="D">IE中浏览stud.xml 时,将显示: &lt;roster&gt; &lt;student&gt; &lt;name&gt;Jake&lt;/name&gt; &lt;/student&gt; &lt;/roster&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301033" type="1">
+    <question>在DOM中，对给定的 Node，返回给定名称的属性，应调用方法（选一项）</question>
+    <choice>
+      <option value="A">getLastChild</option>
+      <option value="B">getDocumentElement</option>
+      <option value="C">getAttribute</option>
+      <option value="D">getFirstChild</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301034" type="1">
+    <question>在DTD中定义school元素的一个属性name，应该定义为（选一项）</question>
+    <choice>
+      <option value="A">&lt; !ATTLIST school name CDATA &gt;</option>
+      <option value="B">&lt;ELEMENT school name CDATA &gt;</option>
+      <option value="C">&lt; ATTLIST school name CDATA &gt;</option>
+      <option value="D">&lt; !ENTITY school name CDATA &gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301035" type="1">
+    <question>在Schema中，限定元素的值可从列表中选择的元素是（选一项）</question>
+    <choice>
+      <option value="A">Unique</option>
+      <option value="B">Sequence</option>
+      <option value="C">Pattern</option>
+      <option value="D">List</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301036" type="1">
+    <question>在XML基础中，XSL的循环判断语句为（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsl:template&gt;</option>
+      <option value="B">&lt;xsl:for-each&gt;</option>
+      <option value="C">&lt;xsl:sort&gt;</option>
+      <option value="D">&lt;xsl:sort&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301037" type="1">
+    <question>在XML文档结构中，在（）中指明所用的XML的版本（选一项）</question>
+    <choice>
+      <option value="A">XML声明</option>
+      <option value="B">根元素</option>
+      <option value="C">注释</option>
+      <option value="D">CDATA</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301038" type="1">
+    <question>在XML中，用迭代方式处理每个节点的XSLT的元素是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsl:template&gt;</option>
+      <option value="B">&lt;xsl:for-each&gt;</option>
+      <option value="C">&lt;xsl:sort&gt;</option>
+      <option value="D">&lt;xsl:choose&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301039" type="1">
+    <question>在XML中的Schema中，用于限制元素出现次数的element属性有（选两项）</question>
+    <choice>
+      <option value="A">maxExclusive</option>
+      <option value="B">minExclusive</option>
+      <option value="C">minOccurs</option>
+      <option value="D">maxOccurs</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="301040" type="1">
+    <question>在XML中使用字符‘&lt;’应使用哪个预定义字符。（选一项）</question>
+    <choice>
+      <option value="A">&amp;gt;</option>
+      <option value="B">&amp;amp;</option>
+      <option value="C">&amp;lt;</option>
+      <option value="D">&amp;apos;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="301041" type="1">
+    <question>在XPath中,"//B[@id]"表示（选一项）</question>
+    <choice>
+      <option value="A">节点"B"的所有子节点</option>
+      <option value="B">所有具有属性id的"B"节点</option>
+      <option value="C">"B"节点的前面的所有元素</option>
+      <option value="D">所有具有属性"B"的id节点</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="301042" type="1">
+    <question>在XSL中用循环的方式处理每个节点，使用的标签是（选一项）</question>
+    <choice>
+      <option value="A">&lt;xsl:for-each&gt;</option>
+      <option value="B">&lt;xsl:for &gt;</option>
+      <option value="C">&lt;xsl:choose&gt;</option>
+      <option value="D">&lt;xsl:while&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301043" type="1">
+    <question>在一个DTD元素中定义了一个元素“学员”为&lt;!ELEMENT 学员 (#PCDATA)&gt;，那么如下的XML实例片段中合法的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;学员&gt;张三&lt;/学员&gt;</option>
+      <option value="B">&lt;学员&gt;&lt;姓名&gt;张三&lt;/姓名&gt;&lt;/学员&gt;</option>
+      <option value="C">&lt;学员/&gt;</option>
+      <option value="D">&lt;学员&gt;一班&lt;姓名&gt;张三&lt;/姓名&gt;同学&lt;/学员&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="301044" type="1">
+    <question>属性指定元素最多出现的次数。（选一项）</question>
+    <choice>
+      <option value="A">minOccurs</option>
+      <option value="B">maxOccurs</option>
+      <option value="C">minExclusive</option>
+      <option value="D">maxExclusive</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="409001" type="1">
+    <question>1. 生成凭证错误的常见原因描述错误的有（选择一项）</question>
+    <choice>
+      <option value="A">科目不是最明细;凭证借贷不平</option>
+      <option value="B">金额来源设置不正确或单据上数据为零</option>
+      <option value="C">取不到核算项目</option>
+      <option value="D">总账期间小于业务系统期间</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409002" type="1">
+    <question>受托加工业务处理是,委托方提供的材料一般入（选择一项）</question>
+    <choice>
+      <option value="A">实仓</option>
+      <option value="B">待检仓</option>
+      <option value="C">代管仓</option>
+      <option value="D">赠品仓</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409003" type="1">
+    <question>下列单据中哪个单据不可以进行信用控制（选择一项）</question>
+    <choice>
+      <option value="A">销售订单</option>
+      <option value="B">销售发票</option>
+      <option value="C">销售出库单</option>
+      <option value="D">发货通知单</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409004" type="1">
+    <question>下列受托代销业务说法不正确的是（选择一项）</question>
+    <choice>
+      <option value="A">收到受托商品时，做一张收料通知单，此时的仓库是代管库</option>
+      <option value="B">销售受托商品时，从代管库转出销售数量的商品，先做外购入库单，入库单必须是关联收料通知单的方法录入，入实仓，同时生成采购发票（此发票是与受托方的结算发票），同时还要做一张实际的销售发票和销售出库单，发到目标客户</option>
+      <option value="C">受托商品要退回给受托方时，做一张退料通知单，从代管库发回给受托方</option>
+      <option value="D">受托商品要退回给受托方时，做一张红字入库单，发回给受托方</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409005" type="1">
+    <question>某订单某物料的数量为100，该条目（1）被采购入库单直接关联了10个；（2）被收料通知单关联了40个；（3）该收料通知单又被另一张入库单关联了20个,则订单上“入库数量”为( )个（选择一项）</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">20</option>
+      <option value="C">30</option>
+      <option value="D">40</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409006" type="1">
+    <question>启用业务系统时，初始化的单据必须（选择一项）</question>
+    <choice>
+      <option value="A">审核</option>
+      <option value="B">核销</option>
+      <option value="C">钩稽</option>
+      <option value="D">关闭</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409007" type="1">
+    <question>在K/3工业供应链中，不可以执行( )核算形式（选择一项）</question>
+    <choice>
+      <option value="A">总仓核算</option>
+      <option value="B">分仓核算</option>
+      <option value="C">分仓库组核算</option>
+      <option value="D">部分总仓,部分分仓核算</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409008" type="1">
+    <question>如果库存更新选择“单据保存后立即更新”，库存类单据进行下列( )操作时,该单据的库存数量会更新到即时库存中（选择一项）</question>
+    <choice>
+      <option value="A">保存</option>
+      <option value="B">修改</option>
+      <option value="C">复制</option>
+      <option value="D">删除</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409009" type="1">
+    <question>下列哪种计价方法核算的物料在录入初始数据时，需点击“批次顺序号”录入（选择一项）</question>
+    <choice>
+      <option value="A">加权平均法</option>
+      <option value="B">移动加权平均法</option>
+      <option value="C">计划成本法</option>
+      <option value="D">先进先出法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409010" type="1">
+    <question>以下哪个选项是错误的（选择一项）</question>
+    <choice>
+      <option value="A">外购的物料不能制作BOM单</option>
+      <option value="B">只有采用“计划成本法”的物料，才可进行调价处理</option>
+      <option value="C">进行期末结帐后，如需修改上期业务数据，可进行“反结帐”工作</option>
+      <option value="D">在进行期初余额调整时，只能对物料的期初结存金额作调整，不能对其结存数量作调整</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409011" type="1">
+    <question>以下哪些单据不属于初始化时需要录入的启用期前单据？（选择一项）</question>
+    <choice>
+      <option value="A">暂估入库单</option>
+      <option value="B">未核销委外加工出库单</option>
+      <option value="C">未核销的销售出库单</option>
+      <option value="D">采购发票</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409012" type="1">
+    <question>虚仓与实仓的区别有（选择一项）</question>
+    <choice>
+      <option value="A">实仓进行数量和金额核算，虚仓只进行数量核算，不进行金额核算</option>
+      <option value="B">虚仓能进行仓位管理</option>
+      <option value="C">虚仓宜处理物料批次管理、保质期管理</option>
+      <option value="D">即时库存查询不能查看到虚仓数量结存情况</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409013" type="1">
+    <question>企业以存货向联营厂投资，其物料发出时应录入（选择一项）</question>
+    <choice>
+      <option value="A">销售出库单</option>
+      <option value="B">生产领料单</option>
+      <option value="C">其他出库单</option>
+      <option value="D">委外加工出库单</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409014" type="1">
+    <question>以下哪种单据可以进行拆单操作（选择一项）</question>
+    <choice>
+      <option value="A">采购申请单</option>
+      <option value="B">采购订单</option>
+      <option value="C">外购入库单</option>
+      <option value="D">收料通知单</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409015" type="1">
+    <question>以下不属于采购系统主要单据的是（选择一项）</question>
+    <choice>
+      <option value="A">采购申请单</option>
+      <option value="B">采购订单</option>
+      <option value="C">外购入库单</option>
+      <option value="D">采购发票</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409016" type="1">
+    <question>关于单据编号下列说法不正确的是（选择一项）</question>
+    <choice>
+      <option value="A">制作单据时可以修改单据编号</option>
+      <option value="B">可以设置单据的前缀</option>
+      <option value="C">可以设置单据的后缀</option>
+      <option value="D">不可以设置单据的初始值</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409017" type="1">
+    <question>以下哪些是存货核算系统中入库核算（选择一项）</question>
+    <choice>
+      <option value="A">红字入库核算</option>
+      <option value="B">其他入库核算</option>
+      <option value="C">盘亏核算</option>
+      <option value="D">不确定单价单据</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409018" type="1">
+    <question>如果发现财务帐上物料的数量与仓库帐相同，但金额不同，需做（ ）来处理（选择一项）</question>
+    <choice>
+      <option value="A">盘盈单</option>
+      <option value="B">盘亏单</option>
+      <option value="C">金额调整单</option>
+      <option value="D">外购入库单</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409019" type="1">
+    <question>在制作凭证模板的过程中，单据中与物料无关科目的科目来源应选择（选择一项）</question>
+    <choice>
+      <option value="A">单据上物料的存货科目</option>
+      <option value="B">单据上物料的销售收入科目</option>
+      <option value="C">单据上物料的成本科目</option>
+      <option value="D">凭证摸板</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409020" type="1">
+    <question>如果希望从仓存模块中看到存货的金额要进行什么设置（选择一项）</question>
+    <choice>
+      <option value="A">初始化时设置数量核算</option>
+      <option value="B">在系统设置中设置金额在仓存可见</option>
+      <option value="C">在用户管理中使用权限控制</option>
+      <option value="D">不需要设置系统默认</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409021" type="1">
+    <question>以下哪个选项是错误的（选择一项）</question>
+    <choice>
+      <option value="A">金额调整单只调整金额，不调整数量</option>
+      <option value="B">只有采用“计划成本法”的物料，才可进行调价处理</option>
+      <option value="C">进行期末结帐后，如需修改上期业务数据，可进行“反结帐”工作</option>
+      <option value="D">在进行期初余额调整时，只能对物料的期初结存金额做调整，不能对其结存数量做调整</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409022" type="1">
+    <question>在供应链中，如核算方式为数量、金额核算时，则在（ ）系统做结帐处理（选择一项）</question>
+    <choice>
+      <option value="A">采购系统</option>
+      <option value="B">销售系统</option>
+      <option value="C">仓存系统</option>
+      <option value="D">存货核算系统</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409023" type="1">
+    <question>在存货核算系统中凭证一般是根据（ ）模板来自动生成凭证（选择一项）</question>
+    <choice>
+      <option value="A">系统自带的摸板</option>
+      <option value="B">默认摸板</option>
+      <option value="C">系统自动选择的摸板</option>
+      <option value="D">系统随机选择的摸板</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409024" type="1">
+    <question>在销售系统中新增了一张销售方式为赊销的发票，则该凭证应在（ ）系统生成（选择一项）</question>
+    <choice>
+      <option value="A">销售系统</option>
+      <option value="B">存货核算系统</option>
+      <option value="C">应收系统</option>
+      <option value="D">总帐系统</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409025" type="1">
+    <question>下列哪些单据不是在销售系统中可以制作的（选择一项）</question>
+    <choice>
+      <option value="A">销售发票</option>
+      <option value="B">销售订单</option>
+      <option value="C">销售出库单</option>
+      <option value="D">销售合同</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409026" type="1">
+    <question>销售订单中不必录项有（选择一项）</question>
+    <choice>
+      <option value="A">单价</option>
+      <option value="B">业务员</option>
+      <option value="C">购货单位</option>
+      <option value="D">部门</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409027" type="1">
+    <question>以下（ ）单据不可以被其他单据关联生成（选择一项）</question>
+    <choice>
+      <option value="A">销售出库单</option>
+      <option value="B">销售合同</option>
+      <option value="C">发货通知单</option>
+      <option value="D">销售订单</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409028" type="1">
+    <question>在销售订单单据序时簿中如果要查看本单据关联生成的销售报价单，需进行（ ）操作（选择一项）</question>
+    <choice>
+      <option value="A">上查</option>
+      <option value="B">下查</option>
+      <option value="C">上推</option>
+      <option value="D">下推</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409029" type="1">
+    <question>销售发票中不能手工录入的项目是（选择一项）</question>
+    <choice>
+      <option value="A">数量</option>
+      <option value="B">审核</option>
+      <option value="C">日期</option>
+      <option value="D">购货单位</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409030" type="1">
+    <question>以下（ ）单据不能关联其他单据生成（选择一项）</question>
+    <choice>
+      <option value="A">销售发票</option>
+      <option value="B">销售订单</option>
+      <option value="C">销售出库单</option>
+      <option value="D">销售报价单</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409031" type="1">
+    <question>单据号的前缀在（ ）设置（选择一项）</question>
+    <choice>
+      <option value="A">系统设置</option>
+      <option value="B">新增单据的单据设置中</option>
+      <option value="C">基础资料</option>
+      <option value="D">备注资料</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409032" type="1">
+    <question>在出入库的单据序时簿中能看到下列哪些单据（选择一项）</question>
+    <choice>
+      <option value="A">在仓库系统中录入的外购入库单</option>
+      <option value="B">在盘点中生成的盘赢单</option>
+      <option value="C">在盘点中生成的盘亏单</option>
+      <option value="D">在采购系统中录入的收料通知单</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409033" type="1">
+    <question>以下哪些业务不可以利用“待检仓”实现（选择一项）</question>
+    <choice>
+      <option value="A">分期收款出库业务</option>
+      <option value="B">在途原料的入库业务</option>
+      <option value="C">需要检验后再入库的业务</option>
+      <option value="D">受托加工业务</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409034" type="1">
+    <question>某物料已有业务发生，哪些物料的内容不能更改（选择一项）</question>
+    <choice>
+      <option value="A">物料代码</option>
+      <option value="B">名称</option>
+      <option value="C">默认仓库</option>
+      <option value="D">基本计量单位</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409035" type="1">
+    <question>库存盘点的过程要进行哪些工作（选择一项）</question>
+    <choice>
+      <option value="A">备份帐存数据</option>
+      <option value="B">查看仓库台面帐</option>
+      <option value="C">录入盘点数据</option>
+      <option value="D">编制盘点报告表</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409036" type="1">
+    <question>下列关于K/3虚仓说法正确的是（选择一项）</question>
+    <choice>
+      <option value="A">企业中只能设置一个虚仓</option>
+      <option value="B">虚仓既能核算数量也能核算金额</option>
+      <option value="C">虚仓只能核算数量不能核算金额</option>
+      <option value="D">虚仓是指在企业外建立的仓库</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="409037" type="1">
+    <question>仓库调拨单能够进行的业务是（选择一项）</question>
+    <choice>
+      <option value="A">虚仓之间的调拨</option>
+      <option value="B">实仓之间的调拨</option>
+      <option value="C">代管仓之间的调拨</option>
+      <option value="D">虚实仓之间的调拨</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409038" type="1">
+    <question>供应链初始化中启用期间在哪里设置（选择一项）</question>
+    <choice>
+      <option value="A">核算参数设置</option>
+      <option value="B">中间层建帐中</option>
+      <option value="C">系统设置</option>
+      <option value="D">不用设置</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="409039" type="1">
+    <question>若从仓库领用10件自产的A产品赠送给客户，应做（选择一项）</question>
+    <choice>
+      <option value="A">销售出库单</option>
+      <option value="B">其他出库单</option>
+      <option value="C">赠品出库单</option>
+      <option value="D">委外加工出库单</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409040" type="1">
+    <question>在录入单据时，要进行即时库存查询，用快捷方式（选择一项）</question>
+    <choice>
+      <option value="A">F6</option>
+      <option value="B">F7</option>
+      <option value="C">F8</option>
+      <option value="D">F12</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409041" type="1">
+    <question>下列说法不正确的有（选择一项）</question>
+    <choice>
+      <option value="A">采购系统所有单据都可以关联生成</option>
+      <option value="B">做红字发票时，只要录入负数的数量即可</option>
+      <option value="C">在采购系统中录入的外购入库单会自动传递到仓存系统中</option>
+      <option value="D">发票核销可在单据序时簿中进行处理</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="409042" type="1">
+    <question>供应链初始化数据录入不包括（ ）数据（选择一项）</question>
+    <choice>
+      <option value="A">分仓库录入各物料的期初数量、金额，本年累计出入库数量、金额</option>
+      <option value="B">期初暂估入库单据</option>
+      <option value="C">期初未核销的销售出库单据</option>
+      <option value="D">日常单据</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409043" type="1">
+    <question>外购入库单不可关联的单据有（选择一项）</question>
+    <choice>
+      <option value="A">采购订单</option>
+      <option value="B">采购发票</option>
+      <option value="C">收料通知单</option>
+      <option value="D">采购申请单</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409044" type="1">
+    <question>以下（ ）单据不可以关联其他单据生成（选择一项）</question>
+    <choice>
+      <option value="A">外购入库单</option>
+      <option value="B">采购发票</option>
+      <option value="C">退料通知单</option>
+      <option value="D">采购合同</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409045" type="1">
+    <question>可进行单据反审核操作的人员有（选择一项）</question>
+    <choice>
+      <option value="A">有审核权限的所有人员</option>
+      <option value="B">单据的原审核人</option>
+      <option value="C">系统管理员</option>
+      <option value="D">以上所有人员都可以</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="409046" type="1">
+    <question>以下（ ）单据能关联销售订单生成（选择一项）</question>
+    <choice>
+      <option value="A">采购订单</option>
+      <option value="B">外购入库单</option>
+      <option value="C">采购发票</option>
+      <option value="D">退货通知单</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

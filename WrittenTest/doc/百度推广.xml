@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="408001" type="1">
+    <question>网民通过百度首页进行搜索时，搜索推广结果将在哪些区域展现：（多选）</question>
+    <choice>
+      <option value="A">首页右侧及翻页后右侧页面，每页最多展现8条结果</option>
+      <option value="B">首页左侧有底色的“推广链接”最多3条和“推广”位置，最多展现10条结果，且同时出现</option>
+      <option value="C">首页左侧无底色的“推广”位置，最多展现10条结果</option>
+      <option value="D">首页左侧带有底色的“推广链接“位置，最多展现3条不同的推广结果，上下两处展现的结果一致</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="408002" type="1">
+    <question>在常规报告中，推广商户不可以查看哪项数据指标：（单选）</question>
+    <choice>
+      <option value="A">平均排名</option>
+      <option value="B">消费</option>
+      <option value="C">点击量</option>
+      <option value="D">平均点击价格</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408003" type="1">
+    <question>推广商户在搜索结果里找不到自己的推广结果，原因可能是（多选）</question>
+    <choice>
+      <option value="A">使用的IP地址在IP排除范围</option>
+      <option value="B">消费完毕下线</option>
+      <option value="C">关键词状态为不宜推广</option>
+      <option value="D">关键词状态为搜索无效</option>
+    </choice>
+    <answer>ABCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408004" type="1">
+    <question>以下关于关键词推荐工具中高级查询功能的说法，正确的是：（多选）</question>
+    <choice>
+      <option value="A">当勾选”显示搜索量最高月份”后，显示推荐关键词在过去12个月中搜索量最高的具体月份</option>
+      <option value="B">当在“不包含以下词汇的推荐结果”下方的输入框中添加某个或某些词语时，最多可输入40个词</option>
+      <option value="C">当勾选“显示地域拓展词”后，代表推荐结果出现带有地域的关键词</option>
+      <option value="D">当在 “不包含以下词汇的推荐结果”下方的输入框中添加某个或某些词语，此时推荐结果中将不会出现包含这些词语的关键词</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="408005" type="1">
+    <question>关于历史操作查询工具，以下说法错误的是：（单选）</question>
+    <choice>
+      <option value="A">历史数据可下载到本地</option>
+      <option value="B">推广商户可查询自己当天所做的操作记录</option>
+      <option value="C">推广商户可查询自己的操作</option>
+      <option value="D">最高可查询半年的历史数据</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408006" type="1">
+    <question>小周不希望他的搜索推广在周六周日有推广，他需要在帐户哪一个层级进行设置？（单选）</question>
+    <choice>
+      <option value="A">创意</option>
+      <option value="B">推广单元</option>
+      <option value="C">关键词</option>
+      <option value="D">推广计划</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408007" type="1">
+    <question>在推广单元级别，可以进行以下哪些操作：（多选）</question>
+    <choice>
+      <option value="A">设置统一出价</option>
+      <option value="B">设置时段暂停</option>
+      <option value="C">设置否定关键词</option>
+      <option value="D">添加关键词</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="408008" type="1">
+    <question>推广商户在账户层级已经设置了20个220.X.X.X否定IP地址段，该账户只有一个计划，在计划里又设置了另外20个221.X.X.X否定IP地址段，那么该客户这个计划最终有多少个IP地址段看不到该商户的推广结果呢？（单选）</question>
+    <choice>
+      <option value="A">40个</option>
+      <option value="B">20个</option>
+      <option value="C">60个</option>
+      <option value="D">30个</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408009" type="1">
+    <question>推广单元A出价为2.5，其内的关键词1出价为2，关键词2出价为2.8，则以下说法正确的是：（多选）</question>
+    <choice>
+      <option value="A">关键词2最终点击价格不会高于2.8</option>
+      <option value="B">关键词2最终点击价格不会高于2</option>
+      <option value="C">关键词2最终点击价格不会高于2.5</option>
+      <option value="D">关键词1最终点击价格不会高于2</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="408010" type="1">
+    <question>小A在账户层级设置的地域投放为北京，天津；在推广计划层级设置的地域投放为天津，广东，则实际投放地域为：（单选）</question>
+    <choice>
+      <option value="A">天津</option>
+      <option value="B">天津，广东</option>
+      <option value="C">北京，天津</option>
+      <option value="D">没有任何一个地域</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="408011" type="1">
+    <question>推广计划A设置了短语否定匹配关键词为招聘，其内的推广单元1设置了精确否定匹配外语培训，则以下哪个搜索词将不会触发推广信息（单选）</question>
+    <choice>
+      <option value="A">培训外语</option>
+      <option value="B">外语招聘</option>
+      <option value="C">外语培训广告</option>
+      <option value="D">外语培训教师</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="408012" type="1">
+    <question>若关键词设置的访问URL是www.test.com，与之匹配的创意设置的访问URL是www.clickme.com，且关键词、创意的状态均有效，则以下说法正确的是（单选）</question>
+    <choice>
+      <option value="A">两个URL冲突，所以实际推广中无法进行正常跳转</option>
+      <option value="B">实际推广www.clickme.com跳转</option>
+      <option value="C">实际推广中一半按照www.test.com跳转，一半按照www.clickme.com跳转</option>
+      <option value="D">实际推广按照www.test.comL跳转</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408013" type="1">
+    <question>以下关于层级功能设置的相关说法，不正确的是：（单选）</question>
+    <choice>
+      <option value="A">推广商户可以在推广单元层级进行“时段暂停”设置</option>
+      <option value="B">推广商户可以在推广单元层级进行“暂停推广”设置</option>
+      <option value="C">推广商户可以在推广计划层级进行“暂停推广”设置</option>
+      <option value="D">推广商户可以在推广计划层级进行“时段暂停”设置</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408014" type="1">
+    <question>小D在帐户层级设置的每日预算为250元，在推广计划层级设置的每日预算为150元，且此账户只有这一个计划处于有效状态，则实际每日花费可能为：（单选）</question>
+    <choice>
+      <option value="A">165元</option>
+      <option value="B">250元</option>
+      <option value="C">150元</option>
+      <option value="D">275元</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408015" type="1">
+    <question>若推广单元汽车-口碑没有设置暂停，其内的关键词十万元买什么车好暂停推广，不考虑匹配模式在其中的影响，则以下说法正确的是：（多选）</question>
+    <choice>
+      <option value="A">搜索结果中将看到推广单元汽车-口碑中所有关键词的结果</option>
+      <option value="B">搜索结果中将看到关键词十万元买什么车好的结果</option>
+      <option value="C">搜索结果中将看不到关键词十万元买什么车好的结果</option>
+      <option value="D">搜索结果中将看到除关键词十万元买什么车好外的推广单元汽车-口碑中所有关键词的结果</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="408016" type="1">
+    <question>以下有关推广结果排序的相关说法，正确的是：（多选）</question>
+    <choice>
+      <option value="A">出价相同，质量度高的关键词排名靠前</option>
+      <option value="B">质量度优秀的关键词，可能在出价更低的情况下获取更好的排名</option>
+      <option value="C">因为同星级质量度也存在具体数值的波动，所以可能出现质量度星级相同的关键词，出价低的排名靠前</option>
+      <option value="D">通常情况下，相同的质量度，出价高的排名更靠前</option>
+    </choice>
+    <answer>ABCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408017" type="1">
+    <question>推广商户可以从以下哪些方面对质量度进行优化：（多选）</question>
+    <choice>
+      <option value="A">合理使用通配符，优化创意质量</option>
+      <option value="B">在账户内添加热门、检索量高的关键词</option>
+      <option value="C">提高创意与关键词的相关性</option>
+      <option value="D">设置合理的账户结构</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="408018" type="1">
+    <question>以下关于匹配模式说法正确的是？（多选）</question>
+    <choice>
+      <option value="A">否定匹配的出现加大了广告的精准性，减少预算的浪费，百度系统每个计划能提交500个否定关键词</option>
+      <option value="B">使用广泛匹配减少了思考关键词的劳累过程，只要提交几个简单的关键词，那么系统便会帮助你匹配许多关键并在左侧推广位置予以展现</option>
+      <option value="C">时常下载搜索词报告，分析搜索词结果，将不相关关键词放入否定词，提高广告效果</option>
+      <option value="D">广泛匹配覆盖的范围最大</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="408019" type="1">
+    <question>某推广商户购买关键词商务酒店，网民在百度搜索上海商务酒店时看到了该商户投放的推广结果，则该商户有可能使用了以下哪些匹配模式？（多选）</question>
+    <choice>
+      <option value="A">精确匹配</option>
+      <option value="B">广泛匹配</option>
+      <option value="C">否定匹配，否定词为上海商务酒店</option>
+      <option value="D">短语匹配</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="408020" type="1">
+    <question>关键词英语培训参加广泛匹配，当网民搜索以下哪些词时，不会触发推广商户的结果展现（单选）</question>
+    <choice>
+      <option value="A">英语周末培训班</option>
+      <option value="B">经纪人资格证学习班</option>
+      <option value="C">疯狂英语口语</option>
+      <option value="D">英语六级强化班</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="408021" type="1">
+    <question>小赵用后台生成了一个报告，得到的数据如下表，那么问号处（平均转化成本）是多少？展现量10,000 点击量1,000 CPC0.5 转化率1% 平均转化成本？（单选）</question>
+    <choice>
+      <option value="A">50</option>
+      <option value="B">20</option>
+      <option value="C">200</option>
+      <option value="D">100</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408022" type="1">
+    <question>小孙有一个电子商务网站，数据如下，那么他的搜索推广的CPC理想控制在什么水平 预计转化率0.50% 平均交易额1000 毛利率20%（单选）</question>
+    <choice>
+      <option value="A">1.2</option>
+      <option value="B">1.5</option>
+      <option value="C">1</option>
+      <option value="D">2</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="408023" type="1">
+    <question>小李用后台生成了一个报告，提到的数据如下表，请问问号处（CPM）是多少？展现量10000 点击量1000 CPC0.5 CPM?（单选）</question>
+    <choice>
+      <option value="A">50</option>
+      <option value="B">100</option>
+      <option value="C">20</option>
+      <option value="D">10</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408024" type="1">
+    <question>某推广商户2010年1月1日从百度推广带来数据如下，请计算问号处（CTR）为 展现量900 点击量100 消费102 订单数12 收益600（单选）</question>
+    <choice>
+      <option value="A">20.67%</option>
+      <option value="B">17%</option>
+      <option value="C">1%</option>
+      <option value="D">11.11%</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408025" type="1">
+    <question>某推广信息具体的展现与排名情况如下则该推广信息的平均排名为多少 展现次数 5 7 9 点击次数 1 0 2 排名 4 2 3（单选）</question>
+    <choice>
+      <option value="A">3.5</option>
+      <option value="B">2.9</option>
+      <option value="C">3.33</option>
+      <option value="D">3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="408026" type="1">
+    <question>某推广商户撰写了创意如下，网民搜索词学 生假期托管班触发了商户所购买的关键词假期托管班，则推广信息在前台推广位置展示时应为：标题比｛托管｝更好的夏令营 描述1专业师资，英语学习，户外活动，寓教于乐，即刻登陆官网了解详情 描述2去｛假期托管｝不如参加学习夏令营，真实的英语学习环境，快乐学习，祝您一臂之力（单选）</question>
+    <choice>
+      <option value="A">比托管更好的夏令营 专业师资，英语学习，户外活动，寓教于乐，即刻登陆官网了解详情 !去假期托管不如参加学习夏令营，真实的英语学习环境，快乐学习，祝您一臂之力</option>
+      <option value="B">比假期托管班更好的夏令营 专业师资，英语学习，户外活动，寓教于乐，即刻登陆官网了解详情 !去学生假期托管班不如参加学习夏令营，真实的英语学习环境，快乐学习，祝您一臂之力</option>
+      <option value="C">比学生假期托管班更好的夏令营 专业师资，英语学习，户外活动，寓教于乐，即刻登陆官网了解详情 !去学生假期托管班不如参加学习夏令营，真实的英语学习环境，快乐学习，祝您一臂之力</option>
+      <option value="D">比假期托管班更好的夏令营 专业师资，英语学习，户外活动，寓教于乐，即刻登陆官网了解详情 !去假期托管班不如参加学习夏令营，真实的英语学习环境，快乐学习，祝您一臂之力</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408027" type="1">
+    <question>断句符出现在标题的前多少个字符，以下哪个数字是最为合理的？（单选）</question>
+    <choice>
+      <option value="A">28</option>
+      <option value="B">38</option>
+      <option value="C">50</option>
+      <option value="D">30</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408028" type="1">
+    <question>以下关于每次点击价格的说法，正确的是：（单选）</question>
+    <choice>
+      <option value="A">若关键词不是最后一名，关键词的点击价格一定等于关键词出价</option>
+      <option value="B">每次点击价格不会超过推广商户关键词的出价</option>
+      <option value="C">若关键词不是最后一名， 关键词的质量度越高，则每次点击价格越高</option>
+      <option value="D">每次点击价格不会超过推广商户关键词的最低展现价格</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="408029" type="1">
+    <question>潜在用户通过搜索推广与推广企业建立联系，此过程包括下列哪些步骤？（多选）</question>
+    <choice>
+      <option value="A">在网站上看到感兴趣的信息和联系方式</option>
+      <option value="B">点击推广信息上的链接，进入推广企业网站</option>
+      <option value="C">看到搜索结果页上的推广信息</option>
+      <option value="D">在搜索引擎搜索了相关信息</option>
+    </choice>
+    <answer>ABCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408030" type="1">
+    <question>用统计软件监测到的访问少于系统统计的点击的原因可能的是（多选）</question>
+    <choice>
+      <option value="A">点击发生时，点击者与你网站的网络连接通路不畅，数据丢包或长时间等待，连接中断</option>
+      <option value="B">网站访问速度过慢，用户还未等网页完全打开就已经将网页关闭</option>
+      <option value="C">统计系统本身的网络连接通路不畅，造成数据丢失</option>
+      <option value="D">监测代码在网站部署存在问题</option>
+    </choice>
+    <answer>ABCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408031" type="1">
+    <question>给定展现量一样的情况下，以下哪些因素会影响点击量的变化：（多选）</question>
+    <choice>
+      <option value="A">关键词的排名</option>
+      <option value="B">创意的质量</option>
+      <option value="C">网站的打开速度</option>
+      <option value="D">关键词数量</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="408032" type="1">
+    <question>以下关于关键词分组的说法错误的是（多选）</question>
+    <choice>
+      <option value="A">推广单元是管理关键词创意的小单位，可以便于更有针对性地撰写创意</option>
+      <option value="B">推广单元主要目的是确保在创意中插入通配符获得飘红时，能保证语句通顺，达到更好的推广效果，所以只要将结构相同的关键词分到同一单元即可，不需要意义相近</option>
+      <option value="C">将意义相近、结构相同的关键词纳入同一推广单元中能够达到更好的推广效果</option>
+      <option value="D">将所有品牌词分到同一推广单元：即含有自有品牌的关键词，或一些专有品牌资产名称，包括其他竞争品牌</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="408033" type="1">
+    <question>在网民搜索时，如果推广商户的账户内符合网民搜索需求的关键词被触发，该关键词所对应的创意在搜索结果页获得的出现次数，称之为：（单选）</question>
+    <choice>
+      <option value="A">展现量</option>
+      <option value="B">检索量</option>
+      <option value="C">点击量</option>
+      <option value="D">搜索量</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="408034" type="1">
+    <question>当某推广商户账户内多个关键词都符合展现条件时，将优先展现：（单选）</question>
+    <choice>
+      <option value="A">最低展现价格高的关键词触发的创意</option>
+      <option value="B">出价高的关键词触发的创意</option>
+      <option value="C">与网民搜索词字面完全一致的关键词触发的创意</option>
+      <option value="D">质量度高的关键词触发的创意</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="408035" type="1">
+    <question>网盟推广中，哪些情况需要采取站点排除？（多选）</question>
+    <choice>
+      <option value="A">不希望广告展示在已经进行资源互换的联盟站点上</option>
+      <option value="B">通过效果监测工具，发现来自某些IP段的访问不能为推广带来任何收益</option>
+      <option value="C">有些站点的目标用户与产品定位存在偏差</option>
+      <option value="D">网站已经是百度联盟站点，不希望自己的推广信息展示在自己的站点上</option>
+    </choice>
+    <answer>ABCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408036" type="1">
+    <question>以下哪个会是关键词点击率低的直接原因？（多选）</question>
+    <choice>
+      <option value="A">关键词与创意相关性差</option>
+      <option value="B">出价较低，排名靠后</option>
+      <option value="C">限制了投放地域</option>
+      <option value="D">关键词匹配模式都设成了广泛匹配</option>
+    </choice>
+    <answer>ABD</answer>
+    <desc/>
+  </exam>
+  <exam id="408037" type="1">
+    <question>以下有关创意展示概率的说法，错误的是：（单选）</question>
+    <choice>
+      <option value="A">系统默认的创意展示概率是优选</option>
+      <option value="B">分为轮替和优选两种</option>
+      <option value="C">创意展示概率在推广计划层级设置</option>
+      <option value="D">系统默认的创意展示概率是轮替</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="408038" type="1">
+    <question>假设推广结果都展现在首页，影响搜索推广展现量的因素包括：（多选）</question>
+    <choice>
+      <option value="A">首页关键词排名</option>
+      <option value="B">分地域设置</option>
+      <option value="C">关键词检索量</option>
+      <option value="D">关键词数量</option>
+    </choice>
+    <answer>BCD</answer>
+    <desc/>
+  </exam>
+  <exam id="408039" type="1">
+    <question>以下哪种情况，百度搜索推广才会收取费用（单选）</question>
+    <choice>
+      <option value="A">关键词提交级系统以后</option>
+      <option value="B">推广信息展现在搜索结果页面时</option>
+      <option value="C">关键词处于有效状态时</option>
+      <option value="D">网民点击推广信息时</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+</root>

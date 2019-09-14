@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="405001" type="1">
+    <question>php代表什么意思？(选择一项)</question>
+    <choice>
+      <option value="A">Hypertext Preprocessor（超文本预处理器）</option>
+      <option value="B">Hyperlink Preprocessor（超链接预处理器）</option>
+      <option value="C">Personal Homepage （个人主页空间）</option>
+      <option value="D"></option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405002" type="1">
+    <question>以下PHP标记哪个是错误的？(选择一项)</question>
+    <choice>
+      <option value="A">&lt;? ?&gt;</option>
+      <option value="B">&lt;?PHP ?&gt;</option>
+      <option value="C">&lt;% %&gt;</option>
+      <option value="D">&lt;SCRIPT language="php"&gt;...&lt;/script&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405003" type="1">
+    <question>下边哪个变量是非法的?(选择一项)</question>
+    <choice>
+      <option value="A">$_10</option>
+      <option value="B">${“MyVar”}</option>
+      <option value="C">&amp;$something</option>
+      <option value="D">$aVaR</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405004" type="1">
+    <question>选择下面程序运行的结果( )(选择一项) &lt;?php $a=1;$a=++;$c=&amp;$a;$b=$c++;echo “\$a=$a &lt;br&gt; \$b=$b &lt;br&gt; \$c=$c”;?&gt;</question>
+    <choice>
+      <option value="A">$a=3 $b=2 $c=3</option>
+      <option value="B">$a=3 $b=2 $c=2</option>
+      <option value="C">a=2 $b=2 $c=3</option>
+      <option value="D">$a=2</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405005" type="1">
+    <question>下面程序运行的结果为( )(选择一项) $numb=array(array(10,15,30), array(10,15,30), array(10,15,30)); echo count ($numb,1);</question>
+    <choice>
+      <option value="A">3</option>
+      <option value="B">6</option>
+      <option value="C">9</option>
+      <option value="D">12</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405006" type="1">
+    <question>下面程序运行的结果为( )(选择一项)$a=array("a","b","c","d"); $index=array_search("a",$a); if($index==false) echo"在数组a中未发现字符'a'"; else echo "index=".$index;</question>
+    <choice>
+      <option value="A">在数组a中未发现字符’a’</option>
+      <option value="B">0</option>
+      <option value="C">1</option>
+      <option value="D">2</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405007" type="1">
+    <question>在定ENUM中，最多指定( )成员(选择一项)</question>
+    <choice>
+      <option value="A">255</option>
+      <option value="B">256</option>
+      <option value="C">65535</option>
+      <option value="D">65536</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405008" type="1">
+    <question>Html语言当中指明链接对象的标记是（）(选择一项)</question>
+    <choice>
+      <option value="A">img</option>
+      <option value="B">href</option>
+      <option value="C">font</option>
+      <option value="D">src</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405009" type="1">
+    <question>Html语言当中用于分段的标记是（）(选择一项)</question>
+    <choice>
+      <option value="A">&lt;p&gt;和&lt;/p&gt;</option>
+      <option value="B">&lt;div&gt;和&lt;/div&gt;</option>
+      <option value="C">&lt;i&gt;和&lt;/i&gt;</option>
+      <option value="D">&lt;b&gt;和&lt;/b&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405010" type="1">
+    <question>Html语言当中建立有序列表的标签是（）(选择一项)</question>
+    <choice>
+      <option value="A">&lt;ul&gt; &lt;/ul&gt;</option>
+      <option value="B">&lt;ol&gt;&lt;/ol&gt;</option>
+      <option value="C">&lt;al&gt;&lt;/al&gt;</option>
+      <option value="D">&lt;nl&gt; &lt;/nl&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405011" type="1">
+    <question>你是公司的数据库管理员，数据库benet中有个员工表employees，该表中有姓名列。 你想检查哪些员工的姓名是含有“文“字的，则用下列哪个sql语句（）。(选择一项)</question>
+    <choice>
+      <option value="A">Select * from employees where 姓名=’文’；</option>
+      <option value="B">Select * from employees where 姓名 like ‘%文’；</option>
+      <option value="C">Select * from employees where 姓名 like ‘文%’；</option>
+      <option value="D">以上答案都不正确</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405012" type="1">
+    <question>职工信息表如下表所示：(选择一项) 编号 姓名 年龄 性别 0001 李明辉 35 男 0002 张明华 45 男 0003 李淑琴 34 女 .... .... .... .... 如果表中的</question>
+    <choice>
+      <option value="A">SELECT 姓名，年龄 FROM 职工信息表 WHERE 年龄&gt;40 AND 性别=’男’</option>
+      <option value="B">SELECT 姓名，年龄 FROM 职工信息表 WHERE 年龄&gt;40 AND 性别IS男</option>
+      <option value="C">SELECT 姓名，年龄 FROM 职工信息表 WHERE 年龄&gt;40 AND 性别=男</option>
+      <option value="D">SELECT 姓名，年龄 FROM 职工信息表 WHERE 年龄&gt;’40’ AND 性别=’男’</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405013" type="1">
+    <question>请问strlen（”I am a student”）的结果是（）(选择一项)</question>
+    <choice>
+      <option value="A">11</option>
+      <option value="B">12</option>
+      <option value="C">13</option>
+      <option value="D">14</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405014" type="1">
+    <question>下面程序段执行完毕，页面上的显示内容是什么?( )(选择一项) &lt;? $a=”I am”； $b=”a sudent”； $a=”24ooo 7”+8； echo $a; ?&gt;</question>
+    <choice>
+      <option value="A">24ooo 15</option>
+      <option value="B">32</option>
+      <option value="C">15</option>
+      <option value="D">以上都不正确</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405015" type="1">
+    <question>下面程序段执行完毕，页面上的显示内容是什么?( ) &lt;? $a=10; echo “a++:”.$a++; echo”变量a的新值是：”.a .”&lt;br&gt;”; echo “- -a:”.$a- -; echo”变量a的新值是：”.a .”&lt;br&gt;”; ?&gt;</question>
+    <choice>
+      <option value="A">a++:11 变量a的新值是: 11 - -a:9 变量a的新值是: 9</option>
+      <option value="B">a++:10 变量a的新值是: 11 - -a:10变量a的新值是: 9</option>
+      <option value="C">a++:10变量a的新值是: 11 - -a:9变量a的新值是: 9</option>
+      <option value="D">以上都不正确</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405016" type="1">
+    <question>php中的标量数据类型有如下几种，布尔型(bool)、整型(integer)、浮点型(float)、字符串(string),其中布尔型(bool)的返回值是（）(选择2项)</question>
+    <choice>
+      <option value="A">0</option>
+      <option value="B">1</option>
+      <option value="C">true</option>
+      <option value="D">FALSE</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="405017" type="1">
+    <question>对于html代码，&lt;input type=”________” name=”gender” &gt;,在横线上填入哪个值，才代表会显示一个单选按钮。（）(选择一项)</question>
+    <choice>
+      <option value="A">text</option>
+      <option value="B">submit</option>
+      <option value="C">checkbox</option>
+      <option value="D">radio</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405018" type="1">
+    <question>标记符title是放在标记符什么之间的(选择一项)</question>
+    <choice>
+      <option value="A">html与html</option>
+      <option value="B">head与head</option>
+      <option value="C">body与body</option>
+      <option value="D">head与body</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405019" type="1">
+    <question>使用CSS对文本进行修饰，若使文本闪烁，text-decoration的取值为(选择一项)</question>
+    <choice>
+      <option value="A">none</option>
+      <option value="B">underline</option>
+      <option value="C">overline</option>
+      <option value="D">blink</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405020" type="1">
+    <question>＜img＞标记符中连接图片的参数是：(选择一项)</question>
+    <choice>
+      <option value="A">href</option>
+      <option value="B">src</option>
+      <option value="C">type</option>
+      <option value="D">align</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405021" type="1">
+    <question>级联样式表文件的扩展名是：(选择一项)</question>
+    <choice>
+      <option value="A">html</option>
+      <option value="B">css</option>
+      <option value="C">xml</option>
+      <option value="D">dib</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405022" type="1">
+    <question>同以往的版本相比较，HTML4.0：(选择一项)</question>
+    <choice>
+      <option value="A">增加了JavaScript支持</option>
+      <option value="B">增加了Flash技术</option>
+      <option value="C">增强了网页的动态性</option>
+      <option value="D">增加了ActiveX技术</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405023" type="1">
+    <question>HTML语言中的转行标记是(选择一项)</question>
+    <choice>
+      <option value="A">html</option>
+      <option value="B">br</option>
+      <option value="C">title</option>
+      <option value="D">p</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405024" type="1">
+    <question>下列哪个不属于数据定义语言：(选择一项)</question>
+    <choice>
+      <option value="A">select</option>
+      <option value="B">create</option>
+      <option value="C">drop</option>
+      <option value="D">alter</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405025" type="1">
+    <question>下列那个不属于数据操纵语言：(选择一项)</question>
+    <choice>
+      <option value="A">select</option>
+      <option value="B">insert</option>
+      <option value="C">delete</option>
+      <option value="D">update</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405026" type="1">
+    <question>关于mysql_select_db返回值正确的是：(选择一项)</question>
+    <choice>
+      <option value="A">成功开启返回1，失败返回0</option>
+      <option value="B">成功开启返回一个连接标识，失败返回false</option>
+      <option value="C">成功开启返回True,失败返回False</option>
+      <option value="D">成轼开启返回True,失败返回一个错误号</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405027" type="1">
+    <question>请看代码，数据库关闭指令将关闭哪个连接标识？(选择一项)&lt;? $link1 =mysql_connect("localhost","root",""); $link2 =mysql_connect("localhost","root",""); mysql_close(); ?&gt;</question>
+    <choice>
+      <option value="A">$link1</option>
+      <option value="B">$link2</option>
+      <option value="C">全部关闭</option>
+      <option value="D">报错</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405028" type="1">
+    <question>mysql_affected_rows()对哪个操作没有影响？(选择一项)</question>
+    <choice>
+      <option value="A">select</option>
+      <option value="B">delete</option>
+      <option value="C">update</option>
+      <option value="D">insert</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405029" type="1">
+    <question>mysql_data_seek(查询结果指针，资料录位置)函数中，资料记录位置的值是从多少开始的？(选择一项)</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405030" type="1">
+    <question>取得搜索语句的结果集中的记录总数的函数是：(选择一项)</question>
+    <choice>
+      <option value="A">mysql_fetch_row</option>
+      <option value="B">mysql_rowid</option>
+      <option value="C">mysql_num_rows</option>
+      <option value="D">mysql_fetch_array</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405031" type="1">
+    <question>关于mysql_pconnect说法正确的是：(选择一项)</question>
+    <choice>
+      <option value="A">与数据库进行多连接</option>
+      <option value="B">与mysql_connect功能相同</option>
+      <option value="C">与＠mysql_connect功能相同</option>
+      <option value="D">与数据库建立持久连接</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405032" type="1">
+    <question>如果想取得mysql数据库系统的运行状态，应该用什么函数？(选择一项)</question>
+    <choice>
+      <option value="A">mysql_ping</option>
+      <option value="B">mysql_status</option>
+      <option value="C">mysql_stat</option>
+      <option value="D">mysql_info</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405033" type="1">
+    <question>mysql_insert_id()函数的作用是(选择一项)</question>
+    <choice>
+      <option value="A">查看下一次插入记录时的ID号</option>
+      <option value="B">查看刚刚插入过的自动增长ID值</option>
+      <option value="C">查看一共做过多少次insert操作</option>
+      <option value="D">查看一共有多少条记录</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405034" type="1">
+    <question>mysql_ping()函数的作用以及返回值的类型正确的是：(选择一项)</question>
+    <choice>
+      <option value="A">检查数据库系统的状态，返回整型数值</option>
+      <option value="B">检查数据库系统的状态，返回值为布尔型</option>
+      <option value="C">检查到服务器的连接是否正常，返回整型数值</option>
+      <option value="D">检查到服务器的连接是否正常，返回值为布尔型</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405035" type="1">
+    <question>关于mysql_db_query与mysql_query说法正确的是：(选择一项)</question>
+    <choice>
+      <option value="A">mysql_db_query与mysql_query在执行sql语句后的返回值是一样的，成功返回资源号，失败返回FALSE</option>
+      <option value="B">不能用mysql_query函数临时在另一个数据库上执行sql语句，而mysql_db_query可以</option>
+      <option value="C">mysql_db_query不会切换回先前连接到的数据库</option>
+      <option value="D">mysql_query在功能上等于mysql_select_db() +mysql_db_query()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405036" type="1">
+    <question>以下代码执行结果(选择一项) &lt;?php mysql_connect("localhost","root","") $result = mysql_query("select id,namefrom tb1"); while($row =mysql_fetch_array($result,MYSQL_ASSOC)) {echo "ID:" . $row[0] ."Name:" . $row[];} ?&gt;</question>
+    <choice>
+      <option value="A">报错</option>
+      <option value="B">只打印第一条记录</option>
+      <option value="C">循环换行打印全部记录</option>
+      <option value="D">无任何结果</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405037" type="1">
+    <question>mysql_connect( )与@mysql_connect( )的区别是( ) (选择一项)</question>
+    <choice>
+      <option value="A">@mysql_connect( )不会忽略错误,将错误显示到客户端</option>
+      <option value="B">mysql_connect( )不会忽略错误,将错误显示到客户端</option>
+      <option value="C">没有区别</option>
+      <option value="D">功能不同的两个函数</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405038" type="1">
+    <question>语句for($k=0;$k=1;$k++);和语句for($k=0;$k==1;$k++);执行的次数分别是: (选择一项)</question>
+    <choice>
+      <option value="A">无限和0</option>
+      <option value="B">0和无限</option>
+      <option value="C">都是无限</option>
+      <option value="D">都是0</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405039" type="1">
+    <question>读取post方法传递的表单元素值的方法是:(选择一项)</question>
+    <choice>
+      <option value="A">$_post["名称"]</option>
+      <option value="B">$_POST["名称"]</option>
+      <option value="C">$post["名称"]</option>
+      <option value="D">$POST["名称"]</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405040" type="1">
+    <question>php运算符中，优先级从高到低分别是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">关系运算符，逻辑运算符，算术运算符</option>
+      <option value="B">算术运算符，关系运算符，逻辑运算符</option>
+      <option value="C">逻辑运算符，算术运算符，关系运算符</option>
+      <option value="D">关系运算符，算术运算符，逻辑运算符</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405041" type="1">
+    <question>要查看一个变量的数据类型,可使用函数( )(选择一项)</question>
+    <choice>
+      <option value="A">type()</option>
+      <option value="B">gettype()</option>
+      <option value="C">GetType()</option>
+      <option value="D">Type()</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405042" type="1">
+    <question>字符串的比较，是按（　　）进行比较。(选择一项)</question>
+    <choice>
+      <option value="A">拼音顺序</option>
+      <option value="B">ASCII码值</option>
+      <option value="C">随机</option>
+      <option value="D">先后顺序</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405043" type="1">
+    <question>复选框的type属性值是( ) (选择一项)</question>
+    <choice>
+      <option value="A">checkbox</option>
+      <option value="B">radio</option>
+      <option value="C">select</option>
+      <option value="D">check</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405044" type="1">
+    <question>如果想取得最近一条查询的信息,应该使用哪个函数( )(选择一项)</question>
+    <choice>
+      <option value="A">mysql_info</option>
+      <option value="B">mysql_stat</option>
+      <option value="C">mysql_insert_id( )</option>
+      <option value="D">mysql_free_result</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405045" type="1">
+    <question>下列哪个说法是错误的( ) (选择一项)</question>
+    <choice>
+      <option value="A">gettype( )是查看数据类型的</option>
+      <option value="B">没有被赋值的变量是0</option>
+      <option value="C">unset( )是被认为NULL</option>
+      <option value="D">双引号字符串最重要的一点是其中的变量名会被变量值替代</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405046" type="1">
+    <question>strtolower( )函数的功能是（　）(选择一项)</question>
+    <choice>
+      <option value="A">将给定的字符串全部转换为小写字母</option>
+      <option value="B">将给定的字符串全部转换为大写字母</option>
+      <option value="C">将给定的字符串首字母转换为小写字母</option>
+      <option value="D">将给定的字符串首字母转换为大写字母</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="405047" type="1">
+    <question>HTML中,表格单元格的"值"是存储在( )标签里(选择一项)</question>
+    <choice>
+      <option value="A">&lt; body&gt;</option>
+      <option value="B">&lt; td&gt;</option>
+      <option value="C">&lt;tr&gt;</option>
+      <option value="D">&lt;table&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="405048" type="1">
+    <question>php中字符串的连接运算符是（ ）(选择一项)</question>
+    <choice>
+      <option value="A">-符号</option>
+      <option value="B">+符号</option>
+      <option value="C">&amp;</option>
+      <option value="D">.</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="405049" type="1">
+    <question>php函数不支持的功能有(选择一项)</question>
+    <choice>
+      <option value="A">可变的参数个数</option>
+      <option value="B">通过引用传递参数</option>
+      <option value="C">通过指针传递参数</option>
+      <option value="D">实现递归函数</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="405050" type="1">
+    <question>文件框的type属性值是( )(选择一项)</question>
+    <choice>
+      <option value="A">text</option>
+      <option value="B">hidden</option>
+      <option value="C">textarea</option>
+      <option value="D">checkbox</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+</root>

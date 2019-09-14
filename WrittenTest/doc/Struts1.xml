@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="314001" type="1">
+    <question>( )是struts-config.xml文件配置数据源的标签。（选一项）</question>
+    <choice>
+      <option value="A">&lt;/data-source&gt;</option>
+      <option value="B">&lt;/data-sources&gt;</option>
+      <option value="C">&lt;set-property&gt;</option>
+      <option value="D">&lt;form-beans&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314002" type="1">
+    <question>( )标签检查cookie、header、name、parameter或 property属性之一指定的变量是否在应用的范围内（选一项）</question>
+    <choice>
+      <option value="A">messagePresent</option>
+      <option value="B">messageNotPresent</option>
+      <option value="C">present</option>
+      <option value="D">notPresent</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314003" type="1">
+    <question>( )确定完成处理后，将结果发送到什么地方（选一项）</question>
+    <choice>
+      <option value="A">ActionMapping</option>
+      <option value="B">ActionServlet</option>
+      <option value="C">Validate()</option>
+      <option value="D">Process()</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314004" type="1">
+    <question>Action 类的execute()方法返回( )的对象。（选一项）</question>
+    <choice>
+      <option value="A">Action</option>
+      <option value="B">Null</option>
+      <option value="C">HttpServletResponse</option>
+      <option value="D">ActionForward</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314005" type="1">
+    <question>Action 中的execute()方法返回____的对象（选一项）</question>
+    <choice>
+      <option value="A">Action</option>
+      <option value="B">null</option>
+      <option value="C">HttpServletResponse</option>
+      <option value="D">ActionForward</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314006" type="1">
+    <question>ActionForm Bean有两种存在范围（选两项）</question>
+    <choice>
+      <option value="A">Request</option>
+      <option value="B">Session</option>
+      <option value="C">Page</option>
+      <option value="D">Application</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="314007" type="1">
+    <question>ActionForward的( )属性指定ActionForward的URL。（选一项）</question>
+    <choice>
+      <option value="A">name</option>
+      <option value="B">redirect</option>
+      <option value="C">class</option>
+      <option value="D">path</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314008" type="1">
+    <question>ActionForward的（ ）属性指定ActionForward的URI（选一项）</question>
+    <choice>
+      <option value="A">path</option>
+      <option value="B">name</option>
+      <option value="C">redirect</option>
+      <option value="D">classname</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314009" type="1">
+    <question>Action类的execute方法中的参数ActionMapping的作用是（选一项）</question>
+    <choice>
+      <option value="A">读取struts-config.xml中的信息</option>
+      <option value="B">读取&lt;actionform&gt;元素中的信息</option>
+      <option value="C">读取&lt;action-mapping&gt;元素中的信息</option>
+      <option value="D">读取&lt;action&gt;元素中的信息</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314010" type="1">
+    <question>Action中有包括代码“request.setAttribute("data", list)”，则下面logic:iterate使用正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;logic:iterate property="list" var="item"&gt;${item.title}&lt;/logic:iterate&gt;</option>
+      <option value="B">&lt;logic:iterate name="list" id="item"&gt;${item.title}&lt;/logic:iterate&gt;</option>
+      <option value="C">&lt;logic:iterate property="data" var="item"&gt;${item.title}&lt;/logic:iterate&gt;</option>
+      <option value="D">&lt;logic:iterate name="data" id="item"&gt;${item.title}&lt;/logic:iterate&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314011" type="1">
+    <question>StrutsBean的( )标签将检索web应用程序资源的结果。（选一项）</question>
+    <choice>
+      <option value="A">define</option>
+      <option value="B">include</option>
+      <option value="C">message</option>
+      <option value="D">page</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314012" type="1">
+    <question>StrutsBean的（ ）标签从已定义的资源包中检索带有键的值（选一项）</question>
+    <choice>
+      <option value="A">deinfe</option>
+      <option value="B">message</option>
+      <option value="C">parameter</option>
+      <option value="D">write</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314013" type="1">
+    <question>Struts的（）标签可以有条件地产生输出文本，在对象集合中循环从而重复地产生输出文本，以及应用程序流程控制。（选一项）</question>
+    <choice>
+      <option value="A">Nested</option>
+      <option value="B">Bean</option>
+      <option value="C">Logic</option>
+      <option value="D">Html</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314014" type="1">
+    <question>Struts的ActionServlet需要在那个配置文件中进行配置（选一项）</question>
+    <choice>
+      <option value="A">struts-config.xml</option>
+      <option value="B">config.xml</option>
+      <option value="C">web.xml</option>
+      <option value="D">struts.xml</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314015" type="1">
+    <question>struts的控制器与模型层之间的关系描述正确的是（选一项）</question>
+    <choice>
+      <option value="A">没有关系</option>
+      <option value="B">相互依赖</option>
+      <option value="C">模型可以调用控制器</option>
+      <option value="D">控制器可以调用模型</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314016" type="1">
+    <question>Struts国际化简称（选一项）</question>
+    <choice>
+      <option value="A">I18N</option>
+      <option value="B">GBK</option>
+      <option value="C">GB2312</option>
+      <option value="D">Unicode</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314017" type="1">
+    <question>Struts框架的控制器主要由（ ）负责。（选一项）</question>
+    <choice>
+      <option value="A">EJB</option>
+      <option value="B">JSP页面</option>
+      <option value="C">ActionServlet类</option>
+      <option value="D">标签库</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314018" type="1">
+    <question>Struts框架中,( )类用来与模型层交互。（选一项）</question>
+    <choice>
+      <option value="A">ActionServlet</option>
+      <option value="B">Action</option>
+      <option value="C">ActionForm</option>
+      <option value="D">ActionMappin</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314019" type="1">
+    <question>Struts框架中( )允许为struts应用灵活地配置验证规则，无需编程。（选一项）</question>
+    <choice>
+      <option value="A">Struts插件</option>
+      <option value="B">ActionForm Bean</option>
+      <option value="C">javascript</option>
+      <option value="D">Validator框架</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314020" type="1">
+    <question>struts框架中，使用以下（）标签可以显示数据验证错误信息。（选一项）</question>
+    <choice>
+      <option value="A">&lt;html:error/&gt;</option>
+      <option value="B">&lt;html:errors/&gt;</option>
+      <option value="C">&lt;logic:error/&gt;</option>
+      <option value="D">&lt;logic:errors/&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314021" type="1">
+    <question>Struts内部默认编码是（选一项）</question>
+    <choice>
+      <option value="A">GBK</option>
+      <option value="B">UTF-8</option>
+      <option value="C">ISO-8859-1</option>
+      <option value="D">没有默认编码</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314022" type="1">
+    <question>Struts配置文件是（选一项）</question>
+    <choice>
+      <option value="A">Struts_cfg.xml</option>
+      <option value="B">struts-hbm.xml</option>
+      <option value="C">struts-config.xml</option>
+      <option value="D">config.xml</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314023" type="1">
+    <question>Struts使用（）捕获表单数据。（选一项）</question>
+    <choice>
+      <option value="A">ActionError</option>
+      <option value="B">ActionForm</option>
+      <option value="C">Action</option>
+      <option value="D">ActionMessage</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314024" type="1">
+    <question>Struts通过（）支持MVC模式的视图层开发。（选一项）</question>
+    <choice>
+      <option value="A">Struts标签库和Form Bean</option>
+      <option value="B">EJB</option>
+      <option value="C">Servlet</option>
+      <option value="D">Applet</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314025" type="1">
+    <question>Struts应用程序的默认配置文件为（选一项）</question>
+    <choice>
+      <option value="A">struts-config.xml</option>
+      <option value="B">web.xml</option>
+      <option value="C">ejb-jar.xml</option>
+      <option value="D">sun-web.xml</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314026" type="1">
+    <question>Struts中的中央控制器是（选一项）</question>
+    <choice>
+      <option value="A">ActionServlet</option>
+      <option value="B">Action</option>
+      <option value="C">Servlet</option>
+      <option value="D">Request</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314027" type="1">
+    <question>Struts中的中央控制器是（选一项）</question>
+    <choice>
+      <option value="A">ActionServlet</option>
+      <option value="B">Action</option>
+      <option value="C">request</option>
+      <option value="D">response</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314028" type="1">
+    <question>Struts中模型的设计可以使用以下哪种技术进行设计和配置（）两项答案（选两项）</question>
+    <choice>
+      <option value="A">UML</option>
+      <option value="B">PB</option>
+      <option value="C">VB</option>
+      <option value="D">XML</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="314029" type="1">
+    <question>对于struts-config.xml文件，在其中添加( )元素以指定自定义的RequestProcessor类。（选一项）</question>
+    <choice>
+      <option value="A">&lt;form-beans&gt;</option>
+      <option value="B">&lt;controller&gt;</option>
+      <option value="C">&lt;set-property&gt;</option>
+      <option value="D">&lt;plug-in&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314030" type="1">
+    <question>对于struts-config.xml文件，在其中添加（）元素以扩展struts的功能（选一项）</question>
+    <choice>
+      <option value="A">&lt;form-beans&gt;</option>
+      <option value="B">&lt;controller&gt;</option>
+      <option value="C">&lt;set-property&gt;</option>
+      <option value="D">&lt;plug-in&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314031" type="1">
+    <question>对于struts-config.xml文件，在其中添加____元素以指定自定义的RequestProcessor类（选一项）</question>
+    <choice>
+      <option value="A">&lt;form-beans&gt;</option>
+      <option value="B">&lt;controller&gt;</option>
+      <option value="C">&lt;set-property&gt;</option>
+      <option value="D">&lt;plug-in&gt;</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314032" type="1">
+    <question>对于以下代码，HelloAction希望把请求转发给hello.jsp，在HelloAction的execute()方法中如何实现（选一项） &lt;action path= "/HelloWorld" type="hello.HelloAction" name="HelloForm" scope="request" validate= "true" input= "/hello.jsp"&gt; &lt;forward name="SayHello" path="/hello.jsp" /&gt; &lt;/action&gt;</question>
+    <choice>
+      <option value="A">return (new ActionForward(mapping.getInput()));</option>
+      <option value="B">return (mapping.findForward("SayHello"));</option>
+      <option value="C">return (mapping.findForward("hello.jsp"));</option>
+      <option value="D">return (mapping.findForward("/hello.jsp"));</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314033" type="1">
+    <question>对于以下这段配置ActionServlet的代码，哪项说法是错误的（选一项） &lt;servlet&gt; &lt;servlet-name&gt;action&lt;/servlet-name&gt; &lt;servlet-class&gt;org.apache.struts.action.ActionServlet&lt;/servlet-class&gt; &lt;init-param&gt; &lt;param-name&gt;config&lt;/param-name&gt; &lt;param-value&gt;/WEB-INF/myconfig.xml&lt;/param-value&gt; &lt;/init-param&gt; &lt;load-on-startup&gt;2&lt;/load-on-startup&gt; &lt;/servlet&gt; &lt;!-- Standard Action Servlet Mapping --&gt; &lt;servlet-mapping&gt; &lt;servlet-name&gt;action&lt;/servlet-name&gt; &lt;url-pattern&gt;*.do&lt;</question>
+    <choice>
+      <option value="A">Servlet容器在启动Struts应用时，会初始化这个ActionServlet。</option>
+      <option value="B">对于所有URL中以”.do”结尾的HTTP请求，都由ActionServlet处理。</option>
+      <option value="C">这段代码位于struts-config.xml中。</option>
+      <option value="D">这段代码位于web.xml中。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314034" type="1">
+    <question>关于&lt;forward&gt;标签配置说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;forward&gt;标签只能配置在&lt;global-forwards&gt;元素中</option>
+      <option value="B">&lt;forward&gt;标签只能配置在&lt;action&gt;元素中</option>
+      <option value="C">struts-config.xml没有&lt;forward&gt;标签</option>
+      <option value="D">以上说法全部错误</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314035" type="1">
+    <question>关于配置Struts数据源说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Struts数据源只能在Tomcat中配置</option>
+      <option value="B">Struts数据源只能在weblogic中配置</option>
+      <option value="C">Struts数据源在任何服务器都能配置</option>
+      <option value="D">以上说法都不正确</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314036" type="1">
+    <question>模型层数据传输对象简称为（选一项）</question>
+    <choice>
+      <option value="A">DAO</option>
+      <option value="B">BO</option>
+      <option value="C">DTO</option>
+      <option value="D">DDL</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314037" type="1">
+    <question>如果把一个Collection对象：students中的每个Student对象的姓名，年龄，家庭住址信息在页面中全面显示出来，使用&lt;logic:iterate&gt;给出代码。哪个是正确的（选一项）</question>
+    <choice>
+      <option value="A">&lt;logic:iterate name="students" var="stu" scope="session"&gt; &lt;bean:write name="stu" property="stuname"/&gt; &lt;bean:write name="stu" property="age"/&gt; &lt;bean:write name="stu" property="address"/&gt; &lt;/logic:iterate&gt;</option>
+      <option value="B">&lt;logic:iterate name="students" id="stu" scope="session"&gt; &lt;bean:write name="students" property="stuname"/&gt; &lt;bean:write name="students" property="age"/&gt; &lt;bean:write name="students" property="address"/&gt; &lt;/logic:iterate&gt;</option>
+      <option value="C">&lt;logic:iterate id="students" name="stu" scope="session"&gt; &lt;bean:write name="stu" property="stuname"/&gt; &lt;bean:write name="stu" property="age"/&gt; &lt;bean:write name="stu" property="address"/&gt; &lt;/logic:iterate&gt;</option>
+      <option value="D">&lt;logic:iterate name="students" id="stu" scope="session"&gt; &lt;bean:write name="stu" property="stuname"/&gt; &lt;bean:write name="stu" property="age"/&gt; &lt;bean:write name="stu" property="address"/&gt; &lt;/logic:iterate&gt;</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314038" type="1">
+    <question>如果要使用Validator框架，应采用ActionFrom类的两个子类：( )和( )。（选两项）</question>
+    <choice>
+      <option value="A">ActionForward</option>
+      <option value="B">DynaValidatorForm</option>
+      <option value="C">ValidatorForm</option>
+      <option value="D">ActionValidatorForm</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="314039" type="1">
+    <question>下列（ ）是错误的描述。（选一项）</question>
+    <choice>
+      <option value="A">Struts是源代码保密的商用软件</option>
+      <option value="B">Struts是开发Web应用的框架系统</option>
+      <option value="C">Struts基于MVC设计模式</option>
+      <option value="D">Struts是Apache的子工程</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314040" type="1">
+    <question>下列不属于struts组件的是（选一项）</question>
+    <choice>
+      <option value="A">ActionForm</option>
+      <option value="B">ActionServlet</option>
+      <option value="C">Action</option>
+      <option value="D">HttpServletRequest</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314041" type="1">
+    <question>下列关于RequestProcessor类说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">Struts应用中只能产生一个RequestProcessor的实例</option>
+      <option value="B">RequestProcessor必须配置在web.xml中</option>
+      <option value="C">RequestProcessor类是抽象类</option>
+      <option value="D">可以重写RequestProcessor类中的方法</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314042" type="1">
+    <question>下列列举的常用模型层设计模式正确的是（选一项）</question>
+    <choice>
+      <option value="A">Validator</option>
+      <option value="B">Data Access Object</option>
+      <option value="C">ORM</option>
+      <option value="D">oracle</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314043" type="1">
+    <question>下列列举的方法中属于ActionForm的方法是（选一项）</question>
+    <choice>
+      <option value="A">doGet()</option>
+      <option value="B">doPost()</option>
+      <option value="C">validate()</option>
+      <option value="D">reset()</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="314044" type="1">
+    <question>下列属于strtus控制器组件的是（选两项）</question>
+    <choice>
+      <option value="A">ActionForm</option>
+      <option value="B">ActionServlet</option>
+      <option value="C">HttpServletRequest</option>
+      <option value="D">Action</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="314045" type="1">
+    <question>下面（）不是由Struts提供的。（选一项）</question>
+    <choice>
+      <option value="A">DispatchAction类</option>
+      <option value="B">saveErrors方法的定义</option>
+      <option value="C">DynaForm类</option>
+      <option value="D">&lt;html:errors&gt;标签</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314046" type="1">
+    <question>下面____不是由Struts提供的（选一项）</question>
+    <choice>
+      <option value="A">DispatchAction类</option>
+      <option value="B">saveErrors方法的定义</option>
+      <option value="C">DynaForm类</option>
+      <option value="D">&lt;html:errors&gt;标签</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314047" type="1">
+    <question>下面html标签的使用中正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;html:text type="hidden" name="opr" value="toList"/&gt;</option>
+      <option value="B">&lt;html:submit class="btn"&gt;提交&lt;/html:submit&gt;</option>
+      <option value="C">&lt;html:select property="from"&gt;&lt;html:option value="1"&gt;涞水&lt;/html:option&gt;&lt;/select&gt;</option>
+      <option value="D">&lt;html:optionsCollection property="userList" label="uname" value="uid"/&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314048" type="1">
+    <question>下面html标签的使用中正确的是（选一项）</question>
+    <choice>
+      <option value="A">&lt;html:text type="hidden" name="opr" value="toList"/&gt;</option>
+      <option value="B">&lt;html:submit class="btn"&gt;提交&lt;/html:submit&gt;</option>
+      <option value="C">&lt;html:select property="from"&gt;&lt;html:option value="1"&gt;武汉&lt;/html:option&gt;&lt;/select&gt;</option>
+      <option value="D">&lt;html:optionsCollection label="uname" value="uid"/&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314049" type="1">
+    <question>下面关于DispatchAction的说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">.实现DispatchAction Bean需要实现org.apache.struts.actions.DispatchAction接口。</option>
+      <option value="B">DispatchAction Bean中不需要定义execute方法。</option>
+      <option value="C">配置DispatchAction Bean与配置普通Action Bean没有区别。</option>
+      <option value="D">可通过http://localhost:8080/app/da.do直接访问DispatchAction。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314050" type="1">
+    <question>下面关于使用动态Form的描述中正确的是（选一项）</question>
+    <choice>
+      <option value="A">使用动态Form首先要定义一个同名的Form Bean，不需要添加任何属性。</option>
+      <option value="B">在配置动态Form时type属性指定为自己定义的Form Bean的类名。</option>
+      <option value="C">通过myForm.getUserName()从动态Form中获得userName的值。</option>
+      <option value="D">动态Form中的属性名要同页面表单域的name属性一致才能在表单提交时自动填充</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314051" type="1">
+    <question>下面哪些任务是RequestProcessor完成的（选一项）</question>
+    <choice>
+      <option value="A">把Struts配置文件信息加载到内存中</option>
+      <option value="B">把资源文件信息读入到内存中</option>
+      <option value="C">如果需要的话，创建ActionForm实例，组装数据，并进行表单验证</option>
+      <option value="D">把请求转发到Action的execute()方法返回的ActionForward代表的组件</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="314052" type="1">
+    <question>下面那个是Struts视图组件（选一项）</question>
+    <choice>
+      <option value="A">ActionForm</option>
+      <option value="B">Action</option>
+      <option value="C">ActionServlet</option>
+      <option value="D">RequestProcessor</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314053" type="1">
+    <question>下面那些方法属于ActionForm（选一项）</question>
+    <choice>
+      <option value="A">doPost()</option>
+      <option value="B">init()</option>
+      <option value="C">validate()</option>
+      <option value="D">reset()</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="314054" type="1">
+    <question>下面那些是Struts控制器组件（选三项）</question>
+    <choice>
+      <option value="A">Action</option>
+      <option value="B">ActionForm</option>
+      <option value="C">ActionServlet</option>
+      <option value="D">RequestProessor</option>
+    </choice>
+    <answer>ACD</answer>
+    <desc/>
+  </exam>
+  <exam id="314055" type="1">
+    <question>下面语句中，正确的是（选两项）</question>
+    <choice>
+      <option value="A">public class AddAction implements Action {...</option>
+      <option value="B">mapping.findForward("/ch01/result.jsp");</option>
+      <option value="C">&lt;form method="get" action="add.do"&gt;</option>
+      <option value="D">&lt;action name="addAction" path="/add" type="com.svse.web.action.AddAction"&gt;</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="314056" type="1">
+    <question>现在项目主要使用的Struts版本比较稳定和成熟的是（选一项）</question>
+    <choice>
+      <option value="A">Struts1.0</option>
+      <option value="B">Struts1.1</option>
+      <option value="C">Struts1.2</option>
+      <option value="D">Struts2.0</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314057" type="1">
+    <question>要使用动态StrutsForm必须用到以下那个类（选一项）</question>
+    <choice>
+      <option value="A">DynaActionForm</option>
+      <option value="B">ActionForm</option>
+      <option value="C">Action</option>
+      <option value="D">ActionServlet</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314058" type="1">
+    <question>以下哪项说法是正确的（选一项）</question>
+    <choice>
+      <option value="A">每个HTTP请求对应一个单独的ActionServlet实例</option>
+      <option value="B">对于每个请求访问HelloAction的HTTP请求，Struts框架会创建一个单独的HelloAction实例。</option>
+      <option value="C">每个子应用对应一个单独的RequestProcessor实例</option>
+      <option value="D">每个子应用对应一个单独的web.xml文件</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314059" type="1">
+    <question>用户未登录显示“请登录”，已登录显示用户名，下面代码正确的是（选两项）</question>
+    <choice>
+      <option value="A">&lt;logic:empty name="user" scope="session"&gt;${请登录}&lt;/logic:empty&gt;</option>
+      <option value="B">&lt;logic:empty name="user" scope="session"&gt;${user.uname}&lt;/logic:empty&gt;</option>
+      <option value="C">&lt;logic:notEmpty name="user" scope="session"&gt;请登录&lt;/logic:notEmpty&gt;</option>
+      <option value="D">&lt;logic:notEmpty name="user" scope="session"&gt;${user.uname}&lt;/logic:notEmpty&gt;</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="314060" type="1">
+    <question>在Struts中execute()方法返回( )对象。（选一项）</question>
+    <choice>
+      <option value="A">null</option>
+      <option value="B">forward</option>
+      <option value="C">ActionForward</option>
+      <option value="D">response</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314061" type="1">
+    <question>在Struts框架中，控制器ActionServlet能够完成以下（）功能。（选一项）</question>
+    <choice>
+      <option value="A">接受HTTP请求，进行视图和模型层之间表单数据的传递</option>
+      <option value="B">将HTTP请求分发至相应的Action处理</option>
+      <option value="C">调用模型层的JavaBean完成业务逻辑</option>
+      <option value="D">读取ActionForm Bean中的信息，重新设置HTML表单</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="314062" type="1">
+    <question>在struts配置文件中,( )元素可用于配置struts的validator框架。（选一项）</question>
+    <choice>
+      <option value="A">&lt;plug-in&gt;</option>
+      <option value="B">&lt;embeded&gt;</option>
+      <option value="C">&lt;form-beans&gt;</option>
+      <option value="D">&lt;set-property&gt;</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314063" type="1">
+    <question>在使用struts框架构建应用系统时，会在配置文件中出现如下配置信息： &lt;form-beans&gt; &lt;form-bean name=" LoginForm" type="com.test.LoginForm"/&gt; &lt;/form-beans&gt; 关于上述配置信息，以下描述中正确的是（选一项）</question>
+    <choice>
+      <option value="A">类com.test.LoginForm是org.apache.struts.action.ActionForm的派生类</option>
+      <option value="B">缺省情况下，这段配置信息出现在struts-config.xml文件下，struts-config.xml文件与jsp、html等文件都位于web应用的根目录下</option>
+      <option value="C">如果把中间一行改为： &lt;form-bean name=" LoginForm" type="com.test.LoginForm" scope= "session"/&gt; 则该类在整个HTTP会话范围内有效</option>
+      <option value="D">该类中最为常用的是execute方法</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="314064" type="1">
+    <question>在使用struts框架构建应用系统时，建立一个类UserBean，其中有userName属性以及 相应的setter、getter方法。另外建立一个Action类，它的execute方法有如下片段： //====================== UserBean user=new UserBean(); user.setUserName("rose"); request.setAttribute("user",user); return (actionMapping.findForward("success")); //======================= 假设success对应的jsp页面为success.jsp，若要使success.jsp能够输出user对象中的属性值，以下代码片断正确的是（选择一项）</question>
+    <choice>
+      <option value="A">&lt;logic:equal name="user"&gt; &lt;bean:write name="user" property="userName"/&gt; &lt;/logic:equal&gt;</option>
+      <option value="B">&lt;logic:equal name="user"&gt; &lt;bean:message name="user" property="userName"/&gt; &lt;/logic:equal&gt;</option>
+      <option value="C">&lt;logic:notEmpty name="user"&gt; &lt;bean:write name="user" property="userName"/&gt; &lt;/logic:notEmpty&gt;</option>
+      <option value="D">&lt;logic:notEmpty name="user"&gt; &lt;bean:message name="user" property="userName"/&gt; &lt;/logic:notEmpty&gt;</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="314065" type="1">
+    <question>在应用程序启动时，会调用Plugin接口的（选一项）</question>
+    <choice>
+      <option value="A">Start()</option>
+      <option value="B">Create()</option>
+      <option value="C">Init()</option>
+      <option value="D">Initialize()</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+</root>

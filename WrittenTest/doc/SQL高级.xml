@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root>
+  <exam id="201001" type="1">
+    <question>( )不属于任何文件组。（选一项）</question>
+    <choice>
+      <option value="A">次数据文件</option>
+      <option value="B">主数据文件</option>
+      <option value="C">日志文件</option>
+      <option value="D">其他</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201002" type="1">
+    <question>create table student ( id int identity(1,1), name varchar(20) ) alter table student add constraint uq_name unique(name) insert into student values(null) insert into student values(null) insert into student values('jack') insert into student values('jack') 依次执行以上SQL语句后，student表中存在( )行记录。（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">4</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201003" type="1">
+    <question>Demographic表有1000多列。将近90%的用户搜索并且更新其中的20列。剩下的列很少用到但也很重要。当存取Demographic表的信息时，下面选项中，（）能够提高数据读取和更新的性能。（选一项）</question>
+    <choice>
+      <option value="A">在Demographic表的最常存取的列上建立簇索引</option>
+      <option value="B">基于该Demographic表对最常存取的20列建立一个视图</option>
+      <option value="C">将Demographic表分割成2个新表，一个包含20个最常存取的列，另一个包含剩下的列</option>
+      <option value="D">根据用户的需要建立一系列存储过程来选择或更新Demographic表</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201004" type="1">
+    <question>E-R图中，关系集用下面( )来表示。（选一项）</question>
+    <choice>
+      <option value="A">矩形</option>
+      <option value="B">椭圆形</option>
+      <option value="C">菱形</option>
+      <option value="D">圆形</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201005" type="1">
+    <question>SQL Server数据库有2种登录认证方式。其中在( )方式下，需要客户端应用程序连接时提供登录时需要的用户标识和密码。（选一项）</question>
+    <choice>
+      <option value="A">Windows身份验证。</option>
+      <option value="B">以超级用户身份登录时。</option>
+      <option value="C">SQL Server 身份验证。</option>
+      <option value="D">以系统身份登录时。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201006" type="1">
+    <question>SQL Server数据库中，包含两个表:Order订单表， Item订单子项目表。当一个新定单被加入时，数据要分别保存到Order和Item表中，要保证数据完整性，可以使用以下( )语句。（选一项）</question>
+    <choice>
+      <option value="A">BEGIN TRANSACTION INSERT INTO Order VALUES (此处省略) INSERT INTO Item VALUES (此处省略) END TRANSACTION</option>
+      <option value="B">BEGIN TRANSACTION INSERT INTO Order VALUES (此处省略) INSERT INTO Item VALUES (此处省略) IF (@@Error = 0) COMMIT TRANSACTION ELSE ROLLBACK TRANSACTION</option>
+      <option value="C">BEGIN TRANSACTION INSERT INTO Order VALUES (此处省略) IF (@@Error = 0) INSERT INTO Item VALUES (此处省略) IF (@@Error = 0) COMMIT TRANSACTION ELSE ROLLBACK TRANSACTION ELSE ROLLBACK TRANSACTION</option>
+      <option value="D">BEGIN TRANSACTION INSERT INTO Order VALUES (此处省略) INSERT INTO Item VALUES (此处省略) IF (@@Error &lt;&gt; 0) ROLLBACK TRANSACTION</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201007" type="1">
+    <question>SQL Server数据库中，下列不属于T-SQL事务管理语句的是（选一项）</question>
+    <choice>
+      <option value="A">BEGIN TRANSACTION；</option>
+      <option value="B">END TRANSACTION；</option>
+      <option value="C">COMMIT TRANSACTION；</option>
+      <option value="D">ROLLBACK TRANSACTION；</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201008" type="1">
+    <question>SQL Server系统中的所有服务器级系统信息存储于哪个数据库（选一项）</question>
+    <choice>
+      <option value="A">master</option>
+      <option value="B">model</option>
+      <option value="C">tempdb</option>
+      <option value="D">msdb</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201009" type="1">
+    <question>Sql server中，( )命令用来删除表对象。（选一项）</question>
+    <choice>
+      <option value="A">Drop</option>
+      <option value="B">Remove</option>
+      <option value="C">Truncate</option>
+      <option value="D">Delete</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201010" type="1">
+    <question>SQLServer2005中，已知执行语句：select count(score),sum(score)from score返回的结果是10和750，那么执行语句：select avg(score) from score,返回的结果是（选一项）</question>
+    <choice>
+      <option value="A">10</option>
+      <option value="B">75</option>
+      <option value="C">750</option>
+      <option value="D">7500</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201011" type="1">
+    <question>SQLServer的系统存储过程中的安全过程可以用于管理安全性，下面语句 EXEC sp_addlogin 'adms','sales',其中的sales是（选一项）</question>
+    <choice>
+      <option value="A">用户名</option>
+      <option value="B">密码</option>
+      <option value="C">表明</option>
+      <option value="D">默认数据库</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201012" type="1">
+    <question>SQLSever 2005中数据库中，关键字（）标志着批处理的结束。（选一项）</question>
+    <choice>
+      <option value="A">END</option>
+      <option value="B">GO</option>
+      <option value="C">FINISH</option>
+      <option value="D">PRINT</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201013" type="1">
+    <question>Sybase公司的PowerDesigner不涉及的模型有（选一项）</question>
+    <choice>
+      <option value="A">业务模型</option>
+      <option value="B">面向对象模型</option>
+      <option value="C">数据库模型</option>
+      <option value="D">概念数据模型</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201014" type="1">
+    <question>UNIQUE约束和主键约束也是哪种完整性的体现（选一项）</question>
+    <choice>
+      <option value="A">域完整性</option>
+      <option value="B">引用完整性</option>
+      <option value="C">实体完整性</option>
+      <option value="D">其他</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201015" type="1">
+    <question>表结构如下，# 号打头字段代表主键或组合主键，一份订单可以订购多种产品。 产品：# 产品编号，产品名称，产品价格 订单：# 订单编号，# 产品编号，订购日期，订购数量； 该表最高符合第( )范式。（选一项）</question>
+    <choice>
+      <option value="A">一</option>
+      <option value="B">二</option>
+      <option value="C">三</option>
+      <option value="D">未规范化的</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201016" type="1">
+    <question>常用的系统存储过程不包括（选一项）</question>
+    <choice>
+      <option value="A">sp_tables</option>
+      <option value="B">sp_columns</option>
+      <option value="C">sp_stored_procedures</option>
+      <option value="D">sp_renametable</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201017" type="1">
+    <question>创建表sql语句如下： create table userInfo ( userId int identity(-1,1), 第一行 username nvarchar(20) not null, 第二行 cardNO char not null, 第三行 age smallint(2), 第四行 address ntext(300) 第五行 ) 执行时，会在（）出现错误。（选两项）</question>
+    <choice>
+      <option value="A">第一行</option>
+      <option value="B">第三行</option>
+      <option value="C">第四行</option>
+      <option value="D">第五行</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="201018" type="1">
+    <question>创建存储过程的片断如下： Create procedure proc_score @passed int=60, @excellent int=90 AS 以下( )调用方式是正确的。（选两项）</question>
+    <choice>
+      <option value="A">Exec proc_score</option>
+      <option value="B">Exec proc_score 60,90</option>
+      <option value="C">Exec proc_score @passed=65,@excellent=95</option>
+      <option value="D">Exec proc_score @passed=65</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="201019" type="1">
+    <question>创建存储过程如下： CREATE procedure bookproc @id int, @title char(20) OUTPUT as select @title=title from book where id= @id 执行该存储过程的方法正确的是（选两项）</question>
+    <choice>
+      <option value="A">exec bookproc 1,@title output print @title</option>
+      <option value="B">exec bookproc @id =1,@title output print @title</option>
+      <option value="C">declare @title char(20) exec bookproc 1,@title output print @title</option>
+      <option value="D">declare @title char(20) exec bookproc @id =1,@title output print @title</option>
+    </choice>
+    <answer>CD</answer>
+    <desc/>
+  </exam>
+  <exam id="201020" type="1">
+    <question>当你执行下面的SQL语句时，会发生（选一项） SELECT au_id, title_id,sum(royaltyper) FROM titleauthor GROUP BY title_id, au_id ORDER BY title_id, au_id</question>
+    <choice>
+      <option value="A">该语句会失败</option>
+      <option value="B">在结果集中，对每一个不同的au_id的值和title_id的值的组合都会有一行</option>
+      <option value="C">在结果集中，每一行中au_id的值都不会相同</option>
+      <option value="D">在结果集中，每一行中title_id的值都不会相同</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201021" type="1">
+    <question>对事务描述错误的是（选一项）</question>
+    <choice>
+      <option value="A">一个事务中的所有命令作为一个整体提交或回滚。</option>
+      <option value="B">如果两个并发事务要同时修改同一个表，有可能产生死锁。</option>
+      <option value="C">Sql server默认将每条单独的T-SQL语句视为一个事务。</option>
+      <option value="D">事务必须使用begin transaction来明确指定事务的开始。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201022" type="1">
+    <question>对于下面的存储过程： CREATE PROCEDURE Myp1 @p Int As Select Studentname,Age from Students where Age=@p 假如你要在Students表中查找年龄是18岁的学生，（）可以正确的调用这个存储过。 （选一项）</question>
+    <choice>
+      <option value="A">EXEC Myp1 @p = '18'</option>
+      <option value="B">EXEC Myp1 @p = 18</option>
+      <option value="C">EXEC Myp1 p = '18'</option>
+      <option value="D">EXEC Myp1 p = 18</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201023" type="1">
+    <question>公司中有多个部门和多名职员，每个职员只能属于一个部门，一个部门可以有多名职员，从部门到职员的联系类型是（选一项）</question>
+    <choice>
+      <option value="A">多对多</option>
+      <option value="B">一对一</option>
+      <option value="C">多对一</option>
+      <option value="D">一对多</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201024" type="1">
+    <question>关于3范式的理论下列说法错误的是（选两项）</question>
+    <choice>
+      <option value="A">1NF的要求是：关系中的每个属性必须是不可再分的简单项</option>
+      <option value="B">任何表都满足1NF</option>
+      <option value="C">2NF的要求是：在满足1NF的基础上，除了主健以外的列都依赖于主健</option>
+      <option value="D">3NF的要求是：在满足2NF的基础上，除了主健以外的列都直接依赖于主健</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="201025" type="1">
+    <question>关于触发器，( )说法是错误的。（选两项）</question>
+    <choice>
+      <option value="A">触发器是一种特殊类型的存储过程。</option>
+      <option value="B">可以使用触发器来响应对数据的select，insert，update，delete操作。</option>
+      <option value="C">一个表上的触发器不可以包含对另外一个表的数据操作，以免造成死循环。</option>
+      <option value="D">触发器和触发它的语句构成一个事务。</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="201026" type="1">
+    <question>关于触发器和约束，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">触发器可以支持约束的所有功能。</option>
+      <option value="B">Check约束不能跟据另一个表中的列验证列值。</option>
+      <option value="C">最好在约束所支持的功能无法满足应用程序的需求时，再使用触发器。</option>
+      <option value="D">在维持数据完整性时，要使用标准的系统错误信息，必须使用触发器。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201027" type="1">
+    <question>关于存储过程，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">不能在存储过程中使用CREATE VIEW命令。</option>
+      <option value="B">T-SQL批代码的执行速度要快于存储过程。</option>
+      <option value="C">存储过程必须带有参数。</option>
+      <option value="D">存储过程不能返回结果集。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201028" type="1">
+    <question>关于聚集索引，以下( )说法是错误的。（选两项）</question>
+    <choice>
+      <option value="A">一个表最多只能创建一个聚集索引。</option>
+      <option value="B">聚焦索引比非聚集索引有更快的访问速度。</option>
+      <option value="C">主键一定是聚集索引。</option>
+      <option value="D">创建了聚集索引的列不允许有重复值。</option>
+    </choice>
+    <answer>BD</answer>
+    <desc/>
+  </exam>
+  <exam id="201029" type="1">
+    <question>关于全文索引下面正确的是（选一项）</question>
+    <choice>
+      <option value="A">全文索引被储存在文件系统中</option>
+      <option value="B">表允许有多个全文本索引</option>
+      <option value="C">用Transact-SQL语句来创建、管理和丢弃全文索引</option>
+      <option value="D">上面的都不正确</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201030" type="1">
+    <question>关于视图，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">视图是用来简化复杂查询语句的良好手段，但不能嵌套</option>
+      <option value="B">视图和索引都不是真实存在的数据，因为不是对象，所以关于他的定义不是保存在sysobjects表，而是sysviews表</option>
+      <option value="C">要想让别人不知道建立视图的命令，就在建立时添加with encryption</option>
+      <option value="D">视图无法用drop命令删除，应使用delete命令</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201031" type="1">
+    <question>关于视图，以下( )说法是错误的。（选一项）</question>
+    <choice>
+      <option value="A">使用视图，可以简化数据的使用。</option>
+      <option value="B">使用视图，可以保护敏感数据。</option>
+      <option value="C">视图是一种虚拟表，视图中的数据只能来源于物理数据表，不能来源于其它视图。</option>
+      <option value="D">视图中只存储了查询语句，并不包含任何数据。</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201032" type="1">
+    <question>关于视图以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">视图可以具有参数</option>
+      <option value="B">视图不可以加密</option>
+      <option value="C">定义视图时可以指定列名</option>
+      <option value="D">视图和表一样存储有数据</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201033" type="1">
+    <question>关于数据库三大范式，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">数据库设计满足的范式级别越高，数据库性能越好</option>
+      <option value="B">数据库的设计范式有助于规范数据库的设计</option>
+      <option value="C">数据库的设计范式有助于减少数据冗余</option>
+      <option value="D">一个好的数据库设计可以不满足某条范式</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201034" type="1">
+    <question>关于数据库事务日志文件叙述错误的是（选一项）</question>
+    <choice>
+      <option value="A">一个数据库至少有一个事务日志文件</option>
+      <option value="B">创建数据库时，如果未指定事务日志文件，SQL Server则会自动创建一个</option>
+      <option value="C">事务日志文件的默认大小为1MB</option>
+      <option value="D">如果未指定事务日志文件的增长量，则文件大小保持不变</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201035" type="1">
+    <question>关于索引下面哪个是不正确的（选一项）</question>
+    <choice>
+      <option value="A">必须先创建一个聚集索引，然后才可创建一个或多个非聚集索引</option>
+      <option value="B">在一个表或视图中可以有多个同名的素引</option>
+      <option value="C">组合素引的所有字段必须取自于同一表</option>
+      <option value="D">如果对已存在数据的表创建聚合素引，必须保证索引项对应的值无重复值</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201036" type="1">
+    <question>关于游标，下列说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">定义只进游标的关键字是forward_only，它只能向前读记录，读完后就没用了，因为它不能回去，要想再次遍历只能重新定义一个新的</option>
+      <option value="B">游标的定义必须依托于某个查询，如果该查询的结果为0，则游标无法定义</option>
+      <option value="C">fetch next可以提取下一行，且超过末行后会自动转到第一行</option>
+      <option value="D">在游标未到达末行前，fetch relative 1和fetch next的效果完全一样</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201037" type="1">
+    <question>关于子查询，以下说法正确的是（选两项）</question>
+    <choice>
+      <option value="A">一般来说，表连接都可以用子查询替换。</option>
+      <option value="B">一般来说，子查询都可以用表连接替换。</option>
+      <option value="C">相对于表连接，子查询适合于作为查询的筛选条件。</option>
+      <option value="D">相对于表连接，子查询适合于查看多表的数据。</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="201038" type="1">
+    <question>关于子查询下列说法中正确的是（选一项）</question>
+    <choice>
+      <option value="A">子查询中的条件可以有变量</option>
+      <option value="B">子查询可以放在父查询的where后，但无法放在select和from中间</option>
+      <option value="C">如果子查询放在父查询中对父查询的语法结构不产生影响，那么子查询可以省略外面的小括号</option>
+      <option value="D">子查询可以嵌套，但最多不能超过3层</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201039" type="1">
+    <question>假定一位教师可讲授多门课程，一门课程可由多位教师讲授，教师与课程之间是（选一项）</question>
+    <choice>
+      <option value="A">一对一的关系</option>
+      <option value="B">一对多的关系</option>
+      <option value="C">多对一的关系</option>
+      <option value="D">多对多的关系</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201040" type="1">
+    <question>假设order表中存在orderid等于1的记录，执行下面T-SQL： BEGIN TRANSACTION Delete from Order where orderid=1 IF (@@Error &lt;&gt; 0) ROLLBACK TRANSACTION ROLLBACK TRANSACTION 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">执行成功，Orderid为1的记录被永久删除。</option>
+      <option value="B">执行成功，Order表没有任何变化。</option>
+      <option value="C">执行时出现错误。</option>
+      <option value="D">执行成功，但事务处理并没有结束。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201041" type="1">
+    <question>假设需要设计一个表，记录各个作者著作的所有图书信息，表结构设计如下：作者(作者名称、图书1、版本1、书价1、图书2、版本2、书价2、……)，该表最高符合第( )范式。（选一项）</question>
+    <choice>
+      <option value="A">一</option>
+      <option value="B">二</option>
+      <option value="C">三</option>
+      <option value="D">未规范化的</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201042" type="1">
+    <question>假设一系统原来使用Access数据库，现要使用sql server数据库，采用( )方法可以完成两个数据库之间的数据转换工作。（选一项）</question>
+    <choice>
+      <option value="A">Sql server的附加数据库功能</option>
+      <option value="B">Sql server的还原数据库功能</option>
+      <option value="C">在Sql server中可直接打开Access数据库，另存即可。</option>
+      <option value="D">Sql server的导入\导出功能</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201043" type="1">
+    <question>假设有表scores的设计如下：ID(编号，主键),StudentID(学生编号),CourseID(课程编号),Score(分数).现在要查询参加过至少两门课程考试的学生的各门课程的平均成绩。以下sql语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Select studentID, avg(score) from scores group by studentID having count(studentID)&gt;1</option>
+      <option value="B">Select studentID, avg(score) from scores group by studentID where count(studentID)&gt;1</option>
+      <option value="C">Select studentID, avg(score) from scores where count(studentID)&gt;1 group by studentID</option>
+      <option value="D">Select studentID, avg(score) from scores having count(studentID)&gt;1</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201044" type="1">
+    <question>假设有表student的设计如下：ID(学号),Name(姓名),Address(家庭住址),Department(所在系),DepartmentHead(系主任). 该表最高满足第( )范式。（选一项）</question>
+    <choice>
+      <option value="A">一</option>
+      <option value="B">二</option>
+      <option value="C">三</option>
+      <option value="D">不满足任何范式；</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201045" type="1">
+    <question>建立如下数据库表： CREATE TABLE department( DeptID int NOT NULL primary key, DeptName varchar (20) NOT NULL ) CREATE TABLE Employee ( EmployeeID int NOT NULL, DeptID int NOT NULL, Name varchar (20) NOT NULL ) 要想保证Employee表中每一个雇员(Employee)是唯一的，且只能属于在Department表中已经存在的部门，最优的做法是（选一项）</question>
+    <choice>
+      <option value="A">把EmployeeID 和DeptID 设为组合主键。</option>
+      <option value="B">把EmployeeID设为主键，同时在DeptID列上创建一个外健约束。</option>
+      <option value="C">把EmployeeID设为主键，同时在DeptID列上创建一个检查约束。</option>
+      <option value="D">在DepartmentID列上创建一个唯一约束，同时在DeptID列上创建一个外健约束。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201046" type="1">
+    <question>建立一张员工表(employee)，当向表中插入数据时，若不提供入职时间(beginTime)，就把系统当前时间自动作为员工入职时间插入数据库中，以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">约束中不能使用各种函数，所以只能使用触发器来实现。</option>
+      <option value="B">可以使用CHECK约束实现，默认值采用日期函数getDate()。</option>
+      <option value="C">入职时间必须设为日期类型。</option>
+      <option value="D">可以使用DEFAULT 约束实现，默认值采用日期函数getDate()。</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201047" type="1">
+    <question>将E-R图转换为表的过程中，如果实体之间存在多对多的关系，通常的做法是（选一项）</question>
+    <choice>
+      <option value="A">在两个实体间建立主外键关系。</option>
+      <option value="B">在两个实体间建立关联表，把一个多对多的关系分解成两个一对多的关系。</option>
+      <option value="C">在两个实体间建立关联表，把一个多对多的关系分解成两个一对一的关系。</option>
+      <option value="D">在两个实体间不建立任何关系。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201048" type="1">
+    <question>考虑下列实例,读者论坛一个数据库存储系里的课程负载情况,在PROFESSORS表中存储每一个教授的信息，在COURSES表中存储所有的课程的信息。每门课程被分配给一个指定的教授，而每一个教授可以教授几门课程，要求只有在PROFESSORS表中注册过的教授才能够教授课程，而这个教授也只能教授那些在COURSES表中登记过的课程。 下列选项中，（）有助于满足以上的需求。（选择一项）</question>
+    <choice>
+      <option value="A">在PROFESSORS表中建立一个主键，引用COURSES表</option>
+      <option value="B">在COURSES表中创建一个外键，引用PROFESSORS表</option>
+      <option value="C">在PROFESSORS表中创建一个外键，引用COURSES表</option>
+      <option value="D">在COURSES表中建立一个主键，引用PROFESSORS表</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201049" type="1">
+    <question>考虑下面的存储过程 CREATE Procedure Lookup（@a int） As If @a is null Begin Print 'You forgot to pass in a parameter' Return End Select * from syssobjects where id=@a Return 如果这个存储过程不带参数运行会发生（选一项）</question>
+    <choice>
+      <option value="A">存储过程会打印“You forgot to pass in a parameter”</option>
+      <option value="B">该存储过程会基于无参数情况做一个查找，返回表中的所有行</option>
+      <option value="C">该存储过程有语法错误</option>
+      <option value="D">服务器打印一条消息，提示该存储过程需要提供一个参数</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201050" type="1">
+    <question>命令SELECT 学号，AVG(成绩) AS '平均成绩' FROM XS_KC GROUP BY 学号 HAVING AVG(成绩)&gt;=85，表示（选一项）</question>
+    <choice>
+      <option value="A">查找XS_KC表中平均成绩在85分以上的学生的学号和平均成绩</option>
+      <option value="B">查找平均成绩在85分以上的学生</option>
+      <option value="C">查找XS_KC表中各科成绩在85分以上的学生</option>
+      <option value="D">查找XS_KC表中各科成绩在85分以上的学生的学号和平均成绩</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201051" type="1">
+    <question>模式查找like '_a%',下面哪个结果是可能的（选一项）</question>
+    <choice>
+      <option value="A">aili</option>
+      <option value="B">bai</option>
+      <option value="C">bba</option>
+      <option value="D">cca</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201052" type="1">
+    <question>某表stuinfo只有2行记录，并且stuname是主键列，则下列语句Select @name = stuname from stuinfo执行结果说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">出现错误</option>
+      <option value="B">没有错误，但@name中没有存储任何值</option>
+      <option value="C">@name存储的是第一行的stuname</option>
+      <option value="D">@name存储的是第二行的stuname</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201053" type="1">
+    <question>某数据库表里的studentID列被定义为studentID int identity(50,2),首先你添加了3条记录，然后你把第二条记录删除掉，此时，若增加另外一条记录，studentID的值将是（选一项）</question>
+    <choice>
+      <option value="A">8</option>
+      <option value="B">54</option>
+      <option value="C">56</option>
+      <option value="D">58</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201054" type="1">
+    <question>如果要确保一个表中的非主键列不输入重复值，应在该列上定义（选一项）</question>
+    <choice>
+      <option value="A">PRIMARY KEY</option>
+      <option value="B">UNIQUE KEY</option>
+      <option value="C">CHECK</option>
+      <option value="D">FOREIGN KEY</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201055" type="1">
+    <question>若需要在表中搜索指定的单词、短语或近义词等，可以使用CONTAINS谓词，但必须在操作的表上事先建立（选一项）</question>
+    <choice>
+      <option value="A">主键</option>
+      <option value="B">约束</option>
+      <option value="C">全文索引</option>
+      <option value="D">复合索引</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201056" type="1">
+    <question>设计用户表时，身份证号为固定18位长，对该字段最好采用( )数据类型。（选一项）</question>
+    <choice>
+      <option value="A">int</option>
+      <option value="B">char</option>
+      <option value="C">varchar</option>
+      <option value="D">text</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201057" type="1">
+    <question>使用T-SQL定义两个局部变量AA和BB，正确语句是（选一项）</question>
+    <choice>
+      <option value="A">DECLARE @AA,@BB</option>
+      <option value="B">PRIVATE @AA,@BB</option>
+      <option value="C">PUBLIC @AA,BB</option>
+      <option value="D">DECLARE @AA,BB</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201058" type="1">
+    <question>授予用户teacher对Score表的插入和修改的权限，正确的授权语句是（选一项）</question>
+    <choice>
+      <option value="A">GRANT INSERT,UPDATE TO TABLE Score ON teacher</option>
+      <option value="B">GRANT INSERT AND UPDATE TO TABLE Score ON teacher</option>
+      <option value="C">GRANT INSERT,UPDATE ON Score TO teacher</option>
+      <option value="D">GRANT INSERT AND UPDATE ON Score TO teacher</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201059" type="1">
+    <question>数据字典中的数据，通常用来描述数据库及相关对象，因此它是“描述数据的数据”，这样的数据也被称为（选一项）</question>
+    <choice>
+      <option value="A">规范分数据</option>
+      <option value="B">设计数据</option>
+      <option value="C">元数据</option>
+      <option value="D">基础数据</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201060" type="1">
+    <question>为表userinfo添加约束，语法如下：alter table userinfo add constraint uq_userid unique ( userid )执行成功后，为userinfo表的( )字段添加了( )约束。（选一项）</question>
+    <choice>
+      <option value="A">Userid ； 主键</option>
+      <option value="B">Userid ； 唯一</option>
+      <option value="C">Uq_userid ；外键</option>
+      <option value="D">Uq_userid ；检查</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201061" type="1">
+    <question>为了加快对某表的访问速度，应对此表建立（选一项）</question>
+    <choice>
+      <option value="A">约束</option>
+      <option value="B">存储过程</option>
+      <option value="C">规则</option>
+      <option value="D">索引</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201062" type="1">
+    <question>为数据库中一个或多个表中的数据提供另一种查看方式的逻辑表被称为（选一项）</question>
+    <choice>
+      <option value="A">存储过程</option>
+      <option value="B">触发器</option>
+      <option value="C">视图</option>
+      <option value="D">表</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201063" type="1">
+    <question>下列（）语句用于清除自最近的事务语句以来所有的修改（选一项）</question>
+    <choice>
+      <option value="A">COMMIT TRANSACTION</option>
+      <option value="B">ROLLBACK TRANSACTION</option>
+      <option value="C">BEGIN TRANSACTION</option>
+      <option value="D">SAVE TRANSACTION</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201064" type="1">
+    <question>下列包含group by的语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Select stuid , stuname from stuinfo group by stuid</option>
+      <option value="B">Select stuid from stuinfo where stuid&lt;1000 group by stuid</option>
+      <option value="C">Select count(stuid) , stuname from stuinfo group by stuid</option>
+      <option value="D">Select stuid , count(stuname) from stuinfo group by stuname</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201065" type="1">
+    <question>下列标识符可以作为局部变量使用（选一项）</question>
+    <choice>
+      <option value="A">yvar</option>
+      <option value="B">My var</option>
+      <option value="C">@Myvar</option>
+      <option value="D">@My var</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201066" type="1">
+    <question>下列哪个不是数据库对象（选一项）</question>
+    <choice>
+      <option value="A">数据模型</option>
+      <option value="B">视图</option>
+      <option value="C">表</option>
+      <option value="D">用户</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201067" type="1">
+    <question>下列哪种操作能够得到学生表的最详细信息（选一项）</question>
+    <choice>
+      <option value="A">exec sp_help student</option>
+      <option value="B">exec sp_helptext student</option>
+      <option value="C">exec sp_helptable student</option>
+      <option value="D">exec sp_tables student</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201068" type="1">
+    <question>下列行为中，（）定义了一个存储过程。（选一项）</question>
+    <choice>
+      <option value="A">如果没有提供其他值，则使用此列中定义的值</option>
+      <option value="B">定义了一个有相关列的行的集合</option>
+      <option value="C">当用户修改数据时，一种特殊形式的存储过程被自动执行</option>
+      <option value="D">SQL语句的预编译集合</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201069" type="1">
+    <question>下面（）不是数据库规范化要达到的效果。（选一项）</question>
+    <choice>
+      <option value="A">改善数据库的设计</option>
+      <option value="B">实现最小的数据冗余</option>
+      <option value="C">可以用一个表来存储所有数据，使设计及存贮更加简化</option>
+      <option value="D">防止更新、插入及删除的时候，产生数据丢失</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201070" type="1">
+    <question>下面（）是数据库模型。（选二项）</question>
+    <choice>
+      <option value="A">导航模型</option>
+      <option value="B">网络模型</option>
+      <option value="C">关系模型</option>
+      <option value="D">星状模型</option>
+    </choice>
+    <answer>BC</answer>
+    <desc/>
+  </exam>
+  <exam id="201071" type="1">
+    <question>下面T-SQL代码运行完的结果是（选一项） declare @counter int set @counter=1 while @counter&lt;3 begin set @counter=@counter+1 print @counter break print 'loop' end</question>
+    <choice>
+      <option value="A">2 loop</option>
+      <option value="B">2</option>
+      <option value="C">2 loop 3 loop</option>
+      <option value="D">2 3</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201072" type="1">
+    <question>下面关于引用完整性约束的说法正确的是（选二项）</question>
+    <choice>
+      <option value="A">违反引用完整性约束时，不能对引用表进行插入操作</option>
+      <option value="B">当建立引用表时被引用的表必须已经存在</option>
+      <option value="C">当建立引用表时被引用的列不用已经存在</option>
+      <option value="D">被引用的列不必是主键或者唯一约束</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="201073" type="1">
+    <question>现有订单表orders, 包含数据如下表。若查询既订购了产品P01，又订购了产品P02的顾客编号，可以执行以下( )sql语句（选一项） cid (顾客编号) Pid (产品编号) C01 P01 C01 P02 C02 P01 C03 P02</question>
+    <choice>
+      <option value="A">select distinct(cid) from orders o1 where o1.pid in ('p01','p02')</option>
+      <option value="B">select distinct(cid) from orders o1 where o1.pid='p01' and o1.pid='p02'</option>
+      <option value="C">select distinct(cid) from orders o1 where pid='p01' and exists (select * from orders where pid ='p02' and cid=o1.cid)</option>
+      <option value="D">select distinct(cid) from orders o1,orders o2 where o1.pid='p01' and o2.pid='p02'</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201074" type="1">
+    <question>现有一个学生信息表student，包含主键studentID (学生编号)。又有分数表scores，包含studentID(学生编号)、以及 score(考试分数)。已知student表中共有50个学生，有45人参加了考试(分数存在scores表中)，其中10人不及格。执行以下sql语句： select * from student where exists (select studentid from score where score&lt;60)可返回( )条记录。（选一项）</question>
+    <choice>
+      <option value="A">50</option>
+      <option value="B">45</option>
+      <option value="C">10</option>
+      <option value="D">0</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201075" type="1">
+    <question>现有游标myCursor，要删除此游标使用以下哪条命令（选一项）</question>
+    <choice>
+      <option value="A">DEALLOCATE myCursor</option>
+      <option value="B">DELETE myCursor</option>
+      <option value="C">REMOVE myCursor</option>
+      <option value="D">CLOSEmyCursor</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201076" type="1">
+    <question>向用户授予操作权限的SQL语句是（选一项）</question>
+    <choice>
+      <option value="A">CTEATE</option>
+      <option value="B">REVOKE</option>
+      <option value="C">SELECT</option>
+      <option value="D">GRANT</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201077" type="1">
+    <question>项目开发需要经过几个阶段，绘制数据库的E-R图应该在( )阶段进行（选一项）</question>
+    <choice>
+      <option value="A">需求分析</option>
+      <option value="B">概要设计</option>
+      <option value="C">详细设计</option>
+      <option value="D">代码编写</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201078" type="1">
+    <question>行有多个相等的名称，行又称为（选两项）</question>
+    <choice>
+      <option value="A">实体</option>
+      <option value="B">元组</option>
+      <option value="C">属性</option>
+      <option value="D">关系</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="201079" type="1">
+    <question>要查询XSH数据库CP表中产品名含有“冰箱”的产品情况，可用（选一项）</question>
+    <choice>
+      <option value="A">SELECT * FROM CP WHERE 产品名称 LIKE ‘冰箱’</option>
+      <option value="B">SELECT * FROM XSH WHERE 产品名称 LIKE ‘冰箱’</option>
+      <option value="C">SELECT * FROM CP WHERE 产品名称 LIKE ‘%冰箱%’</option>
+      <option value="D">SELECT * FROM CP WHERE 产品名称 =‘%冰箱%’</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201080" type="1">
+    <question>要建立一个教师表，包含姓名、职称、级别等字段。若插入数据时，级别字段如果不输入，缺省值为‘讲师’，最合适的实现方法是（选一项）</question>
+    <choice>
+      <option value="A">为 “ 级别 ” 字段建立default约束。</option>
+      <option value="B">为 “ 级别 ” 字段建立check 约束。</option>
+      <option value="C">在教师表上建立一个触发器 (trigger)。</option>
+      <option value="D">为教师表数据输入编写一个存储过程进行控制。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201081" type="1">
+    <question>要建立一个约束，保证用户表(user)中年龄(age)必须在16岁以上，下面语句正确的是（选一项）</question>
+    <choice>
+      <option value="A">Alter table user add constraint ck_age CHECK(age&gt;16)</option>
+      <option value="B">Alter table user add constraint df_age DEFAULT(16) for age。</option>
+      <option value="C">Alter table user add constraint uq_age UNIQUE(age&gt;16)。</option>
+      <option value="D">Alter table user add constraint df_age DEFAULT(age&gt;16)。</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201082" type="1">
+    <question>一般情况下，关系数据模型与对象模型之间有哪些匹配关系（选三项）</question>
+    <choice>
+      <option value="A">表对应类</option>
+      <option value="B">记录对应对象</option>
+      <option value="C">表的字段对应类的属性</option>
+      <option value="D">表之间的参考关系对应类之间的依赖关系</option>
+    </choice>
+    <answer>ABC</answer>
+    <desc/>
+  </exam>
+  <exam id="201083" type="1">
+    <question>一个表中最多有（）个非聚集索引（选一项）</question>
+    <choice>
+      <option value="A">32</option>
+      <option value="B">64</option>
+      <option value="C">127</option>
+      <option value="D">249</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201084" type="1">
+    <question>一个学生只能就读于一个班级，而一个班级可以同时容纳多个学生，学生与班级之间是( )关系。（选一项）</question>
+    <choice>
+      <option value="A">一对一</option>
+      <option value="B">一对多</option>
+      <option value="C">多对一</option>
+      <option value="D">多对多</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201085" type="1">
+    <question>已知employee表中具有默认约束df_email, 删除该约束的语句为（选一项）</question>
+    <choice>
+      <option value="A">Alter table employee drop constraint df_email</option>
+      <option value="B">Alter table employee remove constraint df_email</option>
+      <option value="C">Alter table employee delete constraint df_email</option>
+      <option value="D">Remove constraint df_email from table employee</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201086" type="1">
+    <question>已知表A的列amount是int类型，表A的数据如下： Amount 1 2 3 现有如下语句， Declare @one int Select @one = amount from A 则变量@one的结果是（选一项）</question>
+    <choice>
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+      <option value="D">错误</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201087" type="1">
+    <question>已知有student表，studentid为主键，现在表中共有10行记录，studentid列值从1 到10。 创建试图： CREATE VIEW dbo.VIEW_student AS SELECT * FROM dbo.student GO 接着执行如下命令： DELETE FROM VIEW_student WHERE (studentid = 8)； 然后执行查询命令： SELECT * FROM student； SELECT * FROM VIEW_student； 假定上述命令全部执行成功，将各自返回( )( )行记录。（选一项）</question>
+    <choice>
+      <option value="A">10,10</option>
+      <option value="B">10,9</option>
+      <option value="C">9,10</option>
+      <option value="D">9,9</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201088" type="1">
+    <question>以下代码能输出＂ＯＫ＂的代码是（选一项）</question>
+    <choice>
+      <option value="A">declare @num nvarchar(10) @num = ‘ＯＫ’ Print @num</option>
+      <option value="B">declare @num nvarchar(10) @num = ‘ＯＫ’ Select @num</option>
+      <option value="C">If( true ) Print ‘OK’</option>
+      <option value="D">If( 1=1 ) Select ‘OK’</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201089" type="1">
+    <question>以下分别是SQL Server2005中两个数据表的结构描述和已经有的数据项，除Anumber字段为数字类型外其他字段数据类型都是长度为32的字符：在查询分析器内执行以下的 Ｔ-SQL（选一项） SELECT Account_No,Aname FROM Saving_Accounts UNION SELECT Account_No,Bname FROM Current_Accounts Saving_Accounts表结构如下 Current_Accounts表结构如下 Account_No Aname Anumber Account No Bname S001 James 1 C001 Wichael S002 Rita 2 C002 Robin S003 Wary 3 S004 Valcntina 4</question>
+    <choice>
+      <option value="A">查询错误，因为使用UNION查询的时候，两个表的字段结构必须保持一致</option>
+      <option value="B">查询错误，因为使用UNION查询的时候，查询输出的列表名必须保持一致</option>
+      <option value="C">正确得到联合查询的结果集，并且输出的列名称为Ａccount_Ｎo和Aname</option>
+      <option value="D">正确得到联合查询的结果集，并且输出三列六行数据</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201090" type="1">
+    <question>以下关于规范设计的描述正确的是（选两项）</question>
+    <choice>
+      <option value="A">规范设计的主要目的是消除数据冗余。</option>
+      <option value="B">规范设计往往会增加数据库的性能。</option>
+      <option value="C">设计数据库时，规范化程度越高越好。</option>
+      <option value="D">在规范化数据库中，易于维护数据完整性。</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="201091" type="1">
+    <question>以下关于外键和相应的主键之间的关系，正确的是（选一项）</question>
+    <choice>
+      <option value="A">外键并不一定要与相应的主键同名</option>
+      <option value="B">外键一定要与相应的主键同名</option>
+      <option value="C">外键一定要与相应的主键同名而且唯一</option>
+      <option value="D">外键一定要与相应的主键同名，但并不一定唯一</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201092" type="1">
+    <question>以下是SQL Server 2005支持的三种游标类型，除了（选一项）</question>
+    <choice>
+      <option value="A">幻像游标</option>
+      <option value="B">Transact-SQL游标</option>
+      <option value="C">API服务器游标</option>
+      <option value="D">客户端游标</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201093" type="1">
+    <question>银行系统中有帐户表和交易表，帐户表中存储了各存款人的帐户余额，交易表中存储了各存款人每次的存取款金额。为保证存款人每进行一次存、取款交易，都正确的更新了该存款人的帐户余额，以下选项中正确的做法是（选一项）</question>
+    <choice>
+      <option value="A">在帐户表上创建insert触发器。</option>
+      <option value="B">在交易表上创建insert触发器。</option>
+      <option value="C">在帐户表上创建检查约束。</option>
+      <option value="D">在交易表上创建检查约束。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201094" type="1">
+    <question>用sp_recompile系统存储过程可以强制存储过程在下一次启动时进行重新编译，其语法为：sp_recompile [@objectname]='object'，其中的object可以是以下的某个对象名称，除了（选一项）</question>
+    <choice>
+      <option value="A">存储过程名称</option>
+      <option value="B">触发器名称</option>
+      <option value="C">约束对象名称</option>
+      <option value="D">视图名称</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201095" type="1">
+    <question>用户通常是通过网络来访问数据库的数据，因此请求的字段和记录越多，网络流量就越大，若要避免这种情况，最好的方法是（选一项）</question>
+    <choice>
+      <option value="A">删除表中不需要查询的字段和记录</option>
+      <option value="B">查询中包含必须的字段和记录</option>
+      <option value="C">只查询一小部分数据</option>
+      <option value="D">采用更高性能的客户计算机</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201096" type="1">
+    <question>有关T-SQL中变量的使用，以下说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">变量的使用必须先声明，后使用。</option>
+      <option value="B">变量的赋值只能使用set语句。</option>
+      <option value="C">可以使用print语句和select语句输出结果。</option>
+      <option value="D">局部变量的命名必须以@打头。</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201097" type="1">
+    <question>有一张销售表(orders),包含销售员编号(salepersonID)、地区编号（regionID）、销售额（orderamount）三列，其中销售员编号为主键，现希望统计各地区销售总额以及所有销售之和，下面（）语句可以实现这一愿望。（选一项）</question>
+    <choice>
+      <option value="A">SELECT regionID,SUM(orderamount) From orders</option>
+      <option value="B">SELECT regionID,SUM(orderamount) From orders GROUP BY regionID</option>
+      <option value="C">SELECT regionID,orderamount From orders</option>
+      <option value="D">SELECT * FROM orders</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201098" type="1">
+    <question>阅读下面T-SQL代码： USE master GO CREATE DATEBASE MyDB2 ON ( ……; SIZE=2. MAXSIZE=5. FILEGROWTH=1 ) GO 以下说法正确的是（选一项）</question>
+    <choice>
+      <option value="A">创建成功，数据文件的初始大小为50KB，最大允许增加到1000KB</option>
+      <option value="B">创建成功，数据文件每次增长以1M作为单位</option>
+      <option value="C">创建失败，因为必须至少要指定数据文件所在的物理文件的位置</option>
+      <option value="D">创建失败，因为必须要指定数据库的日志文件名称</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201099" type="1">
+    <question>阅读下面T-SQL语句，对变量赋值时存在错误的是（选一项）</question>
+    <choice>
+      <option value="A">DECLARE @id INT,@price MONEY set @id=100 set @price=$2.21</option>
+      <option value="B">DECLARE @id INT,@price MONEY select @id=100,@price=2.21</option>
+      <option value="C">DECLARE @id INT,@price MONEY set @id=100, @price=2.21</option>
+      <option value="D">DECLARE @id INT,@price MONEY select @id=100 select @price=$2.21</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201100" type="1">
+    <question>运行如下T-SQL，结果返回包含( )的记录集。（选一项） create table scores ( scoreid int identity(1,2), score numeric(4,2) not null, courseid int ) insert into scores values(90.5, null); insert into scores values(100, 2); select * from scores;</question>
+    <choice>
+      <option value="A">1、90.5、null 3、100、2</option>
+      <option value="B">1、100、2l</option>
+      <option value="C">1、90.50、null</option>
+      <option value="D">1、90.5、null 3、100.0、2</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201101" type="1">
+    <question>运行以下语句，输出结果是（选一项） CREATE PROC proc_lookup @mystuNo varchar(8)=NULL AS IF @mystuNo IS NULL BEGIN Print '您忘记了传递学号参数' RETURN END SELECT * FROM stuInfo WHERE stuNO = @mystuNo GO Exec Proc_lookup</question>
+    <choice>
+      <option value="A">编译错误</option>
+      <option value="B">调用存储过程Proc_lookup出错</option>
+      <option value="C">显示：您忘记了传递学号参数</option>
+      <option value="D">显示空的学员信息记录集</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201102" type="1">
+    <question>在( )的列上更适合创建索引。（选两项）</question>
+    <choice>
+      <option value="A">需要对数据进行排序</option>
+      <option value="B">具有默认值</option>
+      <option value="C">频繁更改</option>
+      <option value="D">频繁搜索</option>
+    </choice>
+    <answer>AD</answer>
+    <desc/>
+  </exam>
+  <exam id="201103" type="1">
+    <question>在( )子查询中，内层查询要处理多次，内层查询的条件依赖于外层查询中的某些值（选一项）</question>
+    <choice>
+      <option value="A">IN子查询</option>
+      <option value="B">EXIST子查询</option>
+      <option value="C">JOIN子查询</option>
+      <option value="D">NOT IN子查询</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201104" type="1">
+    <question>在employee表的firstname字段上建立的非聚集索引的物理效果是（选一项）</question>
+    <choice>
+      <option value="A">所有的行按照firstname字段值升序排列并物理地存储在数据页中</option>
+      <option value="B">在行存储上是没有影响的</option>
+      <option value="C">所有的行按照firstname字段值降序排列并物理地存储在数据页中</option>
+      <option value="D">所有的行被物理地存储在数据页上,并且根据firstname字段值按照索引建立时指定的顺序排列</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201105" type="1">
+    <question>在MS SQL Server中，用来显示数据库信息的系统存储过程是（选一项）</question>
+    <choice>
+      <option value="A">sp_dbhelp</option>
+      <option value="B">sp_db</option>
+      <option value="C">sp_help</option>
+      <option value="D">sp_helpdb</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201106" type="1">
+    <question>在score表上创建一个触发器： create trigger tri_score on score for update,delete as if (select count(*) from inserted)&gt;0 print('success') go 在查询分析器上执行以下( )语句，可能会输出“success”。（选一项）</question>
+    <choice>
+      <option value="A">Update score set score=20</option>
+      <option value="B">Delete from score where score&lt;60</option>
+      <option value="C">Insert into score values ( 此处省略)</option>
+      <option value="D">Select * from score</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201107" type="1">
+    <question>在SQL Server 2005 的查询分析器中运行以下的T-SQL： USE PUBS GO SELECT DISTNCT QTY FROM SALES WHERE QTY&gt;=ALL(SELECT MAX(QTY) FROM SALES),结果（选一项）</question>
+    <choice>
+      <option value="A">正确查询，并返回Sales表中的所有的数据行</option>
+      <option value="B">正确查询，并返回一行数据</option>
+      <option value="C">提示子查询中因缺少GROUP或者GROUP BY子句而产生语法错误</option>
+      <option value="D">提示错误，因为在子查询中使用父查询中的同一张数据库表时，要求使用</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201108" type="1">
+    <question>在SQL Server 2005的查询分析器中，执行以下的T-SQL： EXEC sp_droplogin 'DBLocalHost' 对该语句正确的描述为（选一项）</question>
+    <choice>
+      <option value="A">若存在数据库DBLocalHost，将删除该数据库及其所有相关的对象</option>
+      <option value="B">若存在角色DBLocalHost，将删除该角色并从所有的相关的用户回收该角色所具有的权限</option>
+      <option value="C">若存在登录名DBLocalHost，将删除该登录，并阻止使用该登录名访问SQL Server</option>
+      <option value="D">若存在数据库用户DBLocalHost，将删除该用户</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201109" type="1">
+    <question>在SQL Server 2005的查询分析器中运行以下查询语句，结果是（选一项） SELECT DISTINCT T1。Type FROM Titles T1 WHERE T1.Type IN (SELECT Type FROM Titles WHERE T1.Pub_id&lt;&gt;Pub_id)</question>
+    <choice>
+      <option value="A">查询成功，但是将查询不到任何数据行</option>
+      <option value="B">查询成功，可能能够查询到一行或者多行数据</option>
+      <option value="C">查询失败，因为在同一张表中进行查询和子查询必须使用表的别名</option>
+      <option value="D">查询失败，因为不能同时在一张表中执行多次查询</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201110" type="1">
+    <question>在SQL SERVER 2005数据库中，Public角色是一类特殊的角色，具有以下的特性，除了（选一项）</question>
+    <choice>
+      <option value="A">它不能被删除</option>
+      <option value="B">每个数据库用户都属于Public角色，包括Sa帐户</option>
+      <option value="C">它包含在每个数据库中</option>
+      <option value="D">能向Public角色中添加或从中删除用户</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201111" type="1">
+    <question>在SQL Server 2005中，给定如下的T-SQL代码，以下说法正确的是（选一项） Create procedure price_proc(@count int output, @avg_price money output,@type Char(12)=’business’)as Select @Count=count(*),@avg_price=Avg(price) from titles where type=@type</question>
+    <choice>
+      <option value="A">建立了存储过程price_price,所有参数都是输出参数</option>
+      <option value="B">建立了存储过程price_price,返回的是用户指定图书种类的数量及平均价格</option>
+      <option value="C">@Count=count(*)也可以使用@Count=count()代替</option>
+      <option value="D">创建存储过程失败，因为Select语句中使用了聚合函数，因此必须使用Group By进行分组</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201112" type="1">
+    <question>在SQL Server2005的安全类模型中，提供了“服务器”和（）两种类型的角色。（选一项）</question>
+    <choice>
+      <option value="A">客户端</option>
+      <option value="B">数据库</option>
+      <option value="C">操作系统</option>
+      <option value="D">数据对象</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201113" type="1">
+    <question>在SQL Server2005的查询分析器中运行以下T-SQL： USE PUBS GO CREATE TABLE My_Table (a int NULL, b int NULL) GO CREATE TRIGGER my_trig ON My_Table FOR INSERT AS IF UPDATE(b) BEGIN CREATE DATABASE AAA PRINT 'OK…' END GO INSERT My_Table VALUES(3,4) GO UPDATE My_Table SET a=5 WHERE b=4 GO（选一项）</question>
+    <choice>
+      <option value="A">正确创建数据库AAA，并且打印OK…</option>
+      <option value="B">第一次正确创建数据库AAA，打印OK…,在第二次触发的时候报告错误信息</option>
+      <option value="C">报告错误信息，提示不能在触发器中使用CREATE DATABASE语句</option>
+      <option value="D">该触发器不会被触发。代码运行完毕后，不创建数据库，也不会得到任何输出信息</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201114" type="1">
+    <question>在SQL Server2005中，创建存储过程如下，要在Students表中查找Age（年龄）是18岁的学生，（）可以正确的调用这个存储过程。（选两项）</question>
+    <choice>
+      <option value="A">EXEC Mypl 18</option>
+      <option value="B">EXEC Mypl @p = 18</option>
+      <option value="C">EXEC Mypl p = ‘18’</option>
+      <option value="D">EXEC Mypl P = 18</option>
+    </choice>
+    <answer>AB</answer>
+    <desc/>
+  </exam>
+  <exam id="201115" type="1">
+    <question>在SQLServer2005中，为数据库表建立索引能够（选一项）</question>
+    <choice>
+      <option value="A">防止非法的删除操作</option>
+      <option value="B">防止非法的插入操作</option>
+      <option value="C">提高查询性能</option>
+      <option value="D">节约数据库的磁盘空间</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201116" type="1">
+    <question>在SQL Server2005中，系统存储过程（选一项）</question>
+    <choice>
+      <option value="A">存储在Master数据库中</option>
+      <option value="B">可以在查询分析器中修改</option>
+      <option value="C">一些名称以“sp_”开头，一些名称以“sys_”开头</option>
+      <option value="D">用来代替用户自定义的存储过程</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201117" type="1">
+    <question>在SQL Server2005中，与下列T – SQL语句等效的语句为（选一项） UPDATE A SET A1 = A1 * 2 WHERE A2 IN （SELECT A2 FROM B WHERE B1 = 2）</question>
+    <choice>
+      <option value="A">UPDATE A SET A1 = A1 * 2 INNER JOIN B ON B . B1 = 2</option>
+      <option value="B">UPDATE A SET A1 = A1 * 2 FROM A INNER JOIN B ON B . B1 = 2</option>
+      <option value="C">UPDATE A SET A1 = A1 * 2 WHERE A INNER JOIN B ON A . A2 = B . A2 AND B . B1 = 2</option>
+      <option value="D">UPDATE A SET A1 = A1 * 2 FROM A INNER JOIN B ON A . A2 = B . A2 AND B . B1 = 2</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201118" type="1">
+    <question>在SQL Server查询分析器中，下面语句是用ROUND函数对数据四舍五入和截短处理：SELECT round(918.2736,3),round(918.2736,-2)运行之后得到的结果是（选一项）</question>
+    <choice>
+      <option value="A">918.2730 和 900.0000</option>
+      <option value="B">918.2740 和 900.0000</option>
+      <option value="C">918.2734 和 900</option>
+      <option value="D">918.2736 和 918.2700</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201119" type="1">
+    <question>在SQL SERVER服务器上，存储过程是一组预先定义并( )的Transact-SQL语句。（选一项）</question>
+    <choice>
+      <option value="A">保存</option>
+      <option value="B">编译</option>
+      <option value="C">解释</option>
+      <option value="D">编写</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201120" type="1">
+    <question>在SQL Server数据库中，（）可以看成为虚拟的表。（选一项）</question>
+    <choice>
+      <option value="A">游标</option>
+      <option value="B">视图</option>
+      <option value="C">全文索引</option>
+      <option value="D">存储过程</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201121" type="1">
+    <question>在SQL Server数据库中，你想得到在products表中最贵的产品名称和价格应该使用的正确查询是（选一项）</question>
+    <choice>
+      <option value="A">SELECT TOP 1 Productname, Price FROM Products ORDER BY Price</option>
+      <option value="B">SELECT Productname, MAX（Price）FROM Products</option>
+      <option value="C">SELECT TOP 1 Productname, Price FROM Products ORDER BY Price DESC</option>
+      <option value="D">SELECT Productname, MAX（Price）FROM Products GROUP BY Productname</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201122" type="1">
+    <question>在SQL Server中，以下都是触发器的特性，除了（选一项）</question>
+    <choice>
+      <option value="A">强化约束</option>
+      <option value="B">可级联运行</option>
+      <option value="C">跟踪变化</option>
+      <option value="D">查询优化</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201123" type="1">
+    <question>在SQL Sever 2005中，使用的登录名本身不具有访问数据库的权限，登录名还必须与数据库的用户ID进行关联才能访问对应的数据库，如果正确登录的用户名没有与数据库中的任何用户ID相关联，将（选一项）</question>
+    <choice>
+      <option value="A">自动使用sa登录名所关联的用户权限</option>
+      <option value="B">登录后无任何访问权限</option>
+      <option value="C">若存在guest用户，则它将自动被关联到guest的用户ID</option>
+      <option value="D">导致登录失败</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201124" type="1">
+    <question>在SQL Sever 2005中，以下关于视图数据的操作，正确的描述是（选一项）</question>
+    <choice>
+      <option value="A">视图数据只能用来查询和浏览，不能进行修改、插入和删除</option>
+      <option value="B">可以修改和删除视图的数据，但是这些数据不更新到数据库表中</option>
+      <option value="C">可以在查询分析器中使用INSERT/UPDATE/DELETE 等SQL语句对视图进行操作</option>
+      <option value="D">由于视图是数据库基表数据的复制，因此删除视图中的数据行，不会影响到基表的数据</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201125" type="1">
+    <question>在SQL　Sever中，执行存储过程MY_PROC的正确的T_SQL为（选一项）</question>
+    <choice>
+      <option value="A">RUN MY_PROC</option>
+      <option value="B">EXECUTE MY_PROC</option>
+      <option value="C">START MY_PROC</option>
+      <option value="D">SHELL MY_PROC</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201126" type="1">
+    <question>在SQLServer 20050 中，声明一个最多可以存储5个字符的变量A，正确的代码为 （选一项）</question>
+    <choice>
+      <option value="A">DECLARE A VARCHAR(5)</option>
+      <option value="B">DECLARE @A VARCHAR(5)</option>
+      <option value="C">Private A VARCHAR(5)</option>
+      <option value="D">Private @A VARCHAR(5)</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201127" type="1">
+    <question>在SQLServer2005中，假设orders表中存在自动编号字段oid等于1的记录，执行下面T-SQL,以下说法正确的是（选一项） BEGIN TRANSACTION Delete from Orders where oid =1 IF(@@Error&lt;&gt;0) ROLLBACK TRANSACTION Else COMMIT TRANSACTION</question>
+    <choice>
+      <option value="A">执行成功，oid 为1的记录被永久删除</option>
+      <option value="B">执行成功，order表没有任何变化</option>
+      <option value="C">执行时出现错误</option>
+      <option value="D">执行成功，但事务处理并没有结束</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201128" type="1">
+    <question>在SqlServier2005中，如果a&gt;any(5,2,3),则表示（选一项）</question>
+    <choice>
+      <option value="A">a&gt;5</option>
+      <option value="B">a&gt;2</option>
+      <option value="C">a&gt;3</option>
+      <option value="D">2&gt;a&gt;5</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201129" type="1">
+    <question>在SQL视图里有：SELECT DISTINCT 产品.产品名称，产品.单价 FROM 产品 WHERE（（（产品.单价）&gt;(SELECT AVG([单价]) FROM 产品)））ORDER BY 产品.单价DESC； 下面说法错误的是（选一项）</question>
+    <choice>
+      <option value="A">“SELECT AVG（[单价]）FROM产品”是子查询</option>
+      <option value="B">“ORDER BY产品.单价 DESC”是指按单价从低到高顺序排列</option>
+      <option value="C">查询结果显示的是单价大于平均价格的记录</option>
+      <option value="D">此查询显示的字段只有“产品名称”和“单价”</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201130" type="1">
+    <question>在SQL语言中，建立存储过程的命令是。（选一项）</question>
+    <choice>
+      <option value="A">CREATE PROCEDURE</option>
+      <option value="B">CREATE RULE</option>
+      <option value="C">CREATE DURE</option>
+      <option value="D">CREATE FILE</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201131" type="1">
+    <question>在某个触发器中，存在如下代码片断： Declare @p1 int, @p2 int Select @p1=price from deleted Select @p2=price from inserted print convert(varchar, @p2-@p1) 该触发器是( )触发器。（选一项）</question>
+    <choice>
+      <option value="A">select</option>
+      <option value="B">update</option>
+      <option value="C">insert</option>
+      <option value="D">delete</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201132" type="1">
+    <question>在哪种索引中，表中各行的物理顺序与键值的逻辑（索引）顺序相同（选一项）</question>
+    <choice>
+      <option value="A">聚集索引</option>
+      <option value="B">非聚集索引</option>
+      <option value="C">两者都是</option>
+      <option value="D">两者都不是</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201133" type="1">
+    <question>在哪种索引中，表中各行的物理顺序与键值的逻辑(索引)顺序相同（选一项）</question>
+    <choice>
+      <option value="A">聚簇索引</option>
+      <option value="B">非聚簇索引</option>
+      <option value="C">两者都是</option>
+      <option value="D">两者都不是</option>
+    </choice>
+    <answer>A</answer>
+    <desc/>
+  </exam>
+  <exam id="201134" type="1">
+    <question>在数据表中，创建索引可以得到以下的好处，除了（选一项）</question>
+    <choice>
+      <option value="A">提高数据检索的速度</option>
+      <option value="B">加快排序的速度</option>
+      <option value="C">使数据更新、数据删除操作变快</option>
+      <option value="D">通过浏览索引文件来定位纪录比通过浏览实际表的纪录显得更简单、更快捷</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201135" type="1">
+    <question>在一个SQL Server数据库中ORDERS 表包括列：orderID，customerID，orderDate和employeeID（已经按照orderID排序） ORDERDETAILS表存储了每张订单的单价和数量信息。 要求达到： 如果客户取消这张订单，ORDERS和ORDERDETAILS表中与此订单相关的所有信息都应该被删除。下列方式中，（）可以最小化执行步骤就能满足要求。（选一项）</question>
+    <choice>
+      <option value="A">建立一个存储过程</option>
+      <option value="B">在ORDERDETAILS表上建立一个规则</option>
+      <option value="C">在ORDERS表上建立一个触发器</option>
+      <option value="D">在ORDERDETAILS表上建立一个外键，引用ORDERS表</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201136" type="1">
+    <question>在应用开发工具和操作系统、数据库之间一般用（）来进行交互，以完成数据交流。（选一项）</question>
+    <choice>
+      <option value="A">数据库系统</option>
+      <option value="B">数据库管理系统</option>
+      <option value="C">应用系统</option>
+      <option value="D">自动化控制系统</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+  <exam id="201137" type="1">
+    <question>执行SELECT COL_LENGTH('AA','BB')的结果是（选一项）</question>
+    <choice>
+      <option value="A">返回AA数据库BB表的列的个数</option>
+      <option value="B">返回AA表BB列的非空行的数量</option>
+      <option value="C">返回AA表BB列的长度</option>
+      <option value="D">返回AA列的BB属性值</option>
+    </choice>
+    <answer>C</answer>
+    <desc/>
+  </exam>
+  <exam id="201138" type="1">
+    <question>主键可以由表中的()个字段组成（选一项）</question>
+    <choice>
+      <option value="A">一</option>
+      <option value="B">二</option>
+      <option value="C">三</option>
+      <option value="D">任意多个</option>
+    </choice>
+    <answer>D</answer>
+    <desc/>
+  </exam>
+  <exam id="201139" type="1">
+    <question>在E-R图中，实体、属性和关系分别用（）来表示（选一项）</question>
+    <choice>
+      <option value="A">矩形、菱形、椭圆</option>
+      <option value="B">矩形、椭圆、菱形</option>
+      <option value="C">椭圆、菱形、矩形</option>
+      <option value="D">椭圆、矩形、菱形</option>
+    </choice>
+    <answer>B</answer>
+    <desc/>
+  </exam>
+</root>

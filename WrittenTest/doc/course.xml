@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<courses>
+	<course name="JavaBase" file="JavaBase.xml" key="101"></course>
+	<course name="HTML" file="HTML.xml" key="102"></course>	
+	<course name="SQLBase" file="SQLBase.xml" key="104"></course>	
+	<course name="JavaOOP" file="JavaOOP.xml" key="202"></course>
+	<course name="Android" file="Android.xml" key="401"></course>
+
+	<!--
+	不需要复习的科目放在注释里面
+	
+	<course name="Struts1" file="Struts1.xml" key="314"></course>
+	<course name="WinForm" file="WinForm.xml" key="103"></course>
+	<course name="C#OOP" file="C sharp OOP.xml" key="203"></course>
+	<course name="JspWeb" file="JspWeb.xml" key="204"></course>	
+	<course name="JavaScript" file="JavaScript.xml" key="206"></course>
+	<course name="XML基础" file="XML基础.xml" key="301"></course>
+	<course name="Oracle" file="Oracle.xml" key="302"></course>
+	<course name="OOAD" file="OOAD.xml" key="303"></course>	
+	<course name="Hibernate" file="Hibernate.xml" key="315"></course>
+	<course name="Spring" file="Spring.xml" key="316"></course>
+	<course name="ASP Net制作" file="ASP Net制作.xml" key="324"></course>
+	<course name="ASP NET开发" file="ASP NET开发.xml" key="325"></course>
+	
+	<course name="jQuery" file="jQuery.xml" key="404"></course>
+	<course name="PHP" file="PHP.xml" key="405"></course>
+	<course name="SEO" file="SEO.xml" key="406"></course>
+	<course name="Struts2" file="Struts2.xml" key="407"></course>
+	<course name="百度推广" file="百度推广.xml" key="408"></course>
+	<course name="供应链" file="供应链.xml" key="409"></course>
+	<course name="财务" file="财务.xml" key="410"></course>
+	<course name="生产制造" file="生产制造.xml" key="411"></course>
+	<course name="网络营销" file="网络营销.xml" key="412"></course>
+	<course name="物联网" file="物联网.xml" key="413"></course>
+	
+	<course name="SQL高级" file="SQL高级.xml" key="201"></course>
+	<course name="软件测试" file="软件测试.xml" key="205"></course>
+	-->
+
+</courses>
